@@ -1,4 +1,8 @@
 #!/bin/sh
+#
+# copy this file to /usr/bin/checkman.sh
+# then     chmod +x /usr/bin/checkman.sh
+#
 # Begin checkman.sh
 # Usage: find /usr/share/man -type f | xargs checkman.sh
 for a in "$@"
