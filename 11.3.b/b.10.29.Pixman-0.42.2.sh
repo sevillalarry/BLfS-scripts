@@ -1,6 +1,6 @@
-#b.10.29.OpenJPEG-2.5.0.sh
+#b.10.20.Pixman-0.42.2.sh
 
-export PKG="nOpenJPEG-2.5.0"
+export PKG="Pixman-0.42.2"
 export PKGLOG_DIR=$LFSLOG/10.29
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
@@ -20,26 +20,25 @@ tar xvf $PKG.tar.xz > $PKGLOG_TAR 2>> $PKGLOG_ERROR
 cd $PKG
  
 
-mkdir    build
+mkdir -v build
 cd       build
 
 echo "2. Configure ..."
 echo "2. Configure ..." >> $LFSLOG_PROCESS
 echo "2. Configure ..." >> $PKGLOG_ERROR
-cmake -DCMAKE_BUILD_TYPE=Release \
-      -DCMAKE_INSTALL_PREFIX=/usr \
-      -DBUILD_STATIC_LIBS=OFF .. \
+meson --prefix=/usr \
+      --buildtype=release \
           > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
 echo "3. Make Build ..."
 echo "3. Make Build ..." >> $LFSLOG_PROCESS
 echo "3. Make Build ..." >> $PKGLOG_ERROR 
-make > $PKGLOG_BUILD 2>> $PKGLOG_ERROR
+ninja > $PKGLOG_BUILD 2>> $PKGLOG_ERROR
 
 echo "4. Make Install ..."
 echo "4. Make Install ..." >> $LFSLOG_PROCESSs
 echo "4. Make Install ..." >> $PKGLOG_ERROR
-make install > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
+ninja install > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 
 
 cd ..
