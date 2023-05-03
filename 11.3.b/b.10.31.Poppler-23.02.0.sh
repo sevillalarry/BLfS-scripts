@@ -1,6 +1,6 @@
-#b.10.31.Potrace-1.16.sh
+#b.10.31.Poppler-23.02.0.sh
 
-export PKG="Potrace-1.16"
+export PKG="Poppler-23.02.0"
 export PKGLOG_DIR=$LFSLOG/10.31
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
@@ -20,26 +20,22 @@ tar xvf $PKG.tar.xz > $PKGLOG_TAR 2>> $PKGLOG_ERROR
 cd $PKG
  
 
+mkdir    build
+cd       build
+
 echo "2. Configure ..."
 echo "2. Configure ..." >> $LFSLOG_PROCESS
 echo "2. Configure ..." >> $PKGLOG_ERROR
-./configure --prefix=/usr                        \
-            --disable-static                     \
-            --docdir=/usr/share/doc/potrace-1.16 \
-            --enable-a4                          \
-            --enable-metric                      \
-            --with-libpotrace                    \
+cmake  -DCMAKE_BUILD_TYPE=Release   \
+       -DCMAKE_INSTALL_PREFIX=/usr  \
+       -DTESTDATADIR=$PWD/testfiles \
+       -DENABLE_UNSTABLE_API_ABI_HEADERS=ON \
           > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
 echo "3. Make Build ..."
 echo "3. Make Build ..." >> $LFSLOG_PROCESS
 echo "3. Make Build ..." >> $PKGLOG_ERROR 
 make > $PKGLOG_BUILD 2>> $PKGLOG_ERROR
-
-echo "4. Make Check ..."
-echo "4. Make Check ..." >> $LFSLOG_PROCESS
-echo "4. Make Check ..." >> $PKGLOG_ERROR
-make test > $PKGLOG_CHECK 2>> $PKGLOG_ERROR
 
 echo "4. Make Install ..."
 echo "4. Make Install ..." >> $LFSLOG_PROCESSs

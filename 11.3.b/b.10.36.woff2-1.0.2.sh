@@ -1,7 +1,7 @@
-#b.10.20.Pixman-0.42.2.sh
+#b.10.36.woff2-1.0.2.sh
 
-export PKG="Pixman-0.42.2"
-export PKGLOG_DIR=$LFSLOG/10.29
+export PKG="Qpdf-11.2.0"
+export PKGLOG_DIR=$LFSLOG/10.36
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log
@@ -20,25 +20,25 @@ tar xvf $PKG.tar.xz > $PKGLOG_TAR 2>> $PKGLOG_ERROR
 cd $PKG
  
 
-mkdir -v build
-cd       build
+mkdir out
+cd    out
 
 echo "2. Configure ..."
 echo "2. Configure ..." >> $LFSLOG_PROCESS
 echo "2. Configure ..." >> $PKGLOG_ERROR
-meson --prefix=/usr \
-      --buildtype=release \
+cmake -DCMAKE_INSTALL_PREFIX=/usr \
+      -DCMAKE_BUILD_TYPE=Release .. \
           > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
 echo "3. Make Build ..."
 echo "3. Make Build ..." >> $LFSLOG_PROCESS
 echo "3. Make Build ..." >> $PKGLOG_ERROR 
-ninja > $PKGLOG_BUILD 2>> $PKGLOG_ERROR
+make > $PKGLOG_BUILD 2>> $PKGLOG_ERROR
 
 echo "4. Make Install ..."
 echo "4. Make Install ..." >> $LFSLOG_PROCESSs
 echo "4. Make Install ..." >> $PKGLOG_ERROR
-ninja install > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
+make install > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 
 
 cd ..
