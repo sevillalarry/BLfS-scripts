@@ -1,5 +1,8 @@
 # b.24.03.xorgproto-2022.2.sh
 #
+# Required:
+#               24.02 util-macros-1.20.0
+#
 
 export PKG="xorgproto-2022.2"
 export PKGLOG_DIR=$LFSLOG/24.03
@@ -32,14 +35,14 @@ meson   --prefix=$XORG_PREFIX   \
         -Dlegacy=true ..        \
         > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
-echo "3. Make Build ..."
-echo "3. Make Build ..." >> $LFSLOG_PROCESS
-echo "3. Make Build ..." >> $PKGLOG_ERROR
+echo "3. Ninja Build ..."
+echo "3. Ninja Build ..." >> $LFSLOG_PROCESS
+echo "3. Ninja Build ..." >> $PKGLOG_ERROR
 ninja > $PKGLOG_BUILD 2>> $PKGLOG_ERROR
 
-echo "4. Make Install ..."
-echo "4. Make Install ..." >> $LFSLOG_PROCESS
-echo "4. Make Install ..." >> $PKGLOG_ERROR
+echo "4. Ninja Install ..."
+echo "4. Ninja Install ..." >> $LFSLOG_PROCESS
+echo "4. Ninja Install ..." >> $PKGLOG_ERROR
 ninja install > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 
 mv $XORG_PREFIX/share/doc/xorgproto{,-2022.2}

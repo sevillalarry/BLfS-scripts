@@ -1,5 +1,12 @@
 # b.24.07.libxcb-1.15.sh
 #
+# Required:
+#         24.04 libXau-1.0.11
+#         24.06 xcb-proto-1.15.2
+#
+# Recommended:
+#         24.05 libXdmcp-1.1.4
+#
 
 export PKG="libxcb-1.15"
 export PKGLOG_DIR=$LFSLOG/24.07

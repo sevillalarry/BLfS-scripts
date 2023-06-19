@@ -1,5 +1,11 @@
 # b.24.06.xcb-proto-1.15.2.sh
 #
+# Recommended:
+#         24.01 Xorg build environment
+#
+# Optional:
+#         09.66 libxml2-2.10.3 ( required to run the tests )
+#
 
 export PKG="xcb-proto-1.15.2"
 export PKGLOG_DIR=$LFSLOG/24.06
@@ -25,8 +31,8 @@ cd $PKG
 echo "2. Configure ..."
 echo "2. Configure ..." >> $LFSLOG_PROCESS
 echo "2. Configure ..." >> $PKGLOG_ERROR
-PYTHON=python3 \
-./configure $XORG_CONFIG    \
+PYTHON=python3           \
+./configure $XORG_CONFIG \
      > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
 echo "3. Make Check ..."
@@ -47,8 +53,7 @@ rm -rf $PKG
 unset LFSLOG_PROCESS
 #unset PKGLOG_OTHERS
 unset PKGLOG_CHECK
-unset PKGLOG_INSTALL
+unset PKGLOG_INSTALL PKGLOG_CONFIG
 #PKGLOG_BUILD
-unset PKGLOG_CONFIG
 unset PKGLOG_ERROR PKGLOG_TAR
 unset PKGLOG_DIR PKG

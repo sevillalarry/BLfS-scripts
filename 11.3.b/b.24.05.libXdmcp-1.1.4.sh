@@ -1,5 +1,8 @@
 # b.24.05.libXdmcp-1.1.4.sh
 #
+# Required:
+#               24.03 xorgproto-2022.2
+#
 
 export PKG="libXdmcp-1.1.4"
 export PKGLOG_DIR=$LFSLOG/24.05
@@ -25,7 +28,7 @@ cd $PKG
 echo "2. Configure ..."
 echo "2. Configure ..." >> $LFSLOG_PROCESS
 echo "2. Configure ..." >> $PKGLOG_ERROR
-./configure $XORG_CONFIG    \
+./configure $XORG_CONFIG                     \
      --docdir=/usr/share/doc/libXdmcp-1.1.4  \
      > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
