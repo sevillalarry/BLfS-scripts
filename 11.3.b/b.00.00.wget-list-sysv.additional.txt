@@ -1,0 +1,16 @@
+# 09.66 - required to run test by xcb-proto-1.15.2
+https://download.gnome.org/sources/libxml2/2.10/libxml2-2.10.3.tar.xz
+# 09.66 - Optional Test Suite
+https://www.w3.org/XML/Test/xmlts20130923.tar.gz
+
+# 10.05
+https://www.freedesktop.org/software/fontconfig/release/fontconfig-2.14.2.tar.xz
+
+# 24.02 ---> 
+https://www.x.org/pub/individual/util/util-macros-1.20.0.tar.xz
+https://xorg.freedesktop.org/archive/individual/proto/xorgproto-2022.2.tar.xz
+https://www.x.org/pub/individual/lib/libXau-1.0.11.tar.xz
+https://www.x.org/pub/individual/lib/libXdmcp-1.1.4.tar.xz
+https://xorg.freedesktop.org/archive/individual/proto/xcb-proto-1.15.2.tar.xz
+https://xorg.freedesktop.org/archive/individual/lib/libxcb-1.15.tar.xz
+
