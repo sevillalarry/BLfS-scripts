@@ -1,11 +1,11 @@
 # b.24.08.Xorg.Libraries.sh
 #
 # Required:
-#         24.   Fontconfig-2.14.2
+#         10.05 Fontconfig-2.14.2
 #         24.07 libxcb-1.15
 #
 # Recommended:
-#         24.   elogind-246.10
+#         12.11 elogind-246.10
 #
 
 export PKG="libxcb-1.15"
