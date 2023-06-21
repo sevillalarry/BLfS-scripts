@@ -1,4 +1,4 @@
-#b.09.18.gspell-1.12.0.sh
+# b.09.18.gspell-1.12.0.sh
 #
 
 export PKG="gspell-1.12.0"

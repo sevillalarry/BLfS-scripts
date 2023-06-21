@@ -6,7 +6,7 @@
 #
 # Dependencies Optional:
 #
-#    09.66 libxml2-2.10.3 ( required to run the tests )
+#    09.67 libxml2-2.10.3 ( required to run the tests )
 #
 
 export PKG="xcb-proto-1.15.2"

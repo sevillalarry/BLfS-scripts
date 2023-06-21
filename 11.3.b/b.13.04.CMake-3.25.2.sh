@@ -8,8 +8,8 @@
 #
 #   17.02 cURL-7.88.1
 #   09.28 libarchive-3.6.2
-#   xx libuv-1.44.2
-#   xx nghttp2-1.52.0
+#   09.65 libuv-1.44.2
+#   17.20 nghttp2-1.52.0
 #
 
 export PKG="cmake-3.25.2"

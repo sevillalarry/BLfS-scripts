@@ -1,4 +1,4 @@
-#b.09.10.enchant-2.3.3.sh
+# b.09.10.enchant-2.3.3.sh
 #
 
 export PKG="enchant-2.3.3"

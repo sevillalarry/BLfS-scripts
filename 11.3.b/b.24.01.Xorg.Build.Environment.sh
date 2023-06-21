@@ -1,4 +1,4 @@
-# b.24.01.Xorg.Build.Environment.sh
+#b.24.01.Xorg.Build.Environment.sh
 #
 
 export XORG_PREFIX="/usr"

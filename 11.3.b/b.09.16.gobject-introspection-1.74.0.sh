@@ -1,4 +1,4 @@
-#b.09.16.gobject-introspection-1.74.0.sh
+# b.09.16.gobject-introspection-1.74.0.sh
 #
 
 export PKG="gobject-introspection-1.74.0"

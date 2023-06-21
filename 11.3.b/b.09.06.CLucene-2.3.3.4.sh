@@ -1,4 +1,4 @@
-#b.09.06.CLucene-2.3.3.4.sh
+# b.09.06.CLucene-2.3.3.4.sh
 #
 
 export PKG="CLucene-2.3.3.4"

@@ -1,4 +1,4 @@
-#b.09.07.dbus-glib-0.112.sh
+# b.09.07.dbus-glib-0.112.sh
 #
 
 export PKG="dbus-glib-0.112"

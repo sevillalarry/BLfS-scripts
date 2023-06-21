@@ -1,4 +1,4 @@
-#b.09.11.Exempi-2.6.3.sh
+# b.09.11.Exempi-2.6.3.sh
 #
 
 export PKG="Exempi-2.6.3"

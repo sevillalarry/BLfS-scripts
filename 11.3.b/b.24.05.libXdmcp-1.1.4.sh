@@ -1,6 +1,7 @@
 # b.24.05.libXdmcp-1.1.4.sh
 #
 # Dependencies Required:
+#
 #    24.03 xorgproto-2022.2
 #
 

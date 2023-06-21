@@ -1,7 +1,7 @@
-#b.09.20.IIntel-gmmlib-22.3.4.sh
+# b.09.21.Intel-gmmlib-22.3.4.sh
 #
 
-export PKG="IIntel-gmmlib-22.3.4"
+export PKG="Intel-gmmlib-22.3.4"
 export PKGLOG_DIR=$LFSLOG/09.20
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log

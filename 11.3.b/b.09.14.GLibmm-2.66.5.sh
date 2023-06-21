@@ -1,4 +1,4 @@
-#b.09.14.GLibmm-2.66.5.sh
+# b.09.14.GLibmm-2.66.5.sh
 #
 
 export PKG="GLibmm-2.66.5"

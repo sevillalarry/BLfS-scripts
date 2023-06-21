@@ -1,4 +1,4 @@
-#b.09.13.GLib-2.74.5.sh
+# b.09.13.GLib-2.74.5.sh
 #
 
 export PKG="GLib-2.74.5"

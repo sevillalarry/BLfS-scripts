@@ -1,4 +1,4 @@
-#b.09.09.duktape-2.7.0.sh
+# b.09.09.duktape-2.7.0.sh
 #
 
 export PKG="duktape-2.7.0"

@@ -1,7 +1,11 @@
-#b.09.19.ICU-72.1.sh
+# b.09.19.ICU-72.1.sh
+#
+# Recommended by:
+#
+#       10.04 HarfBuzz-7.0.0
 #
 
-export PKG="ICU-72.1"
+export PKG="icu4c-72_1"
 export PKGLOG_DIR=$LFSLOG/09.19
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
@@ -17,7 +21,7 @@ mkdir $PKGLOG_DIR
 echo "1. Extract tar..."
 echo "1. Extract tar..." >> $LFSLOG_PROCESS
 echo "1. Extract tar..." >> $PKGLOG_ERROR
-tar xvf $PKG.tar.xz > $PKGLOG_TAR 2>> $PKGLOG_ERROR
+tar xvf $PKG-src.tgz > $PKGLOG_TAR 2>> $PKGLOG_ERROR
 cd $PKG
 
 

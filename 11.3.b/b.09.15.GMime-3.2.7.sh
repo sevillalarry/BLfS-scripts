@@ -1,4 +1,4 @@
-#b.09.15.EGMime-3.2.7.sh
+# b.09.15.GMime-3.2.7.sh
 #
 
 export PKG="EGMime-3.2.7"

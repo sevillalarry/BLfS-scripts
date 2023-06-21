@@ -1,4 +1,4 @@
-#b.09.28.libassuan-2.5.5.sh
+# b.09.29.libassuan-2.5.5.sh
 #
 
 export PKG="libassuan-2.5.5"

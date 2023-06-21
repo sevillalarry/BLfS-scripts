@@ -1,4 +1,4 @@
-# 09.19 ICU
+# 09.19 ICU 
 https://github.com/unicode-org/icu/releases/download/release-72-1/icu4c-72_1-src.tgz
 # 09.66 libxml2 - required to run test by 24.06 xcb-proto-1.15.2
 https://download.gnome.org/sources/libxml2/2.10/libxml2-2.10.3.tar.xz
@@ -20,6 +20,9 @@ https://downloads.sourceforge.net/sourceforge/libpng-apng/libpng-1.6.39-apng.pat
 
 # 12.36 Which - recommended by 10.04 FreeType
 https://ftp.gnu.org/gnu/which/which-2.21.tar.gz
+
+# 13.04 CMake  - required by Graphite2
+https://cmake.org/files/v3.25/cmake-3.25.2.tar.gz
 
 # 24.02 ---> 
 https://www.x.org/pub/individual/util/util-macros-1.20.0.tar.xz

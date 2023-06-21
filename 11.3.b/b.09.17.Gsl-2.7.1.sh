@@ -1,4 +1,4 @@
-#b.09.17.Gsl-2.7.1.sh
+# b.09.17.Gsl-2.7.1.sh
 #
 
 export PKG="Gsl-2.7.1"

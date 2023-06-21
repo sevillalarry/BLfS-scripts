@@ -1,4 +1,4 @@
-#b.09.12.fftw-3.3.10.sh
+# b.09.12.fftw-3.3.10.sh
 #
 
 export PKG="fftw-3.3.10"
