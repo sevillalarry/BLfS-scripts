@@ -1,10 +1,12 @@
 # b.24.06.xcb-proto-1.15.2.sh
 #
-# Recommended:
-#         24.01 Xorg build environment
+# Dependencies Recommended:
 #
-# Optional:
-#         09.66 libxml2-2.10.3 ( required to run the tests )
+#    24.01 Xorg build environment
+#
+# Dependencies Optional:
+#
+#    09.66 libxml2-2.10.3 ( required to run the tests )
 #
 
 export PKG="xcb-proto-1.15.2"

@@ -1,8 +1,15 @@
 #b.10.05.Fontconfig-2.14.2.sh
 #
-# Required:
-#           FreeType-2.13.0
+# Required by:
 #
+#   24.08 Xorg.Libraries
+#
+#  
+# Dependencies Required:
+#
+#   10.04 FreeType-2.13.0
+#
+
 export PKG="Fontconfig-2.14.2"
 export PKGLOG_DIR=$LFSLOG/10.05
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
@@ -41,7 +48,7 @@ make > $PKGLOG_BUILD 2>> $PKGLOG_ERROR
 echo "4. Make Check ..."
 echo "4. Make Check ..." >> $LFSLOG_PROCESS
 echo "4. Make Check ..." >> $PKGLOG_ERROR
-make test > $PKGLOG_CHECK 2>> $PKGLOG_ERROR
+make check > $PKGLOG_CHECK 2>> $PKGLOG_ERROR
 
 echo "5. Make Install ..."
 echo "5. Make Install ..." >> $LFSLOG_PROCESS

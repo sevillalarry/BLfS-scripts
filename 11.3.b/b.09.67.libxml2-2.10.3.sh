@@ -1,12 +1,12 @@
-#b.10.20.libpng-1.6.39.sh
+#b.09.66.libxml2-2.10.3.sh
 #
-# Recommended by:
+# Optionally needed by:
 #
-#   10.04 FreeType-2.13.0
+#   24.06 xcb-proto-1.15.2
 #
 
-export PKG="libpng-1.6.39"
-export PKGLOG_DIR=$LFSLOG/10.20
+export PKG="libxml2-2.10.3"
+export PKGLOG_DIR=$LFSLOG/09.66
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log
@@ -25,19 +25,23 @@ tar xvf $PKG.tar.xz > $PKGLOG_TAR 2>> $PKGLOG_ERROR
 cd $PKG
 
 
-gzip -cd ../libpng-1.6.39-apng.patch.gz | patch -p1
-
 echo "2. Configure ..."
 echo "2. Configure ..." >> $LFSLOG_PROCESS
 echo "2. Configure ..." >> $PKGLOG_ERROR
-./configure --prefix=/usr    \
-            --disable-static \
+./configure --prefix=/usr           \
+            --sysconfdir=/etc       \
+            --disable-static        \
+            --with-history          \
+            PYTHON=/usr/bin/python3 \
+            --docdir=/usr/share/doc/libxml2-2.10.3 \
           > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
 echo "3. Make Build ..."
 echo "3. Make Build ..." >> $LFSLOG_PROCESS
 echo "3. Make Build ..." >> $PKGLOG_ERROR
 make > $PKGLOG_BUILD 2>> $PKGLOG_ERROR
+
+tar xvf ../xmlts20130923.tar.gz >> $PKGLOG_TAR 2>> $PKGLOG_ERROR
 
 echo "4. Make Check ..."
 echo "4. Make Check ..." >> $LFSLOG_PROCESS
@@ -48,9 +52,6 @@ echo "5. Make Install ..."
 echo "5. Make Install ..." >> $LFSLOG_PROCESS
 echo "5. Make Install ..." >> $PKGLOG_ERROR
 make install > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
-
-mkdir /usr/share/doc/libpng-1.6.39
-cp README libpng-manual.txt /usr/share/doc/libpng-1.6.39
 
 
 cd ..

@@ -1,7 +1,8 @@
 # b.24.04.libXau-1.0.11.sh
 #
-# Required:
-#               24.03 xorgproto-2022.2
+# Dependencies Required:
+#
+#    24.03 xorgproto-2022.2
 #
 
 export PKG="libXau-1.0.11"

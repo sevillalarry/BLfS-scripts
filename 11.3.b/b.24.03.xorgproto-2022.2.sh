@@ -1,7 +1,8 @@
 # b.24.03.xorgproto-2022.2.sh
 #
-# Required:
-#               24.02 util-macros-1.20.0
+# Dependencies Required:
+#
+#       24.02 util-macros-1.20.0
 #
 
 export PKG="xorgproto-2022.2"

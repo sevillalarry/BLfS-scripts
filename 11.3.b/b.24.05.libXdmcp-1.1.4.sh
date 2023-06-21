@@ -1,7 +1,7 @@
 # b.24.05.libXdmcp-1.1.4.sh
 #
-# Required:
-#               24.03 xorgproto-2022.2
+# Dependencies Required:
+#    24.03 xorgproto-2022.2
 #
 
 export PKG="libXdmcp-1.1.4"

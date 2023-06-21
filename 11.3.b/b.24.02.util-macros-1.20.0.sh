@@ -1,7 +1,8 @@
 # b.24.02.util-macros-1.20.0.sh
 #
-# Required:
-#         24.01 Xorg build environment
+# Dependencies Required:
+#
+#    24.01 Xorg build environment
 #
 
 export PKG="util-macros-1.20.0"
