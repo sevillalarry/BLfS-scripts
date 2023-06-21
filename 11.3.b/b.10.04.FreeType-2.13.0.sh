@@ -1,9 +1,14 @@
 #b.10.04.FreeType-2.13.0.sh
 #
-# Recommended:
-#               HarfBuzz-7.0.0 ( first, install FreeType, after HarfBuzz is installed, reinstall FreeType )
-#               libpng-1.6.39
-#               Which-2.21
+# Required by:
+#
+#   10.05 Fontconfig-2.14.2
+#
+# Dependencies Recommended:
+#
+#   10.11 HarfBuzz-7.0.0 ( first, install FreeType, after HarfBuzz is installed, reinstall FreeType )
+#   10.20 libpng-1.6.39
+#   12.36 Which-2.21
 #
 
 export PKG="FreeType-2.13.0"
@@ -26,17 +31,22 @@ tar xvf $PKG.tar.xz > $PKGLOG_TAR 2>> $PKGLOG_ERROR
 cd $PKG
 
 
-sed -ri "s:.*(AUX_MODULES.*valid):\1:" modules.cfg \
+tar xvf ../freetype-doc-2.13.0.tar.xz   \
+    --strip-components=2 -C docs        \
+    >> $PKGLOG_TAR 2>> $PKGLOG_ERROR
 
-sed -r "s:.*(#.*SUBPIXEL_RENDERING) .*:\1:" \
-    -i include/freetype/config/ftoption.h   \
+sed -ri "s:.*(AUX_MODULES.*valid):\1:" modules.cfg
+sed -r "s:.*(#.*SUBPIXEL_RENDERING) .*:\1:"         \
+    -i include/freetype/config/ftoption.h
 
 echo "2. Configure ..."
 echo "2. Configure ..." >> $LFSLOG_PROCESS
 echo "2. Configure ..." >> $PKGLOG_ERROR
 
-./configure --prefix=/usr --enable-freetype-config --disable-static    \
-          > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
+./configure --prefix=/usr               \
+            --enable-freetype-config    \
+            --disable-static            \
+            > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
 echo "3. Make Build ..."
 echo "3. Make Build ..." >> $LFSLOG_PROCESS
@@ -47,6 +57,10 @@ echo "5. Make Install ..."
 echo "5. Make Install ..." >> $LFSLOG_PROCESS
 echo "5. Make Install ..." >> $PKGLOG_ERROR
 make install > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
+
+install -m755 -d /usr/share/doc/freetype-2.13.0
+cp -R docs/*     /usr/share/doc/freetype-2.13.0
+rm /usr/share/doc/freetype-2.13.0/freetype-config.1
 
 
 cd ..

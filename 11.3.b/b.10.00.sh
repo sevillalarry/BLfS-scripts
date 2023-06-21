@@ -8,6 +8,20 @@ date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
 
 #####
 
+echo "10.04.FreeType-2.13.0"
+echo "10.04.FreeType-2.13.0" >> $LFSLOG_PROCESS
+
+time { bash b.10.04.FreeType-2.13.0.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
+###
+
 echo "10.05.Fontconfig-2.14.2"
 echo "10.05.Fontconfig-2.14.2" >> $LFSLOG_PROCESS
 
@@ -22,10 +36,24 @@ echo "."
 
 ###
 
-echo "09.66.libxml2-2.10.3" ???????
-echo "09.66.libxml2-2.10.3" >> $LFSLOG_PROCESS
+echo "10.11.HarfBuzz-7.0.0"
+echo "10.11.HarfBuzz-7.0.0" >> $LFSLOG_PROCESS
 
-time { bash b.09.66.libxml2-2.10.3.sh ; }
+time { bash b.10.11.HarfBuzz-7.0.0.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
+###
+
+echo "10.04.FreeType-2.13.0 - after HarfBuzz"
+echo "10.04.FreeType-2.13.0 - after HarfBuzz" >> $LFSLOG_PROCESS
+
+time { bash b.10.04.FreeType-2.13.0.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS

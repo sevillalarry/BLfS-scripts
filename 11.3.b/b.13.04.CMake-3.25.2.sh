@@ -1,12 +1,19 @@
-#b.10.10.Graphite2-1.3.14.sh
+#b.13.04.CMake-3.25.2.sh
 #
-# Dependencies Required:
+# Required by:
 #
-#   13.04 CMake-3.25.2
+#   10.10 Graphite2-1.3.14
+#
+# Dependencies Recommended:
+#
+#   17.02 cURL-7.88.1
+#   09.28 libarchive-3.6.2
+#   xx libuv-1.44.2
+#   xx nghttp2-1.52.0
 #
 
-export PKG="Graphite2-1.3.14"
-export PKGLOG_DIR=$LFSLOG/10.10
+export PKG="cmake-3.25.2"
+export PKGLOG_DIR=$LFSLOG/13.04
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log
@@ -25,27 +32,31 @@ tar xvf $PKG.tar.xz > $PKGLOG_TAR 2>> $PKGLOG_ERROR
 cd $PKG
 
 
-sed -i '/cmptest/d' tests/CMakeLists.txt
-
-mkdir build
-cd    build
+sed -i '/"lib64"/s/64//' Modules/GNUInstallDirs.cmake
 
 echo "2. Configure ..."
 echo "2. Configure ..." >> $LFSLOG_PROCESS
 echo "2. Configure ..." >> $PKGLOG_ERROR
-cmake -DCMAKE_INSTALL_PREFIX=/usr       \
-        > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
+./bootstrap --prefix=/usr        \
+            --system-libs        \
+            --mandir=/share/man  \
+            --no-system-jsoncpp  \
+            --no-system-librhash \
+            --docdir=/share/doc/cmake-3.25.2
+            > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
 echo "3. Make Build ..."
 echo "3. Make Build ..." >> $LFSLOG_PROCESS
 echo "3. Make Build ..." >> $PKGLOG_ERROR
-make        > $PKGLOG_BUILD 2>> $PKGLOG_ERROR
-make docs  >> $PKGLOG_BUILD 2>> $PKGLOG_ERROR
+make > $PKGLOG_BUILD 2>> $PKGLOG_ERROR
 
-echo "4. Make Check ..."
-echo "4. Make Check ..." >> $LFSLOG_PROCESS
-echo "4. Make Check ..." >> $PKGLOG_ERROR
-make test > $PKGLOG_CHECK 2>> $PKGLOG_ERROR
+echo "4. Make Test ..."
+echo "4. Make Test ..." >> $LFSLOG_PROCESS
+echo "4. Make Test ..." >> $PKGLOG_ERROR
+LC_ALL=en_US.UTF-8 \
+    bin/ctest $MAKEFLAGS    \
+    -O  $PKGLOG_CHECK        \
+    2>> $PKGLOG_ERROR
 
 echo "5. Make Install ..."
 echo "5. Make Install ..." >> $LFSLOG_PROCESS
@@ -53,7 +64,6 @@ echo "5. Make Install ..." >> $PKGLOG_ERROR
 make install > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 
 
-cd ..
 cd ..
 rm -rf $PKG
 unset LFSLOG_PROCESS
