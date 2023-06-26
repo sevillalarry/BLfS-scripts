@@ -1,4 +1,4 @@
-#b.09.87.wpebackend-fdo-1.14.0.sh
+# b.09.88.wpebackend-fdo-1.14.0.sh
 
 export PKG="wpebackend-fdo-1.14.0"
 export PKGLOG_DIR=$LFSLOG/09.87

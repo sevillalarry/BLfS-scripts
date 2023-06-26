@@ -1,4 +1,4 @@
-#b.09.61.libunwind-1.6.2.sh
+# b.09.62.libunwind-1.6.2.sh
 
 export PKG="libunwind-1.6.2"
 export PKGLOG_DIR=$LFSLOG/09.61

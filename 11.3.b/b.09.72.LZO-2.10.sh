@@ -1,4 +1,4 @@
-#b.09.71.LZO-2.10.sh
+# b.09.72.LZO-2.10.sh
 
 export PKG="LZO-2.10"
 export PKGLOG_DIR=$LFSLOG/09.71

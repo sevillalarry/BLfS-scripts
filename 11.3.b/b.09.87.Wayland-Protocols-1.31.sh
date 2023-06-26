@@ -1,4 +1,4 @@
-#b.09.86.Wayland-Protocols-1.31.sh
+# b.09.87.Wayland-Protocols-1.31.sh
 
 export PKG="Wayland-Protocols-1.31"
 export PKGLOG_DIR=$LFSLOG/09.86

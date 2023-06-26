@@ -1,4 +1,4 @@
-#b.09.74.npth-1.6.sh
+# b.09.75.npth-1.6.sh
 
 export PKG="npth-1.6"
 export PKGLOG_DIR=$LFSLOG/09.74

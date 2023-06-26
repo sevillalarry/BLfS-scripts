@@ -1,4 +1,4 @@
-#b.09.51.libqalculate-4.5.1.sh
+# b.09.52.libqalculate-4.5.1.sh
 #
 
 export PKG="libqalculate-4.5.1"

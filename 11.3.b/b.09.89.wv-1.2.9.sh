@@ -1,4 +1,4 @@
-#b.09.88.wv-1.2.9.sh
+# b.09.89.wv-1.2.9.sh
 
 export PKG="wv-1.2.9"
 export PKGLOG_DIR=$LFSLOG/09.88

@@ -1,4 +1,4 @@
-#b.09.72.mtdev-1.1.6.sh
+# b.09.73.mtdev-1.1.6.sh
 
 export PKG="mtdev-1.1.6"
 export PKGLOG_DIR=$LFSLOG/09.72

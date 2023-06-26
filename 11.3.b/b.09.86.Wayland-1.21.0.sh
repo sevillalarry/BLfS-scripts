@@ -1,4 +1,4 @@
-#b.09.85.Wayland-1.21.0.sh
+# b.09.86.Wayland-1.21.0.sh
 
 export PKG="Wayland-1.21.0"
 export PKGLOG_DIR=$LFSLOG/09.85

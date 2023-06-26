@@ -1,4 +1,4 @@
-#b.09.76.PCRE-8.45.sh
+# b.09.77.PCRE-8.45.sh
 
 export PKG="PCRE-8.45"
 export PKGLOG_DIR=$LFSLOG/09.76

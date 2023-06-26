@@ -1,4 +1,4 @@
-#b.09.79.Pth-2.0.7.sh
+# b.09.80.Pth-2.0.7.sh
 
 export PKG="Pth-2.0.7"
 export PKGLOG_DIR=$LFSLOG/09.79

@@ -1,4 +1,4 @@
-#b.09.82.telepathy-glib-0.24.2.sh
+# b.09.83.telepathy-glib-0.24.2.sh
 
 export PKG="telepathy-glib-0.24.2"
 export PKGLOG_DIR=$LFSLOG/09.82

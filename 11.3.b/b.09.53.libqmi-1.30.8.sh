@@ -1,4 +1,4 @@
-#b.09.52.libqmi-1.30.8.sh
+# b.09.53.libqmi-1.30.8.sh
 #
 
 export PKG="libqmi-1.30.8"

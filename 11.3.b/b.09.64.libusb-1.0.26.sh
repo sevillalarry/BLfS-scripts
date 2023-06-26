@@ -1,4 +1,4 @@
-#b.09.63.libusb-1.0.26.sh
+# b.09.64.libusb-1.0.26.sh
 
 export PKG="libusb-1.0.26"
 export PKGLOG_DIR=$LFSLOG/09.63
