@@ -1,4 +1,5 @@
-#b.10.03.Exiv2-0.27.6.sh
+# b.10.03.Exiv2-0.27.6.sh
+#
 
 export PKG="Exiv2-0.27.6"
 export PKGLOG_DIR=$LFSLOG/10.03

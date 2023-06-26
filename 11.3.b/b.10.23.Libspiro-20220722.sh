@@ -1,4 +1,5 @@
-#b.10.23.Libspiro-20220722.sh
+# b.10.23.Libspiro-20220722.sh
+#
 
 export PKG="Libspiro-20220722"
 export PKGLOG_DIR=$LFSLOG/10.23

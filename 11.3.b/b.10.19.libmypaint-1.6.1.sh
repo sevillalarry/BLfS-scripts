@@ -1,4 +1,5 @@
-#b.10.19.libmypaint-1.6.1.sh
+# b.10.19.libmypaint-1.6.1.sh
+#
 
 export PKG="libmypaint-1.6.1"
 export PKGLOG_DIR=$LFSLOG/10.19

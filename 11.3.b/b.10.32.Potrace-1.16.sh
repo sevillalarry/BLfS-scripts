@@ -1,4 +1,5 @@
-#b.10.32.Potrace-1.16.sh
+# b.10.32.Potrace-1.16.sh
+#
 
 export PKG="Potrace-1.16"
 export PKGLOG_DIR=$LFSLOG/10.32

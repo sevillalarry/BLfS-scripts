@@ -1,4 +1,5 @@
-#b.10.16.Libgxps-0.3.2.sh
+# b.10.16.Libgxps-0.3.2.sh
+#
 
 export PKG="Libgxps-0.3.2"
 export PKGLOG_DIR=$LFSLOG/10.16

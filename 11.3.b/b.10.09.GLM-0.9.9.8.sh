@@ -1,4 +1,5 @@
-#b.10.09.GLM-0.9.9.8.sh
+# b.10.09.GLM-0.9.9.8.sh
+#
 
 export PKG="GLM-0.9.9.8"
 export PKGLOG_DIR=$LFSLOG/10.09

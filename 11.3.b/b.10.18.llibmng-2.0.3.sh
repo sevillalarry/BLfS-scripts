@@ -1,4 +1,5 @@
-#b.10.18.llibmng-2.0.3.sh
+# b.10.18.llibmng-2.0.3.sh
+#
 
 export PKG="llibmng-2.0.3"
 export PKGLOG_DIR=$LFSLOG/10.18

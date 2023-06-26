@@ -1,4 +1,5 @@
-#b.10.26.mypaint-brushes-1.3.1.sh
+# b.10.26.mypaint-brushes-1.3.1.sh
+#
 
 export PKG="mypaint-brushes-1.3.1"
 export PKGLOG_DIR=$LFSLOG/10.26

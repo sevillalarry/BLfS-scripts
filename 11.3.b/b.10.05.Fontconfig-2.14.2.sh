@@ -1,4 +1,4 @@
-#b.10.05.Fontconfig-2.14.2.sh
+# b.10.05.Fontconfig-2.14.2.sh
 #
 # Required by:
 #

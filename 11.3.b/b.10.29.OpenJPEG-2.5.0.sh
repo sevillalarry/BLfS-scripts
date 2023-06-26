@@ -1,4 +1,5 @@
-#b.10.29.OpenJPEG-2.5.0.sh
+# b.10.29.OpenJPEG-2.5.0.sh
+#
 
 export PKG="nOpenJPEG-2.5.0"
 export PKGLOG_DIR=$LFSLOG/10.29

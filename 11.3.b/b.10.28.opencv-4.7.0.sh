@@ -1,4 +1,5 @@
-#b.10.28.newt-0.52.23.sh
+# b.10.28.newt-0.52.23.sh
+#
 
 export PKG="newt-0.52.23"
 export PKGLOG_DIR=$LFSLOG/10.28

@@ -1,4 +1,5 @@
-#b.10.01.AAlib-1.4rc5.sh
+# b.10.01.AAlib-1.4rc5.sh
+#
 
 export PKG="AAlib-1.4rc5"
 export PKGLOG_DIR=$LFSLOG/10.01

@@ -1,4 +1,5 @@
-#b.10.31.Poppler-23.02.0.sh
+# b.10.31.Poppler-23.02.0.sh
+#
 
 export PKG="Poppler-23.02.0"
 export PKGLOG_DIR=$LFSLOG/10.31

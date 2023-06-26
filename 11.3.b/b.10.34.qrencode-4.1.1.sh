@@ -1,4 +1,5 @@
-#b.10.34.qrencode-4.1.1.sh
+# b.10.34.qrencode-4.1.1.sh
+#
 
 export PKG="Qpdf-11.2.0"
 export PKGLOG_DIR=$LFSLOG/10.34

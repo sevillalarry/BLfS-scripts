@@ -1,4 +1,5 @@
-#b.10.30.Pixman-0.42.2.sh
+# b.10.30.Pixman-0.42.2.sh
+#
 
 export PKG="Pixman-0.42.2"
 export PKGLOG_DIR=$LFSLOG/10.30

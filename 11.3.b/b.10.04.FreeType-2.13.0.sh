@@ -1,4 +1,4 @@
-#b.10.04.FreeType-2.13.0.sh
+# b.10.04.FreeType-2.13.0.sh
 #
 # Required by:
 #

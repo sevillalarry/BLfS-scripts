@@ -1,4 +1,5 @@
-#b.10.24.libtiff-4.5.0.sh
+# b.10.24.libtiff-4.5.0.sh
+#
 
 export PKG="libtiff-4.5.0"
 export PKGLOG_DIR=$LFSLOG/10.24

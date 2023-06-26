@@ -1,4 +1,4 @@
-#b.10.20.libpng-1.6.39.sh
+# b.10.20.libpng-1.6.39.sh
 #
 # Recommended by:
 #

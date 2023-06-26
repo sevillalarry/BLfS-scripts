@@ -1,4 +1,5 @@
-#b.10.22.librsvg-2.54.5.sh
+# b.10.22.librsvg-2.54.5.sh
+#
 
 export PKG="librsvg-2.54.5"
 export PKGLOG_DIR=$LFSLOG/10.22

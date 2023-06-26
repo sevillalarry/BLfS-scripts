@@ -1,4 +1,5 @@
-#b.10.15.libexif-0.6.24.sh
+# b.10.15.libexif-0.6.24.sh
+#
 
 export PKG="libexif-0.6.24"
 export PKGLOG_DIR=$LFSLOG/10.15

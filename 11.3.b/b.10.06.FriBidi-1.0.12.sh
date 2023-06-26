@@ -1,4 +1,5 @@
-#b.10.06.FriBidi-1.0.12.sh
+# b.10.06.FriBidi-1.0.12.sh
+#
 
 export PKG="FriBidi-1.0.12"
 export PKGLOG_DIR=$LFSLOG/10.06

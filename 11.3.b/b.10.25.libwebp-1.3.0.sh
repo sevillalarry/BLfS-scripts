@@ -1,4 +1,5 @@
-#b.10.25.libwebp-1.3.0.sh
+# b.10.25.libwebp-1.3.0.sh
+#
 
 export PKG="libwebp-1.3.0"
 export PKGLOG_DIR=$LFSLOG/10.26

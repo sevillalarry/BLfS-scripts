@@ -1,4 +1,5 @@
-#b.10.07.gegl-0.4.40.sh
+# b.10.07.gegl-0.4.40.sh
+#
 
 export PKG="gegl-0.4.40"
 export PKGLOG_DIR=$LFSLOG/10.07

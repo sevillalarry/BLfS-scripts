@@ -1,4 +1,5 @@
-#b.10.08.giflib-5.2.1.sh
+# b.10.08.giflib-5.2.1.sh
+#
 
 export PKG="giflib-5.2.1"
 export PKGLOG_DIR=$LFSLOG/10.08

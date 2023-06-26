@@ -1,4 +1,5 @@
-#b.10.36.woff2-1.0.2.sh
+# b.10.36.woff2-1.0.2.sh
+#
 
 export PKG="Qpdf-11.2.0"
 export PKGLOG_DIR=$LFSLOG/10.36

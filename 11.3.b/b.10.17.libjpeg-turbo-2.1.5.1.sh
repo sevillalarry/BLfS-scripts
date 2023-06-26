@@ -1,4 +1,5 @@
-#b.10.17.libjpeg-turbo-2.1.5.1.sh
+# b.10.17.libjpeg-turbo-2.1.5.1.sh
+#
 
 export PKG="libjpeg-turbo-2.1.5.1"
 export PKGLOG_DIR=$LFSLOG/10.17

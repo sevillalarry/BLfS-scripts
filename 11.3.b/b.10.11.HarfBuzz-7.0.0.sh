@@ -1,4 +1,4 @@
-#b.10.11.HarfBuzz-7.0.0.sh
+# b.10.11.HarfBuzz-7.0.0.sh
 #
 # Recommended by:
 #

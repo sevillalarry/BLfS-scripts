@@ -1,4 +1,5 @@
-#b.10.12.JasPer-4.0.0.sh
+# b.10.12.JasPer-4.0.0.sh
+#
 
 export PKG="JasPer-4.0.0"
 export PKGLOG_DIR=$LFSLOG/10.12

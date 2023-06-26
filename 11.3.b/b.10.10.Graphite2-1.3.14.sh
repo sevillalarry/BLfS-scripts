@@ -1,4 +1,4 @@
-#b.10.10.Graphite2-1.3.14.sh
+# b.10.10.Graphite2-1.3.14.sh
 #
 # Dependencies Required:
 #

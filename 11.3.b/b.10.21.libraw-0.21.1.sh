@@ -1,4 +1,5 @@
-#b.10.21.libraw-0.21.1.sh
+# b.10.21.libraw-0.21.1.sh
+#
 
 export PKG="libraw-0.21.1"
 export PKGLOG_DIR=$LFSLOG/10.21

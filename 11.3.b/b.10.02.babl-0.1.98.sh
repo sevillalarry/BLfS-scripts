@@ -1,4 +1,5 @@
-#b.10.02.babl-0.1.98.sh
+# b.10.02.babl-0.1.98.sh
+#
 
 export PKG="babl-0.1.98"
 export PKGLOG_DIR=$LFSLOG/10.02

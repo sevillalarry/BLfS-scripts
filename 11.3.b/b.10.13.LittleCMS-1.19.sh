@@ -1,4 +1,5 @@
-#b.10.13.Little CMS-1.19.sh
+# b.10.13.LittleCMS-1.19.sh
+#
 
 export PKG="Little CMS-1.19"
 export PKGLOG_DIR=$LFSLOG/10.13
