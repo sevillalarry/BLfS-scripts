@@ -10,7 +10,7 @@
 #   10.04 FreeType-2.13.0
 #
 
-export PKG="Fontconfig-2.14.2"
+export PKG="fontconfig-2.14.2"
 export PKGLOG_DIR=$LFSLOG/10.05
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log

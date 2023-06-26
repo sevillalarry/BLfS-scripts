@@ -10,7 +10,7 @@
 #   10.04 FreeType-2.13.0 ( after HarfBuzz is installed, reinstall Freetype-2.13.0 )
 #
 
-export PKG="HarfBuzz-7.0.0"
+export PKG="harfbuzz-7.0.0"
 export PKGLOG_DIR=$LFSLOG/10.11
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log

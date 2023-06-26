@@ -18,6 +18,8 @@ https://github.com/harfbuzz/harfbuzz/releases/download/7.0.0/harfbuzz-7.0.0.tar.
 https://downloads.sourceforge.net/libpng/libpng-1.6.39.tar.xz
 https://downloads.sourceforge.net/sourceforge/libpng-apng/libpng-1.6.39-apng.patch.gz
 
+# 12.11 elogind-246.10 - recommended by 24.08 Xorg Libraries
+https://github.com/elogind/elogind/archive/v246.10/elogind-246.10.tar.gz
 # 12.36 Which - recommended by 10.04 FreeType
 https://ftp.gnu.org/gnu/which/which-2.21.tar.gz
 
@@ -31,4 +33,5 @@ https://www.x.org/pub/individual/lib/libXau-1.0.11.tar.xz
 https://www.x.org/pub/individual/lib/libXdmcp-1.1.4.tar.xz
 https://xorg.freedesktop.org/archive/individual/proto/xcb-proto-1.15.2.tar.xz
 https://xorg.freedesktop.org/archive/individual/lib/libxcb-1.15.tar.xz
-
+# 24.08 *****
+# 24.09 --->
