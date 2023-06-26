@@ -2,7 +2,7 @@
 #
 
 export PKG="libptytty-2.0"
-export PKGLOG_DIR=$LFSLOG/09.50
+export PKGLOG_DIR=$LFSLOG/09.51
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log

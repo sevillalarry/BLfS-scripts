@@ -2,7 +2,7 @@
 #
 
 export PKG="llibical-3.0.16"
-export PKGLOG_DIR=$LFSLOG/09.41
+export PKGLOG_DIR=$LFSLOG/09.42
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log

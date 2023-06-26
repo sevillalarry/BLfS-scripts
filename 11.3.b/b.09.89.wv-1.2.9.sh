@@ -2,7 +2,7 @@
 #
 
 export PKG="wv-1.2.9"
-export PKGLOG_DIR=$LFSLOG/09.88
+export PKGLOG_DIR=$LFSLOG/09.89
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log

@@ -2,7 +2,7 @@
 #
 
 export PKG="libyaml-0.2.5"
-export PKGLOG_DIR=$LFSLOG/09.70
+export PKGLOG_DIR=$LFSLOG/09.71
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log

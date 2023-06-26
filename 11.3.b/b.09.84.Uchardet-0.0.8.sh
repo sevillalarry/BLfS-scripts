@@ -2,7 +2,7 @@
 #
 
 export PKG="Uchardet-0.0.8"
-export PKGLOG_DIR=$LFSLOG/09.83
+export PKGLOG_DIR=$LFSLOG/09.84
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log

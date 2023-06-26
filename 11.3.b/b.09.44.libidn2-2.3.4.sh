@@ -2,7 +2,7 @@
 #
 
 export PKG="libidn2-2.3.4"
-export PKGLOG_DIR=$LFSLOG/09.43
+export PKGLOG_DIR=$LFSLOG/09.44
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log

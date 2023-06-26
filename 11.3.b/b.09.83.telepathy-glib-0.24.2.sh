@@ -2,7 +2,7 @@
 #
 
 export PKG="telepathy-glib-0.24.2"
-export PKGLOG_DIR=$LFSLOG/09.82
+export PKGLOG_DIR=$LFSLOG/09.83
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log

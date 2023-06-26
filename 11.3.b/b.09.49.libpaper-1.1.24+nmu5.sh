@@ -2,7 +2,7 @@
 #
 
 export PKG="libpaper-1.1.24+nmu5."
-export PKGLOG_DIR=$LFSLOG/09.48
+export PKGLOG_DIR=$LFSLOG/09.49
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log

@@ -2,7 +2,7 @@
 #
 
 export PKG="libseccomp-2.5.4"
-export PKGLOG_DIR=$LFSLOG/09.53
+export PKGLOG_DIR=$LFSLOG/09.54
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log

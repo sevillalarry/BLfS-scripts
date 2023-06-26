@@ -2,7 +2,7 @@
 #
 
 export PKG="Popt-1.19"
-export PKGLOG_DIR=$LFSLOG/09.78
+export PKGLOG_DIR=$LFSLOG/09.79
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log

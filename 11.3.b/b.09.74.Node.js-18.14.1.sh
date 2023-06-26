@@ -2,7 +2,7 @@
 #
 
 export PKG="Node.js-18.14.1"
-export PKGLOG_DIR=$LFSLOG/09.73
+export PKGLOG_DIR=$LFSLOG/09.74
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log

@@ -2,7 +2,7 @@
 #
 
 export PKG="llibwpe-1.14.1"
-export PKGLOG_DIR=$LFSLOG/09.69
+export PKGLOG_DIR=$LFSLOG/09.70
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log

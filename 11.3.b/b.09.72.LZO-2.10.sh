@@ -2,7 +2,7 @@
 #
 
 export PKG="LZO-2.10"
-export PKGLOG_DIR=$LFSLOG/09.71
+export PKGLOG_DIR=$LFSLOG/09.72
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log

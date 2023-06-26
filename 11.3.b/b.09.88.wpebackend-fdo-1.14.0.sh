@@ -2,7 +2,7 @@
 #
 
 export PKG="wpebackend-fdo-1.14.0"
-export PKGLOG_DIR=$LFSLOG/09.87
+export PKGLOG_DIR=$LFSLOG/09.88
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log

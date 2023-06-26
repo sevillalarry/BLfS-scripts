@@ -2,7 +2,7 @@
 #
 
 export PKG="Xapian-1.4.22"
-export PKGLOG_DIR=$LFSLOG/09.89
+export PKGLOG_DIR=$LFSLOG/09.90
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log

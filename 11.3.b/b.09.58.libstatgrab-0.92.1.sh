@@ -2,7 +2,7 @@
 #
 
 export PKG="llibssh2-1.10.0"
-export PKGLOG_DIR=$LFSLOG/09.56
+export PKGLOG_DIR=$LFSLOG/09.58
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log

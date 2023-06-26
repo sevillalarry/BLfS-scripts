@@ -2,7 +2,7 @@
 #
 
 export PKG="libksba-1.6.3"
-export PKGLOG_DIR=$LFSLOG/09.45
+export PKGLOG_DIR=$LFSLOG/09.46
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log

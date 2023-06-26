@@ -2,7 +2,7 @@
 #
 
 export PKG="libxslt-1.1.37"
-export PKGLOG_DIR=$LFSLOG/09.67
+export PKGLOG_DIR=$LFSLOG/09.68
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log

@@ -2,7 +2,7 @@
 #
 
 export PKG="Umockdev-0.17.16"
-export PKGLOG_DIR=$LFSLOG/09.84
+export PKGLOG_DIR=$LFSLOG/09.85
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log
