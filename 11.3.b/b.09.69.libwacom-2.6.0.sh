@@ -1,4 +1,5 @@
 # b.09.69.libwacom-2.6.0.sh
+#
 
 export PKG="libwacom-2.6.0"
 export PKGLOG_DIR=$LFSLOG/09.68

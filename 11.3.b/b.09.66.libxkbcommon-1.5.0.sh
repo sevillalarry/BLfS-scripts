@@ -1,4 +1,5 @@
 # b.09.66.libxkbcommon-1.5.0.sh
+#
 
 export PKG="libxkbcommon-1.5.0"
 export PKGLOG_DIR=$LFSLOG/09.65
