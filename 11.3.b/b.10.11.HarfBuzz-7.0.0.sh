@@ -33,27 +33,27 @@ cd $PKG
 mkdir build
 cd    build
 
-echo "2. Configure ..."
-echo "2. Configure ..." >> $LFSLOG_PROCESS
-echo "2. Configure ..." >> $PKGLOG_ERROR
+echo "2. Meson ..."
+echo "2. Meson ..." >> $LFSLOG_PROCESS
+echo "2. Meson ..." >> $PKGLOG_ERROR
 meson --prefix=/usr        \
       --buildtype=release  \
       -Dgraphite2=enabled  \
           > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
-echo "3. Make Build ..."
-echo "3. Make Build ..." >> $LFSLOG_PROCESS
-echo "3. Make Build ..." >> $PKGLOG_ERROR
+echo "3. Ninja Build ..."
+echo "3. Ninja Build ..." >> $LFSLOG_PROCESS
+echo "3. Ninja Build ..." >> $PKGLOG_ERROR
 ninja > $PKGLOG_BUILD 2>> $PKGLOG_ERROR
 
-echo "4. Make Check ..."
-echo "4. Make Check ..." >> $LFSLOG_PROCESS
-echo "4. Make Check ..." >> $PKGLOG_ERROR
+echo "4. Ninja Test ..."
+echo "4. Ninja Test ..." >> $LFSLOG_PROCESS
+echo "4. Ninja Test ..." >> $PKGLOG_ERROR
 ninja test > $PKGLOG_CHECK 2>> $PKGLOG_ERROR
 
-echo "5. Make Install ..."
-echo "5. Make Install ..." >> $LFSLOG_PROCESS
-echo "5. Make Install ..." >> $PKGLOG_ERROR
+echo "5. Ninja Install ..."
+echo "5. Ninja Install ..." >> $LFSLOG_PROCESS
+echo "5. Ninja Install ..." >> $PKGLOG_ERROR
 ninja install > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 
 

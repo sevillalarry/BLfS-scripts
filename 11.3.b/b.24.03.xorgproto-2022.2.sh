@@ -33,9 +33,9 @@ cd $PKG
 mkdir build
 cd    build
 
-echo "2. Configure ..."
-echo "2. Configure ..." >> $LFSLOG_PROCESS
-echo "2. Configure ..." >> $PKGLOG_ERROR
+echo "2. Meson ..."
+echo "2. Meson ..." >> $LFSLOG_PROCESS
+echo "2. Meson ..." >> $PKGLOG_ERROR
 meson   --prefix=$XORG_PREFIX   \
         -Dlegacy=true ..        \
         > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
