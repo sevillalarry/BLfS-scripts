@@ -16,4 +16,3 @@ cat > /etc/sudoers.d/xorg << EOF
 Defaults env_keep += XORG_PREFIX
 Defaults env_keep += XORG_CONFIG
 EOF
-

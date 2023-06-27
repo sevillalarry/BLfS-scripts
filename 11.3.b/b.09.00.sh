@@ -10,17 +10,17 @@ date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
 
 #####
 
-echo "09.19.ICU-72.1"
-echo "09.19.ICU-72.1" >> $LFSLOG_PROCESS
+# echo "09.19.ICU-72.1"
+# echo "09.19.ICU-72.1" >> $LFSLOG_PROCESS
 
-time { bash b.09.19.ICU-72.1.sh ; }
+# time { bash b.09.19.ICU-72.1.sh ; }
 
-date +"%Y/%b/%d %H:%M"
-date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+# date +"%Y/%b/%d %H:%M"
+# date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
 
-echo "." >> $LFSLOG_PROCESS
-echo "."
-echo "."
+# echo "." >> $LFSLOG_PROCESS
+# echo "."
+# echo "."
 
 ###
 
@@ -38,17 +38,17 @@ echo "."
 
 ###
 
-echo "09.66.libxml2-2.10.3"                    ???????????????????????????
-echo "09.66.libxml2-2.10.3" >> $LFSLOG_PROCESS
+# echo "09.66.libxml2-2.10.3"                    ???????????????????????????
+# echo "09.66.libxml2-2.10.3" >> $LFSLOG_PROCESS
 
-time { bash b.09.66.libxml2-2.10.3.sh ; }
+# time { bash b.09.66.libxml2-2.10.3.sh ; }
 
-date +"%Y/%b/%d %H:%M"
-date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+# date +"%Y/%b/%d %H:%M"
+# date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
 
-echo "." >> $LFSLOG_PROCESS
-echo "."
-echo "."
+# echo "." >> $LFSLOG_PROCESS
+# echo "."
+# echo "."
 
 #####
 
