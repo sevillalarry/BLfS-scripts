@@ -1,5 +1,9 @@
 # b.24.15.xcb-util-cursor-0.1.4.sh
 #
+#
+#    24.11 xcb-util-image-0.4.1
+#    24.13 xcb-util-renderutil-0.3.10
+#
 
 export PKG="xcb-util-cursor-0.1.4"
 export PKGLOG_DIR=$LFSLOG/24.15

@@ -1,5 +1,9 @@
 # b.24.12.xcb-util-keysyms-0.4.1.sh
 #
+# Dependencies Required:
+#
+#    24.07 libxcb-1.15
+#
 
 export PKG="xcb-util-keysyms-0.4.1"
 export PKGLOG_DIR=$LFSLOG/24.12

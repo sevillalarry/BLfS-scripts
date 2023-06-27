@@ -1,5 +1,9 @@
 # b.24.09.libxcvt-0.1.2.sh
 #
+# Dependencies Required:
+#
+#    24.01 Xorg build environment
+#
 
 export PKG="libxcvt-0.1.2"
 export PKGLOG_DIR=$LFSLOG/24.09
@@ -25,21 +29,21 @@ cd $PKG
 mkdir build
 cd    build
 
-echo "2. Configure ..."
-echo "2. Configure ..." >> $LFSLOG_PROCESS
-echo "2. Configure ..." >> $PKGLOG_ERROR
+echo "2. Meson ..."
+echo "2. Meson ..." >> $LFSLOG_PROCESS
+echo "2. Meson ..." >> $PKGLOG_ERROR
 meson   --prefix=$XORG_PREFIX   \
         --buildtype=release ..  \
         > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
-echo "3. Make Build ..."
-echo "3. Make Build ..." >> $LFSLOG_PROCESS
-echo "3. Make Build ..." >> $PKGLOG_ERROR
+echo "3. Ninja Build ..."
+echo "3. Ninja Build ..." >> $LFSLOG_PROCESS
+echo "3. Ninja Build ..." >> $PKGLOG_ERROR
 ninja > $PKGLOG_BUILD 2>> $PKGLOG_ERROR
 
-echo "4. Make Install ..."
-echo "4. Make Install ..." >> $LFSLOG_PROCESS
-echo "4. Make Install ..." >> $PKGLOG_ERROR
+echo "4. Ninja Install ..."
+echo "4. Ninja Install ..." >> $LFSLOG_PROCESS
+echo "4. Ninja Install ..." >> $PKGLOG_ERROR
 ninja install > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 
 

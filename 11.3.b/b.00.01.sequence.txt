@@ -1,0 +1,7 @@
+download b.00.00.wget-list-sysv.txt
+bash b.09.00.sh
+bash b.10.00.sh
+bash b.12.00.sh
+bash b.24.00.Part1.sh
+execute: https://www.linuxfromscratch.org/blfs/view/11.3/x/x7lib.html
+bash b.24.00.Part2.sh

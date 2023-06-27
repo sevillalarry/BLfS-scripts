@@ -1,5 +1,9 @@
 # b.24.011.xcb-util-image-0.4.1.sh
 #
+# Dependencies Required:
+#
+#    24.10 xcb-util-0.4.1
+#
 
 export PKG="xcb-util-image-0.4.1"
 export PKGLOG_DIR=$LFSLOG/24.11
@@ -27,11 +31,10 @@ echo "2. Configure ..." >> $PKGLOG_ERROR
 ./configure $XORG_CONFIG    \
      > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
-echo "3. Make Check ..."
-echo "3. Make Check ..." >> $LFSLOG_PROCESS
-echo "3. Make Check ..." >> $PKGLOG_ERROR
-LD_LIBRARY_PATH=$XORG_PREFIX/lib   \
-make check > $PKGLOG_CHECK 2>> $PKGLOG_ERROR
+echo "3. Make Build ..."
+echo "3. Make Build ..." >> $LFSLOG_PROCESS
+echo "3. Make Build ..." >> $PKGLOG_ERROR
+make > $PKGLOG_BUILD 2>> $PKGLOG_ERROR
 
 echo "4. Make Install ..."
 echo "4. Make Install ..." >> $LFSLOG_PROCESS

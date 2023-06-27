@@ -37,3 +37,10 @@ https://xorg.freedesktop.org/archive/individual/proto/xcb-proto-1.15.2.tar.xz
 https://xorg.freedesktop.org/archive/individual/lib/libxcb-1.15.tar.xz
 # 24.08 *****
 # 24.09 --->
+https://www.x.org/pub/individual/lib/libxcvt-0.1.2.tar.xz
+https://xcb.freedesktop.org/dist/xcb-util-0.4.1.tar.xz
+https://xcb.freedesktop.org/dist/xcb-util-image-0.4.1.tar.xz
+https://xcb.freedesktop.org/dist/xcb-util-keysyms-0.4.1.tar.xz
+https://xcb.freedesktop.org/dist/xcb-util-renderutil-0.3.10.tar.xz
+https://xcb.freedesktop.org/dist/xcb-util-wm-0.4.2.tar.xz
+https://xcb.freedesktop.org/dist/xcb-util-cursor-0.1.4.tar.xz

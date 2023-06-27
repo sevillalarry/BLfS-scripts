@@ -1,5 +1,9 @@
 # b.24.13.xcb-util-renderutil-0.3.10.sh
 #
+# Dependencies Required:
+#
+#    24.07 libxcb-1.15
+#
 
 export PKG="xcb-util-renderutil-0.3.10"
 export PKGLOG_DIR=$LFSLOG/24.13

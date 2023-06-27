@@ -1,5 +1,9 @@
 # b.24.14.xcb-util-wm-0.4.2.sh
 #
+# Dependencies Required:
+#
+#    24.07 libxcb-1.15
+#
 
 export PKG="xcb-util-wm-0.4.2"
 export PKGLOG_DIR=$LFSLOG/24.14
