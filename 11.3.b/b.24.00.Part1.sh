@@ -1,6 +1,16 @@
-# b.24.00.sh
+# b.24.00.Part1.sh
 #
 # Graphical Environments
+#
+#   24.02
+#   to
+#   24.04
+#
+#   24.05   currently NOT included ( was recommended )
+#
+#   24.06
+#   &
+#   24.07
 #
 
 export LFSLOG_PROCESS=$LFSLOG/process.log

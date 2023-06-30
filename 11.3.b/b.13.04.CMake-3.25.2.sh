@@ -1,4 +1,4 @@
-#b.13.04.CMake-3.25.2.sh
+# b.13.04.CMake-3.25.2.sh
 #
 # Required by:
 #

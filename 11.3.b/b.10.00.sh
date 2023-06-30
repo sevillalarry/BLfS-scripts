@@ -78,17 +78,17 @@ echo "."
 
 ###
 
-# echo "10.20.libpng-1.6.39"
-# echo "10.20.libpng-1.6.39" >> $LFSLOG_PROCESS
+echo "10.20.libpng-1.6.39"
+echo "10.20.libpng-1.6.39" >> $LFSLOG_PROCESS
 
-# time { bash b.10.20.libpng-1.6.39.sh ; }
+time { bash b.10.20.libpng-1.6.39.sh ; }
 
-# date +"%Y/%b/%d %H:%M"
-# date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
 
-# echo "." >> $LFSLOG_PROCESS
-# echo "."
-# echo "."
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
 
 #####
 

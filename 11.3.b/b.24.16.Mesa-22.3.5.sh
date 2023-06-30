@@ -1,12 +1,18 @@
 # b.24.16.Mesa-22.3.5.sh
 #
+# Dependencies Required:
+#
+#    24.11 xcb-util-image-0.4.1
+#    24.13 xcb-util-renderutil-0.3.10
+#
+# Note: exclude wayland
 
 export PKG="Mesa-22.3.5"
 export PKGLOG_DIR=$LFSLOG/24.16
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log
-#export PKGLOG_CHECK=$PKGLOG_DIR/check.log
+export PKGLOG_CHECK=$PKGLOG_DIR/check.log
 #export PKGLOG_OTHERS=$PKGLOG_DIR/others.log
 export PKGLOG_INSTALL=$PKGLOG_DIR/install.log
 export PKGLOG_ERROR=$PKGLOG_DIR/error.log
@@ -22,29 +28,43 @@ tar xvf $PKG.tar.xz > $PKGLOG_TAR 2>> $PKGLOG_ERROR
 cd $PKG
 
 
+patch -Np1 -i ../mesa-22.3.5-add_xdemos-1.patch
+
 mkdir build
 cd    build
 
-echo "2. Configure ..."
-echo "2. Configure ..." >> $LFSLOG_PROCESS
-echo "2. Configure ..." >> $PKGLOG_ERROR
-meson   --prefix=$XORG_PREFIX   \
+echo "2. Meson Setup ..."
+echo "2. Meson Setup ..." >> $LFSLOG_PROCESS
+echo "2. Meson Setup ..." >> $PKGLOG_ERROR
+meson setup                     \
+        --prefix=$XORG_PREFIX   \
         --buildtype=release     \
-        -Dplatforms=x11,wayland \
+        -Dplatforms=x11         \
         -Dgallium-drivers=auto  \
         -Dvulkan-drivers=""     \
         -Dvalgrind=disabled     \
         -Dlibunwind=disabled    \
         > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
-echo "3. Make Build ..."
-echo "3. Make Build ..." >> $LFSLOG_PROCESS
-echo "3. Make Build ..." >> $PKGLOG_ERROR
+echo "3. Ninja Build ..."
+echo "3. Ninja Build ..." >> $LFSLOG_PROCESS
+echo "3. Ninja Build ..." >> $PKGLOG_ERROR
 ninja > $PKGLOG_BUILD 2>> $PKGLOG_ERROR
 
-echo "4. Make Install ..."
-echo "4. Make Install ..." >> $LFSLOG_PROCESS
-echo "4. Make Install ..." >> $PKGLOG_ERROR
+echo "4. Meson Configure Test ..."
+echo "4. Meson Configure Test ..." >> $LFSLOG_PROCESS
+echo "4. Meson Configure Test ..." >> $PKGLOG_ERROR
+meson configure -Dbuild-tests=true              \
+        >> $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
+
+echo "5. Ninja Test ..."
+echo "5. Ninja Test ..." >> $LFSLOG_PROCESS
+echo "5. Ninja Test ..." >> $PKGLOG_ERROR
+ninja test > $PKGLOG_CHECK 2>> $PKGLOG_ERROR
+
+echo "6. Ninja Install ..."
+echo "6. Ninja Install ..." >> $LFSLOG_PROCESS
+echo "6. Ninja Install ..." >> $PKGLOG_ERROR
 ninja install > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 
 install -dm755 /usr/share/doc/mesa-22.3.5
@@ -56,7 +76,7 @@ cd ..
 rm -rf $PKG
 unset LFSLOG_PROCESS
 #unset PKGLOG_OTHERS
-#unset PKGLOG_CHECK
+unset PKGLOG_CHECK
 unset PKGLOG_INSTALL PKGLOG_BUILD PKGLOG_CONFIG
 unset PKGLOG_ERROR PKGLOG_TAR
 unset PKGLOG_DIR PKG

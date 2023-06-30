@@ -1,11 +1,15 @@
 # b.24.17.xbitmaps-1.1.2.sh
 #
+# Dependencies Required:
+#
+#       24.02 util-macros-1.20.0
+#
 
 export PKG="xbitmaps-1.1.2"
 export PKGLOG_DIR=$LFSLOG/24.17
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
-export PKGLOG_BUILD=$PKGLOG_DIR/build.log
+#export PKGLOG_BUILD=$PKGLOG_DIR/build.log
 export PKGLOG_INSTALL=$PKGLOG_DIR/install.log
 export PKGLOG_ERROR=$PKGLOG_DIR/error.log
 export LFSLOG_PROCESS=$LFSLOG/process.log
@@ -35,6 +39,7 @@ make install > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 cd ..
 rm -rf $PKG
 unset LFSLOG_PROCESS
-unset PKGLOG_INSTALL PKGLOG_BUILD PKGLOG_CONFIG
+unset PKGLOG_INSTALL PKGLOG_CONFIG
+# PKGLOG_BUILD
 unset PKGLOG_ERROR PKGLOG_TAR
 unset PKGLOG_DIR PKG

@@ -1,5 +1,9 @@
 # b.10.20.libpng-1.6.39.sh
 #
+# Required by:
+#
+#   24.18 Xorg Applications
+#
 # Recommended by:
 #
 #   10.04 FreeType-2.13.0
