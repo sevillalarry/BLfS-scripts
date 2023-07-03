@@ -2,8 +2,9 @@
 #
 # Dependencies Required:
 #
-#    24.11 xcb-util-image-0.4.1
-#    24.13 xcb-util-renderutil-0.3.10
+#       24.08 Xorg Libraries
+#       25.37 Libdrm-2.4.115
+#       13.24.14 Python Modules - Mako-1.2.4
 #
 # Note: exclude wayland
 
