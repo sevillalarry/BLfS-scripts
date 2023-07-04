@@ -1,5 +1,15 @@
 # b.24.28.xinit-1.4.2.sh
 #
+# Dependencies Required:
+#
+#    24.08 Xorg Libraries
+#
+# Dependencies Recommended:
+#
+#    24.25 twm-1.0.12
+#    24.26 xclock-1.1.1
+#    24.26 xterm-379
+#
 
 export PKG="xinit-1.4.2"
 export PKGLOG_DIR=$LFSLOG/24.28
@@ -23,9 +33,9 @@ cd $PKG
 echo "2. Configure ..."
 echo "2. Configure ..." >> $LFSLOG_PROCESS
 echo "2. Configure ..." >> $PKGLOG_ERROR
-./configure $XORG_CONFIG    \
-     --with-xinitdir=/etc/X11/app-defaults   \
-     > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
+./configure    $XORG_CONFIG                            \
+               --with-xinitdir=/etc/X11/app-defaults   \
+               > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
 echo "3. Make Build ..."
 echo "3. Make Build ..." >> $LFSLOG_PROCESS
@@ -36,6 +46,8 @@ echo "4. Make Install ..."
 echo "4. Make Install ..." >> $LFSLOG_PROCESS
 echo "4. Make Install ..." >> $PKGLOG_ERROR
 make install > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
+
+ldconfig
 
 
 cd ..

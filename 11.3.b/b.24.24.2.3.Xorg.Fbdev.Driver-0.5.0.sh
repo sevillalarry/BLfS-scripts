@@ -1,12 +1,12 @@
-# b.24.04.libXau-1.0.11.sh
+# b.24.24.2.3.Xorg.Fbdev.Driver-0.5.0.sh
 #
 # Dependencies Required:
 #
-#    24.03 xorgproto-2022.2
+#    24.23 Xorg-Server-21.1.7
 #
 
-export PKG="libXau-1.0.11"
-export PKGLOG_DIR=$LFSLOG/24.04
+export PKG="xf86-video-fbdev-0.5.0"
+export PKGLOG_DIR=$LFSLOG/24.24.2.3
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log

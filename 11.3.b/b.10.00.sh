@@ -90,6 +90,20 @@ echo "." >> $LFSLOG_PROCESS
 echo "."
 echo "."
 
+###
+
+echo "10.30.Pixman-0.42.2"
+echo "10.30.Pixman-0.42.2" >> $LFSLOG_PROCESS
+
+time { bash b.10.30.Pixman-0.42.2.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
 #####
 
 unset LFSLOG_PROCESS

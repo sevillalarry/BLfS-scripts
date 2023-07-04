@@ -16,7 +16,7 @@
 #       24.24.1.1 libevdev 1.13.0
 #
 
-export PKG="libevdev 1.13.0"
+export PKG="libevdev-1.13.0"
 export PKGLOG_DIR=$LFSLOG/24.24.1.1
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log

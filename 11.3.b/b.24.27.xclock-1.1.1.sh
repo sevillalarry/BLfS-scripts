@@ -1,5 +1,13 @@
 # b.24.27.xclock-1.1.1.sh
 #
+# Dependencies Required:
+#
+#    24.08 Xorg Libraries
+#
+# Recommended by:
+#
+#    24.28 xinit-1.4.2
+#
 
 export PKG="xclock-1.1.1"
 export PKGLOG_DIR=$LFSLOG/24.27

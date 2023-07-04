@@ -7,6 +7,11 @@
 #   24.23
 #   24.24.01.01
 #   24.24.01.02
+#
+#   24.25
+#       to
+#   24.28
+#
 
 export LFSLOG_PROCESS=$LFSLOG/process.log
 
@@ -45,10 +50,10 @@ echo "."
 
 ###
 
-echo "24.24.01.01.libevdev 1.13.0"
-echo "24.24.01.01.libevdev 1.13.0" >> $LFSLOG_PROCESS
+echo "24.24.01.01.libevdev-1.13.0"
+echo "24.24.01.01.libevdev-1.13.0" >> $LFSLOG_PROCESS
 
-time { bash b.24.24.01.01.libevdev 1.13.0.sh ; }
+time { bash b.24.24.01.01.libevdev-1.13.0.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
@@ -73,24 +78,10 @@ echo "."
 
 ###
 
-echo "24.13.xcb-util-renderutil-0.3.10"
-echo "24.13.xcb-util-renderutil-0.3.10" >> $LFSLOG_PROCESS
+echo "24.24.2.3.Xorg.Fbdev.Driver-0.5.0"
+echo "24.24.2.3.Xorg.Fbdev.Driver-0.5.0" >> $LFSLOG_PROCESS
 
-time { bash b.24.13.xcb-util-renderutil-0.3.10.sh ; }
-
-date +"%Y/%b/%d %H:%M"
-date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
-
-echo "." >> $LFSLOG_PROCESS
-echo "."
-echo "."
-
-###
-
-echo "24.14.xcb-util-wm-0.4.2"
-echo "24.14.xcb-util-wm-0.4.2" >> $LFSLOG_PROCESS
-
-time { bash b.24.14.xcb-util-wm-0.4.2.sh ; }
+time { bash b.24.24.2.3.Xorg.Fbdev.Driver-0.5.0.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
@@ -101,24 +92,10 @@ echo "."
 
 ###
 
-echo "24.15.xcb-util-cursor-0.1.4"
-echo "24.15.xcb-util-cursor-0.1.4" >> $LFSLOG_PROCESS
+echo "24.25.twm-1.0.12"
+echo "24.25.twm-1.0.12" >> $LFSLOG_PROCESS
 
-time { bash b.24.15.xcb-util-cursor-0.1.4.sh ; }
-
-date +"%Y/%b/%d %H:%M"
-date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
-
-echo "." >> $LFSLOG_PROCESS
-echo "."
-echo "."
-
-###
-
-echo "24.16.Mesa-22.3.5"
-echo "24.16.Mesa-22.3.5" >> $LFSLOG_PROCESS
-
-time { bash b.24.16.Mesa-22.3.5.sh ; }
+time { bash b.24.25.twm-1.0.12.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
@@ -129,10 +106,38 @@ echo "."
 
 ###
 
-echo "24.17.xbitmaps-1.1.2"
-echo "24.17.xbitmaps-1.1.2" >> $LFSLOG_PROCESS
+echo "24.26.xterm-379"
+echo "24.26.xterm-379" >> $LFSLOG_PROCESS
 
-time { bash b.24.17.xbitmaps-1.1.2.sh ; }
+time { bash b.24.26.xterm-379.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
+###
+
+echo "24.27.xclock-1.1.1"
+echo "24.27.xclock-1.1.1" >> $LFSLOG_PROCESS
+
+time { bash b.24.27.xclock-1.1.1.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
+###
+
+echo "24.28.xinit-1.4.2"
+echo "24.28.xinit-1.4.2" >> $LFSLOG_PROCESS
+
+time { bash b.24.28.xinit-1.4.2.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS

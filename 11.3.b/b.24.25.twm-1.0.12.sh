@@ -1,5 +1,13 @@
 # b.24.25.twm-1.0.12.sh
 #
+# Dependencies Required:
+#
+#    24.23 Xorg-Server-21.1.7
+#
+# Recommended by:
+#
+#    24.28 xinit-1.4.2
+#
 
 export PKG="twm-1.0.12"
 export PKGLOG_DIR=$LFSLOG/24.25
@@ -19,6 +27,8 @@ echo "1. Extract tar..." >> $PKGLOG_ERROR
 tar xvf $PKG.tar.xz > $PKGLOG_TAR 2>> $PKGLOG_ERROR
 cd $PKG
 
+
+sed -i -e '/^rcdir =/s,^\(rcdir = \).*,\1/etc/X11/app-defaults,' src/Makefile.in
 
 echo "2. Configure ..."
 echo "2. Configure ..." >> $LFSLOG_PROCESS
