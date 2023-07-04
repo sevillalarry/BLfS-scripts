@@ -5,7 +5,8 @@
 #   24.21
 #           skip 24.22 Xwayland
 #   24.23
-#   24.
+#   24.24.01.01
+#   24.24.01.02
 
 export LFSLOG_PROCESS=$LFSLOG/process.log
 
@@ -42,12 +43,12 @@ echo "." >> $LFSLOG_PROCESS
 echo "."
 echo "."
 
-### ?????????????????????????????????????????????????
+###
 
-echo "24.11.xcb-util-image-0.4.1"
-echo "24.11.xcb-util-image-0.4.1" >> $LFSLOG_PROCESS
+echo "24.24.01.01.libevdev 1.13.0"
+echo "24.24.01.01.libevdev 1.13.0" >> $LFSLOG_PROCESS
 
-time { bash b.24.11.xcb-util-image-0.4.1.sh ; }
+time { bash b.24.24.01.01.libevdev 1.13.0.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
@@ -58,10 +59,10 @@ echo "."
 
 ###
 
-echo "24.12.xcb-util-keysyms-0.4.1"
-echo "24.12.xcb-util-keysyms-0.4.1" >> $LFSLOG_PROCESS
+echo "24.24.1.2.Xorg.Evdev.Driver-2.10.6"
+echo "24.24.1.2.Xorg.Evdev.Driver-2.10.6" >> $LFSLOG_PROCESS
 
-time { bash b.24.12.xcb-util-keysyms-0.4.1.sh ; }
+time { bash b.24.24.1.2.Xorg.Evdev.Driver-2.10.6.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS

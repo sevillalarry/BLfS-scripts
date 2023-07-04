@@ -38,17 +38,17 @@ echo "."
 
 ###
 
-# echo "09.66.libxml2-2.10.3"                    ???????????????????????????
-# echo "09.66.libxml2-2.10.3" >> $LFSLOG_PROCESS
+echo "09.73.mtdev-1.1.6"
+echo "09.73.mtdev-1.1.6" >> $LFSLOG_PROCESS
 
-# time { bash b.09.66.libxml2-2.10.3.sh ; }
+time { bash b.09.73.mtdev-1.1.6.sh ; }
 
-# date +"%Y/%b/%d %H:%M"
-# date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
 
-# echo "." >> $LFSLOG_PROCESS
-# echo "."
-# echo "."
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
 
 #####
 

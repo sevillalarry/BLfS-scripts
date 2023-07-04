@@ -5,6 +5,8 @@
 https://download.gnome.org/sources/libxml2/2.10/libxml2-2.10.3.tar.xz
 # 09.67 libxml2 - Optional Test Suite
 https://www.w3.org/XML/Test/xmlts20130923.tar.gz
+# 09.73 mtdev-1.1.6 - required by mtdev-1.1.6
+https://bitmath.org/code/mtdev/mtdev-1.1.6.tar.bz2
 
 # 10.04 FreeType-2.13.0 - required by 10.05 Fontconfig
 https://downloads.sourceforge.net/freetype/freetype-2.13.0.tar.xz
@@ -63,6 +65,9 @@ https://www.x.org/pub/individual/data/xcursor-themes-1.0.6.tar.bz2
 https://www.x.org/pub/individual/data/xkeyboard-config/xkeyboard-config-2.38.tar.xz
 # 24.23
 https://www.x.org/pub/individual/xserver/xorg-server-21.1.7.tar.xz
+# 24.24.01.01 & .02
+https://www.freedesktop.org/software/libevdev/libevdev-1.13.0.tar.xz
+https://www.x.org/pub/individual/driver/xf86-input-evdev-2.10.6.tar.bz2
 
 # 25.16 Libdrm-2.4.115
 https://dri.freedesktop.org/libdrm/libdrm-2.4.115.tar.xz
