@@ -5,11 +5,12 @@
 #   24.21
 #           skip 24.22 Xwayland
 #   24.23
-#   24.24.01.01
-#   24.24.01.02
+#   24.24.1.1
+#   24.24.1.2
+#   24.24.2.3
 #
 #   24.25
-#       to
+#   to
 #   24.28
 #
 
@@ -50,10 +51,10 @@ echo "."
 
 ###
 
-echo "24.24.01.01.libevdev-1.13.0"
-echo "24.24.01.01.libevdev-1.13.0" >> $LFSLOG_PROCESS
+echo "24.24.1.1.libevdev-1.13.0"
+echo "24.24.1.1.libevdev-1.13.0" >> $LFSLOG_PROCESS
 
-time { bash b.24.24.01.01.libevdev-1.13.0.sh ; }
+time { bash b.24.24.1.1.libevdev-1.13.0.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
