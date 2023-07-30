@@ -26,5 +26,35 @@ A. Preparation
 
         ###
 
+  A.04. Setting Up the Environment
+        ( Note: change the MAKEFLAGS based on the number of threads )
 
-  A.02. [LFS 2.2] execute: bash a.02.02.version-check.sh
+        ###
+
+        ln -sfv /mnt/src/blfs.log /var/log/blfs
+        export LFSLOG=/var/log/blfs
+
+        export MAKEFLAGS="-j8"
+
+        ###
+
+B.  Generate LFS
+
+  B.01. Checking Environment
+
+        $$$
+
+        echo $LFSLOG          /var/log/blfs
+        echo $MAKEFLAGS       -j8
+
+        echo $SHELL           /bin/bash
+        ls -l /bin/sh         bash
+        ls -l /usr/bin/awk    gawk
+
+        cd /sources
+
+        $$$
+
+        ( display )
+        root [ /sources ]#
+
