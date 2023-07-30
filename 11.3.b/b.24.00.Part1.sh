@@ -81,17 +81,17 @@ echo "."
 
 # NOTE: Recommended
 
-# echo "24.05.libXdmcp-1.1.4"
-# echo "24.05.libXdmcp-1.1.4" >> $LFSLOG_PROCESS
+echo "24.05.libXdmcp-1.1.4"
+echo "24.05.libXdmcp-1.1.4" >> $LFSLOG_PROCESS
 
-# time { bash b.24.05.libXdmcp-1.1.4.sh ; }
+time { bash b.24.05.libXdmcp-1.1.4.sh ; }
 
-# date +"%Y/%b/%d %H:%M"
-# date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
 
-# echo "." >> $LFSLOG_PROCESS
-# echo "."
-# echo "."
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
 
 ###
 

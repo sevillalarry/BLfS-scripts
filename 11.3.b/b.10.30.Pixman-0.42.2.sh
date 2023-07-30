@@ -21,8 +21,8 @@ tar xvf $PKG.tar.gz > $PKGLOG_TAR 2>> $PKGLOG_ERROR
 cd $PKG
  
 
-mkdir -v build
-cd       build
+mkdir build
+cd    build
 
 echo "2. Meson ..."
 echo "2. Meson ..." >> $LFSLOG_PROCESS
@@ -42,7 +42,7 @@ echo "4. Ninja Test ..." >> $PKGLOG_ERROR
 ninja test > $PKGLOG_CHECK 2>> $PKGLOG_ERROR
 
 echo "5. Ninja Install ..."
-echo "5. Ninja Install ..." >> $LFSLOG_PROCESSs
+echo "5. Ninja Install ..." >> $LFSLOG_PROCESS
 echo "5. Ninja Install ..." >> $PKGLOG_ERROR
 ninja install > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 
