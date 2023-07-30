@@ -1,0 +1,30 @@
+A. Preparation
+
+  A.01. ( Assumming LfS is already running )
+
+        ###
+
+        rm /sources
+
+        mkdir -v /mnt/src/blfs.{src,log}
+
+        chmod -v a+wt /mnt/src/blfs.{src,log}
+
+        ln -sf /mnt/src/blfs.src /sources
+
+        cd /sources
+
+  A.02. Copy all script files
+
+        copy all script files to /sources
+
+  A.03. Download packages
+
+        ###
+
+        wget --input-file=b.00.09.wget-list-sysv.txt --continue --directory-prefix=/sources
+
+        ###
+
+
+  A.02. [LFS 2.2] execute: bash a.02.02.version-check.sh
