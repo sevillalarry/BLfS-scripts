@@ -10,17 +10,17 @@ date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
 
 #####
 
-# echo "02.01.strip-all"
-# echo "02.01.strip-all" >> $LFSLOG_PROCESS
+echo "02.01.strip-all"
+echo "02.01.strip-all" >> $LFSLOG_PROCESS
 
-# time { bash b.02.01.strip-all.sh ; }
+time { bash b.02.01.strip-all.sh ; }
 
-# date +"%Y/%b/%d %H:%M"
-# date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
 
-# echo "." >> $LFSLOG_PROCESS
-# echo "."
-# echo "."
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
 
 ###
 

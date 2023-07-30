@@ -11,7 +11,7 @@
 #   12.36 Which-2.21
 #
 
-export PKG="freeType-2.13.0"
+export PKG="freetype-2.13.0"
 export PKGLOG_DIR=$LFSLOG/10.04
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log

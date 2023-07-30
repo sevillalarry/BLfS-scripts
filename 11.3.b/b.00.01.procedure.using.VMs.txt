@@ -65,4 +65,24 @@ B.  Generate BLFS
 
         bash b.02.00.sh
 
+        reboot
+
+        cd /sources
+
+        ###
+
+  B.03. [BLFS 9] General Libraries
+
+        ###
+
+        bash b.09.00.sh
+
+        ###
+
+  B.04. [BLFS 10] Graphics and Font Libraries
+
+        ###
+
+        bash b.10.00.sh
+
         ###
