@@ -38,11 +38,11 @@ A. Preparation
 
         ###
 
-B.  Generate LFS
+B.  Generate BLFS
 
   B.01. Checking Environment
 
-        $$$
+        ###
 
         echo $LFSLOG          /var/log/blfs
         echo $MAKEFLAGS       -j8
@@ -53,8 +53,16 @@ B.  Generate LFS
 
         cd /sources
 
-        $$$
+        ###
 
         ( display )
         root [ /sources ]#
 
+
+  B.02. Clean Up
+
+        ###
+
+        bash b.02.00.sh
+
+        ###
