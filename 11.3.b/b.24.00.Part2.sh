@@ -111,6 +111,22 @@ echo "."
 echo "."
 
 ###
+#     Libdrm is required by Mesa
+###
+
+echo "25.37.Libdrm-2.4.115"
+echo "25.37.Libdrm-2.4.115" >> $LFSLOG_PROCESS
+
+time { bash b.25.37.Libdrm-2.4.115.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
+###
 
 echo "24.16.Mesa-22.3.5"
 echo "24.16.Mesa-22.3.5" >> $LFSLOG_PROCESS

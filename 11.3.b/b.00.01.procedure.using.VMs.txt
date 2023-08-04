@@ -59,13 +59,22 @@ B.  Generate BLFS - Support Files
         root [ /sources ]#
 
 
-  B.02. Clean Up
+  B.02. Clean Up and reSetting Environment
 
         ###
 
         bash b.02.00.sh
 
         reboot
+
+        ###
+
+        echo $LFSLOG          /var/log/blfs
+        echo $MAKEFLAGS       -j8
+
+        echo $SHELL           /bin/bash
+        ls -l /bin/sh         bash
+        ls -l /usr/bin/awk    gawk
 
         cd /sources
 
@@ -92,6 +101,22 @@ B.  Generate BLFS - Support Files
         ### Python modules
 
         bash b.13.00.sh
+
+        ###
+
+  B.06. [BLFS 17] Networking Libraries
+
+        ###
+
+        bash b.17.00.sh
+
+        ###
+
+  B.07. [BLFS 25] Graphical Environment Libraries
+
+        ###
+
+        bash b.25.00.sh
 
         ###
 

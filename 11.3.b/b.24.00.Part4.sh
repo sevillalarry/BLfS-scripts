@@ -37,6 +37,24 @@ echo "."
 ###     skipped 24.22 Xwayland
 ###
 
+###
+#       libepoxy is recommended but needed by Xorg-Server
+###
+
+echo "25.38.libepoxy-1.5.10"
+echo "25.38.libepoxy-1.5.10" >> $LFSLOG_PROCESS
+
+time { bash b.25.38.libepoxy-1.5.10.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
+###
+
 echo "24.23.Xorg-Server-21.1.7"
 echo "24.23.Xorg-Server-21.1.7" >> $LFSLOG_PROCESS
 
