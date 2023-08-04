@@ -112,14 +112,6 @@ B.  Generate BLFS - Support Files
 
         ###
 
-  B.07. [BLFS 25] Graphical Environment Libraries
-
-        ###
-
-        bash b.25.00.sh
-
-        ###
-
 C.  Generate BLFS - Graphical Components / Environments
 
   C.01. [BLFS 24.01] Introduction / Setup Graphical Environment
