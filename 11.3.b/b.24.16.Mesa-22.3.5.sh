@@ -7,6 +7,8 @@
 #       13.24.14 Python Modules - Mako-1.2.4
 #
 # Note: exclude wayland
+#       for VirtIO use virgl
+#
 
 export PKG="Mesa-22.3.5"
 export PKGLOG_DIR=$LFSLOG/24.16
@@ -41,7 +43,7 @@ meson setup                     \
         --prefix=$XORG_PREFIX   \
         --buildtype=release     \
         -Dplatforms=x11         \
-        -Dgallium-drivers=auto  \
+        -Dgallium-drivers=virgl \
         -Dvulkan-drivers=""     \
         -Dvalgrind=disabled     \
         -Dlibunwind=disabled    \
