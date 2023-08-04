@@ -55,9 +55,11 @@ ninja install > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 
 
 mkdir -pv /etc/X11/xorg.conf.d
-cat >> /etc/sysconfig/createfiles <<
+
+cat >> /etc/sysconfig/createfiles << "EOF"
 /tmp/.ICE-unix dir 1777 root root
 /tmp/.X11-unix dir 1777 root root
+EOF
 
 
 cd ..
