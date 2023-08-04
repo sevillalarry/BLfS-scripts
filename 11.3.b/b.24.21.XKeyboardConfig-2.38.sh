@@ -1,7 +1,7 @@
 # b.24.21.XKeyboardConfig-2.38.sh
 #
 
-export PKG="xkeyboardconfig-2.38"
+export PKG="xkeyboard-config-2.38"
 export PKGLOG_DIR=$LFSLOG/24.21
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
