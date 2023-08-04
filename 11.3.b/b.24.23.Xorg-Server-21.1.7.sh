@@ -8,7 +8,7 @@
 #       24.21 XKeyboardConfig-2.38
 #
 
-export PKG="Xorg-Server-21.1.7"
+export PKG="xorg-server-21.1.7"
 export PKGLOG_DIR=$LFSLOG/24.23
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log

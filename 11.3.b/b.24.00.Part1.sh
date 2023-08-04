@@ -7,6 +7,7 @@
 #   24.04
 #
 #   24.05   currently NOT included ( was recommended )
+#           Note: Included
 #
 #   24.06
 #   &

@@ -10,7 +10,7 @@
 #       for VirtIO use virgl
 #
 
-export PKG="Mesa-22.3.5"
+export PKG="mesa-22.3.5"
 export PKGLOG_DIR=$LFSLOG/24.16
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
