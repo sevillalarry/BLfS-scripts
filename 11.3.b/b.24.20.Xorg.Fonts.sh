@@ -30,8 +30,8 @@ do
   export PKGLOG_INSTALL=$PKGLOG_DIR/install.log
   export PKGLOG_ERROR=$PKGLOG_DIR/error.log
 
-  rm -r $PKGLOG_DIR 2> /dev/null
-  mkdir $PKGLOG_DIR
+  rm    -r $PKGLOG_DIR 2> /dev/null
+  mkdir -p $PKGLOG_DIR
 
   packagedir=${package%.tar.?z*}
 
