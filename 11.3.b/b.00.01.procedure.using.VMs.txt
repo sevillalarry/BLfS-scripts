@@ -24,6 +24,12 @@ A. Preparation
 
         wget --input-file=b.00.09.wget-list-sysv.txt --continue --directory-prefix=/sources
 
+        execute the download portions:
+
+        https://www.linuxfromscratch.org/blfs/view/11.3/x/x7lib.html
+        https://www.linuxfromscratch.org/blfs/view/11.3/x/x7app.html
+        https://www.linuxfromscratch.org/blfs/view/11.3/x/x7font.html
+
         ###
 
   A.04. Setting Up the Environment
@@ -123,6 +129,16 @@ C.  Generate BLFS - Graphical Components / Environments
         export XORG_CONFIG="--prefix=$XORG_PREFIX --sysconfdir=/etc \
                             --localstatedir=/var --disable-static"
 
+        as_root()
+        {
+            if   [ $EUID = 0 ];        then $*
+            elif [ -x /usr/bin/sudo ]; then sudo $*
+            else                            su -c \\"$*\\"
+            fi
+        }
+
+        export -f as_root
+
         bash b.24.00.Part1.sh
 
         execute: https://www.linuxfromscratch.org/blfs/view/11.3/x/x7lib.html
@@ -140,5 +156,13 @@ C.  Generate BLFS - Graphical Components / Environments
         read & execute: https://www.linuxfromscratch.org/blfs/view/11.3/x/xorg-config.html
 
         and the rest...
+
+        ###
+        #   startx as user
+        ###
+
+        /etc/X11/Xwrapper.config
+            allowed_users=anybody
+            needs_root_rights=yes
 
         ###

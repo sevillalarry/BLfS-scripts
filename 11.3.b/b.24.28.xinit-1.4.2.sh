@@ -49,6 +49,7 @@ make install > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 
 ldconfig
 
+sed -i '/$serverargs $vtarg/ s/serverargs/: #&/' $XORG_PREFIX/bin/startx
 
 cd ..
 rm -rf $PKG
