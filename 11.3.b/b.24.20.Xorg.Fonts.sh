@@ -12,7 +12,7 @@ export LFSLOG_PROCESS=$LFSLOG/process.log
 cd font
 
 
-bash -e
+#bash -e
 
 I=0
 
@@ -65,9 +65,10 @@ do
 
 done
 
-exit
+#exit
 
 
+cd ..
 unset I strI
 unset package packagedir
 unset LFSLOG_PROCESS

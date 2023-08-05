@@ -75,6 +75,10 @@ B.  Generate BLFS - Support Files
 
         ###
 
+        export LFSLOG=/var/log/blfs
+
+        export MAKEFLAGS="-j8"
+
         echo $LFSLOG          /var/log/blfs
         echo $MAKEFLAGS       -j8
 
