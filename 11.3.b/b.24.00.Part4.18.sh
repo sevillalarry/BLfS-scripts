@@ -15,7 +15,7 @@ date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
 echo "24.18.Xorg.Applications"
 echo "24.18.Xorg.Applications" >> $LFSLOG_PROCESS
 
-time { b.24.18.Xorg.Applications.sh ; }
+time { bash b.24.18.Xorg.Applications.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
