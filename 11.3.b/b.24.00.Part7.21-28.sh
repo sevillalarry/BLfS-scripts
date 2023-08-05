@@ -55,10 +55,10 @@ echo "."
 
 ###
 
-echo "24.23.Xorg-Server-21.1.7"
-echo "24.23.Xorg-Server-21.1.7" >> $LFSLOG_PROCESS
+echo "24.23.Xorg-Server-21.1.8"
+echo "24.23.Xorg-Server-21.1.8" >> $LFSLOG_PROCESS
 
-time { bash b.24.23.Xorg-Server-21.1.7.sh ; }
+time { bash b.24.23.Xorg-Server-21.1.8.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS

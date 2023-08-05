@@ -1,11 +1,11 @@
-# b.09.67.libxml2-2.10.3.sh
+# b.09.67.libxml2-2.10.4.sh
 #
 # Optionally needed by:
 #
 #   24.06 xcb-proto-1.15.2
 #
 
-export PKG="libxml2-2.10.3"
+export PKG="libxml2-2.10.4"
 export PKGLOG_DIR=$LFSLOG/09.67
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
@@ -33,7 +33,7 @@ echo "2. Configure ..." >> $PKGLOG_ERROR
             --disable-static        \
             --with-history          \
             PYTHON=/usr/bin/python3 \
-            --docdir=/usr/share/doc/libxml2-2.10.3 \
+            --docdir=/usr/share/doc/libxml2-2.10.4 \
           > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
 echo "3. Make Build ..."

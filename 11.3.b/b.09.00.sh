@@ -24,10 +24,10 @@ date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
 
 ###
 
-echo "09.67.libxml2-2.10.3"
-echo "09.67.libxml2-2.10.3" >> $LFSLOG_PROCESS
+echo "09.67.libxml2-2.10.4"
+echo "09.67.libxml2-2.10.4" >> $LFSLOG_PROCESS
 
-time { bash b.09.67.libxml2-2.10.3.sh ; }
+time { bash b.09.67.libxml2-2.10.4.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
