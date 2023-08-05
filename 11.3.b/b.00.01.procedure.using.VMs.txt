@@ -129,15 +129,15 @@ C.  Generate BLFS - Graphical Components / Environments
         export XORG_CONFIG="--prefix=$XORG_PREFIX --sysconfdir=/etc \
                             --localstatedir=/var --disable-static"
 
-        as_root()
-        {
-            if   [ $EUID = 0 ];        then $*
-            elif [ -x /usr/bin/sudo ]; then sudo $*
-            else                            su -c \\"$*\\"
-            fi
-        }
+        #as_root()
+        #{
+        #    if   [ $EUID = 0 ];        then $*
+        #    elif [ -x /usr/bin/sudo ]; then sudo $*
+        #    else                            su -c \\"$*\\"
+        #    fi
+        #}
 
-        export -f as_root
+        #export -f as_root
 
         bash b.24.00.Part1.sh
 

@@ -1,8 +1,8 @@
-# b.24.00.Part3.sh
+# b.24.00.Part2.08.sh
 #
 # Graphical Environments
 #
-#   24.19 only
+#   24.08   Xorg Libraries
 #
 
 export LFSLOG_PROCESS=$LFSLOG/process.log
@@ -12,10 +12,10 @@ date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
 
 #####
 
-echo "24.19.xcursor-themes-1.0.6"
-echo "24.19.xcursor-themes-1.0.6" >> $LFSLOG_PROCESS
+echo "24.08.Xorg.Libraries"
+echo "24.08.Xorg.Libraries" >> $LFSLOG_PROCESS
 
-time { bash b.24.19.xcursor-themes-1.0.6.sh ; }
+time { bash b.24.08.Xorg.Libraries.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS

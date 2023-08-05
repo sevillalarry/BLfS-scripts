@@ -1,4 +1,4 @@
-# b.24.00.Part1.sh
+# b.24.00.Part1.02-07.sh
 #
 # Graphical Environments
 #
