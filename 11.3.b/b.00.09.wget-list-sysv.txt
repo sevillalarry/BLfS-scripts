@@ -1,6 +1,10 @@
+# 09.13 GLib-2.74.5
+https://download.gnome.org/sources/glib/2.74/glib-2.74.5.tar.xz
+https://www.linuxfromscratch.org/patches/blfs/11.3/glib-2.74.5-skip_warnings-1.patch
+# 09.16 gobject-introspection-1.74.0
+https://download.gnome.org/sources/gobject-introspection/1.74/gobject-introspection-1.74.0.tar.xz
 ### 09.19 ICU 
 ###https://github.com/unicode-org/icu/releases/download/release-72-1/icu4c-72_1-src.tgz
-
 # 09.67 libxml2 - required to run test by 24.06 xcb-proto-1.15.2
 # https://download.gnome.org/sources/libxml2/2.10/libxml2-2.10.3.tar.xz
 https://download.gnome.org/sources/libxml2/2.10/libxml2-2.10.4.tar.xz
@@ -23,6 +27,12 @@ https://downloads.sourceforge.net/libpng/libpng-1.6.39.tar.xz
 https://downloads.sourceforge.net/sourceforge/libpng-apng/libpng-1.6.39-apng.patch.gz
 # 10.30 Pixman-0.42.2
 https://www.cairographics.org/releases/pixman-0.42.2.tar.gz
+
+# 11.04 desktop-file-utils-0.26
+https://www.freedesktop.org/software/desktop-file-utils/releases/desktop-file-utils-0.26.tar.xz
+# 11.17 shared-mime-info-2.2
+https://gitlab.freedesktop.org/xdg/shared-mime-info/-/archive/2.2/shared-mime-info-2.2.tar.gz
+https://anduin.linuxfromscratch.org/BLFS/xdgmime/xdgmime.tar.xz
 
 ### 12.10 dbus-1.14.6 - required by elogind-246.10
 ###https://dbus.freedesktop.org/releases/dbus/dbus-1.14.6.tar.xz
@@ -81,7 +91,14 @@ https://invisible-mirror.net/archives/xterm/xterm-379.tgz
 https://www.x.org/pub/individual/app/xclock-1.1.1.tar.xz
 https://www.x.org/pub/individual/app/xinit-1.4.2.tar.xz
 
+# 25.21 GTK+-3.24.36
+https://download.gnome.org/sources/gtk+/3.24/gtk+-3.24.36.tar.xz
 # 25.37 Libdrm-2.4.115
 https://dri.freedesktop.org/libdrm/libdrm-2.4.115.tar.xz
 # 25.38 libepoxy-1.5.10
 https://download.gnome.org/sources/libepoxy/1.5/libepoxy-1.5.10.tar.xz
+
+# 35.?? Xfce Desktop
+https://archive.xfce.org/src/xfce/libxfce4util/4.18/libxfce4util-4.18.1.tar.bz2
+https://archive.xfce.org/src/xfce/xfconf/4.18/xfconf-4.18.0.tar.bz2
+https://archive.xfce.org/src/xfce/libxfce4ui/4.18/libxfce4ui-4.18.2.tar.bz2
