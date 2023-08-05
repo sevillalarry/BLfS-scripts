@@ -87,35 +87,11 @@ B.  Generate BLFS - Support Files
 
         ###
 
-  B.03. [BLFS 9] General Libraries
+  B.03. Support Applications
 
         ###
 
-        bash b.09.00.sh
-
-        ###
-
-  B.04. [BLFS 10] Graphics and Font Libraries
-
-        ###
-
-        bash b.10.00.sh
-
-        ###
-
-  B.05. [BLFS 13] Programming
-
-        ### Python modules
-
-        bash b.13.00.sh
-
-        ###
-
-  B.06. [BLFS 17] Networking Libraries
-
-        ###
-
-        bash b.17.00.sh
+        bash b.03.90.all.support.apps.sh
 
         ###
 
@@ -130,26 +106,8 @@ C.  Generate BLFS - Graphical Components / Environments
         export XORG_CONFIG="--prefix=$XORG_PREFIX --sysconfdir=/etc \
                             --localstatedir=/var --disable-static"
 
-        #as_root()
-        #{
-        #    if   [ $EUID = 0 ];        then $*
-        #    elif [ -x /usr/bin/sudo ]; then sudo $*
-        #    else                            su -c \\"$*\\"
-        #    fi
-        #}
-
-        #export -f as_root
-
         bash b.24.00.all.sh
 
-        #bash b.24.00.Part1.02-07.sh
-        #bash b.24.00.Part2.08.sh
-        #bash b.24.00.Part3.09-17.sh
-        #bash b.24.00.Part4.18.sh
-        #bash b.24.00.Part5.19.sh
-        #bash b.24.00.Part6.20.sh
-        #bash b.24.00.Part7.21-28.sh
-        
         based on: https://www.linuxfromscratch.org/blfs/view/11.3/x/xorg-config.html
 
         reboot
