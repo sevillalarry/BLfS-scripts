@@ -1,4 +1,4 @@
-# b.09.13.GLib-2.74.5.Part2.sh
+# b.09.13.GLib-2.74.5.test.sh
 #
 # Required by:
 #
@@ -10,6 +10,8 @@
 #   11.17 shared-mime-info-2.2
 #
 # This is the test portion
+# Note: change "user" if necessary
+#
 
 export PKG="glib-2.74.5"
 export PKGLOG_DIR=$LFSLOG/09.13

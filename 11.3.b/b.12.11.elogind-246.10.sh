@@ -3,11 +3,11 @@
 # Recommended by:
 #
 #   24.08 Xorg.Libraries
-#
 #  
 # Dependencies Required:
 #
-#   12.10 dbus-1.14.6
+#   12.10 dbus-1.14.8       - errata
+#   04.12 Linux-PAM-1.5.2
 #
 #
 # Kernel Configuration
@@ -64,12 +64,13 @@ cd    build
 echo "2. Meson ..."
 echo "2. Meson ..." >> $LFSLOG_PROCESS
 echo "2. Meson ..." >> $PKGLOG_ERROR
-meson --prefix=/usr                        \
-      --buildtype=release                  \
-      -Dcgroup-controller=elogind          \
-      -Ddbuspolicydir=/etc/dbus-1/system.d \
-      -Dman=auto                           \
-          > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
+meson   --prefix=/usr                           \
+        --buildtype=release                     \
+        -Dcgroup-controller=elogind             \
+        -Ddbuspolicydir=/etc/dbus-1/system.d    \
+        -Dman=auto                              \
+        ..                                      \
+        > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
 echo "3. Ninja Build ..."
 echo "3. Ninja Build ..." >> $LFSLOG_PROCESS

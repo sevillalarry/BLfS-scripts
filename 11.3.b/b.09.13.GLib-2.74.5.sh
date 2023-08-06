@@ -1,4 +1,4 @@
-# b.09.13.GLib-2.74.5.Part1.sh
+# b.09.13.GLib-2.74.5.sh
 #
 # Required by:
 #

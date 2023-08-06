@@ -1,3 +1,9 @@
+# 04.12 Linux-PAM-1.5.2
+https://github.com/linux-pam/linux-pam/releases/download/v1.5.2/Linux-PAM-1.5.2.tar.xz
+https://github.com/linux-pam/linux-pam/releases/download/v1.5.2/Linux-PAM-1.5.2-docs.tar.xz
+# 04.22 Shadow-4.13
+https://github.com/shadow-maint/shadow/releases/download/4.13/shadow-4.13.tar.xz
+
 # 09.13 GLib-2.74.5
 https://download.gnome.org/sources/glib/2.74/glib-2.74.5.tar.xz
 https://www.linuxfromscratch.org/patches/blfs/11.3/glib-2.74.5-skip_warnings-1.patch
@@ -36,12 +42,12 @@ https://www.freedesktop.org/software/desktop-file-utils/releases/desktop-file-ut
 https://gitlab.freedesktop.org/xdg/shared-mime-info/-/archive/2.2/shared-mime-info-2.2.tar.gz
 https://anduin.linuxfromscratch.org/BLFS/xdgmime/xdgmime.tar.xz
 
-### 12.10 dbus-1.14.6 - required by elogind-246.10
-###https://dbus.freedesktop.org/releases/dbus/dbus-1.14.6.tar.xz
-### 12.11 elogind-246.10 - recommended by 24.08 Xorg Libraries
-###https://github.com/elogind/elogind/archive/v246.10/elogind-246.10.tar.gz
-### 12.36 Which-2.21 - recommended by 10.04 FreeType
-###https://ftp.gnu.org/gnu/which/which-2.21.tar.gz
+# 12.10 dbus-1.14.8 - errata - required by elogind-246.10
+https://dbus.freedesktop.org/releases/dbus/dbus-1.14.8.tar.xz
+# 12.11 elogind-246.10 - recommended by 24.08 Xorg Libraries
+https://github.com/elogind/elogind/archive/v246.10/elogind-246.10.tar.gz
+# 12.36 Which-2.21 - recommended by 10.04 FreeType
+https://ftp.gnu.org/gnu/which/which-2.21.tar.gz
 
 ### 13.04 CMake  - required by Graphite2
 ###https://cmake.org/files/v3.25/cmake-3.25.2.tar.gz

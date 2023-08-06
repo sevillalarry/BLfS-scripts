@@ -10,10 +10,10 @@ date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
 
 #####
 
-echo "09.13.GLib-2.74.5.Part1"
-echo "09.13.GLib-2.74.5.Part1" >> $LFSLOG_PROCESS
+echo "09.13.GLib-2.74.5"
+echo "09.13.GLib-2.74.5" >> $LFSLOG_PROCESS
 
-time { bash b.09.13.GLib-2.74.5.Part1.sh ; }
+time { bash b.09.13.GLib-2.74.5.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
@@ -80,10 +80,10 @@ echo "."
 
 ###
 
-echo "09.13.GLib-2.74.5.Part2"
-echo "09.13.GLib-2.74.5.Part2" >> $LFSLOG_PROCESS
+echo "09.13.GLib-2.74.5.test"
+echo "09.13.GLib-2.74.5.test" >> $LFSLOG_PROCESS
 
-time { bash b.09.13.GLib-2.74.5.Part2.sh ; }
+time { bash b.09.13.GLib-2.74.5.test.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS

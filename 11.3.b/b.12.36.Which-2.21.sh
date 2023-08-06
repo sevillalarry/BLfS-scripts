@@ -5,7 +5,6 @@
 #   10.04 FreeType-2.13.0
 #
 
-
 export PKG="which-2.21"
 export PKGLOG_DIR=$LFSLOG/12.36
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
