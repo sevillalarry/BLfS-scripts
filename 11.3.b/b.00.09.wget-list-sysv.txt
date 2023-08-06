@@ -18,6 +18,8 @@ https://downloads.sourceforge.net/freetype/freetype-2.13.0.tar.xz
 https://downloads.sourceforge.net/freetype/freetype-doc-2.13.0.tar.xz
 # 10.05 Fontconfig-2.14.2 - required by 24.08 Xorg Libraries
 https://www.freedesktop.org/software/fontconfig/release/fontconfig-2.14.2.tar.xz
+# 10.06 FriBidi-1.0.12
+https://github.com/fribidi/fribidi/releases/download/v1.0.12/fribidi-1.0.12.tar.xz
 ### 10.10 Graphite2
 ###https://github.com/silnrsi/graphite/releases/download/1.3.14/graphite2-1.3.14.tgz
 ### 10.11 HarfBuzz - recommended by 10.04 FreeType
@@ -91,12 +93,18 @@ https://invisible-mirror.net/archives/xterm/xterm-379.tgz
 https://www.x.org/pub/individual/app/xclock-1.1.1.tar.xz
 https://www.x.org/pub/individual/app/xinit-1.4.2.tar.xz
 
+# 25.03 at-spi2-core-2.46.0
+https://download.gnome.org/sources/at-spi2-core/2.46/at-spi2-core-2.46.0.tar.xz
+# 25.13 gdk-pixbuf-2.42.10
+https://download.gnome.org/sources/gdk-pixbuf/2.42/gdk-pixbuf-2.42.10.tar.xz
 # 25.21 GTK+-3.24.36
 https://download.gnome.org/sources/gtk+/3.24/gtk+-3.24.36.tar.xz
 # 25.37 Libdrm-2.4.115
 https://dri.freedesktop.org/libdrm/libdrm-2.4.115.tar.xz
 # 25.38 libepoxy-1.5.10
 https://download.gnome.org/sources/libepoxy/1.5/libepoxy-1.5.10.tar.xz
+# 25.42 Pango-1.50.12
+https://download.gnome.org/sources/pango/1.50/pango-1.50.12.tar.xz
 
 # 35.?? Xfce Desktop
 https://archive.xfce.org/src/xfce/libxfce4util/4.18/libxfce4util-4.18.1.tar.bz2
