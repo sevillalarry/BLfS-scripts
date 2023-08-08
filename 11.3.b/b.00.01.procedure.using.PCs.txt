@@ -37,7 +37,7 @@ A. Preparation
 
         ###
 
-        ln -sfv /mnt/src/blfs.log /var/log/blfs
+        mkdir -pv /var/log/blfs
         export LFSLOG=/var/log/blfs
 
         export MAKEFLAGS="-j8"
@@ -84,6 +84,8 @@ C.  Generate BLFS - Graphical Components / Environments
                             --localstatedir=/var --disable-static"
 
         bash b.24.00.all.sh
+
+        https://www.linuxfromscratch.org/blfs/view/11.3/x/TTF-and-OTF-fonts.html#dejavu-fonts
 
         reboot
 
