@@ -183,6 +183,20 @@ echo "." >> $LFSLOG_PROCESS
 echo "."
 echo "."
 
+###
+
+echo "24.31.04.dejavu-fonts-ttf-2.37"
+echo "24.31.04.dejavu-fonts-ttf-2.37" >> $LFSLOG_PROCESS
+
+time { bash b.24.31.04.dejavu-fonts-ttf-2.37.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
 #####
 
 unset LFSLOG_PROCESS
