@@ -111,6 +111,24 @@ echo "."
 
 ###
 
+###
+#   Note: the Intel Driver is NOT needed if installing on a Virtual Machine
+###
+
+echo "24.24.2.4.Xorg.Intel.Driver-20230223"
+echo "24.24.2.4.Xorg.Intel.Driver-20230223" >> $LFSLOG_PROCESS
+
+time { bash b.24.24.2.4.Xorg.Intel.Driver-20230223.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
+###
+
 echo "24.25.twm-1.0.12"
 echo "24.25.twm-1.0.12" >> $LFSLOG_PROCESS
 

@@ -4,7 +4,7 @@
 #
 #    24.24.1.1 libevdev 1.13.0
 #    09.73     mtdev-1.1.6
-#    24.23     Xorg-Server-21.1.7
+#    24.23     Xorg-Server-21.1.8
 #
 
 export PKG="xf86-input-evdev-2.10.6"

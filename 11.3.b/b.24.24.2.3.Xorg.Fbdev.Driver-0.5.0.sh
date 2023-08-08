@@ -2,7 +2,7 @@
 #
 # Dependencies Required:
 #
-#    24.23 Xorg-Server-21.1.7
+#    24.23 Xorg-Server-21.1.8
 #
 
 export PKG="xf86-video-fbdev-0.5.0"

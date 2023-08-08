@@ -56,8 +56,9 @@ https://www.x.org/pub/individual/xserver/xorg-server-21.1.8.tar.xz
 # 24.24.1.1 & .2
 https://www.freedesktop.org/software/libevdev/libevdev-1.13.0.tar.xz
 https://www.x.org/pub/individual/driver/xf86-input-evdev-2.10.6.tar.bz2
-# 24.24.2.3
+# 24.24.2.3 & .4
 https://www.x.org/pub/individual/driver/xf86-video-fbdev-0.5.0.tar.bz2
+https://anduin.linuxfromscratch.org/BLFS/xf86-video-intel/xf86-video-intel-20230223.tar.xz
 # 24.25 ---> .28
 https://www.x.org/pub/individual/app/twm-1.0.12.tar.xz
 https://invisible-mirror.net/archives/xterm/xterm-379.tgz
