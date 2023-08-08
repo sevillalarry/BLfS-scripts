@@ -85,6 +85,8 @@ C.  Generate BLFS - Graphical Components / Environments
 
         bash b.24.00.all.sh
 
+        https://www.linuxfromscratch.org/blfs/view/11.3/x/TTF-and-OTF-fonts.html#dejavu-fonts
+        
         reboot
 
         startx
