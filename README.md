@@ -12,3 +12,8 @@
 #
 # Continuation of LfS-Scripts
 #
+# Group a - LfS
+# Group b - XOrg only
+# Group c - Xfce
+#
+
