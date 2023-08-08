@@ -6,11 +6,11 @@ A. Preparation
 
         rm /sources
 
-        mkdir -v /mnt/src/blfs.{src,log}
+        mkdir -v /usr/src/blfs
 
-        chmod -v a+wt /mnt/src/blfs.{src,log}
+        chmod -v a+wt /usr/src/blfs
 
-        ln -sf /mnt/src/blfs.src /sources
+        ln -sf /usr/src/blfs /sources
 
         cd /sources
 
@@ -26,7 +26,7 @@ A. Preparation
 
         execute the download portions:
 
-        https://www.linuxfromscratch.org/blfs/view/11.3/x/x7lib.html
+        https://www.linuxfromscratch.org/blfs/view/11.3/x/x7lib.html   note: errata
         https://www.linuxfromscratch.org/blfs/view/11.3/x/x7app.html
         https://www.linuxfromscratch.org/blfs/view/11.3/x/x7font.html
 
