@@ -1,8 +1,12 @@
-# b.09.16.gobject-introspection-1.74.0.sh
+# c.09.16.gobject-introspection-1.74.0.sh
 #
 # Required by:
 #
 #   35.01 libxfce4util-4.18.1
+#
+# Runtime needed by:
+#
+#   09.13 GLib-2.74.5 test
 #
 # Dependencies Required:
 #

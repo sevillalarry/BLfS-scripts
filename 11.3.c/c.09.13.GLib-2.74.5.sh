@@ -1,4 +1,4 @@
-# b.09.13.GLib-2.74.5.sh
+# c.09.13.GLib-2.74.5.sh
 #
 # Required by:
 #
@@ -6,6 +6,7 @@
 #
 # Dependencies Runtime:
 #
+#   09.16 gobject-introspection-1.74.0
 #   11.04 desktop-file-utils-0.26
 #   11.17 shared-mime-info-2.2
 #

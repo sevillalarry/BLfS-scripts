@@ -1,4 +1,4 @@
-# b.35.02.Xfconf-4.18.0.sh
+# c.35.02.Xfconf-4.18.0.sh
 #
 # Dependencies Required:
 #

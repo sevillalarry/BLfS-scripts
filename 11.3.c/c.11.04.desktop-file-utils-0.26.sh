@@ -1,4 +1,4 @@
-# b.11.04.desktop-file-utils-0.26.sh
+# c.11.04.desktop-file-utils-0.26.sh
 #
 # Dependencies Required:
 #

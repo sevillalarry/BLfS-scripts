@@ -1,4 +1,4 @@
-# b.11.17.shared-mime-info-2.2.sh
+# c.11.17.shared-mime-info-2.2.sh
 #
 # Dependencies Required:
 #

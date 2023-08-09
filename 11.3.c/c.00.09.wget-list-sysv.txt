@@ -14,27 +14,13 @@ https://download.gnome.org/sources/gobject-introspection/1.74/gobject-introspect
 # 09.67 libxml2 - required to run test by 24.06 xcb-proto-1.15.2
 # https://download.gnome.org/sources/libxml2/2.10/libxml2-2.10.3.tar.xz
 https://download.gnome.org/sources/libxml2/2.10/libxml2-2.10.4.tar.xz
-# 09.67 libxml2 - Optional Test Suite
-https://www.w3.org/XML/Test/xmlts20130923.tar.gz
-# 09.73 mtdev-1.1.6 - required by mtdev-1.1.6
-https://bitmath.org/code/mtdev/mtdev-1.1.6.tar.bz2
 
-# 10.04 FreeType-2.13.0 - required by 10.05 Fontconfig
-https://downloads.sourceforge.net/freetype/freetype-2.13.0.tar.xz
-https://downloads.sourceforge.net/freetype/freetype-doc-2.13.0.tar.xz
-# 10.05 Fontconfig-2.14.2 - required by 24.08 Xorg Libraries
-https://www.freedesktop.org/software/fontconfig/release/fontconfig-2.14.2.tar.xz
 # 10.06 FriBidi-1.0.12
 https://github.com/fribidi/fribidi/releases/download/v1.0.12/fribidi-1.0.12.tar.xz
 ### 10.10 Graphite2
 ###https://github.com/silnrsi/graphite/releases/download/1.3.14/graphite2-1.3.14.tgz
 # 10.11 HarfBuzz - recommended by 10.04 FreeType
 https://github.com/harfbuzz/harfbuzz/releases/download/7.0.0/harfbuzz-7.0.0.tar.xz
-# 10.20 libpng-1.6.39 - recommended by 10.04 FreeType
-https://downloads.sourceforge.net/libpng/libpng-1.6.39.tar.xz
-https://downloads.sourceforge.net/sourceforge/libpng-apng/libpng-1.6.39-apng.patch.gz
-# 10.30 Pixman-0.42.2
-https://www.cairographics.org/releases/pixman-0.42.2.tar.gz
 
 # 11.04 desktop-file-utils-0.26
 https://www.freedesktop.org/software/desktop-file-utils/releases/desktop-file-utils-0.26.tar.xz
@@ -52,52 +38,6 @@ https://ftp.gnu.org/gnu/which/which-2.21.tar.gz
 ### 13.04 CMake  - required by Graphite2
 ###https://cmake.org/files/v3.25/cmake-3.25.2.tar.gz
 # 13.24    Python Modules
-# 13.24.14 Mako-1.2.4
-https://files.pythonhosted.org/packages/source/M/Mako/Mako-1.2.4.tar.gz
-# 13.24.15 MarkupSafe-2.1.2
-https://files.pythonhosted.org/packages/source/M/MarkupSafe/MarkupSafe-2.1.2.tar.gz
-
-# 17.18 libtirpc-1.3.3
-https://downloads.sourceforge.net/libtirpc/libtirpc-1.3.3.tar.bz2
-
-# 24.02 ---> .07
-https://www.x.org/pub/individual/util/util-macros-1.20.0.tar.xz
-https://xorg.freedesktop.org/archive/individual/proto/xorgproto-2022.2.tar.xz
-https://www.x.org/pub/individual/lib/libXau-1.0.11.tar.xz
-https://www.x.org/pub/individual/lib/libXdmcp-1.1.4.tar.xz
-https://xorg.freedesktop.org/archive/individual/proto/xcb-proto-1.15.2.tar.xz
-https://xorg.freedesktop.org/archive/individual/lib/libxcb-1.15.tar.xz
-# 24.08 *****
-# 24.09 ---> .16
-https://www.x.org/pub/individual/lib/libxcvt-0.1.2.tar.xz
-https://xcb.freedesktop.org/dist/xcb-util-0.4.1.tar.xz
-https://xcb.freedesktop.org/dist/xcb-util-image-0.4.1.tar.xz
-https://xcb.freedesktop.org/dist/xcb-util-keysyms-0.4.1.tar.xz
-https://xcb.freedesktop.org/dist/xcb-util-renderutil-0.3.10.tar.xz
-https://xcb.freedesktop.org/dist/xcb-util-wm-0.4.2.tar.xz
-https://xcb.freedesktop.org/dist/xcb-util-cursor-0.1.4.tar.xz
-https://mesa.freedesktop.org/archive/mesa-22.3.5.tar.xz
-# 24.16 additional download
-https://www.linuxfromscratch.org/patches/blfs/11.3/mesa-22.3.5-add_xdemos-1.patch
-# 24.17
-https://www.x.org/pub/individual/data/xbitmaps-1.1.2.tar.bz2
-# 24.19
-https://www.x.org/pub/individual/data/xcursor-themes-1.0.6.tar.bz2
-# 24.21
-https://www.x.org/pub/individual/data/xkeyboard-config/xkeyboard-config-2.38.tar.xz
-# 24.23
-# https://www.x.org/pub/individual/xserver/xorg-server-21.1.7.tar.xz
-https://www.x.org/pub/individual/xserver/xorg-server-21.1.8.tar.xz
-# 24.24.1.1 & .2
-https://www.freedesktop.org/software/libevdev/libevdev-1.13.0.tar.xz
-https://www.x.org/pub/individual/driver/xf86-input-evdev-2.10.6.tar.bz2
-# 24.24.2.3
-https://www.x.org/pub/individual/driver/xf86-video-fbdev-0.5.0.tar.bz2
-# 24.25 ---> .28
-https://www.x.org/pub/individual/app/twm-1.0.12.tar.xz
-https://invisible-mirror.net/archives/xterm/xterm-379.tgz
-https://www.x.org/pub/individual/app/xclock-1.1.1.tar.xz
-https://www.x.org/pub/individual/app/xinit-1.4.2.tar.xz
 
 # 25.03 at-spi2-core-2.46.0
 https://download.gnome.org/sources/at-spi2-core/2.46/at-spi2-core-2.46.0.tar.xz

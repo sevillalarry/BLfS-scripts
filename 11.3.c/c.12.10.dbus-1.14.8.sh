@@ -1,4 +1,4 @@
-# b.12.10.dbus-1.14.8.sh
+# c.12.10.dbus-1.14.8.sh
 #
 # Required by:
 #

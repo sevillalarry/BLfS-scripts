@@ -1,4 +1,4 @@
-# b.35.03.libxfce4ui-4.18.2.sh
+# c.35.03.libxfce4ui-4.18.2.sh
 #
 # Dependencies Required:
 #

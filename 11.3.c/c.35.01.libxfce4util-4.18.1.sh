@@ -1,4 +1,4 @@
-# b.35.01.libxfce4util-4.18.1.sh
+# c.35.01.libxfce4util-4.18.1.sh
 #
 # Required by:
 #
