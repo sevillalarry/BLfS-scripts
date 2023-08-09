@@ -1,10 +1,15 @@
 # c.35.04.Exo-4.18.0.sh
 #
+# Required by:
+#
+#       35.06 xfce4-panel-4.18.2
+#
+#
 # Dependencies Required:
 #
-#   25.21 GTK+-3.24.36
-#   35.03 libxfce4ui-4.18.2
-#   35.01 libxfce4util-4.18.1
+#       25.21 GTK+-3.24.36
+#       35.03 libxfce4ui-4.18.2
+#       35.01 libxfce4util-4.18.1
 #
 
 export PKG="exo-4.18.0"

@@ -1,13 +1,15 @@
-# c.35.05.Garcon-4.18.0.sh
+# c.35.06.xfce4-panel-4.18.2.sh
 #
 # Dependencies Required:
 #
-#   35.03 libxfce4ui-4.18.2
-#   25.21 GTK+-3.24.36
+#   25.04 Cairo-1.17.6
+#   35.04 Exo-4.18.0
+#   35.05 Garcon-4.18.0
+#   33.25 libwnck-43.0
 #
 
-export PKG="garcon-4.18.0"
-export PKGLOG_DIR=$LFSLOG/35.05
+export PKG="xfce4-panel-4.18.2"
+export PKGLOG_DIR=$LFSLOG/35.06
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log

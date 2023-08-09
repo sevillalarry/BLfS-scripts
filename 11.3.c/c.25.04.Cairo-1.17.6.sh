@@ -1,15 +1,20 @@
 # c.35.05.Garcon-4.18.0.sh
 #
+# Required by:
+#
+#       35.06 xfce4-panel-4.18.2
+#
+#
 # Dependencies Required:
 #
-#   10.20 libpng-1.6.39
-#   10.30 Pixman-0.42.2
+#       10.20 libpng-1.6.39
+#       10.30 Pixman-0.42.2
 #
 # Dependencies Recommended:
 #
-#   10.05 Fontconfig-2.14.2
-#   09.13 GLib-2.74.5
-#   24.08 Xorg Libraries
+#       10.05 Fontconfig-2.14.2
+#       09.13 GLib-2.74.5
+#       24.08 Xorg Libraries
 #
 
 export PKG="cairo-1.17.6"

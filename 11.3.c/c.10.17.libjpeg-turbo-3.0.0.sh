@@ -1,4 +1,8 @@
-# b.10.17.libjpeg-turbo-3.0.0.sh
+# c.10.17.libjpeg-turbo-3.0.0.sh
+#
+# Required by:
+#
+#   25.13 gdk-pixbuf-2.42.10
 #
 
 export PKG="libjpeg-turbo-3.0.0"

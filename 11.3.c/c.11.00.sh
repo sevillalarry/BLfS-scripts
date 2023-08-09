@@ -1,4 +1,4 @@
-# b.11.00.sh
+# c.11.00.sh
 #
 
 export LFSLOG_PROCESS=$LFSLOG/process.log

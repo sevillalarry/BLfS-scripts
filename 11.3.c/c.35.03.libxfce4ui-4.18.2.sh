@@ -3,6 +3,7 @@
 # Required by:
 #
 #   35.04 Exo-4.18.0
+#   35.05 Garcon-4.18.0#
 #
 #
 # Dependencies Required:

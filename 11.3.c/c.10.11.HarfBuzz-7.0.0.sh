@@ -1,8 +1,9 @@
-# b.10.11.HarfBuzz-7.0.0.sh
+# c.10.11.HarfBuzz-7.0.0.sh
 #
 # Recommended by:
 #
 #   10.04 FreeType-2.13.0
+#
 #
 # Dependencies Recommended:
 #   10.10 Graphite2-1.3.14

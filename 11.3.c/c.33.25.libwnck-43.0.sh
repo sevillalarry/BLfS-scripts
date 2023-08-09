@@ -1,12 +1,13 @@
 # c.33.03.gsettings-desktop-schemas-43.0.sh
 #
-# Dependencies Required:
-#
-#   25.21 GTK+-3.24.36
-#
 # Required by:
 #
-#   35.06 xfce-panel-4.18.2
+#       35.06 xfce4-panel-4.18.2
+#
+#
+# Dependencies Required:
+#
+#       25.21 GTK+-3.24.36
 #
 
 export PKG="libwnck-43.0"

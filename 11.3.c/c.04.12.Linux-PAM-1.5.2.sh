@@ -1,4 +1,4 @@
-# b.04.12.Linux-PAM-1.5.2.sh
+# c.04.12.Linux-PAM-1.5.2.sh
 #
 # Required by:
 #

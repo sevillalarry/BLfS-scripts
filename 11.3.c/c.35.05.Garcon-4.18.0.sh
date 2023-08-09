@@ -1,9 +1,14 @@
 # c.35.05.Garcon-4.18.0.sh
 #
+# Required by:
+#
+#       35.06 xfce4-panel-4.18.2
+#
+#
 # Dependencies Required:
 #
-#   35.03 libxfce4ui-4.18.2
-#   25.21 GTK+-3.24.36
+#       35.03 libxfce4ui-4.18.2
+#       25.21 GTK+-3.24.36
 #
 
 export PKG="garcon-4.18.0"

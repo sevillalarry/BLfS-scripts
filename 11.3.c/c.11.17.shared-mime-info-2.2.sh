@@ -1,13 +1,14 @@
 # c.11.17.shared-mime-info-2.2.sh
 #
+# Runtime needed by:
+#
+#   09.13 GLib-2.74.5 test
+#
+#
 # Dependencies Required:
 #
 #   09.13 GLib-2.74.5
 #   09.67 libxml2-2.10.3
-#
-# Runtime needed by:
-#
-#   09.13 GLib-2.74.5 test
 #
 
 export PKG="shared-mime-info-2.2"

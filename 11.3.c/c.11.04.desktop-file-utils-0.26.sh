@@ -1,12 +1,13 @@
 # c.11.04.desktop-file-utils-0.26.sh
 #
-# Dependencies Required:
-#
-#   09.13 GLib-2.74.5
-#
 # Runtime needed by:
 #
 #   09.13 GLib-2.74.5 test
+#
+#
+# Dependencies Required:
+#
+#   09.13 GLib-2.74.5
 #
 
 export PKG="desktop-file-utils-0.26"

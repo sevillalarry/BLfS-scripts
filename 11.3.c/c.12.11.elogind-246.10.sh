@@ -3,7 +3,8 @@
 # Recommended by:
 #
 #   24.08 Xorg.Libraries
-#  
+#
+#
 # Dependencies Required:
 #
 #   12.10 dbus-1.14.8       - errata

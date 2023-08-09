@@ -1,4 +1,4 @@
-# b.09.16.gobject-introspection-1.74.0.sh
+# c.10.06.FriBidi-1.0.12.sh
 #
 # Required by:
 #
