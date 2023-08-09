@@ -3,6 +3,7 @@
 # Required by:
 #
 #   35.02 Xfconf-4.18.0
+#   35.04 Exo-4.18.0
 #
 #
 # Dependencies Required:

@@ -1,16 +1,13 @@
-# c.35.02.Xfconf-4.18.0.sh
-#
-# Required by:
-#
-#   35.03 libxfce4ui-4.18.2
+# c.35.05.Garcon-4.18.0.sh
 #
 # Dependencies Required:
 #
-#   35.01 libxfce4util-4.18.1
+#   35.03 libxfce4ui-4.18.2
+#   25.21 GTK+-3.24.36
 #
 
-export PKG="xfconf-4.18.0"
-export PKGLOG_DIR=$LFSLOG/35.02
+export PKG="garcon-4.18.0"
+export PKGLOG_DIR=$LFSLOG/35.05
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log
@@ -31,8 +28,9 @@ cd $PKG
 echo "2. Configure ..."
 echo "2. Configure ..." >> $LFSLOG_PROCESS
 echo "2. Configure ..." >> $PKGLOG_ERROR
-./configure --prefix=/usr   \
-    > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
+./configure --prefix=/usr       \
+            --sysconfdir=/etc   \
+            > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
 echo "3. Make Build ..."
 echo "3. Make Build ..." >> $LFSLOG_PROCESS

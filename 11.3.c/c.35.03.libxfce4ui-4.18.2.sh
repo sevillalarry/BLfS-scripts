@@ -1,5 +1,10 @@
 # c.35.03.libxfce4ui-4.18.2.sh
 #
+# Required by:
+#
+#   35.04 Exo-4.18.0
+#
+#
 # Dependencies Required:
 #
 #   25.21 GTK+-3.24.36
