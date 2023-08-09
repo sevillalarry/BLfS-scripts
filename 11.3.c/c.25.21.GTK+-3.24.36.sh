@@ -1,4 +1,4 @@
-# b.25.21.GTK+-3.24.36.sh
+# c.25.21.GTK+-3.24.36.sh
 #
 # Required by:
 #       35.03 libxfce4ui-4.18.2
