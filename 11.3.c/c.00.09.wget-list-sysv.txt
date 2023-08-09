@@ -45,6 +45,8 @@ https://www.tortall.net/projects/yasm/releases/yasm-1.3.0.tar.gz
 
 # 25.03 at-spi2-core-2.46.0
 https://download.gnome.org/sources/at-spi2-core/2.46/at-spi2-core-2.46.0.tar.xz
+# 25.04 Cairo-1.17.6
+https://download.gnome.org/sources/cairo/1.17/cairo-1.17.6.tar.xz
 # 25.13 gdk-pixbuf-2.42.10
 https://download.gnome.org/sources/gdk-pixbuf/2.42/gdk-pixbuf-2.42.10.tar.xz
 # 25.21 GTK+-3.24.36
@@ -55,6 +57,11 @@ https://dri.freedesktop.org/libdrm/libdrm-2.4.115.tar.xz
 https://download.gnome.org/sources/libepoxy/1.5/libepoxy-1.5.10.tar.xz
 # 25.42 Pango-1.50.12
 https://download.gnome.org/sources/pango/1.50/pango-1.50.12.tar.xz
+
+# 33.03 gsettings-desktop-schemas-43.0
+https://download.gnome.org/sources/gsettings-desktop-schemas/43/gsettings-desktop-schemas-43.0.tar.xz
+# 33.25 libwnck-43.0
+https://download.gnome.org/sources/libwnck/43/libwnck-43.0.tar.xz
 
 # 35.?? Xfce Desktop
 https://archive.xfce.org/src/xfce/libxfce4util/4.18/libxfce4util-4.18.1.tar.bz2
