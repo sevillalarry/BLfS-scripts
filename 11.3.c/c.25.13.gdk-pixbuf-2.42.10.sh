@@ -1,4 +1,4 @@
-# b.25.13.gdk-pixbuf-2.42.10.sh
+# c.25.13.gdk-pixbuf-2.42.10.sh
 #
 # Required by:
 #       25.21 GTK+-3.24.36

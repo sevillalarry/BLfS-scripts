@@ -1,4 +1,4 @@
-# b.25.03.at-spi2-core-2.46.0.sh
+# c.25.03.at-spi2-core-2.46.0.sh
 #
 # Required by:
 #       25.21 GTK+-3.24.36
