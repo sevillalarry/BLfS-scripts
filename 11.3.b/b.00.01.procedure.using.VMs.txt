@@ -74,7 +74,7 @@ B.  Generate BLFS - Support Files
 
 C.  Generate BLFS - Graphical Components / Environments
 
-  C.01. [BLFS 24.01] Introduction / Setup Graphical Environment
+  C.01. [BLFS 24] Graphical Environments - Xorg
 
         ###
 

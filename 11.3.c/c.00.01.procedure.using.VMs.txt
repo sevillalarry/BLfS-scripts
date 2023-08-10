@@ -43,35 +43,20 @@ B.  Generate BLFS - Support Files
 
         ###
 
-        bash b.03.90.all.support.apps.sh
+        bash c.03.90.all.support.apps.sh
 
         ###
 
-C.  Generate BLFS - Graphical Components / Environments
+C.  Generate BLFS - Xfce
 
-  C.01. [BLFS 24.01] Introduction / Setup Graphical Environment
+  C.01. [BLFS 35] Xfce Desktop
 
         ###
 
-        export XORG_PREFIX="/usr"
+        bash c.35.00.sh
 
-        export XORG_CONFIG="--prefix=$XORG_PREFIX --sysconfdir=/etc \
-                            --localstatedir=/var --disable-static"
-
-        bash b.24.00.all.sh
-
-        https://www.linuxfromscratch.org/blfs/view/11.3/x/TTF-and-OTF-fonts.html#dejavu-fonts
-        
         reboot
 
         startx
-
-        ###
-        #   Note: for startx as user
-        ###
-
-        /etc/X11/Xwrapper.config
-            allowed_users=anybody
-            needs_root_rights=yes
 
         ###
