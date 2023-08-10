@@ -14,6 +14,7 @@
 #
 # Group a - LfS
 # Group b - XOrg only
-# Group c - Xfce
+# Group c - Xfce only
+# Group d - ???
 #
 
