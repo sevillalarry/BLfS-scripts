@@ -66,6 +66,21 @@ echo "."
 
 ###
 
+# compile ahead. needed by some GLib tests
+echo "12.10.dbus-1.14.8"
+echo "12.10.dbus-1.14.8" >> $LFSLOG_PROCESS
+
+time { bash c.12.10.dbus-1.14.8.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
+###
+
 echo "09.13.GLib-2.74.5.test"
 echo "09.13.GLib-2.74.5.test" >> $LFSLOG_PROCESS
 
