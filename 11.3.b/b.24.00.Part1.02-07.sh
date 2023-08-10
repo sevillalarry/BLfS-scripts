@@ -4,12 +4,6 @@
 #
 #   24.02
 #   to
-#   24.04
-#
-#   24.05   currently NOT included ( was recommended )
-#
-#   24.06
-#   &
 #   24.07
 #
 
