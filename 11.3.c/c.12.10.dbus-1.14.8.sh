@@ -1,4 +1,5 @@
 # c.12.10.dbus-1.14.8.sh
+# errata update
 #
 # Required by:
 #
@@ -9,7 +10,10 @@
 # Dependencies Required:
 #
 #   24.08 Xorg Libraries
-#   12.11 elogind-245.10.sh
+#
+# Dependencies Recommended:
+#
+#   12.11 elogind-245.10.sh  ( initially turned OFF )
 #
 #
 # Note: initially tests are EXcluded due to complications
@@ -38,6 +42,7 @@ cd $PKG
 echo "2. Configure ..."
 echo "2. Configure ..." >> $LFSLOG_PROCESS
 echo "2. Configure ..." >> $PKGLOG_ERROR
+# --enable-user-session ( if using elogind )
 ./configure --prefix=/usr                        \
             --sysconfdir=/etc                    \
             --localstatedir=/var                 \
@@ -66,11 +71,15 @@ chmod      4750       /usr/libexec/dbus-daemon-launch-helper
 
 dbus-uuidgen --ensure
 
-ln -sf /var/lib/dbus/machine-id /etc
+# initially elogind is OFF
+# un-comment if ON
+#ln -sf /var/lib/dbus/machine-id /etc
 
 echo "execute: make install-dbus   from blfs-bootscripts-20230101"
 echo "execute: make install-dbus   from blfs-bootscripts-20230101" >> $LFSLOG_PROCESS
 echo "execute: make install-dbus   from blfs-bootscripts-20230101" >> $PKGLOG_ERROR
+
+echo "read: https://www.linuxfromscratch.org/blfs/view/svn/general/dbus.html for other info"
 
 
 cd ..

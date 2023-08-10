@@ -11,6 +11,8 @@ https://www.linuxfromscratch.org/patches/blfs/11.3/glib-2.74.5-skip_warnings-1.p
 https://download.gnome.org/sources/gobject-introspection/1.74/gobject-introspection-1.74.0.tar.xz
 ### 09.19 ICU 
 ###https://github.com/unicode-org/icu/releases/download/release-72-1/icu4c-72_1-src.tgz
+# 09.40 libgudev-237
+https://download.gnome.org/sources/libgudev/237/libgudev-237.tar.xz
 # 09.67 libxml2 - required to run test by 24.06 xcb-proto-1.15.2
 # https://download.gnome.org/sources/libxml2/2.10/libxml2-2.10.3.tar.xz
 https://download.gnome.org/sources/libxml2/2.10/libxml2-2.10.4.tar.xz
@@ -58,6 +60,11 @@ https://download.gnome.org/sources/libepoxy/1.5/libepoxy-1.5.10.tar.xz
 # 25.42 Pango-1.50.12
 https://download.gnome.org/sources/pango/1.50/pango-1.50.12.tar.xz
 
+# 28.07 hicolor-icon-theme-0.17
+https://icon-theme.freedesktop.org/releases/hicolor-icon-theme-0.17.tar.xz
+# 28.09 lxde-icon-theme-0.5.1
+https://downloads.sourceforge.net/lxde/lxde-icon-theme-0.5.1.tar.xz
+
 # 33.03 gsettings-desktop-schemas-43.0
 https://download.gnome.org/sources/gsettings-desktop-schemas/43/gsettings-desktop-schemas-43.0.tar.xz
 # 33.25 libwnck-43.0
@@ -71,3 +78,11 @@ https://archive.xfce.org/src/xfce/exo/4.18/exo-4.18.0.tar.bz2
 https://archive.xfce.org/src/xfce/garcon/4.18/garcon-4.18.0.tar.bz2
 https://archive.xfce.org/src/xfce/xfce4-panel/4.18/xfce4-panel-4.18.2.tar.bz2
 https://archive.xfce.org/src/xfce/thunar/4.18/thunar-4.18.4.tar.bz2
+https://archive.xfce.org/src/xfce/thunar-volman/4.18/thunar-volman-4.18.0.tar.bz2
+https://archive.xfce.org/src/xfce/tumbler/4.18/tumbler-4.18.0.tar.bz2
+https://archive.xfce.org/src/xfce/xfce4-appfinder/4.18/xfce4-appfinder-4.18.0.tar.bz2
+# 35.11 xfce4-power-management initially eXcluded
+https://archive.xfce.org/src/xfce/xfce4-settings/4.18/xfce4-settings-4.18.2.tar.bz2
+https://archive.xfce.org/src/xfce/xfdesktop/4.18/xfdesktop-4.18.1.tar.bz2
+https://archive.xfce.org/src/xfce/xfwm4/4.18/xfwm4-4.18.0.tar.bz2
+https://archive.xfce.org/src/xfce/xfce4-session/4.18/xfce4-session-4.18.1.tar.bz2
