@@ -12,6 +12,9 @@ date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
 #####
 
 echo "NOTHING TO DO"
+# compiled in b.24.00.all.sh
+
+###
 
 # before 24.16 Mesa-22.3.5
 #

@@ -1,4 +1,4 @@
-# b.10.00.sh
+# c.10.00.sh
 #
 # Graphics and Font Libraries
 #
@@ -10,10 +10,38 @@ date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
 
 #####
 
-echo "10.04.FreeType-2.13.0"
-echo "10.04.FreeType-2.13.0" >> $LFSLOG_PROCESS
+echo "10.06.FriBidi-1.0.12"
+echo "10.06.FriBidi-1.0.12" >> $LFSLOG_PROCESS
 
-export PKGPASS=1
+time { bash c.10.06.FriBidi-1.0.12.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
+###
+
+echo "10.11.HarfBuzz-7.0.0"
+echo "10.11.HarfBuzz-7.0.0" >> $LFSLOG_PROCESS
+
+time { bash c.10.11.HarfBuzz-7.0.0.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
+###
+
+echo "10.04.FreeType-2.13.0 - after HarfBuzz"
+echo "10.04.FreeType-2.13.0 - after HarfBuzz" >> $LFSLOG_PROCESS
+
+export PKGPASS=2
 time { bash b.10.04.FreeType-2.13.0.sh ; }
 unset PKGPASS
 
@@ -26,38 +54,10 @@ echo "."
 
 ###
 
-echo "10.05.Fontconfig-2.14.2"
-echo "10.05.Fontconfig-2.14.2" >> $LFSLOG_PROCESS
+echo "10.17.libjpeg-turbo-3.0.0"
+echo "10.17.libjpeg-turbo-3.0.0" >> $LFSLOG_PROCESS
 
-time { bash b.10.05.Fontconfig-2.14.2.sh ; }
-
-date +"%Y/%b/%d %H:%M"
-date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
-
-echo "." >> $LFSLOG_PROCESS
-echo "."
-echo "."
-
-###
-
-echo "10.20.libpng-1.6.39"
-echo "10.20.libpng-1.6.39" >> $LFSLOG_PROCESS
-
-time { bash b.10.20.libpng-1.6.39.sh ; }
-
-date +"%Y/%b/%d %H:%M"
-date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
-
-echo "." >> $LFSLOG_PROCESS
-echo "."
-echo "."
-
-###
-
-echo "10.30.Pixman-0.42.2"
-echo "10.30.Pixman-0.42.2" >> $LFSLOG_PROCESS
-
-time { bash b.10.30.Pixman-0.42.2.sh ; }
+time { bash c.10.17.libjpeg-turbo-3.0.0.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
