@@ -28,7 +28,8 @@ cd build
 echo "5. Ninja Test ..."
 echo "5. Ninja Test ..." >> $LFSLOG_PROCESS
 echo "5. Ninja Test ..." >> $PKGLOG_ERROR
-su user -c "LC_ALL=C ninja test"    \
+#su user -c "LC_ALL=C ninja test"    \ permission ERROR
+LC_ALL=C ninja test \
     > $PKGLOG_CHECK 2>> $PKGLOG_ERROR
 
 
