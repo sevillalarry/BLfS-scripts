@@ -1,19 +1,12 @@
-# c.35.01.libxfce4util-4.18.1.sh
+# c.12.33.UnZip-6.0.sh
 #
 # Required by:
 #
-#   35.02 Xfconf-4.18.0
-#   35.04 Exo-4.18.0
-#
-#
-# Dependencies Required:
-#
-#   09.13 GLib-2.74.5
-#   09.16 gobject-introspection-1.74.0
+#   49.01 docbook-xml-4.5
 #
 
-export PKG="libxfce4util-4.18.1"
-export PKGLOG_DIR=$LFSLOG/35.01
+export PKG="unzip60"
+export PKGLOG_DIR=$LFSLOG/12.33
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 #export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log
@@ -42,9 +35,10 @@ make -f unix/Makefile generic   \
 echo "4. Make Install ..."
 echo "4. Make Install ..." >> $LFSLOG_PROCESS
 echo "4. Make Install ..." >> $PKGLOG_ERROR
-make    prefix=/usr                 \
-        MANDIR=/usr/share/man/man1  \
-        -f unix/Makefile install    \
+make    prefix=/usr                     \
+        MANDIR=/usr/share/man/man1      \
+        -f unix/Makefile                \
+        install                         \
         > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 
 
