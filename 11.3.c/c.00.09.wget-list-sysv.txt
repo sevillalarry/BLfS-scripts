@@ -35,6 +35,9 @@ https://anduin.linuxfromscratch.org/BLFS/xdgmime/xdgmime.tar.xz
 https://dbus.freedesktop.org/releases/dbus/dbus-1.14.8.tar.xz
 # 12.11 elogind-246.10 - recommended by 24.08 Xorg Libraries
 https://github.com/elogind/elogind/archive/v246.10/elogind-246.10.tar.gz
+# 12.33 UnZip-6.0
+https://downloads.sourceforge.net/infozip/unzip60.tar.gz
+https://www.linuxfromscratch.org/patches/blfs/11.3/unzip-6.0-consolidated_fixes-1.patch
 # 12.36 Which-2.21 - recommended by 10.04 FreeType
 https://ftp.gnu.org/gnu/which/which-2.21.tar.gz
 
@@ -84,3 +87,14 @@ https://archive.xfce.org/src/xfce/xfce4-settings/4.18/xfce4-settings-4.18.2.tar.
 https://archive.xfce.org/src/xfce/xfdesktop/4.18/xfdesktop-4.18.1.tar.bz2
 https://archive.xfce.org/src/xfce/xfwm4/4.18/xfwm4-4.18.0.tar.bz2
 https://archive.xfce.org/src/xfce/xfce4-session/4.18/xfce4-session-4.18.1.tar.bz2
+
+# 48.01 sgml-common-0.6.3
+https://sourceware.org/ftp/docbook-tools/new-trials/SOURCES/sgml-common-0.6.3.tgz
+https://www.linuxfromscratch.org/patches/blfs/11.3/sgml-common-0.6.3-manpage-1.patch
+
+# 49.01 docbook-xml-4.5
+https://www.docbook.org/xml/4.5/docbook-xml-4.5.zip
+# 49.04 docbook-xsl-nons-1.79.2 
+https://github.com/docbook/xslt10-stylesheets/releases/download/release/1.79.2/docbook-xsl-nons-1.79.2.tar.bz2
+https://www.linuxfromscratch.org/patches/blfs/11.3/docbook-xsl-nons-1.79.2-stack_fix-1.patch
+https://github.com/docbook/xslt10-stylesheets/releases/download/release/1.79.2/docbook-xsl-doc-1.79.2.tar.bz2

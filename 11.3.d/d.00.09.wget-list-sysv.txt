@@ -17,9 +17,6 @@ https://www.gnupg.org/ftp/gcrypt/libgpg-error/libgpg-error-1.46.tar.bz2
 
 ### 12.11 elogind-246.10 - recommended by 24.08 Xorg Libraries
 ###https://github.com/elogind/elogind/archive/v246.10/elogind-246.10.tar.gz
-# 12.33 UnZip-6.0
-https://downloads.sourceforge.net/infozip/unzip60.tar.gz
-https://www.linuxfromscratch.org/patches/blfs/11.3/unzip-6.0-consolidated_fixes-1.patch
 
 # 26.02 lightdm-1.32.0
 https://github.com/CanonicalLtd/lightdm/releases/download/1.32.0/lightdm-1.32.0.tar.xz

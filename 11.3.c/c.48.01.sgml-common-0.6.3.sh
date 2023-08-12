@@ -1,4 +1,4 @@
-# d.48.01.sgml-common-0.6.3.sh
+# c.48.01.sgml-common-0.6.3.sh
 #
 # Required by:
 #

@@ -1,7 +1,8 @@
-# d.49.01.docbook-xml-4.5.sh
+# c.49.01.docbook-xml-4.5.sh
 #
 # Required by:
 #
+#   09.68 libxslt-1.1.37
 #   49.05 itstool-2.0.7
 #
 # Dependencies Required:
@@ -22,7 +23,6 @@ export LFSLOG_PROCESS=$LFSLOG/process.log
 
 rm -r $PKGLOG_DIR 2> /dev/null
 mkdir $PKGLOG_DIR
-
 
 echo "1. Extract zip..."
 echo "1. Extract zip..." >> $LFSLOG_PROCESS
