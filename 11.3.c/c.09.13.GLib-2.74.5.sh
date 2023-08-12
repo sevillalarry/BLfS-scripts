@@ -79,7 +79,7 @@ echo "   in the /usr hierarchy."                      >> $PKGLOG_ERROR
 
 cd ..
 cd ..
-#rm -rf $PKG
+rm -rf $PKG
 unset LFSLOG_PROCESS
 unset PKGLOG_INSTALL PKGLOG_BUILD PKGLOG_CONFIG
 #unset PKGLOG_CHECK
