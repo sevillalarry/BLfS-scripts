@@ -13,8 +13,8 @@
 # Continuation of LfS-Scripts
 #
 # Group a - LfS
-# Group b - XOrg only
-# Group c - Xfce only
+# Group b - XOrg only / status: working
+# Group c - Xfce only / status: failed on VM, try PC
 # Group d - ???
 #
 
