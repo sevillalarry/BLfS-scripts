@@ -2,14 +2,22 @@
 #
 # Required by:
 #
-#   35.01 libxfce4util-4.18.1
+#       35.01 libxfce4util-4.18.1
+#       37.02 libfm-extra-1.3.2
+#       09.07 dbus-glib-0.112
+#       04.20 Polkit-122
+#       13.35 Vala-0.56.4
 #
+#
+# Dependencies Recommended but Needed:
+#
+#       09.68 libxslt-1.1.37
 #
 # Dependencies Runtime:
 #
-#   09.16 gobject-introspection-1.74.0
-#   11.04 desktop-file-utils-0.26
-#   11.17 shared-mime-info-2.2
+#       09.16 gobject-introspection-1.74.0
+#       11.04 desktop-file-utils-0.26
+#       11.17 shared-mime-info-2.2
 #
 
 export PKG="glib-2.74.5"

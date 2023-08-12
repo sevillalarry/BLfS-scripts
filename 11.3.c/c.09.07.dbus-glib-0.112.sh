@@ -1,4 +1,14 @@
-# b.09.07.dbus-glib-0.112.sh
+# c.09.07.dbus-glib-0.112.sh
+#
+# Required by:
+#
+#       37.09 LXSession-0.5.5
+#
+#
+# Dependencies Required:
+#
+#       12.10 dbus-1.14.8
+#       09.13 GLib-2.74
 #
 
 export PKG="dbus-glib-0.112"
@@ -34,9 +44,14 @@ echo "3. Make Build ..." >> $LFSLOG_PROCESS
 echo "3. Make Build ..." >> $PKGLOG_ERROR
 make > $PKGLOG_BUILD 2>> $PKGLOG_ERROR
 
-echo "4. Make Install ..."
-echo "4. Make Install ..." >> $LFSLOG_PROCESS
-echo "4. Make Install ..." >> $PKGLOG_ERROR
+echo "4. Make Check ..."
+echo "4. Make Check ..." >> $LFSLOG_PROCESS
+echo "4. Make Check ..." >> $PKGLOG_ERROR
+make check > $PKGLOG_CHECK 2>> $PKGLOG_ERROR
+
+echo "5. Make Install ..."
+echo "5. Make Install ..." >> $LFSLOG_PROCESS
+echo "5. Make Install ..." >> $PKGLOG_ERROR
 make install > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 
 

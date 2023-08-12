@@ -38,6 +38,22 @@ echo "." >> $LFSLOG_PROCESS
 echo "."
 echo "."
 
+###
+
+# compiled at c.09.00.sh
+#
+# echo "12.33.UnZip-6.0"
+# echo "12.33.UnZip-6.0" >> $LFSLOG_PROCESS
+
+# time { bash c.12.33.UnZip-6.0.sh ; }
+
+# date +"%Y/%b/%d %H:%M"
+# date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+# echo "." >> $LFSLOG_PROCESS
+# echo "."
+# echo "."
+
 #####
 
 unset LFSLOG_PROCESS
