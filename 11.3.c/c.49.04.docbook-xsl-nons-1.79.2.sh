@@ -9,7 +9,7 @@
 #       09.67 libxml2-2.10.4
 #
 
-export PKG="docbook-xsl-nons-1.79.2 "
+export PKG="docbook-xsl-nons-1.79.2"
 export PKGLOG_DIR=$LFSLOG/49.04
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_ERROR=$PKGLOG_DIR/error.log

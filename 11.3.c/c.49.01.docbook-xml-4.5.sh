@@ -27,7 +27,7 @@ mkdir $PKGLOG_DIR
 echo "1. Extract zip..."
 echo "1. Extract zip..." >> $LFSLOG_PROCESS
 echo "1. Extract zip..." >> $PKGLOG_ERROR
-unzip -v $PKG.zip -d $PKG > $PKGLOG_ZIP 2>> $PKGLOG_ERROR
+unzip $PKG.zip -d $PKG > $PKGLOG_ZIP 2>> $PKGLOG_ERROR
 cd    $PKG
 
 
