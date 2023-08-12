@@ -64,7 +64,7 @@ echo "4. Ninja Check ..." >> $PKGLOG_ERROR
 ninja test > $PKGLOG_CHECK 2>> $PKGLOG_ERROR
 
 echo "5. Make Install ..."
-echo "5. Make Install ..." >> $LFSLOG_PROCESSs
+echo "5. Make Install ..." >> $LFSLOG_PROCESS
 echo "5. Make Install ..." >> $PKGLOG_ERROR
 ninja install > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 
