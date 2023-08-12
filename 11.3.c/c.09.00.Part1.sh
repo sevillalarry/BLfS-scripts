@@ -87,6 +87,21 @@ echo "."
 
 ###
 
+# compile ahead.  needed by GLib
+echo "09.78.PCRE2-10.42"
+echo "09.78.PCRE2-10.42" >> $LFSLOG_PROCESS
+
+time { bash c.09.78.PCRE2-10.42.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
+###
+
 echo "09.13.GLib-2.74.5"
 echo "09.13.GLib-2.74.5" >> $LFSLOG_PROCESS
 
