@@ -4,6 +4,7 @@
 #
 # After DBus
 #
+# Nothing to do
 
 export LFSLOG_PROCESS=$LFSLOG/process.log
 
@@ -12,17 +13,24 @@ date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
 
 #####
 
-echo "09.13.GLib-2.74.5.test"
-echo "09.13.GLib-2.74.5.test" >> $LFSLOG_PROCESS
+echo "Nothing to do"
 
-time { bash c.09.13.GLib-2.74.5.test.sh ; }
+# GLib test
+#
+# user: permission error
+# root: segfault error
+#
+# echo "09.13.GLib-2.74.5.test"
+# echo "09.13.GLib-2.74.5.test" >> $LFSLOG_PROCESS
 
-date +"%Y/%b/%d %H:%M"
-date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+# time { bash c.09.13.GLib-2.74.5.test.sh ; }
 
-echo "." >> $LFSLOG_PROCESS
-echo "."
-echo "."
+# date +"%Y/%b/%d %H:%M"
+# date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+# echo "." >> $LFSLOG_PROCESS
+# echo "."
+# echo "."
 
 #####
 

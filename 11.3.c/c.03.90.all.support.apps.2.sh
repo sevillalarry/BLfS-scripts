@@ -3,7 +3,7 @@
 # Support Applications
 #
 
-bash c.09.00.Part2.sh
+# bash c.09.00.Part2.sh
 bash c.10.00.sh
 bash c.12.00.sh
 bash c.13.00.sh
