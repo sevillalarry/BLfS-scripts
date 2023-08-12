@@ -83,6 +83,9 @@ C.  Generate BLFS - Graphical Components / Environments
         export XORG_CONFIG="--prefix=$XORG_PREFIX --sysconfdir=/etc \
                             --localstatedir=/var --disable-static"
 
+        Note: 24.16 Mesa
+                    change Gallium driver
+
         bash b.24.00.all.sh
 
         https://www.linuxfromscratch.org/blfs/view/11.3/x/TTF-and-OTF-fonts.html#dejavu-fonts

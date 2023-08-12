@@ -59,22 +59,22 @@ ninja install > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 mkdir -p /usr/share/doc/glib-2.74.5
 cp -r ../docs/reference/{gio,glib,gobject} /usr/share/doc/glib-2.74.5
 
-echo "The GLib test suite requires desktop-file-utils for some tests."
-echo "The GLib test suite requires desktop-file-utils for some tests." >> $LFSLOG_PROCESS
-echo "The GLib test suite requires desktop-file-utils for some tests." >> $PKGLOG_ERROR
+# echo "The GLib test suite requires desktop-file-utils for some tests."
+# echo "The GLib test suite requires desktop-file-utils for some tests." >> $LFSLOG_PROCESS
+# echo "The GLib test suite requires desktop-file-utils for some tests." >> $PKGLOG_ERROR
 
-echo "Do not run the test suite as root"
-echo "   or some tests will fail unexpectedly"
-echo "   and leave some non-FHS-compliant directories"
-echo "   in the /usr hierarchy."
-echo "Do not run the test suite as root"              >> $LFSLOG_PROCESS
-echo "   or some tests will fail unexpectedly"        >> $LFSLOG_PROCESS
-echo "   and leave some non-FHS-compliant directories >> $LFSLOG_PROCESS
-echo "   in the /usr hierarchy."                      >> $LFSLOG_PROCESS
-echo "Do not run the test suite as root"              >> $PKGLOG_ERROR
-echo "   or some tests will fail unexpectedly"        >> $PKGLOG_ERROR
-echo "   and leave some non-FHS-compliant directories >> $PKGLOG_ERROR
-echo "   in the /usr hierarchy."                      >> $PKGLOG_ERROR
+# echo "Do not run the test suite as root"
+# echo "   or some tests will fail unexpectedly"
+# echo "   and leave some non-FHS-compliant directories"
+# echo "   in the /usr hierarchy."
+# echo "Do not run the test suite as root"                >> $LFSLOG_PROCESS
+# echo "   or some tests will fail unexpectedly"          >> $LFSLOG_PROCESS
+# echo "   and leave some non-FHS-compliant directories"  >> $LFSLOG_PROCESS
+# echo "   in the /usr hierarchy."                        >> $LFSLOG_PROCESS
+# echo "Do not run the test suite as root"                >> $PKGLOG_ERROR
+# echo "   or some tests will fail unexpectedly"          >> $PKGLOG_ERROR
+# echo "   and leave some non-FHS-compliant directories"  >> $PKGLOG_ERROR
+# echo "   in the /usr hierarchy."                        >> $PKGLOG_ERROR
 
 
 cd ..
