@@ -1,4 +1,12 @@
-# b.09.68.libxslt-1.1.37.sh
+# c.09.68.libxslt-1.1.37.sh
+#
+# Recommended but needed by:
+#
+#   09.13 GLib-2.74.5
+#
+# Dependencies Required:
+#
+#   09.67 libxml2-2.10.3
 #
 
 export PKG="libxslt-1.1.37"
@@ -38,7 +46,7 @@ make > $PKGLOG_BUILD 2>> $PKGLOG_ERROR
 echo "4. Make Check ..."
 echo "4. Make Check ..." >> $LFSLOG_PROCESS
 echo "4. Make Check ..." >> $PKGLOG_ERROR
-make test > $PKGLOG_CHECK 2>> $PKGLOG_ERROR
+make check > $PKGLOG_CHECK 2>> $PKGLOG_ERROR
 
 echo "5. Make Install ..."
 echo "5. Make Install ..." >> $LFSLOG_PROCESS
