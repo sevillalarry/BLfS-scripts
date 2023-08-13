@@ -1,0 +1,87 @@
+A. Preparation
+
+  A.01. ( Assumming XOrg is already running ) - Copy all script files
+
+        copy all script files to /sources
+
+  A.03. Download packages
+
+        ###
+
+        wget --input-file=c.00.09.wget-list-sysv.txt --continue --directory-prefix=/sources
+
+        ###
+
+  A.04. Setting Up the Environment
+        ( Note: change the MAKEFLAGS based on the number of threads )
+
+        ###
+        #   same as XOrg Environment
+        ###
+
+B.  Generate BLFS - Support Files
+
+  B.01. Setup / Checking Environment - Part 1
+
+        ###
+
+        echo $LFSLOG          /var/log/blfs
+        echo $MAKEFLAGS       -j8
+
+        echo $SHELL           /bin/bash
+        ls -l /bin/sh         bash
+        ls -l /usr/bin/awk    gawk
+
+        cd /sources
+
+        ###
+
+        ( display )
+        root [ /sources ]#
+
+  B.03. Support Applications
+
+        ###
+
+        bash c.03.90.all.support.apps.1.sh
+
+        ###
+        #   Setup DBus
+        ###
+
+        cd /mnt/src/lfs.src/blfs-bootscripts-20230101
+
+        make install-dbus
+
+        reboot
+
+  B.04. Setup / Checking Environment - Part 2
+
+        ###
+
+        echo $LFSLOG          /var/log/blfs
+        echo $MAKEFLAGS       -j8
+
+        echo $SHELL           /bin/bash
+        ls -l /bin/sh         bash
+        ls -l /usr/bin/awk    gawk
+
+        cd /sources
+
+        bash c.03.90.all.support.apps.2.sh
+
+        ###
+
+C.  Generate BLFS - Xfce
+
+  C.01. [BLFS 37] LXDE Desktop
+
+        ###
+
+        bash c.37.00.sh
+
+        reboot
+
+        startx
+
+        ###
