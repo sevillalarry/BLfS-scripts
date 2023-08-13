@@ -1,6 +1,6 @@
-# c.25.00.sh
+# c.09.00.Part1.sh
 #
-# Graphical Environment Libraries
+# General Libraries
 #
 
 export LFSLOG_PROCESS=$LFSLOG/process.log
@@ -10,24 +10,11 @@ date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
 
 #####
 
-echo "25.03.at-spi2-core-2.46.0"
-echo "25.03.at-spi2-core-2.46.0" >> $LFSLOG_PROCESS
+# compile ahead.  needed by GLib
+echo "09.68.libxslt-1.1.37"
+echo "09.68.libxslt-1.1.37" >> $LFSLOG_PROCESS
 
-time { bash c.25.03.at-spi2-core-2.46.0.sh ; }
-
-date +"%Y/%b/%d %H:%M"
-date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
-
-echo "." >> $LFSLOG_PROCESS
-echo "."
-echo "."
-
-###
-
-echo "25.13.gdk-pixbuf-2.42.10"
-echo "25.13.gdk-pixbuf-2.42.10" >> $LFSLOG_PROCESS
-
-time { bash c.25.13.gdk-pixbuf-2.42.10.sh ; }
+time { bash c.09.68.libxslt-1.1.37.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
@@ -38,24 +25,11 @@ echo "."
 
 ###
 
-echo "25.14.gdk-pixbuf-xlib-2.40.2"
-echo "25.14.gdk-pixbuf-xlib-2.40.2" >> $LFSLOG_PROCESS
+# compile ahead.  needed by GLib
+echo "09.78.PCRE2-10.42"
+echo "09.78.PCRE2-10.42" >> $LFSLOG_PROCESS
 
-time { bash c.25.14.gdk-pixbuf-xlib-2.40.2.sh ; }
-
-date +"%Y/%b/%d %H:%M"
-date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
-
-echo "." >> $LFSLOG_PROCESS
-echo "."
-echo "."
-
-###
-
-echo "25.42.Pango-1.50.12"
-echo "25.42.Pango-1.50.12" >> $LFSLOG_PROCESS
-
-time { bash c.25.42.Pango-1.50.12.sh ; }
+time { bash c.09.78.PCRE2-10.42.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
@@ -66,10 +40,10 @@ echo "."
 
 ###
 
-echo "25.20.GTK+-2.24.33"
-echo "25.20.GTK+-2.24.33" >> $LFSLOG_PROCESS
+echo "09.13.GLib-2.74.5"
+echo "09.13.GLib-2.74.5" >> $LFSLOG_PROCESS
 
-time { bash c.25.20.GTK+-2.24.33.sh ; }
+time { bash c.09.13.GLib-2.74.5.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
@@ -80,10 +54,38 @@ echo "."
 
 ###
 
-echo "25.32.keybinder-0.3.1"
-echo "25.32.keybinder-0.3.1" >> $LFSLOG_PROCESS
+echo "09.16.gobject-introspection-1.74.0"
+echo "09.16.gobject-introspection-1.74.0" >> $LFSLOG_PROCESS
 
-time { bash c.25.32.keybinder-0.3.1.sh ; }
+time { bash c.09.16.gobject-introspection-1.74.0.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
+###
+
+echo "09.07.dbus-glib-0.112"
+echo "09.07.dbus-glib-0.112" >> $LFSLOG_PROCESS
+
+time { bash c.09.07.dbus-glib-0.112.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
+###
+
+echo "09.09.duktape-2.7.0"
+echo "09.09.duktape-2.7.0" >> $LFSLOG_PROCESS
+
+time { bash c.09.09.duktape-2.7.0.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS

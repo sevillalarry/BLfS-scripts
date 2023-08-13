@@ -21,6 +21,20 @@ echo "."
 
 ###
 
+echo "13.35.Vala-0.56.4"
+echo "13.35.Vala-0.56.4" >> $LFSLOG_PROCESS
+
+time { c.13.35.Vala-0.56.4.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
+###
+
 echo "13.37.yasm-1.3.0"
 echo "13.37.yasm-1.3.0" >> $LFSLOG_PROCESS
 

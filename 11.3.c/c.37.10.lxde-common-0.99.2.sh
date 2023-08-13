@@ -1,4 +1,4 @@
-# c.37.10.lxde-common-0.99.2 .sh
+# c.37.10.lxde-common-0.99.2.sh
 #
 # Dependencies Required:
 #
