@@ -10,17 +10,17 @@ date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
 
 #####
 
-echo "17.02.cURL-7.88.1"
-echo "17.02.cURL-7.88.1" >> $LFSLOG_PROCESS
+# echo "17.02.cURL-7.88.1"
+# echo "17.02.cURL-7.88.1" >> $LFSLOG_PROCESS
 
-time { bash c.17.02.cURL-7.88.1.sh ; }
+# time { bash c.17.02.cURL-7.88.1.sh ; }
 
-date +"%Y/%b/%d %H:%M"
-date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+# date +"%Y/%b/%d %H:%M"
+# date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
 
-echo "." >> $LFSLOG_PROCESS
-echo "."
-echo "."
+# echo "." >> $LFSLOG_PROCESS
+# echo "."
+# echo "."
 
 #####
 

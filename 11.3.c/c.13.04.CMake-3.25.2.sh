@@ -47,7 +47,8 @@ echo "2. Configure ..." >> $PKGLOG_ERROR
             --mandir=/share/man  \
             --no-system-jsoncpp  \
             --no-system-librhash \
-            --docdir=/share/doc/cmake-3.25.2    \
+            --no-system-{curl,libarchive,libuv,nghttp2} \
+            --docdir=/share/doc/cmake-3.25.2            \
             > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
 echo "3. Make Build ..."
