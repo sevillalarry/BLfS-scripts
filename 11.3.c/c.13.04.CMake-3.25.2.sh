@@ -61,7 +61,7 @@ echo "4. Make Test ..." >> $LFSLOG_PROCESS
 echo "4. Make Test ..." >> $PKGLOG_ERROR
 LC_ALL=en_US.UTF-8 \
     bin/ctest $MAKEFLAGS    \
-    -O  $PKGLOG_CHECK 2>> $PKGLOG_ERROR
+    -O  $PKGLOG_CHECK > /dev/null 2>> $PKGLOG_ERROR
 
 echo "5. Make Install ..."
 echo "5. Make Install ..." >> $LFSLOG_PROCESS
