@@ -24,7 +24,7 @@ echo "."
 echo "13.35.Vala-0.56.4"
 echo "13.35.Vala-0.56.4" >> $LFSLOG_PROCESS
 
-time { c.13.35.Vala-0.56.4.sh ; }
+time { bash c.13.35.Vala-0.56.4.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS

@@ -10,7 +10,7 @@
 #       25.42 Pango-1.50.12
 #
 
-export PKG="GTK+-2.24.33"
+export PKG="gtk+-2.24.33"
 export PKGLOG_DIR=$LFSLOG/25.20
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log

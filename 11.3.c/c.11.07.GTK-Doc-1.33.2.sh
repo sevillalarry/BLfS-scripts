@@ -13,7 +13,7 @@
 #       09.68 libxslt-1.1.37
 #
 
-export PKG="GTK-Doc-1.33."
+export PKG="gtk-doc-1.33.2"
 export PKGLOG_DIR=$LFSLOG/11.07
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log

@@ -32,8 +32,8 @@ tar xvf $PKG.tar.bz2 > $PKGLOG_TAR 2>> $PKGLOG_ERROR
 cd $PKG
 
 
-patch -Np1 -i ../libunique-1.1.6-upstream_fixes-1.patch \
-autoreconf -fi    \
+patch -Np1 -i ../libunique-1.1.6-upstream_fixes-1.patch
+autoreconf -fi
 
 echo "2. Configure ..."
 echo "2. Configure ..." >> $LFSLOG_PROCESS
