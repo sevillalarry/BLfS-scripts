@@ -36,6 +36,7 @@ cmake -DCMAKE_INSTALL_PREFIX=/usr           \
       -DENABLE_STATIC=FALSE                 \
       -DCMAKE_INSTALL_DOCDIR=/usr/share/doc/libjpeg-turbo-3.0.0 \
       -DCMAKE_INSTALL_DEFAULT_LIBDIR=lib    \
+      ..                                    \
         > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
 echo "3. Make Build ..."
