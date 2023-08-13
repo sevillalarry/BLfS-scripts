@@ -1,8 +1,9 @@
-# c.35.01.libxfce4util-4.18.1.sh
+# c.49.05.itstool-2.0.7.sh
 #
 # Required by:
 #
 #       26.02 lightdm-1.32.0
+#       11.07 GTK-Doc-1.33.2
 #
 # Dependencies Required:
 #
@@ -31,6 +32,7 @@ cd $PKG
 echo "2. Configure ..."
 echo "2. Configure ..." >> $LFSLOG_PROCESS
 echo "2. Configure ..." >> $PKGLOG_ERROR
+PYTHON=/usr/bin/python3     \
 ./configure --prefix=/usr   \
             > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 

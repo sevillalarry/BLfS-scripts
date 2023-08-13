@@ -7,12 +7,11 @@
 #
 # Dependencies Required:
 #
-#       12.10 dbus-1.14.8
 #       09.13 GLib-2.74
 #
 
-export PKG="dbus-glib-0.112"
-export PKGLOG_DIR=$LFSLOG/09.07
+export PKG="vala-0.56.4"
+export PKGLOG_DIR=$LFSLOG/13.35
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log
@@ -27,17 +26,15 @@ mkdir $PKGLOG_DIR
 echo "1. Extract tar..."
 echo "1. Extract tar..." >> $LFSLOG_PROCESS
 echo "1. Extract tar..." >> $PKGLOG_ERROR
-tar xvf $PKG.tar.gz > $PKGLOG_TAR 2>> $PKGLOG_ERROR
+tar xvf $PKG.tar.xz > $PKGLOG_TAR 2>> $PKGLOG_ERROR
 cd $PKG
 
 
 echo "2. Configure ..."
 echo "2. Configure ..." >> $LFSLOG_PROCESS
 echo "2. Configure ..." >> $PKGLOG_ERROR
-../configure --prefix=/usr     \
-            --sysconfdir=/etc  \
-            --disable-static   \
-          > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
+../configure  --prefix=/usr \
+              > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
 echo "3. Make Build ..."
 echo "3. Make Build ..." >> $LFSLOG_PROCESS

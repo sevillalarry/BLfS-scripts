@@ -1,14 +1,18 @@
 # c.11.17.shared-mime-info-2.2.sh
 #
+# Required by:
+#
+#       25.13 gdk-pixbuf-2.42.10
+#
 # Runtime needed by:
 #
-#   09.13 GLib-2.74.5 test
+#       09.13 GLib-2.74.5 test
 #
 #
 # Dependencies Required:
 #
-#   09.13 GLib-2.74.5
-#   09.67 libxml2-2.10.3
+#       09.13 GLib-2.74.5
+#       09.67 libxml2-2.10.3
 #
 
 export PKG="shared-mime-info-2.2"

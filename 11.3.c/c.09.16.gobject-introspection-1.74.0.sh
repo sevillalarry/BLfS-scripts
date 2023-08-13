@@ -1,21 +1,22 @@
-# c.25.13.gdk-pixbuf-2.42.10.sh
+# c.09.16.gobject-introspection-1.74.0.sh
 #
 # Required by:
 #
-#       25.21 GTK+-3.24.36
-#       25.14 gdk-pixbuf-xlib-2.40.2
+#       35.01 libxfce4util-4.18.1
+#
+# Runtime needed / Required by:
+#
+#       09.13 GLib-2.74.5 test
+#       33.03 gsettings-desktop-schemas-43.0 
 #
 #
 # Dependencies Required:
 #
 #       09.13 GLib-2.74.5
-#       10.17 libjpeg-turbo-2.1.5.1
-#       10.20 libpng-1.6.39
-#       11.17 shared-mime-info-2.2
 #
 
-export PKG="gdk-pixbuf-2.42.10"
-export PKGLOG_DIR=$LFSLOG/25.13
+export PKG="gobject-introspection-1.74.0"
+export PKGLOG_DIR=$LFSLOG/09.16
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log
@@ -34,16 +35,15 @@ tar xvf $PKG.tar.xz > $PKGLOG_TAR 2>> $PKGLOG_ERROR
 cd $PKG
 
 
-mkdir build
-cd    build
+mkdir build 
+cd    build 
 
 echo "2. Meson ..."
 echo "2. Meson ..." >> $LFSLOG_PROCESS
 echo "2. Meson ..." >> $PKGLOG_ERROR
-meson --prefix=/usr             \
-      --buildtype=release       \
-      --wrap-mode=nofallback    \
-      ..                        \
+meson   --prefix=/usr       \
+        --buildtype=release \
+        ..                  \
         > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
 echo "3. Ninja Build ..."
