@@ -14,6 +14,8 @@
 #
 # Group a - LfS
 # Group b - XOrg only / status: working
+# Group c - LXDE only / status: on-going
+#
 # Group c - Xfce only / status: failed on VM, try PC
 # Group d - ???
 #

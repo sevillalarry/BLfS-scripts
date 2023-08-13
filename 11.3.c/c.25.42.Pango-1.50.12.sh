@@ -1,7 +1,9 @@
-# b.25.42.Pango-1.50.12.sh
+# c.25.42.Pango-1.50.12.sh
 #
 # Required by:
-#       25.21 GTK+-3.24.36.sh
+#
+#       25.20 GTK+-2.24.33
+#       25.21 GTK+-3.24.36
 #
 #
 # Dependencies Required:

@@ -9,6 +9,10 @@
 #       09.13 GLib-2.74.5 test
 #       33.03 gsettings-desktop-schemas-43.0 
 #
+# Optionally needed by:
+#
+#       37.06 libwnck-2.30.7
+#
 #
 # Dependencies Required:
 #
