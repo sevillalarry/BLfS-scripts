@@ -39,8 +39,8 @@ echo "2. Meson ..." >> $LFSLOG_PROCESS
 echo "2. Meson ..." >> $PKGLOG_ERROR
 meson --prefix=/usr        \
       --buildtype=release  \
-      -Dgraphite2=enabled  \
           > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
+#      -Dgraphite2=enabled  \
 
 echo "3. Ninja Build ..."
 echo "3. Ninja Build ..." >> $LFSLOG_PROCESS
