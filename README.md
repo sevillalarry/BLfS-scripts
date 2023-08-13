@@ -14,7 +14,7 @@
 #
 # Group a - LfS
 # Group b - XOrg only / status: working
-# Group c - LXDE only / status: on-going
+# Group c - LXDE only / status: 2023/Aug/13 22:00 NOT fully tested due to time constraints
 #
 # Group c - Xfce only / status: failed on VM, try PC
 # Group d - ???
