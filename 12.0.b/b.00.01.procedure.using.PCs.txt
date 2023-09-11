@@ -6,11 +6,11 @@ A. Preparation
 
         rm /sources
 
-        mkdir -v /mnt/src/blfs.{src,log}
+        mkdir -v /usr/src/blfs
 
-        chmod -v a+wt /mnt/src/blfs.{src,log}
+        chmod -v a+wt /usr/src/blfs
 
-        ln -sf /mnt/src/blfs.src /sources
+        ln -sf /usr/src/blfs /sources
 
         cd /sources
 
@@ -37,7 +37,7 @@ A. Preparation
 
         ###
 
-        ln -sfv /mnt/src/blfs.log /var/log/blfs
+        mkdir -pv /var/log/blfs
         export LFSLOG=/var/log/blfs
 
         export MAKEFLAGS="-j8"
@@ -83,7 +83,12 @@ C.  Generate BLFS - Graphical Components / Environments
         export XORG_CONFIG="--prefix=$XORG_PREFIX --sysconfdir=/etc \
                             --localstatedir=/var --disable-static"
 
+        Note: 24.16 Mesa
+                    change Gallium driver
+
         bash b.24.00.all.sh
+
+        ???? Intel Driver ????
 
         ###
         #   Note: for startx as user
