@@ -1,18 +1,24 @@
-# b.10.04.FreeType-2.13.1.sh
+# c.13.04.CMake-3.27.2.sh
 #
 # Required by:
 #
-#   10.05 Fontconfig-2.14.2
+#   10.18 libjpeg-turbo-3.0.0
+#   10.10 Graphite2-1.3.14
+#
+#
+# Dependencies Recommended but needed:
+#
+#   17.02 cURL-7.88.1
 #
 # Dependencies Recommended:
 #
-#   10.11 HarfBuzz-7.0.0 ( first, install FreeType, after HarfBuzz is installed, reinstall FreeType )
-#   10.21 libpng-1.6.40
-#   12.36 Which-2.21
+#   09.28 libarchive-3.6.2
+#   09.65 libuv-1.44.2
+#   17.20 nghttp2-1.52.0
 #
 
-export PKG="freetype-2.13.1"
-export PKGLOG_DIR=$LFSLOG/10.04.$PKGPASS
+export PKG="cmake-3.27.2"
+export PKGLOG_DIR=$LFSLOG/13.04
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log
@@ -27,25 +33,22 @@ mkdir $PKGLOG_DIR
 echo "1. Extract tar..."
 echo "1. Extract tar..." >> $LFSLOG_PROCESS
 echo "1. Extract tar..." >> $PKGLOG_ERROR
-tar xvf $PKG.tar.xz > $PKGLOG_TAR 2>> $PKGLOG_ERROR
+tar xvf $PKG.tar.gz > $PKGLOG_TAR 2>> $PKGLOG_ERROR
 cd $PKG
 
 
-tar xvf ../freetype-doc-2.13.1.tar.xz   \
-    --strip-components=2 -C docs        \
-    >> $PKGLOG_TAR 2>> $PKGLOG_ERROR
-
-sed -ri "s:.*(AUX_MODULES.*valid):\1:" modules.cfg
-sed -r "s:.*(#.*SUBPIXEL_RENDERING) .*:\1:"         \
-    -i include/freetype/config/ftoption.h
+sed -i '/"lib64"/s/64//' Modules/GNUInstallDirs.cmake
 
 echo "2. Configure ..."
 echo "2. Configure ..." >> $LFSLOG_PROCESS
 echo "2. Configure ..." >> $PKGLOG_ERROR
-
-./configure --prefix=/usr               \
-            --enable-freetype-config    \
-            --disable-static            \
+./bootstrap --prefix=/usr        \
+            --system-libs        \
+            --mandir=/share/man  \
+            --no-system-jsoncpp  \
+            --no-system-cppdap   \
+            --no-system-librhash \
+            --docdir=/share/doc/cmake-3.27.2    \
             > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
 echo "3. Make Build ..."
@@ -53,14 +56,17 @@ echo "3. Make Build ..." >> $LFSLOG_PROCESS
 echo "3. Make Build ..." >> $PKGLOG_ERROR
 make > $PKGLOG_BUILD 2>> $PKGLOG_ERROR
 
+echo "4. Make Test ..."
+echo "4. Make Test ..." >> $LFSLOG_PROCESS
+echo "4. Make Test ..." >> $PKGLOG_ERROR
+LC_ALL=en_US.UTF-8 \
+    bin/ctest $MAKEFLAGS    \
+    -O  $PKGLOG_CHECK > /dev/null 2>> $PKGLOG_ERROR
+
 echo "5. Make Install ..."
 echo "5. Make Install ..." >> $LFSLOG_PROCESS
 echo "5. Make Install ..." >> $PKGLOG_ERROR
 make install > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
-
-install -m755 -d /usr/share/doc/freetype-2.13.0
-cp -R docs/*     /usr/share/doc/freetype-2.13.0
-rm /usr/share/doc/freetype-2.13.0/freetype-config.1
 
 
 cd ..

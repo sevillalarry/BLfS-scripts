@@ -15,6 +15,9 @@ https://downloads.sourceforge.net/sourceforge/libpng-apng/libpng-1.6.40-apng.pat
 # 10.30 Pixman-0.42.2
 https://www.cairographics.org/releases/pixman-0.42.2.tar.gz
 
+# 12.36 Which-2.21 - recommended by 10.04 FreeType
+https://ftp.gnu.org/gnu/which/which-2.21.tar.gz
+
 # 13.24    Python Modules
 # 13.24.13 Mako-1.2.4
 https://files.pythonhosted.org/packages/source/M/Mako/Mako-1.2.4.tar.gz

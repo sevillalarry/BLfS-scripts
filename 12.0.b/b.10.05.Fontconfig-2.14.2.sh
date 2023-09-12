@@ -11,7 +11,7 @@
 #
 
 export PKG="fontconfig-2.14.2"
-export PKGLOG_DIR=$LFSLOG/10.05
+export PKGLOG_DIR=$LFSLOG/10.05.$PKGPASS
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log

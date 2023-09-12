@@ -1,0 +1,114 @@
+# 04.20 Polkit-123
+https://gitlab.freedesktop.org/polkit/polkit/-/archive/123/polkit-123.tar.gz
+
+# 09.07 dbus-glib-0.112
+https://dbus.freedesktop.org/releases/dbus-glib/dbus-glib-0.112.tar.gz
+#### 09.09 duktape-2.7.0
+###https://duktape.org/duktape-2.7.0.tar.xz
+# 09.13 GLib-2.76.4
+https://download.gnome.org/sources/glib/2.76/glib-2.76.4.tar.xz
+https://www.linuxfromscratch.org/patches/blfs/12.0/glib-skip_warnings-1.patch
+# 09.16 gobject-introspection-1.76.1
+https://download.gnome.org/sources/gobject-introspection/1.76/gobject-introspection-1.76.1.tar.xz
+### 09.19 ICU
+###https://github.com/unicode-org/icu/releases/download/release-72-1/icu4c-72_1-src.tgz
+### 09.40 libgudev-237
+###https://download.gnome.org/sources/libgudev/237/libgudev-237.tar.xz
+# 09.61 libunique-1.1.6
+https://download.gnome.org/sources/libunique/1.1/libunique-1.1.6.tar.bz2
+https://www.linuxfromscratch.org/patches/blfs/12.0/libunique-1.1.6-upstream_fixes-1.patch
+# 09.69 libxslt-1.1.38
+https://download.gnome.org/sources/libxslt/1.1/libxslt-1.1.38.tar.xz
+# 09.80 PCRE2-10.42
+https://github.com/PCRE2Project/pcre2/releases/download/pcre2-10.42/pcre2-10.42.tar.bz2
+
+# 10.06 FriBidi-1.0.13
+https://github.com/fribidi/fribidi/releases/download/v1.0.13/fribidi-1.0.13.tar.xz
+### 10.10 Graphite2
+###https://github.com/silnrsi/graphite/releases/download/1.3.14/graphite2-1.3.14.tgz
+# 10.11 HarfBuzz - recommended by 10.04 FreeType
+https://github.com/harfbuzz/harfbuzz/releases/download/8.1.1/harfbuzz-8.1.1.tar.xz
+# 10.18 libjpeg-turbo-3.0.0
+https://downloads.sourceforge.net/libjpeg-turbo/libjpeg-turbo-3.0.0.tar.gz
+
+### 11.04 desktop-file-utils-0.26
+https://www.freedesktop.org/software/desktop-file-utils/releases/desktop-file-utils-0.26.tar.xz
+https://www.linuxfromscratch.org/patches/blfs/12.0/desktop-file-utils-0.26-update_standard-1.patch
+#### 11.07 GTK-Doc-1.33.2
+###https://download.gnome.org/sources/gtk-doc/1.33/gtk-doc-1.33.2.tar.xz
+# 11.17 shared-mime-info-2.2
+https://gitlab.freedesktop.org/xdg/shared-mime-info/-/archive/2.2/shared-mime-info-2.2.tar.gz
+https://anduin.linuxfromscratch.org/BLFS/xdgmime/xdgmime.tar.xz
+
+# 12.10 dbus-1.14.8
+https://dbus.freedesktop.org/releases/dbus/dbus-1.14.8.tar.xz
+### 12.11 elogind-246.10 - recommended by 24.08 Xorg Libraries
+###https://github.com/elogind/elogind/archive/v246.10/elogind-246.10.tar.gz
+#### 12.33 UnZip-6.0
+###https://downloads.sourceforge.net/infozip/unzip60.tar.gz
+###https://www.linuxfromscratch.org/patches/blfs/???/unzip-6.0-consolidated_fixes-1.patch
+
+# 13.04 CMake-3.27.2  - required by Graphite2
+https://cmake.org/files/v3.27/cmake-3.27.2.tar.gz
+# 13.36 Vala-0.56.4
+https://download.gnome.org/sources/vala/0.56/vala-0.56.11.tar.xz
+# 13.38 yasm-1.3.0
+https://www.tortall.net/projects/yasm/releases/yasm-1.3.0.tar.gz
+
+#### 17.02 cURL-7.88.1
+###https://curl.se/download/curl-7.88.1.tar.xz
+
+# 25.02 at-spi2-core-2.48.3
+https://download.gnome.org/sources/at-spi2-core/2.48/at-spi2-core-2.48.3.tar.xz
+### 25.04 Cairo-1.17.6
+###https://download.gnome.org/sources/cairo/1.17/cairo-1.17.6.tar.xz
+# 25.12 gdk-pixbuf-2.42.10
+https://download.gnome.org/sources/gdk-pixbuf/2.42/gdk-pixbuf-2.42.10.tar.xz
+# 25.14 gdk-pixbuf-xlib-2.40.2
+https://download.gnome.org/sources/gdk-pixbuf-xlib/2.40/gdk-pixbuf-xlib-2.40.2.tar.xz
+# 25.19 GTK+-2.24.33
+https://download.gnome.org/sources/gtk+/2.24/gtk+-2.24.33.tar.xz
+### 25.21 GTK+-3.24.36
+###https://download.gnome.org/sources/gtk+/3.24/gtk+-3.24.36.tar.xz
+# 25.31 keybinder-0.3.1
+https://github.com/kupferlauncher/keybinder/releases/download/v0.3.1/keybinder-0.3.1.tar.gz
+# 25.43 Pango-1.50.14
+https://download.gnome.org/sources/pango/1.50/pango-1.50.14.tar.xz
+
+# 27.03 openbox-3.6.1
+http://openbox.org/dist/openbox/openbox-3.6.1.tar.gz
+
+### 28.07 hicolor-icon-theme-0.17
+###https://icon-theme.freedesktop.org/releases/hicolor-icon-theme-0.17.tar.xz
+# 28.09 lxde-icon-theme-0.5.1
+https://downloads.sourceforge.net/lxde/lxde-icon-theme-0.5.1.tar.xz
+
+# 33.03 gsettings-desktop-schemas-44.0
+https://download.gnome.org/sources/gsettings-desktop-schemas/44/gsettings-desktop-schemas-44.0.tar.xz
+### 33.25 libwnck-43.0
+###https://download.gnome.org/sources/libwnck/43/libwnck-43.0.tar.xz
+
+# 37.?? LXDE Desktop
+https://downloads.sourceforge.net/lxde/lxmenu-data-0.1.5.tar.xz
+https://downloads.sourceforge.net/pcmanfm/libfm-1.3.2.tar.xz
+https://downloads.sourceforge.net/lxde/menu-cache-1.1.0.tar.xz
+https://www.linuxfromscratch.org/patches/blfs/12.0/menu-cache-1.1.0-consolidated_fixes-1.patch
+https://downloads.sourceforge.net/pcmanfm/pcmanfm-1.3.2.tar.xz
+https://download.gnome.org/sources/libwnck/2.30/libwnck-2.30.7.tar.xz
+https://downloads.sourceforge.net/lxde/lxpanel-0.10.1.tar.xz
+https://downloads.sourceforge.net/lxde/lxappearance-0.6.3.tar.xz
+https://downloads.sourceforge.net/lxde/lxsession-0.5.5.tar.xz
+https://downloads.sourceforge.net/lxde/lxde-common-0.99.2.tar.xz
+
+#### 48.01 sgml-common-0.6.3
+###https://sourceware.org/ftp/docbook-tools/new-trials/SOURCES/sgml-common-0.6.3.tgz
+###https://www.linuxfromscratch.org/patches/blfs/???/sgml-common-0.6.3-manpage-1.patch
+
+#### 49.01 docbook-xml-4.5
+###https://www.docbook.org/xml/4.5/docbook-xml-4.5.zip
+#### 49.04 docbook-xsl-nons-1.79.2 
+###https://github.com/docbook/xslt10-stylesheets/releases/download/release/1.79.2/docbook-xsl-nons-1.79.2.tar.bz2
+###https://www.linuxfromscratch.org/patches/blfs/???/docbook-xsl-nons-1.79.2-stack_fix-1.patch
+###https://github.com/docbook/xslt10-stylesheets/releases/download/release/1.79.2/docbook-xsl-doc-1.79.2.tar.bz2
+#### 49.05 itstool-2.0.7
+###https://files.itstool.org/itstool/itstool-2.0.7.tar.bz2

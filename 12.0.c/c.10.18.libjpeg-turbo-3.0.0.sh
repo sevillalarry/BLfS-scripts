@@ -1,18 +1,12 @@
-# b.10.04.FreeType-2.13.1.sh
+# c.10.18.libjpeg-turbo-3.0.0.sh
 #
 # Required by:
 #
-#   10.05 Fontconfig-2.14.2
-#
-# Dependencies Recommended:
-#
-#   10.11 HarfBuzz-7.0.0 ( first, install FreeType, after HarfBuzz is installed, reinstall FreeType )
-#   10.21 libpng-1.6.40
-#   12.36 Which-2.21
+#   25.12 gdk-pixbuf-2.42.10
 #
 
-export PKG="freetype-2.13.1"
-export PKGLOG_DIR=$LFSLOG/10.04.$PKGPASS
+export PKG="libjpeg-turbo-3.0.0"
+export PKGLOG_DIR=$LFSLOG/10.18
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log
@@ -27,42 +21,41 @@ mkdir $PKGLOG_DIR
 echo "1. Extract tar..."
 echo "1. Extract tar..." >> $LFSLOG_PROCESS
 echo "1. Extract tar..." >> $PKGLOG_ERROR
-tar xvf $PKG.tar.xz > $PKGLOG_TAR 2>> $PKGLOG_ERROR
+tar xvf $PKG.tar.gz > $PKGLOG_TAR 2>> $PKGLOG_ERROR
 cd $PKG
 
 
-tar xvf ../freetype-doc-2.13.1.tar.xz   \
-    --strip-components=2 -C docs        \
-    >> $PKGLOG_TAR 2>> $PKGLOG_ERROR
-
-sed -ri "s:.*(AUX_MODULES.*valid):\1:" modules.cfg
-sed -r "s:.*(#.*SUBPIXEL_RENDERING) .*:\1:"         \
-    -i include/freetype/config/ftoption.h
+mkdir build
+cd    build
 
 echo "2. Configure ..."
 echo "2. Configure ..." >> $LFSLOG_PROCESS
 echo "2. Configure ..." >> $PKGLOG_ERROR
-
-./configure --prefix=/usr               \
-            --enable-freetype-config    \
-            --disable-static            \
-            > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
+cmake -DCMAKE_INSTALL_PREFIX=/usr           \
+      -DCMAKE_BUILD_TYPE=RELEASE            \
+      -DENABLE_STATIC=FALSE                 \
+      -DCMAKE_INSTALL_DOCDIR=/usr/share/doc/libjpeg-turbo-3.0.0 \
+      -DCMAKE_INSTALL_DEFAULT_LIBDIR=lib    \
+      ..                                    \
+        > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
 echo "3. Make Build ..."
 echo "3. Make Build ..." >> $LFSLOG_PROCESS
 echo "3. Make Build ..." >> $PKGLOG_ERROR
 make > $PKGLOG_BUILD 2>> $PKGLOG_ERROR
 
+echo "4. Make Check ..."
+echo "4. Make Check ..." >> $LFSLOG_PROCESS
+echo "4. Make Check ..." >> $PKGLOG_ERROR
+make test > $PKGLOG_CHECK 2>> $PKGLOG_ERROR
+
 echo "5. Make Install ..."
 echo "5. Make Install ..." >> $LFSLOG_PROCESS
 echo "5. Make Install ..." >> $PKGLOG_ERROR
 make install > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 
-install -m755 -d /usr/share/doc/freetype-2.13.0
-cp -R docs/*     /usr/share/doc/freetype-2.13.0
-rm /usr/share/doc/freetype-2.13.0/freetype-config.1
 
-
+cd ..
 cd ..
 rm -rf $PKG
 unset LFSLOG_PROCESS
