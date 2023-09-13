@@ -6,8 +6,6 @@
 #       25.37 Libdrm-2.4.115
 #       13.24.14 Python Modules - Mako-1.2.4
 #
-# Note: exclude wayland
-#
 #       for VirtIO use virgl
 #       change gallium drivers to auto for PCs
 #
@@ -44,14 +42,13 @@ echo "2. Meson Setup ..." >> $PKGLOG_ERROR
 meson setup                     \
         --prefix=$XORG_PREFIX   \
         --buildtype=release     \
-        -Dplatforms=x11         \
+        -Dplatforms=x11,wayland \
         -Dgallium-drivers=virgl \
         -Dvulkan-drivers=""     \
         -Dvalgrind=disabled     \
         -Dlibunwind=disabled    \
         ..                      \
         > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
-#        -Dplatforms=x11,wayland \
 #        -Dgallium-drivers=auto  \
 
 echo "3. Ninja Build ..."
