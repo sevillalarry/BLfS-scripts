@@ -1,0 +1,98 @@
+A. Preparation
+
+  A.01. ( Assumming Xorg was installed )
+
+        ###
+
+        cd /sources
+
+  A.02. Copy all script files
+
+        copy all script files to /sources
+
+  A.03. Download packages
+
+        ###
+
+        wget --input-file=c.00.09.wget-list-sysv.txt --continue --directory-prefix=/sources
+
+        ###
+
+  A.04. Setting Up the Environment
+        ( Note: change the MAKEFLAGS based on the number of threads )
+
+        ###
+
+        export LFSLOG=/var/log/blfs
+
+        export MAKEFLAGS="-j8"
+
+  A.05. Setting Up the QT Environment
+ 
+        export QT5PREFIX=/opt/qt5
+        export QT5BINDIR=$QT5PREFIX/bin
+
+        ###
+
+B.  Generate BLFS - Support Files
+
+  B.01. Checking Environment
+
+        ###
+
+        echo $LFSLOG          /var/log/blfs
+        echo $MAKEFLAGS       -j8
+
+        echo $SHELL           /bin/bash
+        ls -l /bin/sh         bash
+        ls -l /usr/bin/awk    gawk
+
+        echo $QT5PREFIX       /opt/qt5
+        echo $QT5BINDIR       /opt/qt5/bin
+
+        cd /sources
+
+        ###
+
+        ( display )
+        root [ /sources ]#
+
+  B.03. Support Applications
+
+        ###
+
+        bash b.03.90.all.support.apps.sh
+
+        ###
+
+C.  Generate BLFS - Graphical Components / Environments
+
+  C.01. [BLFS 24] Graphical Environments - Xorg
+
+        ###
+
+        export XORG_PREFIX="/usr"
+
+        export XORG_CONFIG="--prefix=$XORG_PREFIX --sysconfdir=/etc \
+                            --localstatedir=/var --disable-static"
+
+        Note: 24.16 Mesa
+                    change Gallium driver
+
+        bash b.24.00.all.sh
+
+        ???? Intel Driver ????
+
+        ###
+        #   Note: for startx as user
+        ###
+
+        /etc/X11/Xwrapper.config
+            allowed_users=anybody
+            needs_root_rights=yes
+
+        reboot
+
+        startx
+
+        ###

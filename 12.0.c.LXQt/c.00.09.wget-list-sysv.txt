@@ -1,0 +1,9 @@
+# 25.46 qt-alternate-5.15.10
+https://download.qt.io/archive/qt/5.15/5.15.10/single/qt-everywhere-opensource-src-5.15.10.tar.xz
+https://www.linuxfromscratch.org/patches/blfs/12.0/qt-everywhere-opensource-src-5.15.10-kf5-1.patch
+
+# 29.02 extra-cmake-modules-5.109.0
+https://download.kde.org/stable/frameworks/5.109/extra-cmake-modules-5.109.0.tar.xz
+
+# 39.02 up...
+https://download.kde.org/stable/frameworks/5.109/kwindowsystem-5.109.0.tar.xz
