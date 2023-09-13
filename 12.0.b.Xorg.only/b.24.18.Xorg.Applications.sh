@@ -2,12 +2,12 @@
 #
 # Dependencies Required:
 #
-#   10.20 libpng-1.6.39
-#   24.16 Mesa-22.3.5
-#   24.17 xbitmaps-1.1.2
-#   24.10 xcb-util-0.4.1
+#       10.21 libpng-1.6.40
+#       24.16 Mesa-23.1.6
+#       24.17 xbitmaps-1.1.3
+#       24.10 xcb-util-0.4.1
 #
-# based on: https://www.linuxfromscratch.org/blfs/view/11.3/x/x7app.html
+# based on: https://www.linuxfromscratch.org/blfs/view/12.0/x/x7app.html
 #
 
 export LFSLOG_PROCESS=$LFSLOG/process.log

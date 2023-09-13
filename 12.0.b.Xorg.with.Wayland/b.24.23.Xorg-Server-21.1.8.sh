@@ -34,7 +34,8 @@ tar xvf $PKG.tar.xz > $PKGLOG_TAR 2>> $PKGLOG_ERROR
 cd $PKG
 
 
-patch -Np1 -i ../xorg-server-21.1.8-tearfree_backport-1.patch
+# NO TearFree option
+# patch -Np1 -i ../xorg-server-21.1.8-tearfree_backport-1.patch
 
 mkdir build
 cd    build

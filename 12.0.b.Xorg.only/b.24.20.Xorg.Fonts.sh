@@ -4,7 +4,7 @@
 #
 #   24.19 xcursor-themes-1.0.7
 #
-# based on: https://www.linuxfromscratch.org/blfs/view/11.3/x/x7font.html
+# based on: https://www.linuxfromscratch.org/blfs/view/12.0/x/x7font.html
 #
 
 export LFSLOG_PROCESS=$LFSLOG/process.log

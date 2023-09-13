@@ -1,20 +1,25 @@
-# b.24.23.Xorg-Server-21.1.8.sh
+# b.24.22.Xwayland-23.2.0.sh
 #
 # Dependencies Required:
 #
 #       24.09 libxcvt-0.1.2
 #       10.30 Pixman-0.42.2
+#       09.89 Wayland-Protocols-1.32
 #       24.20 Xorg Fonts - font-util
-#       24.21 XKeyboardConfig-2.39
 #
-# Dependencies Recommended (but neeeded):
+# Dependencies Recommended:
 #
 #       25.38 libepoxy-1.5.10
 #       17.18 libtirpc-1.3.3
+#       24.16 Mesa-23.1.6
+#
+# Dependencies Runtime
+#
+#       24.18 Xorg.Applications
 #
 
-export PKG="xorg-server-21.1.8"
-export PKGLOG_DIR=$LFSLOG/24.23
+export PKG="xwayland-23.2.0"
+export PKGLOG_DIR=$LFSLOG/24.22
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log
@@ -34,7 +39,7 @@ tar xvf $PKG.tar.xz > $PKGLOG_TAR 2>> $PKGLOG_ERROR
 cd $PKG
 
 
-patch -Np1 -i ../xorg-server-21.1.8-tearfree_backport-1.patch
+sed -i '/install_man/,$d' meson.build
 
 mkdir build
 cd    build
@@ -42,35 +47,25 @@ cd    build
 echo "2. Meson Setup ..."
 echo "2. Meson Setup ..." >> $LFSLOG_PROCESS
 echo "2. Meson Setup ..." >> $PKGLOG_ERROR
-meson setup     ..                      \
-                --prefix=$XORG_PREFIX   \
-                --localstatedir=/var    \
-                -Dglamor=true           \
-                -Dxkb_output_dir=/var/lib/xkb   \
-        > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
+meson setup --prefix=$XORG_PREFIX               \
+            --buildtype=release                 \
+            -Dxkb_output_dir=/var/lib/xkb       \
+            ..                                  \
+            > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
 echo "3. Ninja Build ..."
 echo "3. Ninja Build ..." >> $LFSLOG_PROCESS
 echo "3. Ninja Build ..." >> $PKGLOG_ERROR
 ninja > $PKGLOG_BUILD 2>> $PKGLOG_ERROR
 
-echo "4. Ninja Test ..."
-echo "4. Ninja Test ..." >> $LFSLOG_PROCESS
-echo "4. Ninja Test ..." >> $PKGLOG_ERROR
-ldconfig
-ninja test > $PKGLOG_CHECK 2>> $PKGLOG_ERROR
+# Test is VERY complex
 
-echo "5. Ninja Install ..."
-echo "5. Ninja Install ..." >> $LFSLOG_PROCESS
-echo "5. Ninja Install ..." >> $PKGLOG_ERROR
+echo "4. Ninja Install ..."
+echo "4. Ninja Install ..." >> $LFSLOG_PROCESS
+echo "4. Ninja Install ..." >> $PKGLOG_ERROR
 ninja install > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 
-mkdir -p /etc/X11/xorg.conf.d
-
-install -d -m1777 /tmp/.{ICE,X11}-unix
-
 cat >> /etc/sysconfig/createfiles << "EOF"
-/tmp/.ICE-unix dir 1777 root root
 /tmp/.X11-unix dir 1777 root root
 EOF
 
