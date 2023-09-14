@@ -1,0 +1,32 @@
+# b.04.22.Shadow-4.13.Part2.sh
+#
+# message after creating configurations
+#
+
+echo "Warning!"
+echo "."
+echo "At this point, you should do a simple test"
+echo "to see if Shadow is working as expected."
+echo "."
+echo "Open another terminal and log in as root,"
+echo "and then run login and login as another user."
+echo "If you do not see any errors, then all is well"
+echo "and you should proceed with the rest of the configuration."
+echo "."
+echo "If you did receive errors,"
+echo "stop now and"
+echo "double check the above configuration files manually."
+echo "Any error is the sign of an error in the above procedure."
+echo "You can also run the test suite from the Linux-PAM package"
+echo "to assist you in determining the problem."
+echo "."
+echo "If you cannot find and fix the error,"
+echo "you should recompile Shadow"
+echo "adding the --without-libpam switch"
+echo "to the configure command"
+echo "in the above instructions"
+echo "(also move the /etc/login.defs.orig backup file"
+echo "to /etc/login.defs)."
+echo "If you fail to do this and the errors remain,"
+echo "you will be unable to log into your system."
+echo "."

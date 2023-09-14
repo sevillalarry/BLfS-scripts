@@ -1,3 +1,9 @@
+# 04.12 Linux-PAM-1.5.3
+https://github.com/linux-pam/linux-pam/releases/download/v1.5.3/Linux-PAM-1.5.3.tar.xz
+https://github.com/linux-pam/linux-pam/releases/download/v1.5.3/Linux-PAM-1.5.3-docs.tar.xz
+# 04.22 Shadow-4.13
+https://github.com/shadow-maint/shadow/releases/download/4.13/shadow-4.13.tar.xz
+
 # 09.68 libxml2 - required to run test by 24.06 xcb-proto-1.16.1
 https://download.gnome.org/sources/libxml2/2.10/libxml2-2.10.4.tar.xz
 https://www.w3.org/XML/Test/xmlts20130923.tar.gz
@@ -19,6 +25,9 @@ https://downloads.sourceforge.net/libpng/libpng-1.6.40.tar.xz
 https://downloads.sourceforge.net/sourceforge/libpng-apng/libpng-1.6.40-apng.patch.gz
 # 10.30 Pixman-0.42.2
 https://www.cairographics.org/releases/pixman-0.42.2.tar.gz
+
+#12.11 elogind-252.9 - recommended by 24.23 Xorg-Server-21.1.8
+https://github.com/elogind/elogind/archive/v252.9/elogind-252.9.tar.gz
 
 # 12.36 Which-2.21 - recommended by 10.04 FreeType
 https://ftp.gnu.org/gnu/which/which-2.21.tar.gz
