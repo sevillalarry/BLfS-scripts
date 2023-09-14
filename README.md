@@ -16,16 +16,8 @@
 #
 # Continuation of LfS-Scripts
 #
-# Ver 11.3
-#
-# Group a - LfS / status: OK, working
-# Group b - XOrg only / status: root ok, user ok
-#
-# Group c - Xfce only / status: failed on VM
-# Group c - LXDE only / 2023/Aug/13 22:00 NOT fully tested due to time constraints
-# abandoned due to new version 12.0 released 2023/Sept/01
 
-# Ver 12.0
+# Current Version = 12.0
 #
 # Group a - LfS / status: OK, working
 #
@@ -35,8 +27,20 @@
 #                               / status: encoded
 #
 # Group c - LXDE  / status: encoded, wait for Group b.3 XOrg with Others
-# Group c - LXQt  / status: plan
 # Group c - Xfce  / status: for update
+# Group c - LXQt  / status: plan
 # Group c - KDE   / status: plan
 # Group c - Gnome / status: plan
+
+
+
+
+
+# Ver 11.3
 #
+# Group a - LfS / status: OK, working
+# Group b - XOrg only / status: root ok, user ok
+#
+# Group c - Xfce only / status: failed on VM
+# Group c - LXDE only / 2023/Aug/13 22:00 NOT fully tested due to time constraints
+# abandoned due to new version 12.0 released 2023/Sept/01
