@@ -16,11 +16,27 @@
 #
 # Continuation of LfS-Scripts
 #
-# Group a - LfS
-# Group b - XOrg only / status: working
-# Group c - LXDE only / status: 2023/Aug/13 22:00 NOT fully tested due to time constraints 11.3ver abandoned due to new version
+# Ver 11.3
 #
-# Group c - Xfce only / status: failed on VM, try PC
-# Group d - ???
+# Group a - LfS / status: OK, working
+# Group b - XOrg only / status: root ok, user ok
 #
+# Group c - Xfce only / status: failed on VM
+# Group c - LXDE only / 2023/Aug/13 22:00 NOT fully tested due to time constraints
+# abandoned due to new version 12.0 released 2023/Sept/01
 
+# Ver 12.0
+#
+# Group a - LfS / status: OK, working
+#
+# Group b.1 - XOrg only         / status: root ok, user NOT
+# Group b.2 - XOrg with Wayland / status: encoded
+# Group b.3 - XOrg with Others ( dbus, elogind, Linux-PAM, ... )
+#                               / status: encoded
+#
+# Group c - LXDE  / status: encoded, wait for Group b.3 XOrg with Others
+# Group c - LXQt  / status: plan
+# Group c - Xfce  / status: for update
+# Group c - KDE   / status: plan
+# Group c - Gnome / status: plan
+#
