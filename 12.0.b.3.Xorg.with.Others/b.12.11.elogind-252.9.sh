@@ -31,7 +31,7 @@
 #   read NOTES at: https://www.linuxfromscratch.org/blfs/view/12.0/general/elogind.html
 #
 
-export PKG="elogind-259.9"
+export PKG="elogind-252.9"
 export PKGLOG_DIR=$LFSLOG/12.11
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log

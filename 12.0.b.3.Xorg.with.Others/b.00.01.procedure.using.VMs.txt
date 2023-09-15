@@ -1,0 +1,120 @@
+A. Preparation
+
+  A.01. ( Assumming LfS is already running )
+
+        ###
+
+        rm /sources
+
+        mkdir -v /mnt/src/blfs.{src,log}
+
+        chmod -v a+wt /mnt/src/blfs.{src,log}
+
+        ln -sf /mnt/src/blfs.src /sources
+
+        cd /sources
+
+  A.02. Copy all script files
+
+        copy all script files from ff to /sources
+
+        1. 12.0.b.1.Xorg.only
+        2. 12.0.b.2.Xorg.with.Wayland
+        3. 12.0.b.3.Xorg with.Others
+
+  A.03. Download packages
+
+        ###
+
+        wget --input-file=b.00.09.wget-list-sysv.txt --continue --directory-prefix=/sources
+
+        execute the download portions:
+
+        https://www.linuxfromscratch.org/blfs/view/12.0/x/x7lib.html
+        https://www.linuxfromscratch.org/blfs/view/12.0/x/x7app.html
+        https://www.linuxfromscratch.org/blfs/view/12.0/x/x7font.html
+
+        ###
+
+  A.04. Setting Up the Environment
+        ( Note: change the MAKEFLAGS based on the number of threads )
+
+        ###
+
+        ln -sfv /mnt/src/blfs.log /var/log/blfs
+        export LFSLOG=/var/log/blfs
+
+        export MAKEFLAGS="-j8"
+
+        ###
+
+B.  Generate BLFS - Support Files
+
+  B.01. Checking Environment
+
+        ###
+
+        echo $LFSLOG          /var/log/blfs
+        echo $MAKEFLAGS       -j8
+
+        echo $SHELL           /bin/bash
+        ls -l /bin/sh         bash
+        ls -l /usr/bin/awk    gawk
+
+        cd /sources
+
+        ###
+
+        ( display )
+        root [ /sources ]#
+
+  B.03. Support Applications
+
+        ###
+
+        bash b.03.90.all.support.apps.1.sh
+        bash b.03.90.all.support.apps.2.sh
+
+  B.04. Install dbus scripts
+
+        cd /mnt/src/lfs.src/blfs-bootscripts-20230824
+        make install-dbus
+
+        reboot
+
+  B.05. Support Applications ( continue )
+
+        export LFSLOG=/var/log/blfs
+        export MAKEFLAGS="-j8"
+        cd /sources
+
+        bash b.03.90.all.support.apps.3.sh
+
+        ###
+
+C.  Generate BLFS - Graphical Components / Environments
+
+  C.01. [BLFS 24] Graphical Environments - Xorg
+
+        ###
+
+        export XORG_PREFIX="/usr"
+
+        export XORG_CONFIG="--prefix=$XORG_PREFIX --sysconfdir=/etc \
+                            --localstatedir=/var --disable-static"
+
+        bash b.24.00.all.sh
+
+        ###
+        #   Note: for startx as user
+        ###
+
+        /etc/X11/Xwrapper.config
+            allowed_users=anybody
+            needs_root_rights=yes
+
+        reboot
+
+        startx
+
+        ###

@@ -47,8 +47,9 @@ echo "2. Meson ..." >> $PKGLOG_ERROR
 meson setup ..                  \
             --prefix=/usr       \
             --buildtype=release \
-            -Dman=true          \
+            -Dman=false         \
           > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
+#            -Dman=true          \
 
 echo "3. Ninja Build ..."
 echo "3. Ninja Build ..." >> $LFSLOG_PROCESS

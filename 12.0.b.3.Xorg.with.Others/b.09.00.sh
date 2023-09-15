@@ -57,7 +57,7 @@ echo "."
 echo "09.13.GLib-2.76.4"
 echo "09.13.GLib-2.76.4" >> $LFSLOG_PROCESS
 
-time { bash c.09.13.GLib-2.76.4.sh ; }
+time { bash b.09.13.GLib-2.76.4.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
@@ -71,7 +71,7 @@ echo "."
 echo "09.16.gobject-introspection-1.76.1"
 echo "09.16.gobject-introspection-1.76.1" >> $LFSLOG_PROCESS
 
-time { bash c.09.16.gobject-introspection-1.76.1.sh ; }
+time { bash b.09.16.gobject-introspection-1.76.1.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS

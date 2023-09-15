@@ -16,7 +16,7 @@
 # Group a - LfS / status: OK, working
 #
 # Group b.1 - XOrg only         / status: root ok, user NOT
-# Group b.2 - XOrg with Wayland / status: encoded
+# Group b.2 - XOrg with Wayland / status: root ok, user NOT
 # Group b.3 - XOrg with Others ( dbus, elogind, Linux-PAM, ... )
 #                               / status: encoded
 #

@@ -5,3 +5,9 @@
 
 # continue shadow
 bash b.04.00.Part2.sh
+
+# dbus
+bash b.12.00.Part1.sh
+
+# "make install-dbus" from blfs-bootscripts
+# then reboot

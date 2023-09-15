@@ -14,7 +14,7 @@ date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
 echo "12.10.dbus-1.14.8"
 echo "12.10.dbus-1.14.8" >> $LFSLOG_PROCESS
 
-time { bash c.12.10.dbus-1.14.8.sh ; }
+time { bash b.12.10.dbus-1.14.8.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS

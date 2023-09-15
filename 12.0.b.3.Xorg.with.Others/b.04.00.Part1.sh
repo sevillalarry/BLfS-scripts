@@ -40,7 +40,7 @@ echo "."
 
 echo "04.22.Shadow-4.13.Part2"
 
-bash b.04.22.Shadow-4.13.Part1.sh
+bash b.04.22.Shadow-4.13.Part2.sh
 
 #####
 
