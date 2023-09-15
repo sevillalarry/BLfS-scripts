@@ -19,7 +19,7 @@
 bash b.09.00.sh
 bash b.13.00.sh
 
-#bash c.17.00.sh
+bash b.17.00.sh
 bash b.12.00.Part2.sh
 bash b.10.00.sh
 bash b.12.00.Part3.sh
