@@ -3,7 +3,7 @@
 # Graphical Environments
 #
 #   24.21
-#           skip 24.22 Xwayland
+#   24.22
 #   24.23
 #   24.24.1.1
 #   24.24.1.2
@@ -93,10 +93,38 @@ echo "."
 
 ###
 
-echo "24.24.1.2.Xorg.Evdev.Driver-2.10.6"
-echo "24.24.1.2.Xorg.Evdev.Driver-2.10.6" >> $LFSLOG_PROCESS
+# echo "24.24.1.2.Xorg.Evdev.Driver-2.10.6"
+# echo "24.24.1.2.Xorg.Evdev.Driver-2.10.6" >> $LFSLOG_PROCESS
 
-time { bash b.24.24.1.2.Xorg.Evdev.Driver-2.10.6.sh ; }
+# time { bash b.24.24.1.2.Xorg.Evdev.Driver-2.10.6.sh ; }
+
+# date +"%Y/%b/%d %H:%M"
+# date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+# echo "." >> $LFSLOG_PROCESS
+# echo "."
+# echo "."
+
+###
+
+echo "24.24.1.3.libinput-1.23.0"
+echo "24.24.1.3.libinput-1.23.0" >> $LFSLOG_PROCESS
+
+time { bash b.24.24.1.3.libinput-1.23.0.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
+###
+
+echo "24.24.1.4.Xorg.Libinput.Driver-1.3.0"
+echo "24.24.1.4.Xorg.Libinput.Driver-1.3.0" >> $LFSLOG_PROCESS
+
+time { bash b.24.24.1.4.Xorg.Libinput.Driver-1.3.0.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS

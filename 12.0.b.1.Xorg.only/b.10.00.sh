@@ -29,9 +29,9 @@ echo "."
 echo "10.05.Fontconfig-2.14.2"
 echo "10.05.Fontconfig-2.14.2" >> $LFSLOG_PROCESS
 
-export PKGPASS=1
+#export PKGPASS=1
 time { bash b.10.05.Fontconfig-2.14.2.sh ; }
-unset PKGPASS
+#unset PKGPASS
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
