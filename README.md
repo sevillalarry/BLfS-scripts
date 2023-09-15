@@ -4,20 +4,14 @@
 #  eMail: sevilla.larry.oss@gmail.com
 #
 #
-# BLfS ver: 12.0
+# Current BLfS version: 12.0
 # Started: 2023/Sept/08
-# arch: x64, UEFI
-#
-# BLfS ver: 11.3
-# Started: 2023/Apr/15
 # arch: x64, UEFI
 #
 # based on: https://www.linuxfromscratch.org/blfs/
 #
 # Continuation of LfS-Scripts
 #
-
-# Current Version = 12.0
 #
 # Group a - LfS / status: OK, working
 #
@@ -26,17 +20,20 @@
 # Group b.3 - XOrg with Others ( dbus, elogind, Linux-PAM, ... )
 #                               / status: encoded
 #
-# Group c - LXDE  / status: encoded, wait for Group b.3 XOrg with Others
-# Group c - Xfce  / status: encoded, wait for Group b.3 XOrg with Others
-# Group c - LXQt  / status: plan
-# Group c - KDE   / status: plan
-# Group c - Gnome / status: plan
+# Group c.0 - common Desktop Environment support apps
+# Group c.1 - LXDE  / status: encoded, wait for Group b.3 XOrg with Others
+# Group c.2 - Xfce  / status: encoded, wait for Group b.3 XOrg with Others
+# Group c.3 - LXQt  / status: encoded, wait for Group b.3 XOrg with Others
+# Group c.4 - KDE   / status: plan
+# Group c.5 - Gnome / status: plan
 
 
 
 
 
-# Ver 11.3
+# BLfS ver: 11.3
+# Started: 2023/Apr/15
+# arch: x64, UEFI
 #
 # Group a - LfS / status: OK, working
 # Group b - XOrg only / status: root ok, user ok
