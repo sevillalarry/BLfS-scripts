@@ -1,12 +1,12 @@
-# c.29.02.extra-cmake-modules-5.109.0.sh
+# c.11.25.Xdg-user-dirs-0.18.sh
 #
 # Required by:
 #
-#           13.04 CMake-3.27.2
+#           39.26 lxqt-session-1.3.0
 #
 
-export PKG="extra-cmake-modules-5.109.0"
-export PKGLOG_DIR=$LFSLOG/29.02
+export PKG="xdg-user-dirs-0.18"
+export PKGLOG_DIR=$LFSLOG/11.25
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log
@@ -21,25 +21,17 @@ mkdir $PKGLOG_DIR
 echo "1. Extract tar..."
 echo "1. Extract tar..." >> $LFSLOG_PROCESS
 echo "1. Extract tar..." >> $PKGLOG_ERROR
-tar xvf $PKG.tar.xz > $PKGLOG_TAR 2>> $PKGLOG_ERROR
+tar xvf $PKG.tar.bz2 > $PKGLOG_TAR 2>> $PKGLOG_ERROR
 cd $PKG
 
-
-sed -i '/"lib64"/s/64//' kde-modules/KDEInstallDirsCommon.cmake
-
-sed -e '/PACKAGE_INIT/i set(SAVE_PACKAGE_PREFIX_DIR "${PACKAGE_PREFIX_DIR}")' \
-    -e '/^include/a set(PACKAGE_PREFIX_DIR "${SAVE_PACKAGE_PREFIX_DIR}")' \
-    -i ECMConfig.cmake.in
-
-mkdir build
-cd    build
 
 echo "2. Configure ..."
 echo "2. Configure ..." >> $LFSLOG_PROCESS
 echo "2. Configure ..." >> $PKGLOG_ERROR
-cmake -DCMAKE_INSTALL_PREFIX=/usr \
-      ..                          \
-      > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
+./configure --prefix=/usr           \
+            --sysconfdir=/etc       \
+            --disable-documentation \
+          > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
 echo "3. Make Build ..."
 echo "3. Make Build ..." >> $LFSLOG_PROCESS
@@ -52,7 +44,6 @@ echo "4. Make Install ..." >> $PKGLOG_ERROR
 make install > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 
 
-cd ..
 cd ..
 rm -rf $PKG
 unset LFSLOG_PROCESS

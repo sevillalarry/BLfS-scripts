@@ -1,12 +1,14 @@
-# c.29.02.extra-cmake-modules-5.109.0.sh
+# c.29.06.Polkit-Qt-0.114.0.sh
 #
-# Required by:
+# Dependencies Required:
 #
 #           13.04 CMake-3.27.2
+#           04.20 Polkit-123
+#           25.46 qt-alternate-5.15.10
 #
 
-export PKG="extra-cmake-modules-5.109.0"
-export PKGLOG_DIR=$LFSLOG/29.02
+export PKG="polkit-qt-0.114.0"
+export PKGLOG_DIR=$LFSLOG/29.06
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log
@@ -25,20 +27,16 @@ tar xvf $PKG.tar.xz > $PKGLOG_TAR 2>> $PKGLOG_ERROR
 cd $PKG
 
 
-sed -i '/"lib64"/s/64//' kde-modules/KDEInstallDirsCommon.cmake
-
-sed -e '/PACKAGE_INIT/i set(SAVE_PACKAGE_PREFIX_DIR "${PACKAGE_PREFIX_DIR}")' \
-    -e '/^include/a set(PACKAGE_PREFIX_DIR "${SAVE_PACKAGE_PREFIX_DIR}")' \
-    -i ECMConfig.cmake.in
-
 mkdir build
 cd    build
 
 echo "2. Configure ..."
 echo "2. Configure ..." >> $LFSLOG_PROCESS
 echo "2. Configure ..." >> $PKGLOG_ERROR
-cmake -DCMAKE_INSTALL_PREFIX=/usr \
-      ..                          \
+cmake -DCMAKE_INSTALL_PREFIX=/usr   \
+      -DCMAKE_BUILD_TYPE=Release    \
+      -Wno-dev                      \
+      ..                            \
       > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
 echo "3. Make Build ..."

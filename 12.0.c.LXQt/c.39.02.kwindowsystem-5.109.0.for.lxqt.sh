@@ -2,9 +2,9 @@
 #
 # Dependencies Required:
 #
-#       29.02 extra-cmake-modules-5.109.0
-#       24.08 Xorg Libraries
-#       25.46 qt-alternate-5.15.10
+#           29.02 extra-cmake-modules-5.109.0
+#           24.08 Xorg Libraries
+#           25.46 qt-alternate-5.15.10
 #
 
 export PKG="kwindowsystem-5.109.0"
@@ -23,7 +23,7 @@ mkdir $PKGLOG_DIR
 echo "1. Extract tar..."
 echo "1. Extract tar..." >> $LFSLOG_PROCESS
 echo "1. Extract tar..." >> $PKGLOG_ERROR
-tar xvf $PKG.tar.gz > $PKGLOG_TAR 2>> $PKGLOG_ERROR
+tar xvf $PKG.tar.xz > $PKGLOG_TAR 2>> $PKGLOG_ERROR
 cd $PKG
 
 

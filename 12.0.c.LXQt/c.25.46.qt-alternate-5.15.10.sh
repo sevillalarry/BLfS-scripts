@@ -2,7 +2,7 @@
 #
 # Dependencies Required:
 #
-#       24.08 Xorg Libraries
+#           24.08 Xorg Libraries
 #
 
 export PKG="qt-everywhere-opensource-src-5.15.10"
@@ -21,7 +21,7 @@ mkdir $PKGLOG_DIR
 echo "1. Extract tar..."
 echo "1. Extract tar..." >> $LFSLOG_PROCESS
 echo "1. Extract tar..." >> $PKGLOG_ERROR
-tar xvf $PKG.tar.bz2 > $PKGLOG_TAR 2>> $PKGLOG_ERROR
+tar xvf $PKG.tar.xz > $PKGLOG_TAR 2>> $PKGLOG_ERROR
 cd $PKG
 
 

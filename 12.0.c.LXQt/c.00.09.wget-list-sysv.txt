@@ -1,9 +1,53 @@
+# 10.15 libexif-0.6.24
+https://github.com/libexif/libexif/releases/download/v0.6.24/libexif-0.6.24.tar.bz2
+
+# 11.25 Xdg-user-dirs-0.18
+https://user-dirs.freedesktop.org/releases/xdg-user-dirs-0.18.tar.gz
+
 # 25.46 qt-alternate-5.15.10
 https://download.qt.io/archive/qt/5.15/5.15.10/single/qt-everywhere-opensource-src-5.15.10.tar.xz
 https://www.linuxfromscratch.org/patches/blfs/12.0/qt-everywhere-opensource-src-5.15.10-kf5-1.patch
 
+# 27.03 openbox-3.6.1
+http://openbox.org/dist/openbox/openbox-3.6.1.tar.gz
+
+# 28.07 hicolor-icon-theme-0.17
+https://icon-theme.freedesktop.org/releases/hicolor-icon-theme-0.17.tar.xz
+
 # 29.02 extra-cmake-modules-5.109.0
 https://download.kde.org/stable/frameworks/5.109/extra-cmake-modules-5.109.0.tar.xz
+# 29.06 Polkit-Qt-0.114.0
+https://download.kde.org/stable/polkit-qt-1/polkit-qt-1-0.114.0.tar.xz
+# 29.08 Plasma-wayland-protocols-1.10.0
+https://download.kde.org/stable/plasma-wayland-protocols/plasma-wayland-protocols-1.10.0.tar.xz
 
-# 39.02 up...
+# 39.02 ---> .08
 https://download.kde.org/stable/frameworks/5.109/kwindowsystem-5.109.0.tar.xz
+https://download.kde.org/stable/frameworks/5.109/kwayland-5.109.0.tar.xz
+https://download.kde.org/stable/frameworks/5.109/kconfig-5.109.0.tar.xz
+https://download.kde.org/stable/frameworks/5.109/solid-5.109.0.tar.xz
+https://download.kde.org/stable/frameworks/5.109/kidletime-5.109.0.tar.xz
+http://download.kde.org/stable/plasma/5.27.7/libkscreen-5.27.7.tar.xz
+https://github.com/beltoforion/muparser/archive/v2.3.4/muparser-2.3.4.tar.gz
+# 39.09 & .10
+https://github.com/lxqt/lxqt-build-tools/releases/download/0.13.0/lxqt-build-tools-0.13.0.tar.xz
+https://github.com/lxqt/libqtxdg/releases/download/3.11.0/libqtxdg-3.11.0.tar.xz
+# 39.11 ---> .20
+https://anduin.linuxfromscratch.org/BLFS/lxqt-menu-data/lxqt-menu-data-20230619.tar.xz
+https://github.com/lxqt/liblxqt/releases/download/1.3.0/liblxqt-1.3.0.tar.xz
+https://github.com/lxqt/libsysstat/releases/download/0.4.6/libsysstat-0.4.6.tar.xz
+https://github.com/lxqt/qtxdg-tools/releases/download/3.11.0/qtxdg-tools-3.11.0.tar.xz
+https://github.com/lxqt/libfm-qt/releases/download/1.3.0/libfm-qt-1.3.0.tar.xz
+https://github.com/lxqt/lxqt-themes/releases/download/1.3.0/lxqt-themes-1.3.0.tar.xz
+https://github.com/lxqt/lxqt-qtplugin/releases/download/1.3.0/lxqt-qtplugin-1.3.0.tar.xz
+https://github.com/lxqt/lxqt-about/releases/download/1.3.0/lxqt-about-1.3.0.tar.xz
+https://github.com/lxqt/lxqt-admin/releases/download/1.3.0/lxqt-admin-1.3.0.tar.xz
+https://github.com/lxqt/lxqt-openssh-askpass/releases/download/1.3.0/lxqt-openssh-askpass-1.3.0.tar.xz
+# 39.21 ---> .30
+https://github.com/lxqt/lxqt-sudo/releases/download/1.3.0/lxqt-sudo-1.3.0.tar.xz
+https://github.com/lxqt/lxqt-config/releases/download/1.3.0/lxqt-config-1.3.0.tar.xz
+https://github.com/lxqt/obconf-qt/releases/download/0.16.2/obconf-qt-0.16.2.tar.xz
+https://github.com/lxqt/lxqt-globalkeys/releases/download/1.3.0/lxqt-globalkeys-1.3.0.tar.xz
+https://github.com/lxqt/lxqt-policykit/releases/download/1.3.0/lxqt-policykit-1.3.0.tar.xz
+https://github.com/lxqt/lxqt-session/releases/download/1.3.0/lxqt-session-1.3.0.tar.xz
+https://github.com/lxqt/pcmanfm-qt/releases/download/1.3.0/pcmanfm-qt-1.3.0.tar.xz

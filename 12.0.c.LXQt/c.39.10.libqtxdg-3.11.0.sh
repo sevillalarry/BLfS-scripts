@@ -1,12 +1,19 @@
-# c.29.02.extra-cmake-modules-5.109.0.sh
+# c.39.10.libqtxdg-3.11.0.sh
 #
-# Required by:
+# Dependencies Required:
 #
 #           13.04 CMake-3.27.2
+#           25.46 qt-alternate-5.15.10
+#
+#
+# Dependencies Optional (runtime):
+#
+#           25.19 GTK+-2.24.33 or
+#           25.20 GTK+-3.24.38 for gtk-update-icon-cache
 #
 
-export PKG="extra-cmake-modules-5.109.0"
-export PKGLOG_DIR=$LFSLOG/29.02
+export PKG="libqtxdg-3.11.0"
+export PKGLOG_DIR=$LFSLOG/39.10
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log
@@ -25,12 +32,6 @@ tar xvf $PKG.tar.xz > $PKGLOG_TAR 2>> $PKGLOG_ERROR
 cd $PKG
 
 
-sed -i '/"lib64"/s/64//' kde-modules/KDEInstallDirsCommon.cmake
-
-sed -e '/PACKAGE_INIT/i set(SAVE_PACKAGE_PREFIX_DIR "${PACKAGE_PREFIX_DIR}")' \
-    -e '/^include/a set(PACKAGE_PREFIX_DIR "${SAVE_PACKAGE_PREFIX_DIR}")' \
-    -i ECMConfig.cmake.in
-
 mkdir build
 cd    build
 
@@ -38,6 +39,8 @@ echo "2. Configure ..."
 echo "2. Configure ..." >> $LFSLOG_PROCESS
 echo "2. Configure ..." >> $PKGLOG_ERROR
 cmake -DCMAKE_INSTALL_PREFIX=/usr \
+      -DCMAKE_BUILD_TYPE=Release  \
+      -DCMAKE_INSTALL_LIBDIR=lib  \
       ..                          \
       > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 

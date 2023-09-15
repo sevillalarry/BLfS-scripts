@@ -27,7 +27,7 @@
 #                               / status: encoded
 #
 # Group c - LXDE  / status: encoded, wait for Group b.3 XOrg with Others
-# Group c - Xfce  / status: for update
+# Group c - Xfce  / status: encoded, wait for Group b.3 XOrg with Others
 # Group c - LXQt  / status: plan
 # Group c - KDE   / status: plan
 # Group c - Gnome / status: plan
