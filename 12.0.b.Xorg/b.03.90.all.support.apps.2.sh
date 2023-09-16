@@ -25,15 +25,15 @@
 bash b.09.00.sh
 bash b.13.00.sh
 
-# Polkit
-bash b.04.00.Part2.sh
-
 # Which
 bash b.12.00.Part2.sh
 bash b.10.00.sh
 
 # elogind
 bash b.12.00.Part3.sh
+
+# Polkit
+bash b.04.00.Part2.sh
 
 bash b.11.00.sh
 
