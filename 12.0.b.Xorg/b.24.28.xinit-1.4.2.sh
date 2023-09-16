@@ -4,7 +4,7 @@
 #
 #               24.08 Xorg Libraries
 #
-# Dependencies Recommended:
+# Dependencies Recommended Runtime:
 #
 #               24.25 twm-1.0.12
 #               24.26 xclock-1.1.1

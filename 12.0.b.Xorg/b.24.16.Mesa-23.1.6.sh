@@ -18,7 +18,33 @@
 # Required by:
 #
 #               24.18 Xorg Applications
+#               25.38 libepoxy-1.5.10
 #
+# Recommended by:
+#
+#               24.22 Xwayland-23.2.0
+#
+#
+# Device Drivers --->
+#   Graphics support --->
+#     <*/M>   Direct Rendering Manager (XFree86 4.1.0 and higher DRI support) --->
+#                                                                       ...  [DRM]
+#     # For r300 or r600:
+#     < /*/M> ATI Radeon                                              [DRM_RADEON]
+#     # For radeonsi:
+#     < /*/M> AMD GPU                                                 [DRM_AMDGPU]
+#     [*]       Enable amdgpu support for SI parts                 [DRM_AMDGPU_SI]
+#     [*]       Enable amdgpu support for CIK parts               [DRM_AMDGPU_CIK]
+#       Display Engine Configuration --->
+#       [*]   AMD DC - Enable new display engine                      [DRM_AMD_DC]
+#     # For nouveau:
+#     < /*/M> Nouveau (NVIDIA) cards                                 [DRM_NOUVEAU]
+#     # For i915, crocus, or iris:
+#     < /*/M> Intel 8xx/9xx/G3x/G4x/HD Graphics                         [DRM_I915]
+#     # For swrast:
+#     < /*/M> Virtual GEM provider                                      [DRM_VGEM]
+#     # For svga:
+#     < /*/M> DRM driver for VMware Virtual GPU                       [DRM_VMWGFX]
 #
 # read: https://linuxfromscratch.org/blfs/view/12.0/x/mesa.html
 #
@@ -62,7 +88,8 @@ meson setup                     \
         -Dlibunwind=disabled    \
         ..                      \
         > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
-#        -Dgallium-drivers=auto  \
+#        -Dgallium-drivers=auto  \ PCs
+#        -Dgallium-drivers=virgl \ VMs
 
 echo "3. Ninja Build ..."
 echo "3. Ninja Build ..." >> $LFSLOG_PROCESS

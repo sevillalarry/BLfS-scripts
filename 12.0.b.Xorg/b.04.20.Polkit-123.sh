@@ -17,7 +17,7 @@
 #
 #               37.09 LXSession-0.5.5
 #
-# Recommended by:
+# Runtime Recommended by:
 #
 #               12.11 elogind-252.9
 #

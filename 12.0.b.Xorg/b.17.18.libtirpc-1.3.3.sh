@@ -5,6 +5,10 @@
 #               24.22 Xwayland-23.2.0
 #               24.23 Xorg-Server-21.1.8
 #
+# Optionally by:
+#
+#               04.12 Linux-PAM-1.5.3
+#
 
 export PKG="libtirpc-1.3.3"
 export PKGLOG_DIR=$LFSLOG/17.18

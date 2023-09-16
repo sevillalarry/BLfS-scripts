@@ -5,7 +5,7 @@
 #               24.08 Xorg Libraries
 #
 #
-# Recommended by:
+# Runtime Recommended by:
 #
 #               24.28 xinit-1.4.2
 #

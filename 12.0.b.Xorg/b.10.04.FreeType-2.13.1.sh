@@ -2,7 +2,7 @@
 #
 # Dependencies Recommended:
 #
-#               10.11 HarfBuzz-7.0.0 ( first, install FreeType, after HarfBuzz is installed, reinstall FreeType )
+#               10.11 HarfBuzz-8.1.1 ( first, install FreeType, after HarfBuzz is installed, reinstall FreeType )
 #               10.21 libpng-1.6.40
 #               12.36 Which-2.21
 #
@@ -10,6 +10,10 @@
 # Required by:
 #
 #               10.05 Fontconfig-2.14.2
+#
+# Recommended by:
+#
+#               10.11 HarfBuzz-8.1.1 ( first, install FreeType, after HarfBuzz is installed, reinstall FreeType )
 #
 
 export PKG="freetype-2.13.1"

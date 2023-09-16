@@ -1,10 +1,19 @@
 # b.04.12.Linux-PAM-1.5.3.sh
 #
+# Dependencies Optional
+#
+#               17.18 libtirpc-1.3.3
+#
+#
 # Recommended by:
 #
 #               12.11 elogind-252.9 ( required for Xorg )
+#               04.20 Polkit-123
 #
-
+# Optional by:
+#
+#               24.18 Xorg Applications
+#
 
 export PKG="Linux-PAM-1.5.3"
 export PKGLOG_DIR=$LFSLOG/04.12

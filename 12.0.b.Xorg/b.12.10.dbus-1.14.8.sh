@@ -13,6 +13,10 @@
 #
 #               12.11 elogind-252.9
 #
+# Runtime needed for test by :
+#
+#               09.13 GLib-2.76.4
+#
 # Note: initially tests are EXcluded due to complications
 #
 

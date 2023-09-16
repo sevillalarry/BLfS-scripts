@@ -5,7 +5,7 @@
 #               24.23 Xorg-Server-21.1.8
 #
 #
-# Recommended by:
+# Runtime Recommended by:
 #
 #               24.28 xinit-1.4.2
 #

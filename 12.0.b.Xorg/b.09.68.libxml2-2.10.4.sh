@@ -4,11 +4,14 @@
 #
 #               24.06 xcb-proto-1.16.0
 #
-#
 # Required by:
 #
 #               09.88 Wayland-1.22.0
 #               11.17 shared-mime-info-2.2
+#
+# Optional by:
+#
+#               10.05 Fontconfig-2.14.2
 #
 
 export PKG="libxml2-2.10.4"

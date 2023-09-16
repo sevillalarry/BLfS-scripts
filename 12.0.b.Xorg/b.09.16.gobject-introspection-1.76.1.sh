@@ -10,6 +10,11 @@
 #               35.01 libxfce4util-4.18.1
 #               33.03 gsettings-desktop-schemas-44.0 
 #
+# Recommended by:
+#
+#               04.20 Polkit-123
+#               10.11 HarfBuzz-8.1.1
+#
 # Runtime needed / Required by:
 #
 #               09.13 GLib-2.76.4 test

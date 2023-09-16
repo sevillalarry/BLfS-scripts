@@ -10,9 +10,9 @@
 #
 #               25.13 gdk-pixbuf-2.42.10
 #
-# Runtime needed by:
+# Runtime needed for test by :
 #
-#               09.13 GLib-2.76.4 test
+#               09.13 GLib-2.76.4
 #
 
 export PKG="shared-mime-info-2.2"

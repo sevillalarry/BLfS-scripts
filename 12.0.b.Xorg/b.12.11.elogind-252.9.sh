@@ -11,6 +11,10 @@
 #
 #               24.23 Xorg-Server-21.1.8
 #
+# Runtime Recommended by:
+#
+#               04.20 Polkit-123
+#
 #
 # Kernel Configuration
 #

@@ -5,13 +5,16 @@
 #               24.09 libxcvt-0.1.2
 #               10.30 Pixman-0.42.2
 #               24.20 Xorg Fonts - font-util
-#               24.21 XKeyboardConfig-2.39
 #
 # Dependencies Recommended (but neeeded):
 #
 #               12.11 elogind-252.9
 #               25.38 libepoxy-1.5.10
 #               17.18 libtirpc-1.3.3
+#
+# Dependencies Runtime Required:
+#
+#               24.21 XKeyboardConfig-2.39
 #
 # Dependencies Runtime Recommended:
 #

@@ -15,9 +15,16 @@
 #
 # Required by:
 #
-#               various
+#               04.20 Polkit-123
+#               09.16 gobject-introspection-1.76.1
+#               11.04 desktop-file-utils-0.26
+#               11.17 shared-mime-info-2.2
+#               etc
 #
-
+# Recommended by:
+#
+#               10.11 HarfBuzz-8.1.1
+#
 
 export PKG="glib-2.76.4"
 export PKGLOG_DIR=$LFSLOG/09.13

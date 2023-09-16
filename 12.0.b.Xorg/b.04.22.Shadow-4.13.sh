@@ -1,7 +1,7 @@
 # b.04.22.Shadow-4.13.sh
 #
 # Should be Re-Installed after:
-# Required Dependencies
+# Required Dependencies:
 #
 #               04.12 Linux-PAM-1.5.3
 #
