@@ -58,12 +58,12 @@ echo "2. Meson ..." >> $PKGLOG_ERROR
 meson setup ..                                  \
                 --prefix=/usr                   \
                 --buildtype=release             \
+                -Djs_engine=duktape             \
                 -Dman=false                     \
                 -Dsession_tracking=libelogind   \
         > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
 #        -Dman=true             \
-#        -Djs_engine=duktape         \
 # inserted -Dauthfw=shadow
 #      -Dtests=true                  \
 #      -Dsession_tracking=libelogind \
