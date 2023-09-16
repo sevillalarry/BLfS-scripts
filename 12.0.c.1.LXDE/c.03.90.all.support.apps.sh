@@ -1,10 +1,6 @@
-# b.03.90.all.support.apps.2.sh
+# b.03.90.all.support.apps.sh
 #
 # Support Applications
-#
-
-# .1
-#bash c.12.00.sh
 #
 
 # bash c.48.00.sh
