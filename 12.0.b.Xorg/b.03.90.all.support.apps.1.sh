@@ -7,7 +7,7 @@
 bash b.17.00.sh
 
 # Linux PAM & re-Install Shadow
-bash b.04.00.sh
+bash b.04.00.Part1.sh
 
 # dbus
 bash b.12.00.Part1.sh

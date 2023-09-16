@@ -8,8 +8,8 @@
 # libtirpc
 #bash b.17.00.sh
 
-# Linux-PAM, Shadow, Polkit
-#bash b.04.00.sh
+# Linux-PAM, Shadow
+#bash b.04.00.Part1.sh
 
 # dbus
 #bash b.12.00.Part1.sh
@@ -24,6 +24,9 @@
 
 bash b.09.00.sh
 bash b.13.00.sh
+
+# Polkit
+bash b.04.00.Part2.sh
 
 # Which
 bash b.12.00.Part2.sh
