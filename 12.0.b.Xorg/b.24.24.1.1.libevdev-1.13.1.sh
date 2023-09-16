@@ -1,5 +1,11 @@
 # b.24.24.01.01.libevdev 1.13.1.sh
 #
+# Required by:
+#
+#               24.24.1.2 Xorg Evdev Driver 2.10.6
+#               24.24.1.3 libinput-1.23.0
+#
+#
 #       Device Drivers  --->
 #         Input device support --->
 #           <*> Generic input layer (needed for keyboard, mouse, ...) [CONFIG_INPUT]

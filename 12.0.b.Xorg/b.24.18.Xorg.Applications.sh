@@ -2,10 +2,25 @@
 #
 # Dependencies Required:
 #
-#       10.21 libpng-1.6.40
-#       24.16 Mesa-23.1.6
-#       24.17 xbitmaps-1.1.3
-#       24.10 xcb-util-0.4.1
+#               10.21 libpng-1.6.40
+#               24.16 Mesa-23.1.6
+#               24.17 xbitmaps-1.1.3
+#               24.10 xcb-util-0.4.1
+#
+# Dependencies Optional:
+#
+#               04.12 Linux-PAM-1.5.3
+#
+#
+# Required by:
+#
+#               24.19 xcursor-themes-1.0.7
+#               24.26 xterm-384
+#
+# Runtime Required by:
+#
+#               24.22 Xwayland-23.2.0
+#
 #
 # based on: https://www.linuxfromscratch.org/blfs/view/12.0/x/x7app.html
 #

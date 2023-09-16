@@ -2,7 +2,7 @@
 #
 # Recommended by:
 #
-#       12.11 elogind-252.9 ( required for Xorg )
+#               12.11 elogind-252.9 ( required for Xorg )
 #
 
 

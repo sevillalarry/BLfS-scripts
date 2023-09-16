@@ -1,27 +1,27 @@
 # b.04.20.Polkit-123.sh
 #
-# Required by:
-#
-#       37.09 LXSession-0.5.5
-#
-# Recommended by:
-#
-#       12.11 elogind-252.9
-#
-#
 # Dependencies Required:
 #
-#       09.13 GLib-2.76.4
+#               09.13 GLib-2.76.4
 #
 # Dependencies Recommended
 #
-#       09.09 duktape-2.7.0
-
-# Dependencies Recommended but Needed:
+#               09.09 duktape-2.7.0
+#               09.16 gobject-introspection-1.76.1
+#               09.69 libxslt-1.1.38 ( not installed )
+#               04.12 Linux-PAM-1.5.3
+#               12.11 elogind-252.9
 #
-#       09.68 libxslt-1.1.37
 #
-
+# Required by:
+#
+#               37.09 LXSession-0.5.5
+#
+# Recommended by:
+#
+#               12.11 elogind-252.9
+#
+#
 # read https://www.linuxfromscratch.org/blfs/view/12.0/postlfs/polkit.html
 #
 

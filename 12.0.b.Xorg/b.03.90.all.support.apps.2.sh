@@ -4,10 +4,18 @@
 #
 
 # .1
+
+# libtirpc
+#bash b.17.00.sh
+
+# Linux-PAM, Shadow, Polkit
 #bash b.04.00.sh
-#bash b.12.00.Part1.sh  dbus
+
+# dbus
+#bash b.12.00.Part1.sh
 
 # REBOOT
+
 
 # .2
 
@@ -17,9 +25,11 @@
 bash b.09.00.sh
 bash b.13.00.sh
 
-bash b.17.00.sh
+# Which
 bash b.12.00.Part2.sh
 bash b.10.00.sh
+
+# elogind
 bash b.12.00.Part3.sh
 
 bash b.11.00.sh

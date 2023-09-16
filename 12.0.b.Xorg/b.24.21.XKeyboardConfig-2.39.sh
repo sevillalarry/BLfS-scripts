@@ -1,5 +1,14 @@
 # b.24.21.XKeyboardConfig-2.39.sh
 #
+# Dependencies Required:
+#
+#               24.08 Xorg Libraries
+#
+#
+# Runtime Required by:
+#
+#               24.23 Xorg-Server-21.1.8
+#
 
 export PKG="xkeyboard-config-2.39"
 export PKGLOG_DIR=$LFSLOG/24.21

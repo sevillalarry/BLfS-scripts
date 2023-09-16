@@ -1,11 +1,13 @@
 # b.25.37.Libdrm-2.4.115.sh
 #
-# Required by:
-#       24.16 Mesa-23.1.6
-#
 # Dependencies Recommended:
 #
-#       24.08 Xorg Libraries
+#               24.08 Xorg Libraries
+#
+#
+# Required by:
+#
+#               24.16 Mesa-23.1.6
 #
 
 export PKG="libdrm-2.4.115"

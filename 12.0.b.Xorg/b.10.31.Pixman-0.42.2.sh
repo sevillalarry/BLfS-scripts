@@ -1,8 +1,14 @@
 # b.10.31.Pixman-0.42.2.sh
 #
+# Dependencies Optional:
+#
+#               10.21 libpng-1.6.40
+#
+#
 # Required by:
 #
-#   24.23 Xorg-Server-21.1.8
+#               24.22 Xwayland-23.2.0
+#               24.23 Xorg-Server-21.1.8
 #
 
 export PKG="pixman-0.42.2"

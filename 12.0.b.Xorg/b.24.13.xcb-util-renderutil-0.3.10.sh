@@ -2,7 +2,17 @@
 #
 # Dependencies Required:
 #
-#    24.07 libxcb-1.16
+#               24.07 libxcb-1.16
+#
+#
+# Required by:
+#
+#               24.15 xcb-util-cursor-0.1.4
+#
+#
+# Optional by:
+#
+#               24.23 Xorg-Server-21.1.8
 #
 
 export PKG="xcb-util-renderutil-0.3.10"

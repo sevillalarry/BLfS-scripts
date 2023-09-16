@@ -2,7 +2,16 @@
 #
 # Dependencies Required:
 #
-#    24.10 xcb-util-0.4.1
+#               24.10 xcb-util-0.4.1
+#
+# Required by:
+#
+#               24.15 xcb-util-cursor-0.1.4
+#
+#
+# Optional by:
+#
+#               24.23 Xorg-Server-21.1.8
 #
 
 export PKG="xcb-util-image-0.4.1"

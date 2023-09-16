@@ -2,7 +2,8 @@
 #
 # Recommended ( but needed ) by:
 #
-#   24.23 Xorg-Server-21.1.7
+#               24.22 Xwayland-23.2.0
+#               24.23 Xorg-Server-21.1.8
 #
 
 export PKG="libtirpc-1.3.3"

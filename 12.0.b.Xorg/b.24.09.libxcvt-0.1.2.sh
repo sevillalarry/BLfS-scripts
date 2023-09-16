@@ -2,7 +2,13 @@
 #
 # Dependencies Required:
 #
-#    24.01 Xorg build environment
+#               24.01 Xorg build environment
+#
+#
+# Required by:
+#
+#               24.22 Xwayland-23.2.0
+#               24.23 Xorg-Server-21.1.8
 #
 
 export PKG="libxcvt-0.1.2"

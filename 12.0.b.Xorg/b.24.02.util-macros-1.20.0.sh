@@ -1,13 +1,14 @@
 # b.24.02.util-macros-1.20.0.sh
 #
-# Required by:
-#
-#              24.03 xorgproto-2022.2
-#              24.17 xbitmaps-1.1.2
-#
 # Dependencies Required:
 #
-#              24.01 Xorg build environment
+#               24.01 Xorg build environment
+#
+#
+# Required by:
+#
+#               24.03 xorgproto-2022.2
+#               24.17 xbitmaps-1.1.2
 #
 
 export PKG="util-macros-1.20.0"

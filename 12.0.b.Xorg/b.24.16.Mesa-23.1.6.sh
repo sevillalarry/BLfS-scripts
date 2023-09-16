@@ -2,12 +2,25 @@
 #
 # Dependencies Required:
 #
-#       24.08 Xorg Libraries
-#       25.37 Libdrm-2.4.115
-#       13.24.14 Python Modules - Mako-1.2.4
+#               24.08 Xorg Libraries
+#               25.37 Libdrm-2.4.115
+#               13.24.14 Python Modules - Mako-1.2.4
 #
-#       for VirtIO use virgl
-#       change gallium drivers to auto for PCs
+#               for VirtIO use virgl
+#               change gallium drivers to auto for PCs
+#
+# Dependencies Recommended:
+#
+#               xx.xx libva-2.19.0 for PCs
+#               09.89 Wayland-Protocols-1.32
+#
+#
+# Required by:
+#
+#               24.18 Xorg Applications
+#
+#
+# read: https://linuxfromscratch.org/blfs/view/12.0/x/mesa.html
 #
 
 export PKG="mesa-23.1.6"

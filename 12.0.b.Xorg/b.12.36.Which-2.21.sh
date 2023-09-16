@@ -2,7 +2,7 @@
 #
 # Recommended by:
 #
-#   10.04 FreeType-2.13.1
+#               10.04 FreeType-2.13.1
 #
 
 export PKG="which-2.21"

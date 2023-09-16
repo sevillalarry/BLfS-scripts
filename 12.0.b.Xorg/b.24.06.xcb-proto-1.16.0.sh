@@ -2,11 +2,15 @@
 #
 # Dependencies Recommended:
 #
-#    24.01 Xorg build environment
+#               24.01 Xorg build environment
 #
-# Dependencies Optional:
+# Dependencies runtime:
 #
-#    09.67 libxml2-2.10.3 ( required to run the tests )
+#               09.68 libxml2-2.10.4 ( required to run the tests )
+#
+# Required by:
+#
+#               24.07 libxcb-1.16
 #
 
 export PKG="xcb-proto-1.16.0"

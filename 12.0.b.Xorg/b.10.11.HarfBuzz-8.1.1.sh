@@ -1,15 +1,19 @@
 # b.10.11.HarfBuzz-8.1.1.sh
 #
-# Recommended by:
-#
-#   10.04 FreeType-2.13.1
-#
-#
 # Dependencies Recommended:
 #   10.10 Graphite2-1.3.14
 #   09.19 ICU-72.1
-#   10.04 FreeType-2.13.1 ( after HarfBuzz is installed, reinstall Freetype-2.13.1 )
+#               09.16 gobject-introspection-1.76.1
+#               10.04 FreeType-2.13.1 ( after HarfBuzz is installed, reinstall Freetype-2.13.1 )
 #
+#
+# Recommended by:
+#
+#               10.04 FreeType-2.13.1
+#
+# Note on Cairo
+#
+# Read: https://linuxfromscratch.org/blfs/view/12.0/general/harfbuzz.html
 
 export PKG="harfbuzz-8.1.1"
 export PKGLOG_DIR=$LFSLOG/10.11

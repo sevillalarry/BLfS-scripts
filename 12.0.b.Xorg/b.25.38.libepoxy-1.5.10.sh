@@ -1,12 +1,13 @@
 # b.25.38.libepoxy-1.5.10.sh
 #
-# Recommended ( but needed ) by:
-#
-#   24.23 Xorg-Server-21.1.8
-#
 # Dependencies Required:
 #
-#   24.16 Mesa-23.1.6
+#               24.16 Mesa-23.1.6
+#
+#
+# Recommended ( but needed ) by:
+#
+#               24.23 Xorg-Server-21.1.8
 #
 
 export PKG="libepoxy-1.5.10"

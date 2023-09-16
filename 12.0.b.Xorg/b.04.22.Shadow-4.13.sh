@@ -3,7 +3,7 @@
 # Should be Re-Installed after:
 # Required Dependencies
 #
-#   04.12 Linux-PAM-1.5.3
+#               04.12 Linux-PAM-1.5.3
 #
 
 export PKG="shadow-4.13"

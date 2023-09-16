@@ -1,8 +1,14 @@
 # b.09.68.libxml2-2.10.4.sh
 #
-# Runtime Required by:
+# Required to run tests by:
 #
-#   24.06 xcb-proto-1.16.1
+#               24.06 xcb-proto-1.16.0
+#
+#
+# Required by:
+#
+#               09.88 Wayland-1.22.0
+#               11.17 shared-mime-info-2.2
 #
 
 export PKG="libxml2-2.10.4"

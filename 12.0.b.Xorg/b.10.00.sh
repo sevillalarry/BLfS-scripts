@@ -10,6 +10,21 @@ date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
 
 #####
 
+# compile libpng ahead of FreeType
+echo "10.21.libpng-1.6.40"
+echo "10.21.libpng-1.6.40" >> $LFSLOG_PROCESS
+
+time { bash b.10.21.libpng-1.6.40.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
+###
+
 echo "10.04.FreeType-2.13.1 - before HarfBuzz"
 echo "10.04.FreeType-2.13.1 - before HarfBuzz" >> $LFSLOG_PROCESS
 
@@ -62,20 +77,6 @@ echo "10.05.Fontconfig-2.14.2" >> $LFSLOG_PROCESS
 #export PKGPASS=0
 time { bash b.10.05.Fontconfig-2.14.2.sh ; }
 #unset PKGPASS
-
-date +"%Y/%b/%d %H:%M"
-date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
-
-echo "." >> $LFSLOG_PROCESS
-echo "."
-echo "."
-
-###
-
-echo "10.21.libpng-1.6.40"
-echo "10.21.libpng-1.6.40" >> $LFSLOG_PROCESS
-
-time { bash b.10.21.libpng-1.6.40.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS

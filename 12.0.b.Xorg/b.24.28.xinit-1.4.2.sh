@@ -2,13 +2,13 @@
 #
 # Dependencies Required:
 #
-#    24.08 Xorg Libraries
+#               24.08 Xorg Libraries
 #
 # Dependencies Recommended:
 #
-#    24.25 twm-1.0.12
-#    24.26 xclock-1.1.1
-#    24.26 xterm-379
+#               24.25 twm-1.0.12
+#               24.26 xclock-1.1.1
+#               24.26 xterm-379
 #
 
 export PKG="xinit-1.4.2"

@@ -1,20 +1,23 @@
 # b.09.13.GLib-2.76.4.sh
 #
-# Required by: various
+# Dependencies Recommended:
 #
-#
-# Dependencies Recommended but Needed:
-#
-#       09.69 libxslt-1.1.38
-#       09.80 PCRE2-10.42
+#               09.69 libxslt-1.1.38 ( not installed, man=false )
+#               09.80 PCRE2-10.42    ( installed as subproject )
 #
 # Dependencies Runtime:
 #
-#       09.16 gobject-introspection-1.74.0
-#       11.04 desktop-file-utils-0.26
-#       11.17 shared-mime-info-2.2
-#       12.10 dbus-1.14.8
+#               09.16 gobject-introspection-1.74.0
+#               11.04 desktop-file-utils-0.26
+#               11.17 shared-mime-info-2.2
+#               12.10 dbus-1.14.8
 #
+#
+# Required by:
+#
+#               various
+#
+
 
 export PKG="glib-2.76.4"
 export PKGLOG_DIR=$LFSLOG/09.13

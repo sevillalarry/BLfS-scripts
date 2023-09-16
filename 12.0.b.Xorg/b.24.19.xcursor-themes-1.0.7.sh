@@ -2,7 +2,12 @@
 #
 # Dependencies Required:
 #
-#       24.18 Xorg Applications
+#               24.18 Xorg Applications
+#
+#
+# Required by:
+#
+#               24.20 Xorg Fonts
 #
 
 export PKG="xcursor-themes-1.0.7"

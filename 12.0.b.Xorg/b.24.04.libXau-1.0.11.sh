@@ -2,7 +2,12 @@
 #
 # Dependencies Required:
 #
-#    24.03 xorgproto-2023.2
+#               24.03 xorgproto-2023.2
+#
+#
+# Required by:
+#
+#               24.07 libxcb-1.16
 #
 
 export PKG="libXau-1.0.11"

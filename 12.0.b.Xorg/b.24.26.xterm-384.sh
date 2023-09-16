@@ -2,11 +2,16 @@
 #
 # Dependencies Required:
 #
-#    24.18 Xorg Applications
+#               24.18 Xorg Applications
+#
+# Dependencies Required Runtime:
+#
+#               24.31.04 Dejavu-fonts-ttf-2.37
+#
 #
 # Recommended by:
 #
-#    24.28 xinit-1.4.2
+#               24.28 xinit-1.4.2
 #
 
 export PKG="xterm-384"

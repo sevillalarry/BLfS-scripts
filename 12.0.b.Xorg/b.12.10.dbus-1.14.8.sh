@@ -1,15 +1,17 @@
 # b.12.10.dbus-1.14.8.sh
 #
-# Required by:
-#
-#   25.03 at-spi2-core-2.45.0
-#   12.11 elogind-252.9
-#
-#
 # Dependencies Recommended:
 #
-#   24.08 Xorg Libraries ( dbus-launch )
+#               24.08 Xorg Libraries ( dbus-launch )
 #
+#
+# Required by:
+#
+#               25.03 at-spi2-core-2.45.0
+#
+# Recommended by:
+#
+#               12.11 elogind-252.9
 #
 # Note: initially tests are EXcluded due to complications
 #

@@ -1,7 +1,9 @@
 # b.09.75.mtdev-1.1.6.sh
 #
 # Required by:
-#             24.24.1.2 Evdev Driver-2.10.6
+#
+#               24.24.1.2 Evdev Driver-2.10.6
+#               24.24.1.3 libinput-1.23.0
 #
 
 export PKG="mtdev-1.1.6"

@@ -2,7 +2,12 @@
 #
 # Dependencies Required:
 #
-#       24.02 util-macros-1.20.0
+#               24.02 util-macros-1.20.0
+#
+#
+# Required by:
+#
+#               24.18 Xorg Applications
 #
 
 export PKG="xbitmaps-1.1.3"

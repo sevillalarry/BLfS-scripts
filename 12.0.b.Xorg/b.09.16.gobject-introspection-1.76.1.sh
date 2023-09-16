@@ -1,22 +1,22 @@
 # b.09.16.gobject-introspection-1.76.1.sh
 #
+# Dependencies Required:
+#
+#               09.13 GLib-2.76.4
+#
+#
 # Required by:
 #
-#       35.01 libxfce4util-4.18.1
-#       33.03 gsettings-desktop-schemas-44.0 
+#               35.01 libxfce4util-4.18.1
+#               33.03 gsettings-desktop-schemas-44.0 
 #
 # Runtime needed / Required by:
 #
-#       09.13 GLib-2.76.4 test
+#               09.13 GLib-2.76.4 test
 #
 # Optionally needed by:
 #
-#       37.06 libwnck-2.30.7
-#
-#
-# Dependencies Required:
-#
-#       09.13 GLib-2.76.4
+#               37.06 libwnck-2.30.7
 #
 
 export PKG="gobject-introspection-1.76.1"

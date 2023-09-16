@@ -1,8 +1,8 @@
 # b.09.09.duktape-2.7.0.sh
 #
-# Required by:
+# Recommended by:
 #
-#       04.20 Polkit-123
+#               04.20 Polkit-123
 #
 
 export PKG="duktape-2.7.0"

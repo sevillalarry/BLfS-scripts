@@ -2,11 +2,15 @@
 #
 # Required by:
 #
-#   24.18 Xorg Applications
+#               24.18 Xorg Applications
 #
 # Recommended by:
 #
-#   10.04 FreeType-2.13.0
+#               10.04 FreeType-2.13.1
+#
+# Optional by:
+#
+#               10.31 Pixman-0.42.2
 #
 
 export PKG="libpng-1.6.40"

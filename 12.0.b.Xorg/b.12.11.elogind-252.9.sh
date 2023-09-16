@@ -1,15 +1,15 @@
 # b.12.11.elogind-252.9.sh
 #
-# Recommended by:
-#
-#   24.23 Xorg-Server-21.1.8
-#
-#
 # Dependencies Recommended:
 #
-#   12.10 dbus-1.14.8       ( runtime )
-#   04.12 Linux-PAM-1.5.3   ( required for Xorg )
-#   04.20 Polkit-123        ( runtime )
+#               12.10 dbus-1.14.8       ( runtime )
+#               04.12 Linux-PAM-1.5.3   ( required for Xorg )
+#               04.20 Polkit-123        ( runtime )
+#
+#
+# Recommended by:
+#
+#               24.23 Xorg-Server-21.1.8
 #
 #
 # Kernel Configuration

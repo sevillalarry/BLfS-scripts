@@ -1,13 +1,17 @@
 # b.10.05.Fontconfig-2.14.2.sh
-#
-# Required by:
-#
-#   24.08 Xorg.Libraries
-#
 #  
 # Dependencies Required:
 #
-#   10.04 FreeType-2.13.1
+#               10.04 FreeType-2.13.1
+#
+# Dependencies Optional:
+#
+#               09.68 libxml2-2.10.4
+#
+#
+# Required by:
+#
+#               24.08 Xorg.Libraries
 #
 
 export PKG="fontconfig-2.14.2"

@@ -2,20 +2,20 @@
 #
 # Dependencies Required:
 #
-#       24.09 libxcvt-0.1.2
-#       10.30 Pixman-0.42.2
-#       09.89 Wayland-Protocols-1.32
-#       24.20 Xorg Fonts - font-util
+#               24.09 libxcvt-0.1.2
+#               10.30 Pixman-0.42.2
+#               09.89 Wayland-Protocols-1.32
+#               24.20 Xorg Fonts - font-util
 #
 # Dependencies Recommended:
 #
-#       25.38 libepoxy-1.5.10
-#       17.18 libtirpc-1.3.3
-#       24.16 Mesa-23.1.6
+#               25.38 libepoxy-1.5.10
+#               17.18 libtirpc-1.3.3
+#               24.16 Mesa-23.1.6
 #
 # Dependencies Runtime
 #
-#       24.18 Xorg.Applications
+#               24.18 Xorg.Applications
 #
 
 export PKG="xwayland-23.2.0"

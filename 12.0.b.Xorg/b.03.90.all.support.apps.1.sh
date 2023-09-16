@@ -3,6 +3,9 @@
 # Support Applications
 #
 
+# libtirpc
+bash b.17.00.sh
+
 # Linux PAM & re-Install Shadow
 bash b.04.00.sh
 

@@ -2,15 +2,31 @@
 #
 # Dependencies Required:
 #
-#       24.09 libxcvt-0.1.2
-#       10.30 Pixman-0.42.2
-#       24.20 Xorg Fonts - font-util
-#       24.21 XKeyboardConfig-2.39
+#               24.09 libxcvt-0.1.2
+#               10.30 Pixman-0.42.2
+#               24.20 Xorg Fonts - font-util
+#               24.21 XKeyboardConfig-2.39
 #
 # Dependencies Recommended (but neeeded):
 #
-#       25.38 libepoxy-1.5.10
-#       17.18 libtirpc-1.3.3
+#               12.11 elogind-252.9
+#               25.38 libepoxy-1.5.10
+#               17.18 libtirpc-1.3.3
+#
+# Dependencies Runtime Recommended:
+#
+#               24.24.1.4 Xorg Libinput Driver 1.3.0
+#
+# Dependencies Optional:
+#
+#               24.xx xcb-util-*
+#
+#
+# Required by:
+#
+#               24.24.1.2 Xorg Evdev Driver 2.10.6
+#               24.24.1.4 Xorg Libinput Driver 1.3.0
+#               24.25 twm-1.0.12
 #
 
 export PKG="xorg-server-21.1.8"

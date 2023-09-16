@@ -2,7 +2,12 @@
 #
 # Dependencies Required:
 #
-#    24.07 libxcb-1.16
+#               24.07 libxcb-1.16
+#
+# Required by:
+#
+#               24.11 xcb-util-image-0.4.1
+#               24.18 Xorg Applications
 #
 
 export PKG="xcb-util-0.4.1"

@@ -2,12 +2,18 @@
 #
 # Dependencies Required:
 #
-#    24.04 libXau-1.0.11
-#    24.06 xcb-proto-1.16.0
+#               24.04 libXau-1.0.11
+#               24.06 xcb-proto-1.16.0
 #
 # Dependencies Recommended:
 #
-#    24.05 libXdmcp-1.1.4
+#               24.05 libXdmcp-1.1.4
+#
+#
+# Required by:
+#
+#               24.08 Xorg Libraries
+#               24.xx xcb-util-*
 #
 
 export PKG="libxcb-1.16"

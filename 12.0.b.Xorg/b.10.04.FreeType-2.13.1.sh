@@ -1,14 +1,15 @@
 # b.10.04.FreeType-2.13.1.sh
 #
-# Required by:
-#
-#   10.05 Fontconfig-2.14.2
-#
 # Dependencies Recommended:
 #
-#   10.11 HarfBuzz-7.0.0 ( first, install FreeType, after HarfBuzz is installed, reinstall FreeType )
-#   10.21 libpng-1.6.40
-#   12.36 Which-2.21
+#               10.11 HarfBuzz-7.0.0 ( first, install FreeType, after HarfBuzz is installed, reinstall FreeType )
+#               10.21 libpng-1.6.40
+#               12.36 Which-2.21
+#
+#
+# Required by:
+#
+#               10.05 Fontconfig-2.14.2
 #
 
 export PKG="freetype-2.13.1"

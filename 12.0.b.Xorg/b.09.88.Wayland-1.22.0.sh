@@ -2,7 +2,12 @@
 #
 # Dependencies Required:
 #
-#       09.68 libxml2-2.10.4
+#               09.68 libxml2-2.10.4
+#
+#
+# Required by:
+#
+#               09.89 Wayland-Protocols-1.32
 #
 
 export PKG="wayland-1.22.0"

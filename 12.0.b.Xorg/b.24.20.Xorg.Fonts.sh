@@ -2,7 +2,14 @@
 #
 # Dependencies Required:
 #
-#   24.19 xcursor-themes-1.0.7
+#               24.19 xcursor-themes-1.0.7
+#
+#
+# Required by:
+#
+#               24.22 Xwayland-23.2.0    ( font-util )
+#               24.23 Xorg-Server-21.1.8 ( font-util )
+#
 #
 # based on: https://www.linuxfromscratch.org/blfs/view/12.0/x/x7font.html
 #

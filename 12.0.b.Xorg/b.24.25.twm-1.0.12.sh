@@ -2,11 +2,12 @@
 #
 # Dependencies Required:
 #
-#    24.23 Xorg-Server-21.1.8
+#               24.23 Xorg-Server-21.1.8
+#
 #
 # Recommended by:
 #
-#    24.28 xinit-1.4.2
+#               24.28 xinit-1.4.2
 #
 
 export PKG="twm-1.0.12"

@@ -2,8 +2,13 @@
 #
 # Dependencies Required:
 #
-#    24.24.1.1 libevdev 1.13.1
-#    09.73     mtdev-1.1.6
+#               24.24.1.1 libevdev 1.13.1
+#               09.75     mtdev-1.1.6
+#
+#
+# Required by:
+#
+#               24.24.1.4 Xorg Libinput Driver 1.3.0
 #
 
 export PKG="libinput-1.23.0"

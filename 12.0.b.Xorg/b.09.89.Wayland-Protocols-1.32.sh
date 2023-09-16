@@ -2,7 +2,16 @@
 #
 # Dependencies Required:
 #
-#       09.88 Wayland-1.22.0
+#               09.88 Wayland-1.22.0
+#
+#
+# Required by:
+#
+#               24.22 Xwayland-23.2.0
+#
+# Recommended by:
+#
+#               24.16 Mesa-23.1.6
 #
 
 export PKG="wayland-protocols-1.32"

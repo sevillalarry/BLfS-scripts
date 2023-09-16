@@ -1,12 +1,14 @@
 # b.24.03.xorgproto-2023.2.sh
 #
-# Required by:
-#       24.04 libXau-1.0.11
-#       24.05 libXdmcp-1.1.4
-#
 # Dependencies Required:
 #
-#       24.02 util-macros-1.20.0
+#               24.02 util-macros-1.20.0
+#
+#
+# Required by:
+#
+#               24.04 libXau-1.0.11
+#               24.05 libXdmcp-1.1.4
 #
 
 export PKG="xorgproto-2023.2"

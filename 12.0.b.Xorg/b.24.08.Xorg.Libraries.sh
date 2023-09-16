@@ -2,14 +2,19 @@
 #
 # Dependencies Required:
 #
-#    10.05 Fontconfig-2.14.2
-#    24.07 libxcb-1.16
-#
-# Dependencies Recommended:
-#
-#    12.11 elogind-246.10 ( currently NOT installed )
+#               10.05 Fontconfig-2.14.2
+#               24.07 libxcb-1.16
+#               
 #
 # based on: https://www.linuxfromscratch.org/blfs/view/12.0/x/x7lib.html
+#
+#
+# Required by:
+#
+#               24.16 Mesa-23.1.6
+#               24.21 XKeyboardConfig-2.39
+#               24.27 xclock-1.1.1
+#               24.28 xinit-1.4.2
 #
 
 export LFSLOG_PROCESS=$LFSLOG/process.log

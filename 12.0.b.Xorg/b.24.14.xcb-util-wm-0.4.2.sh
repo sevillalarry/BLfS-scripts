@@ -2,7 +2,12 @@
 #
 # Dependencies Required:
 #
-#    24.07 libxcb-1.16
+#               24.07 libxcb-1.16
+#
+#
+# Optional by:
+#
+#               24.23 Xorg-Server-21.1.8
 #
 
 export PKG="xcb-util-wm-0.4.2"
