@@ -34,10 +34,10 @@ echo "NOTHING TO DO"
 
 # before 24.23 Xorg-Server-21.1.8
 #
-# echo "09.66.libxml2-2.10.3"
-# echo "09.66.libxml2-2.10.3" >> $LFSLOG_PROCESS
+# echo "25.38.libepoxy-1.5.10"
+# echo "25.38.libepoxy-1.5.10" >> $LFSLOG_PROCESS
 
-# time { bash b.09.66.libxml2-2.10.3.sh ; }
+# time { bash b.25.38.libepoxy-1.5.10.sh ; }
 
 # date +"%Y/%b/%d %H:%M"
 # date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
