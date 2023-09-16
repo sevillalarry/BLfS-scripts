@@ -14,23 +14,6 @@ date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
 
 #####
 
-#
-# NOTE: This should be executed only ONCE
-
-# echo "24.01.Xorg.Build.Environment"
-# echo "24.01.Xorg.Build.Environment" >> $LFSLOG_PROCESS
-
-# time { bash b.24.01.Xorg.Build.Environment.sh ; }
-
-# date +"%Y/%b/%d %H:%M"
-# date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
-
-# echo "." >> $LFSLOG_PROCESS
-# echo "."
-# echo "."
-
-###
-
 echo "24.02.util-macros-1.20.0"
 echo "24.02.util-macros-1.20.0" >> $LFSLOG_PROCESS
 

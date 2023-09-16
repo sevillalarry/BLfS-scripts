@@ -8,15 +8,15 @@ https://github.com/shadow-maint/shadow/releases/download/4.13/shadow-4.13.tar.xz
 
 # 09.09 duktape-2.7.0
 https://duktape.org/duktape-2.7.0.tar.xz
-09.13 GLib-2.76.4
+# 09.13 GLib-2.76.4
 https://download.gnome.org/sources/glib/2.76/glib-2.76.4.tar.xz
 https://www.linuxfromscratch.org/patches/blfs/12.0/glib-skip_warnings-1.patch
-09.16 gobject-introspection-1.76.1
+# 09.16 gobject-introspection-1.76.1
 https://download.gnome.org/sources/gobject-introspection/1.76/gobject-introspection-1.76.1.tar.xz
 # 09.68 libxml2 - required to run test by 24.06 xcb-proto-1.16.1
 https://download.gnome.org/sources/libxml2/2.10/libxml2-2.10.4.tar.xz
 https://www.w3.org/XML/Test/xmlts20130923.tar.gz
-# 09.73 mtdev-1.1.6 - required by mtdev-1.1.6
+# 09.75 mtdev-1.1.6 - required by mtdev-1.1.6
 https://bitmath.org/code/mtdev/mtdev-1.1.6.tar.bz2
 # 09.88 & 89 Wayland *
 https://gitlab.freedesktop.org/wayland/wayland/-/releases/1.22.0/downloads/wayland-1.22.0.tar.xz
@@ -29,10 +29,10 @@ https://downloads.sourceforge.net/freetype/freetype-doc-2.13.1.tar.xz
 https://www.freedesktop.org/software/fontconfig/release/fontconfig-2.14.2.tar.xz
 # 10.11 HarfBuzz - recommended by 10.04 FreeType
 https://github.com/harfbuzz/harfbuzz/releases/download/8.1.1/harfbuzz-8.1.1.tar.xz
-# 10.20 libpng-1.6.40 - required by 24.18 Xorg Applications, recommended by 10.04 FreeType
+# 10.21 libpng-1.6.40 - required by 24.18 Xorg Applications, recommended by 10.04 FreeType
 https://downloads.sourceforge.net/libpng/libpng-1.6.40.tar.xz
 https://downloads.sourceforge.net/sourceforge/libpng-apng/libpng-1.6.40-apng.patch.gz
-# 10.30 Pixman-0.42.2
+# 10.31 Pixman-0.42.2
 https://www.cairographics.org/releases/pixman-0.42.2.tar.gz
 
 # 11.04 desktop-file-utils-0.26

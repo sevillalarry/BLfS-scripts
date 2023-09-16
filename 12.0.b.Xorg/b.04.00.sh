@@ -1,4 +1,4 @@
-# b.04.00.Part1.sh
+# b.04.00.sh
 #
 # Security
 #
@@ -24,10 +24,10 @@ echo "."
 
 ###
 
-echo "04.22.Shadow-4.13.Part1"
-echo "04.22.Shadow-4.13.Part1" >> $LFSLOG_PROCESS
+echo "04.22.Shadow-4.13"
+echo "04.22.Shadow-4.13" >> $LFSLOG_PROCESS
 
-time { bash b.04.22.Shadow-4.13.Part1.sh ; }
+time { bash b.04.22.Shadow-4.13.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
@@ -38,9 +38,18 @@ echo "."
 
 ###
 
-echo "04.22.Shadow-4.13.Part2"
+echo "04.20.Polkit-123"
+echo "04.20.Polkit-123" >> $LFSLOG_PROCESS
 
-bash b.04.22.Shadow-4.13.Part2.sh
+time { bash b.04.20.Polkit-123.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
 
 #####
 

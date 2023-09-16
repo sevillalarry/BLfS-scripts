@@ -3,11 +3,31 @@
 # Support Applications
 #
 
-# continue shadow
-bash b.04.00.Part2.sh
+# .1
+#bash b.04.00.sh
+#bash b.12.00.Part1.sh  dbus
 
-# dbus
-bash b.12.00.Part1.sh
+# REBOOT
 
-# "make install-dbus" from blfs-bootscripts
-# then reboot
+# .2
+
+# bash c.48.00.sh
+# bash c.49.00.sh
+
+bash b.09.00.sh
+bash b.13.00.sh
+
+bash b.17.00.sh
+bash b.12.00.Part2.sh
+bash b.10.00.sh
+bash b.12.00.Part3.sh
+
+bash b.11.00.sh
+
+# bash b.33.00.sh
+# bash b.25.00.sh Nothing to do
+
+#bash c.09.00.Part2.sh
+
+#bash b.27.00.sh
+#bash b.28.00.sh

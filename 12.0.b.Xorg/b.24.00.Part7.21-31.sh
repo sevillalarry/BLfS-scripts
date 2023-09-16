@@ -3,15 +3,19 @@
 # Graphical Environments
 #
 #   24.21
-#   24.22
+#   to
 #   24.23
-#   24.24.1.1
-#   24.24.1.2
-#   24.24.2.3
+#
+#   24.24.1.1   evdev lib
+#   skipped.2   Xorg evdev driver
+#   24.24.1.3   libinput
+#   24.24.1.4   libinput driver
 #
 #   24.25
 #   to
 #   24.28
+#
+#   24.31.04    dejavu fonts
 #
 
 export LFSLOG_PROCESS=$LFSLOG/process.log

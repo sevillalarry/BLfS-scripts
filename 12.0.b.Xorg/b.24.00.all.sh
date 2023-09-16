@@ -9,4 +9,4 @@ bash b.24.00.Part3.09-17.sh
 bash b.24.00.Part4.18.sh
 bash b.24.00.Part5.19.sh
 bash b.24.00.Part6.20.sh
-bash b.24.00.Part7.21-28.sh
+bash b.24.00.Part7.21-31.sh

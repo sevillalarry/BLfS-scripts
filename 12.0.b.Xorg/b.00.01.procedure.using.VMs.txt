@@ -16,11 +16,7 @@ A. Preparation
 
   A.02. Copy all script files
 
-        copy all script files from ff to /sources
-
-        1. 12.0.b.1.Xorg.only
-        2. 12.0.b.2.Xorg.with.Wayland
-        3. 12.0.b.3.Xorg with.Others
+        copy all script files to /sources
 
   A.03. Download packages
 
@@ -73,7 +69,6 @@ B.  Generate BLFS - Support Files
         ###
 
         bash b.03.90.all.support.apps.1.sh
-        bash b.03.90.all.support.apps.2.sh
 
   B.04. Install dbus scripts
 
@@ -88,7 +83,7 @@ B.  Generate BLFS - Support Files
         export MAKEFLAGS="-j8"
         cd /sources
 
-        bash b.03.90.all.support.apps.3.sh
+        bash b.03.90.all.support.apps.2.sh
 
         ###
 
