@@ -55,18 +55,18 @@ cd    build
 echo "2. Meson ..."
 echo "2. Meson ..." >> $LFSLOG_PROCESS
 echo "2. Meson ..." >> $PKGLOG_ERROR
-meson setup ..                                  \
+meson setup     ..                              \
                 --prefix=/usr                   \
                 --buildtype=release             \
-                -Djs_engine=duktape             \
                 -Dman=false                     \
                 -Dsession_tracking=libelogind   \
+                -Dtests=false                   \
         > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
-#        -Dman=true             \
-# inserted -Dauthfw=shadow
-#      -Dtests=true                  \
-#      -Dsession_tracking=libelogind \
+#                -Dauthfw=shadow                 \ if not using Linux-PAM
+#                -Djs_engine=duktape             \ default?
+#                -Dman=true                      \
+#                -Dtests=true                    \
 
 echo "3. Ninja Build ..."
 echo "3. Ninja Build ..." >> $LFSLOG_PROCESS
