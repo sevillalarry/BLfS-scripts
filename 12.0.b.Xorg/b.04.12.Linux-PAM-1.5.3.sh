@@ -5,6 +5,10 @@
 #               17.18 libtirpc-1.3.3
 #
 #
+# Required by:
+#
+#               04.22 Shadow-4.13
+#
 # Recommended by:
 #
 #               12.11 elogind-252.9 ( required for Xorg )

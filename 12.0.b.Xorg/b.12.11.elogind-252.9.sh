@@ -7,12 +7,9 @@
 #               04.20 Polkit-123        ( runtime )
 #
 #
-# Recommended by:
-#
-#               24.23 Xorg-Server-21.1.8
-#
 # Runtime Recommended by:
 #
+#               24.23 Xorg-Server-21.1.8
 #               04.20 Polkit-123
 #
 #
