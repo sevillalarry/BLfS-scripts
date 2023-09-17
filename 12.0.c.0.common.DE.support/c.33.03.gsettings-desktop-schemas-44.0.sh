@@ -1,14 +1,14 @@
 # c.33.03.gsettings-desktop-schemas-44.0.sh
 #
-# Runtime needed by:
-#
-#   25.03 at-spi2-core-2.48.3
-#
-#
 # Dependencies Required:
 #
-#   09.13 GLib-2.76.4
-#   09.16 gobject-introspection-1.76.1
+#               09.13 GLib-2.76.4
+#               09.16 gobject-introspection-1.76.1
+#
+#
+# Required Runtime by:
+#
+#               25.02 at-spi2-core-2.48.3
 #
 
 export PKG="gsettings-desktop-schemas-45.0"

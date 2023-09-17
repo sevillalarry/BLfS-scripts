@@ -7,7 +7,6 @@
 # Recommended by:
 #
 #               37.04 libfm-1.3.2
-#               37.07 LXPanel-0.10.1
 #
 
 export PKG="lxmenu-data-0.1.5"

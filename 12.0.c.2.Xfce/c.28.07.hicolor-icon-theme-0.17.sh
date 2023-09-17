@@ -7,6 +7,7 @@
 # Recommended by:
 #
 #               37.10 lxde-common-0.99.2
+#               25.19 GTK+-2.24.33
 #
 # Runtime needed by:
 #

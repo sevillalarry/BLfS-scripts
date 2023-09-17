@@ -19,6 +19,14 @@ A. Preparation
         #   same as XOrg Environment
         ###
 
+        export LFSLOG=/var/log/blfs
+        export MAKEFLAGS="-j8"
+        export XORG_PREFIX="/usr"
+        export XORG_CONFIG="--prefix=$XORG_PREFIX --sysconfdir=/etc \
+                            --localstatedir=/var --disable-static"
+
+        cd /sources
+
 B.  Generate BLFS - Support Files
 
   B.01. Setup / Checking Environment - Part 1
@@ -43,35 +51,9 @@ B.  Generate BLFS - Support Files
 
         ###
 
-        bash c.03.90.all.support.apps.1.sh
+        bash c.03.90.all.support.apps.sh
 
-        ###
-        #   Setup DBus
-        ###
-
-        cd /mnt/src/lfs.src/blfs-bootscripts-20230824
-        make install-dbus
-
-        reboot
-
-  B.04. Setup / Checking Environment - Part 2
-
-        ###
-
-        echo $LFSLOG          /var/log/blfs
-        echo $MAKEFLAGS       -j8
-
-        echo $SHELL           /bin/bash
-        ls -l /bin/sh         bash
-        ls -l /usr/bin/awk    gawk
-
-        cd /sources
-
-        bash c.03.90.all.support.apps.2.sh
-
-        ###
-
-C.  Generate BLFS - Xfce
+C.  Generate BLFS - LXDE
 
   C.01. [BLFS 37] LXDE Desktop
 

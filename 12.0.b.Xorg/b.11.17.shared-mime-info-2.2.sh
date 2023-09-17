@@ -8,7 +8,7 @@
 #
 # Required by:
 #
-#               25.13 gdk-pixbuf-2.42.10
+#               25.12 gdk-pixbuf-2.42.10
 #
 # Runtime needed for test by :
 #

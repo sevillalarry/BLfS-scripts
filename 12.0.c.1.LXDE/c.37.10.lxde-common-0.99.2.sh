@@ -5,9 +5,11 @@
 #               28.09 lxde-icon-theme-0.5.1
 #               37.07 LXPanel-0.10.1
 #               37.09 LXSession-0.5.5
-#               27.03 openbox-3.6.1
 #               37.05 PCManFM-1.3.2
 #
+# Dependencies Required Runtime:
+#
+#               27.03 openbox-3.6.1
 #
 # Dependencies Recommended:
 #

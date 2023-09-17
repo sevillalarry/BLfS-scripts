@@ -2,7 +2,7 @@
 #
 # Required by:
 #
-#               25.42 Pango-1.50.14
+#               25.43 Pango-1.50.14
 #
 # Required by:
 #

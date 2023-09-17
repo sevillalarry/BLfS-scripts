@@ -3,6 +3,7 @@
 # Required by:
 #
 #               24.18 Xorg Applications
+#               25.12 gdk-pixbuf-2.42.10
 #
 # Recommended by:
 #

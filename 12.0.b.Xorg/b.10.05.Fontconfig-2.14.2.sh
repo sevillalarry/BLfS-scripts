@@ -12,6 +12,7 @@
 # Required by:
 #
 #               24.08 Xorg.Libraries
+#               25.43 Pango-1.50.14
 #
 
 export PKG="fontconfig-2.14.2"

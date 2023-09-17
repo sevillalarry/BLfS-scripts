@@ -9,6 +9,11 @@
 #   10.10 Graphite2-1.3.14
 #   09.19 ICU-72.1
 #
+#
+# Required by:
+#
+#               25.43.Pango-1.50.14
+#
 # Recommended by:
 #
 #               10.04 FreeType-2.13.1

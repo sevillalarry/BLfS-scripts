@@ -7,7 +7,8 @@
 #
 # Required by:
 #
-#               25.03 at-spi2-core-2.45.0
+#               25.02 at-spi2-core-2.48.3
+#               09.07 dbus-glib-0.112
 #
 # Recommended by:
 #
@@ -16,6 +17,10 @@
 # Runtime needed for test by :
 #
 #               09.13 GLib-2.76.4
+#
+# Optional by:
+#
+#               27.03 openbox-3.6.1
 #
 # Note: initially tests are EXcluded due to complications
 #

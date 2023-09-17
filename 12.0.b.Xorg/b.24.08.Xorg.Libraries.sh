@@ -12,11 +12,14 @@
 #               24.21 XKeyboardConfig-2.39
 #               24.27 xclock-1.1.1
 #               24.28 xinit-1.4.2
+#               25.02 at-spi2-core-2.48.3
+#               25.13 gdk-pixbuf-xlib-2.40.2
 #
 # Recommended by:
 #
 #               25.37 Libdrm-2.4.115
 #               12.10 dbus-1.14.8 ( dbus-launch )
+#               25.43 Pango-1.50.14
 #
 #
 # based on: https://www.linuxfromscratch.org/blfs/view/12.0/x/x7lib.html

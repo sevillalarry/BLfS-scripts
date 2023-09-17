@@ -6,12 +6,21 @@
 #               25.12 gdk-pixbuf-2.42.10
 #               25.43 Pango-1.50.14
 #
+# Dependencies Recommended:
+#
+#               28.07 hicolor-icon-theme-0.17
+#
+# Dependencies Optional:
+#
+#               09.16 gobject-introspection-1.76.1
+#
 #
 # Required by:
 #
 #               37.04 libfm-1.3.2
 #               37.06 libwnck-2.30.7
 #               37.08 LXAppearance-0.6.3
+#               25.31 keybinder-0.3.1
 #               etc
 #
 

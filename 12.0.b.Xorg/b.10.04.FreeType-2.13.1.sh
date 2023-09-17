@@ -10,6 +10,7 @@
 # Required by:
 #
 #               10.05 Fontconfig-2.14.2
+#               25.43 Pango-1.50.14
 #
 # Recommended by:
 #

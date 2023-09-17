@@ -14,6 +14,7 @@
 #
 #               04.20 Polkit-123
 #               10.11 HarfBuzz-8.1.1
+#               25.43 Pango-1.50.14
 #
 # Runtime needed / Required by:
 #
@@ -22,6 +23,7 @@
 # Optionally by:
 #
 #               37.06 libwnck-2.30.7
+#               25.19 GTK+-2.24.33
 #
 
 export PKG="gobject-introspection-1.76.1"

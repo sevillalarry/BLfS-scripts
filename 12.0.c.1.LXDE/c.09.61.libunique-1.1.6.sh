@@ -5,6 +5,10 @@
 #               25.19 GTK+-2.24.33
 #               11.07 GTK-Doc-1.33.2
 #
+# Dependencies Optional:
+#
+#               09.16 gobject-introspection-1.76.1
+#
 #
 # Required by:
 #

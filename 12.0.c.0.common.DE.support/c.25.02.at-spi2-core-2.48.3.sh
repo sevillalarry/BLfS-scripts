@@ -1,19 +1,24 @@
 # c.25.02.at-spi2-core-2.48.3.sh
 #
-# Required by:
-#
-#       25.21 GTK+-3.24.33
-#
-#
 # Dependencies Required:
 #
-#       12.10 dbus-1.14.8
-#       09.13 GLib-2.76.4
-#       24.08 Xorg Libraries
+#               12.10 dbus-1.14.8
+#               09.13 GLib-2.76.4
+#               24.08 Xorg Libraries
 #
 # Dependencies Required Runtime:
 #
-#       33.03 gsettings-desktop-schemas-44
+#               33.03 gsettings-desktop-schemas-44
+#
+# Dependencies Optional:
+#
+#               09.16 gobject-introspection-1.76.1
+#
+#
+# Required by:
+#
+#               25.19 GTK+-2.24.33
+#               25.20 GTK+-3.24.38
 #
 
 export PKG="at-spi2-core-2.48.3"

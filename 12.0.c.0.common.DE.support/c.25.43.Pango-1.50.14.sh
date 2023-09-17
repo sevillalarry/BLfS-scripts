@@ -8,11 +8,17 @@
 #               10.06 FriBidi-1.0.12
 #               09.13 GLib-2.74.5
 #
+# Dependencies Recommended:
+#
+#               09.16 gobject-introspection-1.76.1
+#               24.08 Xorg Libraries
+#
 #
 # Required by:
 #
 #               25.19 GTK+-2.24.33
 #               25.20 GTK+-3.24.38
+#               27.03 openbox-3.6.1
 #
 
 export PKG="pango-1.50.12"

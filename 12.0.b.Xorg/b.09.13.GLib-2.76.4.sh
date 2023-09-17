@@ -20,6 +20,10 @@
 #               11.04 desktop-file-utils-0.26
 #               11.17 shared-mime-info-2.2
 #               37.02 libfm-extra-1.3.2
+#               25.02 at-spi2-core-2.48.3
+#               25.12 gdk-pixbuf-2.42.10
+#               25.43 Pango-1.50.14
+#               09.07 dbus-glib-0.112
 #               etc
 #
 # Recommended by:
