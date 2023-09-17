@@ -1,19 +1,24 @@
 # c.37.04.libfm-1.3.2.sh
 #
-# Required by:
-#
-#       37.05 PCManFM-1.3.2
-#
-#
 # Dependencies Required:
 #
-#       25.20 GTK+-2.24.33
-#       37.03 menu-cache-1.1.0
+#               25.19 GTK+-2.24.33
+#               37.03 menu-cache-1.1.0
 #
 # Dependencies Recommended:
 #
-#       13.35 Vala-0.56.4
-#       37.01 lxmenu-data-0.1.5
+#               ??.?? libexif-0.6.24
+#               13.36 Vala-0.56.11
+#               37.01 lxmenu-data-0.1.5
+#
+# Dependencies Optional:
+#
+#               09.07 dbus-glib-0.112
+#
+#
+# Required by:
+#
+#               37.05 PCManFM-1.3.2
 #
 
 export PKG="libfm-1.3.2"

@@ -1,14 +1,15 @@
-# c.25.13.gdk-pixbuf-2.42.10.sh
-#
-# Required by:
-#
-#       25.21 GTK+-3.24.36
-#
+# c.25.13.gdk-pixbuf-xlib-2.42.10.sh
 #
 # Dependencies Required:
 #
-#       25.12 gdk-pixbuf-2.42.10.sh
-#       24.08 Xorg Libraries
+#               25.12 gdk-pixbuf-2.42.10.sh
+#               24.08 Xorg Libraries
+#
+#
+# Required by:
+#
+#               25.20 GTK+-3.24.38
+#               37.07 LXPanel-0.10.1
 #
 
 export PKG="gdk-pixbuf-xlib-2.40.2"

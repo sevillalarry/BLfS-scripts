@@ -1,13 +1,13 @@
 # c.37.02.libfm-extra-1.3.2.sh
 #
-# Required by:
-#
-#       37.03 menu-cache-1.1.0
-#
-#
 # Dependencies Required:
 #
-#       09.13 GLib-2.76.4
+#               09.13 GLib-2.76.4
+#
+#
+# Required by:
+#
+#               37.03 menu-cache-1.1.0
 #
 
 export PKG="libfm-extra-1.3.2"

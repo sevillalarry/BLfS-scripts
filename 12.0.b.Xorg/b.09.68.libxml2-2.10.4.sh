@@ -9,6 +9,10 @@
 #               09.88 Wayland-1.22.0
 #               11.17 shared-mime-info-2.2
 #
+# Recommended by:
+#
+#               37.07 LXPanel-0.10.1
+#
 # Optional by:
 #
 #               10.05 Fontconfig-2.14.2

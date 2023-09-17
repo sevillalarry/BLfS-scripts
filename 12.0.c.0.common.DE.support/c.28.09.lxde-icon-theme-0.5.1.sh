@@ -1,13 +1,21 @@
-# c.28.07.lxde-icon-theme-0.5.1.sh
+# c.28.09.lxde-icon-theme-0.5.1.sh
+#
+# Dependencies Optional:
+#
+#               25.19 GTK+-2.24.33
+#
+#
+# Required by:
+#
+#               37.10 lxde-common-0.99.2
+#
+# Recommended by:
+#
+#               37.05 PCManFM-1.3.2
 #
 # Runtime needed by:
 #
-#       35.12 xfce4-settings-4.18.2
-#       37.10 lxde-common-0.99.2
-#
-# Optional dependencies:
-#
-#       25.19 GTK+-2.24.33
+#               35.12 xfce4-settings-4.18.2
 #
 
 export PKG="lxde-icon-theme-0.5.1"

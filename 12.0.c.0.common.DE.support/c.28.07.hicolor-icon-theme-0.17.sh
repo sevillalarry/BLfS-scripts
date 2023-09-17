@@ -2,11 +2,15 @@
 #
 # Required by:
 #
-#           39.23 obconf-qt-0.16.2
+#               39.23 obconf-qt-0.16.2
+#
+# Recommended by:
+#
+#               37.10 lxde-common-0.99.2
 #
 # Runtime needed by:
 #
-#           35.07 thunar-4.18.4
+#               35.07 thunar-4.18.4
 #
 
 export PKG="hicolor-icon-theme-0.17"

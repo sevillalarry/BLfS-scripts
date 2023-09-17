@@ -1,17 +1,17 @@
 # c.37.03.menu-cache-1.1.0.sh
 #
-# Required by:
-#
-#       37.02 libfm-1.3.2
-#
-#
 # Dependencies Required:
 #
-#       37.02 libfm-extra-1.3.2
+#               37.02 libfm-extra-1.3.2
 #
 # Dependencies Optional:
 #
-#       11.07 GTK-Doc-1.33.2
+#               11.07 GTK-Doc-1.33.2
+#
+#
+# Required by:
+#
+#               37.04 libfm-1.3.2
 #
 
 export PKG="menu-cache-1.1.0"

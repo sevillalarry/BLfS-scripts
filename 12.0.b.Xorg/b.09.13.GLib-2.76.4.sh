@@ -19,6 +19,7 @@
 #               09.16 gobject-introspection-1.76.1
 #               11.04 desktop-file-utils-0.26
 #               11.17 shared-mime-info-2.2
+#               37.02 libfm-extra-1.3.2
 #               etc
 #
 # Recommended by:

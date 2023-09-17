@@ -1,14 +1,14 @@
 # c.09.61.libunique-1.1.6.sh
 #
-# Required by:
-#
-#       37.09 LXSession-0.5.5
-#
-#
 # Dependencies Required:
 #
-#       25.20 GTK+-2.24.33
-#       11.07 GTK-Doc-1.33.2
+#               25.19 GTK+-2.24.33
+#               11.07 GTK-Doc-1.33.2
+#
+#
+# Required by:
+#
+#               37.09 LXSession-0.5.5
 #
 
 export PKG="libunique-1.1.6"

@@ -1,15 +1,18 @@
 # c.37.05.PCManFM-1.3.2.sh
 #
-# Required by:
-#
-#
 # Dependencies Required:
 #
-#       37.04 libfm-1.3.2
+#               37.04 libfm-1.3.2
 #
 # Dependencies Recommended:
 #
-#       10.06 FriBidi-1.0.12
+#               28.09 lxde-icon-theme-0.5.1
+#               10.06 FriBidi-1.0.13
+#
+#
+# Required by:
+#
+#               37.10 lxde-common-0.99.2
 #
 
 export PKG="pcmanfm-1.3.2"

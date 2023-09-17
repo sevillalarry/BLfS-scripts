@@ -1,14 +1,22 @@
 # c.09.07.dbus-glib-0.112.sh
 #
-# Required by:
-#
-#       37.09 LXSession-0.5.5
-#
-#
 # Dependencies Required:
 #
-#       12.10 dbus-1.14.8
-#       09.13 GLib-2.76.4
+#               12.10 dbus-1.14.8
+#               09.13 GLib-2.76.4
+#
+#
+# Required by:
+#
+#               37.09 LXSession-0.5.5
+#
+# Recommended by:
+#
+#               37.08 LXAppearance-0.6.3
+#
+# Optionally by:
+#
+#               37.04 libfm-1.3.2
 #
 
 export PKG="dbus-glib-0.112"

@@ -2,11 +2,18 @@
 #
 # Dependencies Required:
 #
-#       28.09 lxde-icon-theme-0.5.1
-#       37.07 LXPanel-0.10.1
-#       37.09 LXSession-0.5.5
-#       27.03 openbox-3.6.1
-#       37.05 PCManFM-1.3.2
+#               28.09 lxde-icon-theme-0.5.1
+#               37.07 LXPanel-0.10.1
+#               37.09 LXSession-0.5.5
+#               27.03 openbox-3.6.1
+#               37.05 PCManFM-1.3.2
+#
+#
+# Dependencies Recommended:
+#
+#               11.04 desktop-file-utils-0.26
+#               11.17 shared-mime-info-2.2
+#               28.07 hicolor-icon-theme-0.17
 #
 
 export PKG="lxde-common-0.99.2 "

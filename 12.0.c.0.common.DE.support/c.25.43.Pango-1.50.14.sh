@@ -1,18 +1,18 @@
 # c.25.43.Pango-1.50.14.sh
 #
-# Required by:
-#
-#       25.20 GTK+-2.24.33
-#       25.21 GTK+-3.24.36
-#
-#
 # Dependencies Required:
 #
-#       10.04 FreeType-2.13
-#       10.11 HarfBuss-7.0.0
-#       10.05 Fontconfig-2.14.2
-#       10.06 FriBidi-1.0.12
-#       09.13 GLib-2.74.5
+#               10.04 FreeType-2.13
+#               10.11 HarfBuss-7.0.0
+#               10.05 Fontconfig-2.14.2
+#               10.06 FriBidi-1.0.12
+#               09.13 GLib-2.74.5
+#
+#
+# Required by:
+#
+#               25.19 GTK+-2.24.33
+#               25.20 GTK+-3.24.38
 #
 
 export PKG="pango-1.50.12"

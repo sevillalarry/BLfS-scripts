@@ -1,19 +1,21 @@
 # c.37.06.libwnck-2.30.7.sh
 #
-# Required by:
-#
-#
 # Dependencies Required:
 #
-#       25.20 GTK+-2.24.33
+#               25.19 GTK+-2.24.33
 #
 # Dependencies Recommended:
 #
 #
 # Dependencies Optional:
 #
-#       09.16 gobject-introspection-1.74.0
-#       11.07 GTK-Doc-1.33.2
+#               09.16 gobject-introspection-1.76.1
+#               11.07 GTK-Doc-1.33.2
+#
+#
+# Required by:
+#
+#               37.07 LXPanel-0.10.1
 #
 
 export PKG="libwnck-2.30.7"

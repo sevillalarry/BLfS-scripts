@@ -1,17 +1,17 @@
 # c.25.31.keybinder-0.3.1.sh
 #
-# Required by:
-#
-#       37.07 LXPanel-0.10.1
-#
-#
 # Dependencies Required:
 #
-#       25.19 GTK+-2.24.33
+#               25.19 GTK+-2.24.33
 #
 # Dependencies Recommended:
 #
-#       09.16 gobject-introspection-1.76.1
+#               09.16 gobject-introspection-1.76.1
+#
+#
+# Required by:
+#
+#               37.07 LXPanel-0.10.1
 #
 
 export PKG="keybinder-0.3.1"

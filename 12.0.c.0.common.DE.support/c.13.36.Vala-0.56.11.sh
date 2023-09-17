@@ -1,13 +1,17 @@
 # c.13.36.Vala-0.56.11.sh
 #
-# Required by:
-#
-#       37.09 LXSession-0.5.5
-#
-#
 # Dependencies Required:
 #
-#       09.13 GLib-2.76.4
+#               09.13 GLib-2.76.4
+#
+#
+# Required by:
+#
+#               37.09 LXSession-0.5.5
+#
+# Recommended by:
+#
+#               37.04 libfm-1.3.2
 #
 
 export PKG="vala-0.56.11"

@@ -1,20 +1,23 @@
 # c.37.09.LXSession-0.5.5.sh
 #
-# Required by:
-#
-#
 # Dependencies Required:
 #
-#       09.07 dbus-glib-0.112
-#       09.60 libunique-1.1.6
-#       04.20 Polkit-122
-#       13.35 Vala-0.56.4
+#               09.07 dbus-glib-0.112
+#               09.61 libunique-1.1.6
+#               04.20 Polkit-123
+#               13.36 Vala-0.56.11
 #
 # Dependencies Optional:
 #
-#       09.68 libxslt-1.1.37
-#       49.01 docbook-xml-4.5
-#       49.04 docbook-xsl-nons-1.79.2
+#               ( not installed )
+#               09.68 libxslt-1.1.37
+#               49.01 docbook-xml-4.5
+#               49.04 docbook-xsl-nons-1.79.2
+#
+#
+# Required by:
+#
+#               37.10 lxde-common-0.99.2
 #
 
 export PKG="lxsession-0.5.5"

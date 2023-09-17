@@ -1,14 +1,14 @@
 # c.28.07.lxde-icon-theme-0.5.1.sh
 #
-# Required by:
-#
-#       37.10 lxde-common-0.99.2
-#
-#
 # Dependencies Required:
 #
-#       24.xx XOrg
-#       25.43 Pango-1.50.14
+#               24.xx XOrg
+#               25.43 Pango-1.50.14
+#
+#
+# Required by:
+#
+#               37.10 lxde-common-0.99.2
 #
 
 export PKG="openbox-3.6.1"

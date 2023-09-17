@@ -1,18 +1,18 @@
 # c.25.12.gdk-pixbuf-2.42.10.sh
 #
-# Required by:
-#
-#       25.19 GTK+-2.24.33
-#       25.21 GTK+-3.24.36
-#       25.14 gdk-pixbuf-xlib-2.40.2
-#
-#
 # Dependencies Required:
 #
-#       09.13 GLib-2.76.4
-#       10.18 libjpeg-turbo-3.0.0
-#       10.21 libpng-1.6.40
-#       11.17 shared-mime-info-2.2
+#               09.13 GLib-2.76.4
+#               10.18 libjpeg-turbo-3.0.0
+#               10.21 libpng-1.6.40
+#               11.17 shared-mime-info-2.2
+#
+#
+# Required by:
+#
+#               25.19 GTK+-2.24.33
+#               25.20 GTK+-3.24.38
+#               25.13 gdk-pixbuf-xlib-2.40.2
 #
 
 export PKG="gdk-pixbuf-2.42.10"

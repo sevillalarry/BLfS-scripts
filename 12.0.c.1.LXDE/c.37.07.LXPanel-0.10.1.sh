@@ -1,15 +1,21 @@
 # c.37.07.LXPanel-0.10.1.sh
 #
-# Required by:
-#
-#
 # Dependencies Required:
 #
-#       25.14 gdk-pixbuf-xlib-2.40.2
-#       25.32 keybinder-0.3.1
-#       37.06 libwnck-2.30.7
-#       37.01 lxmenu-data-0.1.5
-#       37.03 menu-cache-1.1.0
+#               25.13 gdk-pixbuf-xlib-2.40.2
+#               25.31 keybinder-0.3.1
+#               37.06 libwnck-2.30.7
+#               37.01 lxmenu-data-0.1.5
+#               37.03 menu-cache-1.1.0
+#
+# Dependencies Recommended:
+#
+#               09.68 libxml2-2.10.4
+#
+#
+# Required by:
+#
+#               37.10 lxde-common-0.99.2
 #
 
 export PKG="lxpanel-0.10.1"

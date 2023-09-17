@@ -1,21 +1,22 @@
 # c.37.08.LXAppearance-0.6.3.sh
 #
-# Required by:
-#
-#
 # Dependencies Required:
 #
-#       25.20 GTK+-2.24.33
+#               25.19 GTK+-2.24.33
 #
 # Dependencies Recommended:
 #
-#       09.07 dbus-glib-0.112
+#               09.07 dbus-glib-0.112
 #
 # Dependencies Optional:
 #
-#       09.68 libxslt-1.1.37
-#       49.01 docbook-xml-4.5
-#       49.04 docbook-xsl-nons-1.79.2
+#               ( not installed )
+#               09.68 libxslt-1.1.37
+#               49.01 docbook-xml-4.5
+#               49.04 docbook-xsl-nons-1.79.2
+#
+#
+# Required by:
 #
 
 export PKG="lxappearance-0.6.3"

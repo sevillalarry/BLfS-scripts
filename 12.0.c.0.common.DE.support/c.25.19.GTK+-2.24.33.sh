@@ -1,13 +1,18 @@
 # c.25.19.GTK+-2.24.33.sh
 #
-# Required by: various
-#
-#
 # Dependencies Required:
 #
-#       25.02 at-spi2-core-2.48.3
-#       25.12 gdk-pixbuf-2.42.10
-#       25.43 Pango-1.50.14
+#               25.02 at-spi2-core-2.48.3
+#               25.12 gdk-pixbuf-2.42.10
+#               25.43 Pango-1.50.14
+#
+#
+# Required by:
+#
+#               37.04 libfm-1.3.2
+#               37.06 libwnck-2.30.7
+#               37.08 LXAppearance-0.6.3
+#               etc
 #
 
 export PKG="gtk+-2.24.33"

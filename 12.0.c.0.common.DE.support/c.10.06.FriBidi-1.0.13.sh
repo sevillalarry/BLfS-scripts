@@ -2,7 +2,11 @@
 #
 # Required by:
 #
-#   25.42 Pango-1.50.14
+#               25.42 Pango-1.50.14
+#
+# Required by:
+#
+#               37.05 PCManFM-1.3.2
 #
 
 export PKG="fribidi-1.0.13"

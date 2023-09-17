@@ -19,7 +19,7 @@
 #
 #               09.13 GLib-2.76.4 test
 #
-# Optionally needed by:
+# Optionally by:
 #
 #               37.06 libwnck-2.30.7
 #
