@@ -4,7 +4,7 @@
 #
 #               24.08 Xorg Libraries
 #               25.37 Libdrm-2.4.115
-#               13.24.14 Python Modules - Mako-1.2.4
+#               13.24.13 Python Modules - Mako-1.2.4
 #
 #               for VirtIO use virgl
 #               change gallium drivers to auto for PCs

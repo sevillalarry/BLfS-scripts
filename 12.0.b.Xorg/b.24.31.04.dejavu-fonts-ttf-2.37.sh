@@ -2,7 +2,7 @@
 #
 # Required at Runtime by:
 #
-#               24.26 xterm-379
+#               24.26 xterm-384
 #
 
 export PKG="dejavu-fonts-ttf-2.37"

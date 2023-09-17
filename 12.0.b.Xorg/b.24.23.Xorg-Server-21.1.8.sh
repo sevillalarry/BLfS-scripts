@@ -8,7 +8,6 @@
 #
 # Dependencies Recommended (but neeeded):
 #
-#               12.11 elogind-252.9
 #               25.38 libepoxy-1.5.10
 #               17.18 libtirpc-1.3.3
 #
@@ -18,6 +17,7 @@
 #
 # Dependencies Runtime Recommended:
 #
+#               12.11 elogind-252.9
 #               24.24.1.4 Xorg Libinput Driver 1.3.0
 #
 # Dependencies Optional:

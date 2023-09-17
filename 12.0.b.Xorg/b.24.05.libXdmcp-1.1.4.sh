@@ -9,6 +9,10 @@
 #
 #               24.07 libxcb-1.16
 #
+# Required ( hidden by )
+#
+#               24.23 Xorg-Server-21.1.8
+#
 
 export PKG="libXdmcp-1.1.4"
 export PKGLOG_DIR=$LFSLOG/24.05
