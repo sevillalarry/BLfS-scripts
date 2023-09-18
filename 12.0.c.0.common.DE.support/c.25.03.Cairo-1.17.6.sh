@@ -1,24 +1,28 @@
 # c.25.03.Cairo-1.17.6.sh
 #
-# Required by:
-#
-#       35.06 xfce4-panel-4.18.4
-#
-#
 # Dependencies Required:
 #
-#       10.21 libpng-1.6.40
-#       10.31 Pixman-0.42.2
+#               10.21 libpng-1.6.40
+#               10.31 Pixman-0.42.2
 #
 # Dependencies Recommended:
 #
-#       10.05 Fontconfig-2.14.2
-#       09.13 GLib-2.76.4
-#       24.08 Xorg Libraries
+#               10.05 Fontconfig-2.14.2
+#               09.13 GLib-2.76.4
+#               24.08 Xorg Libraries
+#
+#
+# Required by:
+#
+#               35.06 xfce4-panel-4.18.4
+#
+# Recommended ( but needed ) by:
+#
+#               25.43 Pango-1.50.14
 #
 
 export PKG="cairo-1.17.6"
-export PKGLOG_DIR=$LFSLOG/25.04
+export PKGLOG_DIR=$LFSLOG/25.03
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log

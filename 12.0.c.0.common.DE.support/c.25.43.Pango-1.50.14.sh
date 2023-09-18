@@ -10,6 +10,7 @@
 #
 # Dependencies Recommended:
 #
+#               25.03 Cairo-1.17.6 ( needed )
 #               09.16 gobject-introspection-1.76.1
 #               24.08 Xorg Libraries
 #

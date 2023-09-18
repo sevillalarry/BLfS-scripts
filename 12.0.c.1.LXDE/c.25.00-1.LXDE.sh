@@ -38,6 +38,20 @@ echo "."
 
 ###
 
+echo "25.03.Cairo-1.17.6"
+echo "25.03.Cairo-1.17.6" >> $LFSLOG_PROCESS
+
+time { bash c.25.03.Cairo-1.17.6.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
+###
+
 echo "25.43.Pango-1.50.14"
 echo "25.43.Pango-1.50.14" >> $LFSLOG_PROCESS
 
