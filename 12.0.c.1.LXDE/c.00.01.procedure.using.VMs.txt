@@ -2,12 +2,16 @@ A. Preparation
 
   A.01. ( Assumming XOrg is already running ) - Copy all script files
 
-        copy all script files to /sources
+        copy all script files from the ff to /sources
+
+        1. 12.0.c.0.common.DE.support
+        2. 12.0.c.1.LXDE
 
   A.03. Download packages
 
         ###
 
+        wget --input-file=c.00.09.wget-list-sysv.0.cDE.txt --continue --directory-prefix=/sources
         wget --input-file=c.00.09.wget-list-sysv.txt --continue --directory-prefix=/sources
 
         ###
