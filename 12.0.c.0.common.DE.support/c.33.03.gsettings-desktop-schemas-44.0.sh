@@ -11,7 +11,7 @@
 #               25.02 at-spi2-core-2.48.3
 #
 
-export PKG="gsettings-desktop-schemas-45.0"
+export PKG="gsettings-desktop-schemas-44.0"
 export PKGLOG_DIR=$LFSLOG/33.03
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log

@@ -10,10 +10,10 @@ date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
 
 #####
 
-echo "10.06.FriBidi-1.0.12"
-echo "10.06.FriBidi-1.0.12" >> $LFSLOG_PROCESS
+echo "10.06.FriBidi-1.0.13"
+echo "10.06.FriBidi-1.0.13" >> $LFSLOG_PROCESS
 
-time { bash c.10.06.FriBidi-1.0.12.sh ; }
+time { bash c.10.06.FriBidi-1.0.13.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
@@ -24,10 +24,10 @@ echo "."
 
 ###
 
-echo "10.17.libjpeg-turbo-3.0.0"
-echo "10.17.libjpeg-turbo-3.0.0" >> $LFSLOG_PROCESS
+echo "10.18.libjpeg-turbo-3.0.0"
+echo "10.18.libjpeg-turbo-3.0.0" >> $LFSLOG_PROCESS
 
-time { bash c.10.17.libjpeg-turbo-3.0.0.sh ; }
+time { bash c.10.18.libjpeg-turbo-3.0.0.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
