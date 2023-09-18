@@ -21,7 +21,7 @@
 #               27.03 openbox-3.6.1
 #
 
-export PKG="pango-1.50.12"
+export PKG="pango-1.50.14"
 export PKGLOG_DIR=$LFSLOG/25.43
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
