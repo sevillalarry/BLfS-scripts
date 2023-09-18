@@ -1,4 +1,4 @@
-# c.10.00.sh
+# c.10.00.cDE.sh
 #
 # Graphics and Font Libraries
 #

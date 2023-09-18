@@ -1,5 +1,14 @@
 # c.10.18.libjpeg-turbo-3.0.0.sh
 #
+# Dependencies Required:
+#
+#               13.04 CMake-3.27.2
+#
+# Dependencies Recommended:
+#
+#               13.38 yasm-1.3.0
+#
+#
 # Required by:
 #
 #               25.12 gdk-pixbuf-2.42.10

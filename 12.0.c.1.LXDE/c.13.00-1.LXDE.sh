@@ -1,11 +1,14 @@
-# c.13.00.sh
+# c.13.00-1.LXDE.sh
 #
 # Programming
 #
 
 export LFSLOG_PROCESS=$LFSLOG/process.log
 
-###
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+#####
 
 echo "13.04.CMake-3.27.2"
 echo "13.04.CMake-3.27.2" >> $LFSLOG_PROCESS
@@ -19,19 +22,19 @@ echo "." >> $LFSLOG_PROCESS
 echo "."
 echo "."
 
-###
+### Vala not needed in LXDE
 
-echo "13.36.Vala-0.56.11"
-echo "13.36.Vala-0.56.11" >> $LFSLOG_PROCESS
+# echo "13.36.Vala-0.56.11"
+# echo "13.36.Vala-0.56.11" >> $LFSLOG_PROCESS
 
-time { bash c.13.36.Vala-0.56.11.sh ; }
+# time { bash c.13.36.Vala-0.56.11.sh ; }
 
-date +"%Y/%b/%d %H:%M"
-date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+# date +"%Y/%b/%d %H:%M"
+# date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
 
-echo "." >> $LFSLOG_PROCESS
-echo "."
-echo "."
+# echo "." >> $LFSLOG_PROCESS
+# echo "."
+# echo "."
 
 ###
 

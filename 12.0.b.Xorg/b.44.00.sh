@@ -1,6 +1,6 @@
-# b.25.00.sh
+# b.44.00.sh
 #
-# Graphical Environment Libraries
+# Multimedia Libraries and Drivers
 #
 # NOTHING TO DO
 
@@ -12,16 +12,18 @@ date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
 #####
 
 echo "NOTHING TO DO"
-# compiled in b.24.00.all.?-??.sh
+# compiled in b.24.00.all.2.PC.sh
 
 ###
 
-# before 24.16 Mesa-22.3.5
+# before 24.16 Mesa-22.3.5 PC
 #
-# echo "25.37.Libdrm-2.4.115"
-# echo "25.37.Libdrm-2.4.115" >> $LFSLOG_PROCESS
+# echo "44.45.libva-2.19.0"
+# echo "44.45.libva-2.19.0" >> $LFSLOG_PROCESS
 
-# time { bash b.25.37.Libdrm-2.4.115.sh ; }
+# export PKGPASS=1
+# time { bash b.44.45.libva-2.19.0.sh ; }
+# unset PKGPASS
 
 # date +"%Y/%b/%d %H:%M"
 # date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
@@ -32,12 +34,12 @@ echo "NOTHING TO DO"
 
 ###
 
-# before 24.23 Xorg-Server-21.1.8
+# before 24.16 Mesa-22.3.5 PC
 #
-# echo "25.38.libepoxy-1.5.10"
-# echo "25.38.libepoxy-1.5.10" >> $LFSLOG_PROCESS
+# echo "44.24.intel-vaapi-driver-2.4.1"
+# echo "44.24.intel-vaapi-driver-2.4.1" >> $LFSLOG_PROCESS
 
-# time { bash b.25.38.libepoxy-1.5.10.sh ; }
+# time { bash b.44.24.intel-vaapi-driver-2.4.1.sh ; }
 
 # date +"%Y/%b/%d %H:%M"
 # date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS

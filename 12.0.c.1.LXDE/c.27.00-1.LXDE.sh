@@ -1,6 +1,6 @@
-# c.28.00.sh
+# c.27.00-1.LXDE.sh
 #
-# Icons
+# Window Managers
 #
 
 export LFSLOG_PROCESS=$LFSLOG/process.log
@@ -10,10 +10,10 @@ date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
 
 #####
 
-echo "28.09.lxde-icon-theme-0.5.1"
-echo "28.09.lxde-icon-theme-0.5.1" >> $LFSLOG_PROCESS
+echo "27.03.openbox-3.6.1"
+echo "27.03.openbox-3.6.1" >> $LFSLOG_PROCESS
 
-time { bash c.28.09.lxde-icon-theme-0.5.1.sh ; }
+time { bash c.27.03.openbox-3.6.1.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
