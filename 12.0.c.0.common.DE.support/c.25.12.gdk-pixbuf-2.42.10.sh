@@ -45,6 +45,7 @@ meson setup ..                      \
             --prefix=/usr           \
             --buildtype=release     \
             --wrap-mode=nofallback  \
+            -Dman=false             \
         > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
 echo "3. Ninja Build ..."
