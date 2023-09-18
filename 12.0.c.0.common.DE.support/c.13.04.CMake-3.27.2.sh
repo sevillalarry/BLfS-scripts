@@ -42,12 +42,16 @@ sed -i '/"lib64"/s/64//' Modules/GNUInstallDirs.cmake
 echo "2. Configure ..."
 echo "2. Configure ..." >> $LFSLOG_PROCESS
 echo "2. Configure ..." >> $PKGLOG_ERROR
-./bootstrap --prefix=/usr        \
-            --system-libs        \
-            --mandir=/share/man  \
-            --no-system-jsoncpp  \
-            --no-system-cppdap   \
-            --no-system-librhash \
+./bootstrap --prefix=/usr           \
+            --system-libs           \
+            --mandir=/share/man     \
+            --no-system-jsoncpp     \
+            --no-system-cppdap      \
+            --no-system-librhash    \
+            --no-system-curl        \
+            --no-system-libarchive  \
+            --no-system-libuv       \
+            --no-system-nghttp2     \
             --docdir=/share/doc/cmake-3.27.2    \
             > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
