@@ -4,6 +4,9 @@ https://dbus.freedesktop.org/releases/dbus-glib/dbus-glib-0.112.tar.gz
 https://download.gnome.org/sources/libunique/1.1/libunique-1.1.6.tar.bz2
 https://www.linuxfromscratch.org/patches/blfs/12.0/libunique-1.1.6-upstream_fixes-1.patch
 
+# 13.24.24 PyGTK-2.24.0
+https://download.gnome.org/sources/pygtk/2.24/pygtk-2.24.0.tar.bz2
+
 # 25.13 gdk-pixbuf-xlib-2.40.2
 https://download.gnome.org/sources/gdk-pixbuf-xlib/2.40/gdk-pixbuf-xlib-2.40.2.tar.xz
 # 25.31 keybinder-0.3.1

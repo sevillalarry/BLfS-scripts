@@ -7,6 +7,7 @@
 # Dependencies Recommended:
 #
 #               09.16 gobject-introspection-1.76.1
+#               13.24.24 PyGTK-2.24.0 ( needed )
 #
 #
 # Required by:
