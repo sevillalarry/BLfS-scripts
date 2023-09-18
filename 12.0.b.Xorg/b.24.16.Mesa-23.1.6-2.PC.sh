@@ -1,4 +1,4 @@
-# b.24.16.Mesa-23.1.6.sh
+# b.24.16.Mesa-23.1.6-2.PC.sh
 #
 # Dependencies Required:
 #
@@ -82,14 +82,14 @@ meson setup                     \
         --prefix=$XORG_PREFIX   \
         --buildtype=release     \
         -Dplatforms=x11,wayland \
-        -Dgallium-drivers=virgl \
+        -Dgallium-drivers=auto  \
         -Dvulkan-drivers=""     \
         -Dvalgrind=disabled     \
         -Dlibunwind=disabled    \
         ..                      \
         > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
-#        -Dgallium-drivers=auto  \ PCs
 #        -Dgallium-drivers=virgl \ VMs
+#        -Dgallium-drivers=auto  \ PCs
 
 echo "3. Ninja Build ..."
 echo "3. Ninja Build ..." >> $LFSLOG_PROCESS

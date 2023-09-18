@@ -1,4 +1,4 @@
-# b.24.00.Part3.09-17.sh
+# b.24.00.Part3.09-17.1.VM.sh
 #
 # Graphical Environments
 #
@@ -131,7 +131,7 @@ echo "."
 echo "24.16.Mesa-23.1.6"
 echo "24.16.Mesa-23.1.6" >> $LFSLOG_PROCESS
 
-time { bash b.24.16.Mesa-23.1.6.sh ; }
+time { bash b.24.16.Mesa-23.1.6-1.VM.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
