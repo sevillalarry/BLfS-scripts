@@ -12,7 +12,7 @@ A. Preparation
         ###
 
         wget --input-file=c.00.09.wget-list-sysv.0.cDE.txt --continue --directory-prefix=/sources
-        wget --input-file=c.00.09.wget-list-sysv.txt --continue --directory-prefix=/sources
+        wget --input-file=c.00.09.wget-list-sysv.1.LXDE.txt --continue --directory-prefix=/sources
 
         ###
 
