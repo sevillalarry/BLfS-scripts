@@ -1,4 +1,4 @@
-# b.25.38.libepoxy-1.5.10.sh
+# b.25.39.libepoxy-1.5.10.sh
 #
 # Dependencies Required:
 #
@@ -12,7 +12,7 @@
 #
 
 export PKG="libepoxy-1.5.10"
-export PKGLOG_DIR=$LFSLOG/25.38
+export PKGLOG_DIR=$LFSLOG/25.39
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log

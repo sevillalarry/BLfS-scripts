@@ -2,13 +2,13 @@
 #
 # Dependencies Required:
 #
-#               xx.xx PyGObject-2.28.7
-#               13.xx Python-2.7.18
+#               13.24.22 PyGObject-2.28.7
+#               13.22 Python-2.7.18
 #               25.02 at-spi2-core-2.48.3   ( atk           module )
 #               25.43 Pango-1.50.14         ( pango         module )
-#               xx.xx PyCairo               ( pangocairo    module )
+#               13.24.18 PyCairo-1.18.2     ( pangocairo    module )
 #               25.19 GTK+-2.24.33          ( gtk*          module )
-#               xx.xx libglade-2.6.4        ( gtk.glade     module )
+#               25.40 libglade-2.6.4        ( gtk.glade     module )
 #
 # Recommended but needed by:
 #

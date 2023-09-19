@@ -114,10 +114,10 @@ echo "."
 #     Libdrm is required by Mesa
 ###
 
-echo "25.37.Libdrm-2.4.115"
-echo "25.37.Libdrm-2.4.115" >> $LFSLOG_PROCESS
+echo "25.38.Libdrm-2.4.115"
+echo "25.38.Libdrm-2.4.115" >> $LFSLOG_PROCESS
 
-time { bash b.25.37.Libdrm-2.4.115.sh ; }
+time { bash b.25.38.Libdrm-2.4.115.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS

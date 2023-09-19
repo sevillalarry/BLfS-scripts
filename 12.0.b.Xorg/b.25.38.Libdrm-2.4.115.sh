@@ -1,4 +1,4 @@
-# b.25.37.Libdrm-2.4.115.sh
+# b.25.38.Libdrm-2.4.115.sh
 #
 # Dependencies Recommended:
 #
@@ -11,7 +11,7 @@
 #
 
 export PKG="libdrm-2.4.115"
-export PKGLOG_DIR=$LFSLOG/25.37
+export PKGLOG_DIR=$LFSLOG/25.38
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log

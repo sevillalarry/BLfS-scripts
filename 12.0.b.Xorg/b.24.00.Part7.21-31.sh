@@ -41,10 +41,10 @@ echo "."
 #       libepoxy is recommended but needed by Xorg-Server
 ###
 
-echo "25.38.libepoxy-1.5.10"
-echo "25.38.libepoxy-1.5.10" >> $LFSLOG_PROCESS
+echo "25.39.libepoxy-1.5.10"
+echo "25.39.libepoxy-1.5.10" >> $LFSLOG_PROCESS
 
-time { bash b.25.38.libepoxy-1.5.10.sh ; }
+time { bash b.25.39.libepoxy-1.5.10.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
