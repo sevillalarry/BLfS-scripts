@@ -10,7 +10,7 @@
 #               37.03 menu-cache-1.1.0
 #
 
-export PKG="libfm-extra-1.3.2"
+export PKG="libfm-1.3.2"
 export PKGLOG_DIR=$LFSLOG/37.02
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log

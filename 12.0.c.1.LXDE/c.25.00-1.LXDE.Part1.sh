@@ -96,20 +96,6 @@ echo "."
 
 ###
 
-echo "25.31.keybinder-0.3.1"
-echo "25.31.keybinder-0.3.1" >> $LFSLOG_PROCESS
-
-time { bash c.25.31.keybinder-0.3.1.sh ; }
-
-date +"%Y/%b/%d %H:%M"
-date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
-
-echo "." >> $LFSLOG_PROCESS
-echo "."
-echo "."
-
-###
-
 echo "25.40.libglade-2.6.4"
 echo "25.40.libglade-2.6.4" >> $LFSLOG_PROCESS
 

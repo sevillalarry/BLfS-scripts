@@ -15,11 +15,11 @@
 #
 # Group a - LfS / status: OK, working
 #
-# Group b - XOrg with Others ( dbus, elogind, Linux-PAM, ... )
+# Group b - XOrg ( includes dbus, elogind, Linux-PAM, ... )
 #           status: root ok, user NOT
 #
 # Group c.0 - common Desktop Environment support apps
-# Group c.1 - LXDE  / status: encoded, wait for Group b.3 XOrg with Others
+# Group c.1 - LXDE  / status: root ok, user NOT
 # Group c.2 - Xfce  / status: encoded, wait for Group b.3 XOrg with Others
 # Group c.3 - LXQt  / status: encoded, wait for Group b.3 XOrg with Others
 # Group c.4 - KDE   / status: plan

@@ -18,7 +18,7 @@
 #               28.07 hicolor-icon-theme-0.17
 #
 
-export PKG="lxde-common-0.99.2 "
+export PKG="lxde-common-0.99.2"
 export PKGLOG_DIR=$LFSLOG/37.10
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
@@ -54,9 +54,9 @@ echo "4. Make Install ..." >> $LFSLOG_PROCESS
 echo "4. Make Install ..." >> $PKGLOG_ERROR
 make install > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 
-##update-mime-database /usr/share/mime
+update-mime-database /usr/share/mime
 ##gtk-update-icon-cache -qf /usr/share/icons/hicolor
-##update-desktop-database -q
+update-desktop-database -q
 
 
 cd ..
