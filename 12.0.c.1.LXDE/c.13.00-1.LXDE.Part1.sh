@@ -1,4 +1,4 @@
-# c.13.00-1.LXDE.sh
+# c.13.00-1.LXDE.Part1.sh
 #
 # Programming
 #
@@ -14,6 +14,20 @@ echo "13.04.CMake-3.27.2"
 echo "13.04.CMake-3.27.2" >> $LFSLOG_PROCESS
 
 time { bash c.13.04.CMake-3.27.2.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
+###
+
+echo "13.22.Python-2.7.18"
+echo "13.22.Python-2.7.18" >> $LFSLOG_PROCESS
+
+time { bash c.13.22.Python-2.7.18.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS

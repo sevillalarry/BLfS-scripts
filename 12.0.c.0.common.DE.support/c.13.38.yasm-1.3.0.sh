@@ -2,7 +2,7 @@
 #
 # Recommended by:
 #
-#   10.18 libjpeg-turbo-3.0.0
+#               10.18 libjpeg-turbo-3.0.0
 #
 
 export PKG="yasm-1.3.0"

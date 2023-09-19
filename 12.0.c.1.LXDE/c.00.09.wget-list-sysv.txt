@@ -4,6 +4,13 @@ https://dbus.freedesktop.org/releases/dbus-glib/dbus-glib-0.112.tar.gz
 https://download.gnome.org/sources/libunique/1.1/libunique-1.1.6.tar.bz2
 https://www.linuxfromscratch.org/patches/blfs/12.0/libunique-1.1.6-upstream_fixes-1.patch
 
+# 13.22 Python-2.7.18
+https://www.python.org/ftp/python/2.7.18/Python-2.7.18.tar.xz
+https://www.linuxfromscratch.org/patches/blfs/12.0/Python-2.7.18-security_fixes-1.patch
+# 13.24.18 PyCairo-1.18.2
+https://github.com/pygobject/pycairo/releases/download/v1.18.2/pycairo-1.18.2.tar.gz
+# 13.24.22 PyGObject-2.28.7
+https://download.gnome.org/sources/pygobject/2.28/pygobject-2.28.7.tar.xz
 # 13.24.24 PyGTK-2.24.0
 https://download.gnome.org/sources/pygtk/2.24/pygtk-2.24.0.tar.bz2
 
@@ -11,6 +18,8 @@ https://download.gnome.org/sources/pygtk/2.24/pygtk-2.24.0.tar.bz2
 https://download.gnome.org/sources/gdk-pixbuf-xlib/2.40/gdk-pixbuf-xlib-2.40.2.tar.xz
 # 25.31 keybinder-0.3.1
 https://github.com/kupferlauncher/keybinder/releases/download/v0.3.1/keybinder-0.3.1.tar.gz
+# 25.40 libglade-2.6.4
+https://download.gnome.org/sources/libglade/2.6/libglade-2.6.4.tar.bz2
 
 # 27.03 openbox-3.6.1
 http://openbox.org/dist/openbox/openbox-3.6.1.tar.gz

@@ -1,8 +1,19 @@
-# b.09.86.Wayland-1.21.0.sh
+# c.13.22.Python-2.7.18.sh
+#
+# Dependencies Recommended:
+#
+#               xx.xx SQLite-3.42.0 ( not installed )
+#
+#
+# Required by:
+#
+#               13.24.18 PyCairo-1.18.2
+#               13.24.22 PyGObject-2.28.7
+#               13.24.24 PyGTK-2.24.0
 #
 
-export PKG="Wayland-1.21.0"
-export PKGLOG_DIR=$LFSLOG/09.86
+export PKG="Python-2.7.18"
+export PKGLOG_DIR=$LFSLOG/13.22
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log
@@ -21,34 +32,40 @@ tar xvf $PKG.tar.xz > $PKGLOG_TAR 2>> $PKGLOG_ERROR
 cd $PKG
 
 
-mkdir build
-cd    build
+sed -i '/2to3/d' ./setup.py
+
+patch -Np1 -i ../Python-2.7.18-security_fixes-1.patch
 
 echo "2. Configure ..."
 echo "2. Configure ..." >> $LFSLOG_PROCESS
 echo "2. Configure ..." >> $PKGLOG_ERROR
-meson --prefix=/usr       \
-      --buildtype=release \
-      -Ddocumentation=false \
-          > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
+./configure --prefix=/usr           \
+            --enable-shared         \
+            --with-system-expat     \
+            --with-system-ffi       \
+            --enable-unicode=ucs4   \
+            > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
 echo "3. Make Build ..."
 echo "3. Make Build ..." >> $LFSLOG_PROCESS
 echo "3. Make Build ..." >> $PKGLOG_ERROR
-ninja > $PKGLOG_BUILD 2>> $PKGLOG_ERROR
+make > $PKGLOG_BUILD 2>> $PKGLOG_ERROR
 
 echo "4. Make Check ..."
 echo "4. Make Check ..." >> $LFSLOG_PROCESS
 echo "4. Make Check ..." >> $PKGLOG_ERROR
-ninja test > $PKGLOG_CHECK 2>> $PKGLOG_ERROR
+make -k test > $PKGLOG_CHECK 2>> $PKGLOG_ERROR
 
 echo "5. Make Install ..."
 echo "5. Make Install ..." >> $LFSLOG_PROCESS
 echo "5. Make Install ..." >> $PKGLOG_ERROR
-ninja install > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
+make altinstall > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
+
+ln -s python2.7        /usr/bin/python2
+ln -s python2.7-config /usr/bin/python2-config
+chmod 755 /usr/lib/libpython2.7.so.1.0
 
 
-cd ..
 cd ..
 rm -rf $PKG
 unset LFSLOG_PROCESS

@@ -14,6 +14,7 @@
 #
 # Required by:
 #
+#               13.24.18 PyCairo-1.18.2
 #               35.06 xfce4-panel-4.18.4
 #
 # Recommended ( but needed ) by:

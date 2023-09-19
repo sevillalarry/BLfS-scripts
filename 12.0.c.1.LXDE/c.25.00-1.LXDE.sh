@@ -38,20 +38,7 @@ echo "."
 
 ###
 
-echo "25.03.Cairo-1.17.6"
-echo "25.03.Cairo-1.17.6" >> $LFSLOG_PROCESS
-
-time { bash c.25.03.Cairo-1.17.6.sh ; }
-
-date +"%Y/%b/%d %H:%M"
-date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
-
-echo "." >> $LFSLOG_PROCESS
-echo "."
-echo "."
-
-###
-
+# Pango before GTK+
 echo "25.43.Pango-1.50.14"
 echo "25.43.Pango-1.50.14" >> $LFSLOG_PROCESS
 
@@ -70,6 +57,21 @@ echo "25.19.GTK+-2.24.33"
 echo "25.19.GTK+-2.24.33" >> $LFSLOG_PROCESS
 
 time { bash c.25.19.GTK+-2.24.33.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
+###
+
+# Cairo after GTK+
+echo "25.03.Cairo-1.17.6"
+echo "25.03.Cairo-1.17.6" >> $LFSLOG_PROCESS
+
+time { bash c.25.03.Cairo-1.17.6.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
@@ -98,6 +100,20 @@ echo "25.31.keybinder-0.3.1"
 echo "25.31.keybinder-0.3.1" >> $LFSLOG_PROCESS
 
 time { bash c.25.31.keybinder-0.3.1.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
+###
+
+echo "25.40.libglade-2.6.4"
+echo "25.40.libglade-2.6.4" >> $LFSLOG_PROCESS
+
+time { bash c.25.40.libglade-2.6.4.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS

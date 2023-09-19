@@ -1,12 +1,26 @@
-# b.10.06.FriBidi-1.0.12.sh
+# b.13.24.22.PyGObject-2.28.7.sh
+#
+# Dependencies Required:
+#
+#               09.13 GLib-2.76.4
+#               13.24.18 PyCairo-1.18.2
+#               13.22 Python-2.7.18
+#
+# Dependencies Optional:
+#
+#               09.16 gobject-introspection-1.76.1
+#
+# Required by:
+#
+#               13.24.24 PyGTK-2.24.0
 #
 
-export PKG="FriBidi-1.0.12"
-export PKGLOG_DIR=$LFSLOG/10.06
+export PKG="pygobject-2.28.7"
+export PKGLOG_DIR=$LFSLOG/13.24.22
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log
-export PKGLOG_CHECK=$PKGLOG_DIR/check.log
+#export PKGLOG_CHECK=$PKGLOG_DIR/check.log
 export PKGLOG_INSTALL=$PKGLOG_DIR/install.log
 export PKGLOG_ERROR=$PKGLOG_DIR/error.log
 export LFSLOG_PROCESS=$LFSLOG/process.log
@@ -21,37 +35,28 @@ tar xvf $PKG.tar.xz > $PKGLOG_TAR 2>> $PKGLOG_ERROR
 cd $PKG
 
 
-mkdir build
-cd    build
-
 echo "2. Configure ..."
 echo "2. Configure ..." >> $LFSLOG_PROCESS
 echo "2. Configure ..." >> $PKGLOG_ERROR
-meson --prefix=/usr       \
-      --buildtype=release \
-          > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
+./configure --prefix=/usr           \
+            --disable-introspection \
+        > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
 echo "3. Make Build ..."
 echo "3. Make Build ..." >> $LFSLOG_PROCESS
 echo "3. Make Build ..." >> $PKGLOG_ERROR
-ninja > $PKGLOG_BUILD 2>> $PKGLOG_ERROR
+make > $PKGLOG_BUILD 2>> $PKGLOG_ERROR
 
-echo "4. Make Check ..."
-echo "4. Make Check ..." >> $LFSLOG_PROCESS
-echo "4. Make Check ..." >> $PKGLOG_ERROR
-ninja test > $PKGLOG_CHECK 2>> $PKGLOG_ERROR
-
-echo "5. Make Install ..."
-echo "5. Make Install ..." >> $LFSLOG_PROCESS
-echo "5. Make Install ..." >> $PKGLOG_ERROR
-ninja install > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
+echo "4. Make Install ..."
+echo "4. Make Install ..." >> $LFSLOG_PROCESS
+echo "4. Make Install ..." >> $PKGLOG_ERROR
+make install > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 
 
-cd ..
 cd ..
 rm -rf $PKG
 unset LFSLOG_PROCESS
 unset PKGLOG_INSTALL PKGLOG_BUILD PKGLOG_CONFIG
-unset PKGLOG_CHECK
+#unset PKGLOG_CHECK
 unset PKGLOG_ERROR PKGLOG_TAR
 unset PKGLOG_DIR PKG

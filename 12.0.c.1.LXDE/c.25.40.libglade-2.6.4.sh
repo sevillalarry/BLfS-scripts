@@ -1,8 +1,22 @@
-# b.09.87.Wayland-Protocols-1.31.sh
+# c.25.40.libglade-2.6.4.sh
+#
+# Dependencies Required:
+#
+#               09.68 libxml2-2.10.4
+#               25.19 GTK+-2.24.33
+#
+# Dependencies Optional:
+#
+#               13.22 Python-2.7.18
+#
+#
+# Required by:
+#
+#   10.18 libjpeg-turbo-3.0.0
 #
 
-export PKG="Wayland-Protocols-1.31"
-export PKGLOG_DIR=$LFSLOG/09.87
+export PKG="libglade-2.6.4"
+export PKGLOG_DIR=$LFSLOG/25.40
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log
@@ -17,37 +31,35 @@ mkdir $PKGLOG_DIR
 echo "1. Extract tar..."
 echo "1. Extract tar..." >> $LFSLOG_PROCESS
 echo "1. Extract tar..." >> $PKGLOG_ERROR
-tar xvf $PKG.tar.xz > $PKGLOG_TAR 2>> $PKGLOG_ERROR
+tar xvf $PKG.tar.bz2 > $PKGLOG_TAR 2>> $PKGLOG_ERROR
 cd $PKG
 
 
-mkdir build
-cd    build
+sed -i '/DG_DISABLE_DEPRECATED/d' glade/Makefile.in
 
 echo "2. Configure ..."
 echo "2. Configure ..." >> $LFSLOG_PROCESS
 echo "2. Configure ..." >> $PKGLOG_ERROR
-meson --prefix=/usr       \
-      --buildtype=release \
-          > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
+./configure --prefix=/usr       \
+            --disable-static    \
+            > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
 echo "3. Make Build ..."
 echo "3. Make Build ..." >> $LFSLOG_PROCESS
 echo "3. Make Build ..." >> $PKGLOG_ERROR
-ninja > $PKGLOG_BUILD 2>> $PKGLOG_ERROR
+make > $PKGLOG_BUILD 2>> $PKGLOG_ERROR
 
 echo "4. Make Check ..."
 echo "4. Make Check ..." >> $LFSLOG_PROCESS
 echo "4. Make Check ..." >> $PKGLOG_ERROR
-ninja test > $PKGLOG_CHECK 2>> $PKGLOG_ERROR
+make check > $PKGLOG_CHECK 2>> $PKGLOG_ERROR
 
 echo "5. Make Install ..."
 echo "5. Make Install ..." >> $LFSLOG_PROCESS
 echo "5. Make Install ..." >> $PKGLOG_ERROR
-ninja install > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
+make install > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 
 
-cd ..
 cd ..
 rm -rf $PKG
 unset LFSLOG_PROCESS
