@@ -101,7 +101,7 @@ C.  Generate BLFS - Graphical Components / Environments
         export XORG_CONFIG="--prefix=$XORG_PREFIX --sysconfdir=/etc \
                             --localstatedir=/var --disable-static"
 
-        bash b.24.00.all.1.PC.sh
+        bash b.24.00.all.2.PC.sh
 
         ###
         #   Note: for startx as user
