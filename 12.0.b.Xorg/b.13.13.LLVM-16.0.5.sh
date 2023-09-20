@@ -105,7 +105,7 @@ sh -c 'ulimit -c 0 && ninja check-all'  \
 echo "5. Ninja Install ..."
 echo "5. Ninja Install ..." >> $LFSLOG_PROCESS
 echo "5. Ninja Install ..." >> $PKGLOG_ERROR
-make install > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
+ninja install > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 
 cp bin/FileCheck /usr/bin
 
