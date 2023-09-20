@@ -1,20 +1,17 @@
-# c.13.04.CMake-3.27.2.sh
+# b.13.04.CMake-3.27.2.sh
+#
+# Dependencies Recommended:
+#
+#   17.02 cURL-7.88.1
+#   09.28 libarchive-3.6.2
+#   09.65 libuv-1.44.2
+#   17.20 nghttp2-1.52.0
+#
 #
 # Required by:
 #
 #   10.18 libjpeg-turbo-3.0.0
 #   10.10 Graphite2-1.3.14
-#
-#
-# Dependencies Recommended but needed:
-#
-#   17.02 cURL-7.88.1
-#
-# Dependencies Recommended:
-#
-#   09.28 libarchive-3.6.2
-#   09.65 libuv-1.44.2
-#   17.20 nghttp2-1.52.0
 #
 
 export PKG="cmake-3.27.2"

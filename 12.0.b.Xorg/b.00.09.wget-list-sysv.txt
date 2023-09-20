@@ -49,6 +49,15 @@ https://github.com/elogind/elogind/archive/v252.9/elogind-252.9.tar.gz
 # 12.36 Which-2.21 - recommended by 10.04 FreeType
 https://ftp.gnu.org/gnu/which/which-2.21.tar.gz
 
+# 13.04 CMake-3.27.2  - required by Graphite2
+https://cmake.org/files/v3.27/cmake-3.27.2.tar.gz
+# 13.13 LLVM-16.0.5
+https://github.com/llvm/llvm-project/releases/download/llvmorg-16.0.5/llvm-16.0.5.src.tar.xz
+https://anduin.linuxfromscratch.org/BLFS/llvm/llvm-cmake.src.tar.xz
+https://anduin.linuxfromscratch.org/BLFS/llvm/llvm-third-party.src.tar.xz
+https://github.com/llvm/llvm-project/releases/download/llvmorg-16.0.5/clang-16.0.5.src.tar.xz
+https://www.linuxfromscratch.org/patches/blfs/12.0/clang-16.0.5-enable_default_ssp-1.patch
+https://github.com/llvm/llvm-project/releases/download/llvmorg-16.0.5/compiler-rt-16.0.5.src.tar.xz
 # 13.24    Python Modules
 # 13.24.13 Mako-1.2.4
 https://files.pythonhosted.org/packages/source/M/Mako/Mako-1.2.4.tar.gz

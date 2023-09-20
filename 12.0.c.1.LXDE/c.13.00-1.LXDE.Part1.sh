@@ -10,17 +10,19 @@ date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
 
 #####
 
-echo "13.04.CMake-3.27.2"
-echo "13.04.CMake-3.27.2" >> $LFSLOG_PROCESS
+# moved to Xorg
+#
+# echo "13.04.CMake-3.27.2"
+# echo "13.04.CMake-3.27.2" >> $LFSLOG_PROCESS
 
-time { bash c.13.04.CMake-3.27.2.sh ; }
+# time { bash c.13.04.CMake-3.27.2.sh ; }
 
-date +"%Y/%b/%d %H:%M"
-date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+# date +"%Y/%b/%d %H:%M"
+# date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
 
-echo "." >> $LFSLOG_PROCESS
-echo "."
-echo "."
+# echo "." >> $LFSLOG_PROCESS
+# echo "."
+# echo "."
 
 ###
 
