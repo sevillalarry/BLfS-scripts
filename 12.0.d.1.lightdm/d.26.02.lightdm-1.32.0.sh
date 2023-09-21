@@ -2,11 +2,18 @@
 #
 # Dependencies Required:
 #
-#       35.04 Exo-4.18.0
-#       09.36 libgcrypt-1.10.1
-#       49.05 itstool-2.0.7
-#       04.12 Linux-PAM-1.5.2
-#       12.11 elogind-246.10
+#               35.04 Exo-4.18.0
+#               09.36 libgcrypt-1.10.1
+#               49.05 itstool-2.0.7
+#               04.12 Linux-PAM-1.5.3
+#               24.23 Xorg-Server-21.1.8
+#               12.11 elogind-246.10 (hidden)
+#
+# Dependencies Recommended:
+#
+#               09.16 gobject-introspection-1.76.1
+#               xx.xx libxklavier-5.4
+#               13.36 Vala-0.56.11
 #
 
 export PKG="lightdm-1.32.0"
@@ -29,13 +36,14 @@ cd $PKG
 
 
 groupadd -g 65 lightdm
-useradd  -c "Lightdm Daemon" \
-         -d /var/lib/lightdm \
-         -u 65 -g lightdm    \
-         -s /bin/false lightdm
+useradd  -c "Lightdm Daemon"    \
+         -d /var/lib/lightdm    \
+         -u 65                  \
+         -g lightdm             \
+         -s /bin/false          \
+         lightdm
 
-#chk Linux-PAM
-#sed -i s/systemd/elogind/ data/pam/*
+sed -i s/systemd/elogind/ data/pam/*
 
 echo "2. Configure ..."
 echo "2. Configure ..." >> $LFSLOG_PROCESS
@@ -70,34 +78,36 @@ install -dm755 -o lightdm -g lightdm /var/lib/lightdm-data
 install -dm755 -o lightdm -g lightdm /var/cache/lightdm
 install -dm770 -o lightdm -g lightdm /var/log/lightdm
 
-tar -xvf ../lightdm-gtk-greeter-2.0.8.tar.gz    >> $PKGLOG_TAR 2>> $PKGLOG_ERROR
+tar -xvf ../lightdm-gtk-greeter-2.0.8.tar.gz    \
+    >> $PKGLOG_TAR 2>> $PKGLOG_ERROR
 
 cd lightdm-gtk-greeter-2.0.8
 
-echo "2. Configure greeter ..."
-echo "2. Configure greeter ..." >> $LFSLOG_PROCESS
-echo "2. Configure greeter ..." >> $PKGLOG_ERROR
-./configure --prefix=/usr                 \
-            --libexecdir=/usr/lib/lightdm \
-            --sbindir=/usr/bin            \
-            --sysconfdir=/etc             \
-            --with-libxklavier            \
-            --enable-kill-on-sigterm      \
-            --disable-libido              \
-            --disable-libindicator        \
-            --disable-static              \
-            --disable-maintainer-mode     \
-            --docdir=/usr/share/doc/lightdm-gtk-greeter-2.0.8   \
-            >> $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
-echo "3. Make Build greeter ..."
-echo "3. Make Build greeter ..." >> $LFSLOG_PROCESS
-echo "3. Make Build greeter ..." >> $PKGLOG_ERROR
-make >> $PKGLOG_BUILD 2>> $PKGLOG_ERROR
+    echo "5. Configure greeter ..."
+    echo "5. Configure greeter ..." >> $LFSLOG_PROCESS
+    echo "5. Configure greeter ..." >> $PKGLOG_ERROR
+    ./configure --prefix=/usr                 \
+                --libexecdir=/usr/lib/lightdm \
+                --sbindir=/usr/bin            \
+                --sysconfdir=/etc             \
+                --with-libxklavier            \
+                --enable-kill-on-sigterm      \
+                --disable-libido              \
+                --disable-libindicator        \
+                --disable-static              \
+                --disable-maintainer-mode     \
+                --docdir=/usr/share/doc/lightdm-gtk-greeter-2.0.8   \
+                >> $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
-echo "4. Make Install greeter ..."
-echo "4. Make Install greeter ..." >> $LFSLOG_PROCESS
-echo "4. Make Install greeter ..." >> $PKGLOG_ERROR
-make install > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
+    echo "6. Make Build greeter ..."
+    echo "6. Make Build greeter ..." >> $LFSLOG_PROCESS
+    echo "6. Make Build greeter ..." >> $PKGLOG_ERROR
+    make >> $PKGLOG_BUILD 2>> $PKGLOG_ERROR
+
+    echo "7. Make Install greeter ..."
+    echo "7. Make Install greeter ..." >> $LFSLOG_PROCESS
+    echo "7. Make Install greeter ..." >> $PKGLOG_ERROR
+    make install > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 
 cd ..
 

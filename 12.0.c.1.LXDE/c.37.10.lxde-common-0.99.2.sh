@@ -55,7 +55,7 @@ echo "4. Make Install ..." >> $PKGLOG_ERROR
 make install > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 
 update-mime-database /usr/share/mime
-##gtk-update-icon-cache -qf /usr/share/icons/hicolor
+gtk-update-icon-cache -qf /usr/share/icons/hicolor
 update-desktop-database -q
 
 

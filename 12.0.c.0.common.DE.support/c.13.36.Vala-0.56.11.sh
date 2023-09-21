@@ -12,6 +12,7 @@
 # Recommended by:
 #
 #               37.04 libfm-1.3.2
+#               26.02 lightdm-1.32.0
 #
 
 export PKG="vala-0.56.11"
