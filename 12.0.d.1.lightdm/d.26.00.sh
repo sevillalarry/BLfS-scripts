@@ -1,8 +1,7 @@
-# b.25.00.sh
+# b.26.00.sh
 #
-# Graphical Environment Libraries
+# Display Managers
 #
-# NOTHING TO DO
 
 export LFSLOG_PROCESS=$LFSLOG/process.log
 
@@ -11,10 +10,10 @@ date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
 
 #####
 
-echo "25.42.libxklavier-5.4"
-echo "25.42.libxklavier-5.4" >> $LFSLOG_PROCESS
+echo "26.02.lightdm-1.32.0"
+echo "26.02.lightdm-1.32.0" >> $LFSLOG_PROCESS
 
-time { bash d.25.42.libxklavier-5.4.sh ; }
+time { bash d.26.02.lightdm-1.32.0.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
