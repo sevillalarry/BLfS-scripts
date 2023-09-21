@@ -14,7 +14,7 @@
 #               24.16 Mesa-23.1.6 ( PC )
 #
 
-export PKG="llvm-16.0.5"
+export PKG="llvm-16.0.5.src"
 export PKGLOG_DIR=$LFSLOG/13.13
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
@@ -31,7 +31,7 @@ mkdir $PKGLOG_DIR
 echo "1. Extract tar..."
 echo "1. Extract tar..." >> $LFSLOG_PROCESS
 echo "1. Extract tar..." >> $PKGLOG_ERROR
-tar xvf $PKG.src.tar.xz > $PKGLOG_TAR 2>> $PKGLOG_ERROR
+tar xvf $PKG.tar.xz > $PKGLOG_TAR 2>> $PKGLOG_ERROR
 cd $PKG
 
 
@@ -90,28 +90,28 @@ echo "3. Ninja Build ..." >> $LFSLOG_PROCESS
 echo "3. Ninja Build ..." >> $PKGLOG_ERROR
 ninja > $PKGLOG_BUILD 2>> $PKGLOG_ERROR
 
-echo "4. Ninja Docs Build ..."
-echo "4. Ninja Docs Build ..." >> $LFSLOG_PROCESS
-echo "4. Ninja Docs Build ..." >> $PKGLOG_ERROR
-ninja docs-clang-html docs-clang-man
-    > $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
+# echo "4. Ninja Docs Build ..."
+# echo "4. Ninja Docs Build ..." >> $LFSLOG_PROCESS
+# echo "4. Ninja Docs Build ..." >> $PKGLOG_ERROR
+# ninja docs-clang-html docs-clang-man
+#     > $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
 
-echo "5. Ninja Check ..."
-echo "5. Ninja Check ..." >> $LFSLOG_PROCESS
-echo "5. Ninja Check ..." >> $PKGLOG_ERROR
+echo "4. Ninja Check ..."
+echo "4. Ninja Check ..." >> $LFSLOG_PROCESS
+echo "4. Ninja Check ..." >> $PKGLOG_ERROR
 sh -c 'ulimit -c 0 && ninja check-all'  \
     > $PKGLOG_CHECK 2>> $PKGLOG_ERROR
 
-echo "6. Ninja Install ..."
-echo "6. Ninja Install ..." >> $LFSLOG_PROCESS
-echo "6. Ninja Install ..." >> $PKGLOG_ERROR
-make install > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
+echo "5. Ninja Install ..."
+echo "5. Ninja Install ..." >> $LFSLOG_PROCESS
+echo "5. Ninja Install ..." >> $PKGLOG_ERROR
+ninja install > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 
 cp bin/FileCheck /usr/bin
 
-install -d -m755 /usr/share/doc/llvm-16.0.5
-mv /usr/share/doc/LLVM/clang /usr/share/doc/llvm-16.0.5
-rmdir --ignore-fail-on-non-empty /usr/share/doc/LLVM
+# install -d -m755 /usr/share/doc/llvm-16.0.5
+# mv /usr/share/doc/LLVM/clang /usr/share/doc/llvm-16.0.5
+# rmdir --ignore-fail-on-non-empty /usr/share/doc/LLVM
 
 
 cd ..
