@@ -68,22 +68,22 @@ cd    build
 echo "2. CMake Configure ..."
 echo "2. CMake Configure ..." >> $LFSLOG_PROCESS
 echo "2. CMake Configure ..." >> $PKGLOG_ERROR
-CC=gcc CXX=g++                            \
-cmake -DCMAKE_INSTALL_PREFIX=/usr         \
-      -DLLVM_ENABLE_FFI=ON                \
-      -DCMAKE_BUILD_TYPE=Release          \
-      -DLLVM_BUILD_LLVM_DYLIB=ON          \
-      -DLLVM_LINK_LLVM_DYLIB=ON           \
-      -DLLVM_ENABLE_RTTI=ON               \
-      -DLLVM_TARGETS_TO_BUILD="host"      \
-      -DLLVM_BINUTILS_INCDIR=/usr/include \
-      -DLLVM_INCLUDE_BENCHMARKS=OFF       \
-      -DCLANG_DEFAULT_PIE_ON_LINUX=ON     \
-      -Wno-dev                            \
-      -G Ninja                            \
-      ..                                  \
+CC=gcc CXX=g++                                  \
+cmake -DCMAKE_INSTALL_PREFIX=/usr               \
+      -DLLVM_ENABLE_FFI=ON                      \
+      -DCMAKE_BUILD_TYPE=Release                \
+      -DLLVM_BUILD_LLVM_DYLIB=ON                \
+      -DLLVM_LINK_LLVM_DYLIB=ON                 \
+      -DLLVM_ENABLE_RTTI=ON                     \
+      -DLLVM_TARGETS_TO_BUILD="host;AMDGPU;BPF" \
+      -DLLVM_BINUTILS_INCDIR=/usr/include       \
+      -DLLVM_INCLUDE_BENCHMARKS=OFF             \
+      -DCLANG_DEFAULT_PIE_ON_LINUX=ON           \
+      -Wno-dev                                  \
+      -G Ninja                                  \
+      ..                                        \
       > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
-#      -DLLVM_TARGETS_TO_BUILD="host;AMDGPU;BPF" \
+#      -DLLVM_TARGETS_TO_BUILD="host"      \
 
 echo "3. Ninja Build ..."
 echo "3. Ninja Build ..." >> $LFSLOG_PROCESS
