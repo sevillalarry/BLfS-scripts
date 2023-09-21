@@ -38,7 +38,7 @@ echo "." >> $LFSLOG_PROCESS
 echo "."
 echo "."
 
-### Vala not needed in LXDE
+###
 
 # echo "13.36.Vala-0.56.11"
 # echo "13.36.Vala-0.56.11" >> $LFSLOG_PROCESS
