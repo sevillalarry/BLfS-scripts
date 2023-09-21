@@ -143,6 +143,7 @@ echo "."
 echo "."
 
 ###
+
 echo "24.16.Mesa-23.1.6"
 echo "24.16.Mesa-23.1.6" >> $LFSLOG_PROCESS
 
