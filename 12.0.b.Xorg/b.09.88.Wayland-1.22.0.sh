@@ -9,6 +9,10 @@
 #
 #               09.89 Wayland-Protocols-1.32
 #
+# Optionally by:
+#
+#               44.45 libva-2.19.0
+#
 
 export PKG="wayland-1.22.0"
 export PKGLOG_DIR=$LFSLOG/09.88

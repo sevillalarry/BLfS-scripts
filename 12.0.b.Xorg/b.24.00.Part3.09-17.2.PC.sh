@@ -144,6 +144,34 @@ echo "."
 
 ###
 
+echo "44.46.libvdpau-1.5"
+echo "44.46.libvdpau-1.5" >> $LFSLOG_PROCESS
+
+time { bash b.44.46.libvdpau-1.5.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
+###
+
+echo "44.47.libvdpau-va-gl-0.4.0h"
+echo "44.47.libvdpau-va-gl-0.4.0" >> $LFSLOG_PROCESS
+
+time { bash b.44.47.libvdpau-va-gl-0.4.0.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
+###
+
 echo "24.16.Mesa-23.1.6"
 echo "24.16.Mesa-23.1.6" >> $LFSLOG_PROCESS
 

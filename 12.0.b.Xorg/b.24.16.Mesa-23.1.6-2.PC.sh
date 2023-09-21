@@ -11,7 +11,9 @@
 #
 # Dependencies Recommended:
 #
-#               xx.xx libva-2.19.0 for PCs
+#               44.45 libva-2.19.0 for PCs
+#               44.46 libvdpau-1.5
+#               13.13 LLVM-16.0.5
 #               09.89 Wayland-Protocols-1.32
 #
 #
@@ -23,6 +25,11 @@
 # Recommended by:
 #
 #               24.22 Xwayland-23.2.0
+#
+# Recommended Runtime by:
+#
+#               44.45 libva-2.19.0
+#               44.46 libvdpau-1.5
 #
 #
 # Device Drivers --->
