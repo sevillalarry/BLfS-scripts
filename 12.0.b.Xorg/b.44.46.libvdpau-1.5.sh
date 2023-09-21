@@ -55,7 +55,7 @@ ninja > $PKGLOG_BUILD 2>> $PKGLOG_ERROR
 echo "4. Ninja Test ..."
 echo "4. Ninja Test ..." >> $LFSLOG_PROCESS
 echo "4. Ninja Test ..." >> $PKGLOG_ERROR
-ninja install > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
+ninja test > $PKGLOG_CHECK 2>> $PKGLOG_ERROR
 
 echo "5. Ninja Install ..."
 echo "5. Ninja Install ..." >> $LFSLOG_PROCESS
