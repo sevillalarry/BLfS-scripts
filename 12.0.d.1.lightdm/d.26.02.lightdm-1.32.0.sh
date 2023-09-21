@@ -1,10 +1,10 @@
-# c.35.01.libxfce4util-4.18.1.sh
+# d.26.02.lightdm-1.32.0.sh
 #
 # Dependencies Required:
 #
-#               35.04 Exo-4.18.0
+#               35.04 Exo-4.18.0                ( try 1st without )
 #               09.36 libgcrypt-1.10.1
-#               49.05 itstool-2.0.7
+#               49.05 itstool-2.0.7             ( try 1st without )
 #               04.12 Linux-PAM-1.5.3
 #               24.23 Xorg-Server-21.1.8
 #               12.11 elogind-246.10 (hidden)

@@ -3,10 +3,9 @@
 # Dependencies Required:
 #
 #               09.13 GLib-2.76.4
-#                     ISO Codes-4.15.0
+#               11.11 ISO Codes-4.15.0
 #               09.68 libxml2-2.10.4
 #               24.08 Xorg Libraries
-#
 #
 # Dependencies Recommended:
 #

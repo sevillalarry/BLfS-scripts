@@ -10,6 +10,10 @@
 #               37.04 libfm-1.3.2
 #               26.02 lightdm-1.32.0
 #
+# Optionally by:
+#
+#               25.42 libxklavier-5.4
+#
 
 export PKG="vala-0.56.11"
 export PKGLOG_DIR=$LFSLOG/13.36
