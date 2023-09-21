@@ -12,8 +12,12 @@
 # Dependencies Recommended:
 #
 #               09.16 gobject-introspection-1.76.1
-#               xx.xx libxklavier-5.4
+#               25.42 libxklavier-5.4
 #               13.36 Vala-0.56.11
+#
+# Dependencies Optional:
+#
+#               25.02 at-spi2-core-2.48.3
 #
 
 export PKG="lightdm-1.32.0"

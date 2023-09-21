@@ -1,16 +1,16 @@
-# d.09.36.libgcrypt-1.10.1.sh
-#
-# Required by:
-#
-#       09.37 llibgpg-error-1.46
-#
+# d.09.36.libgcrypt-1.10.2.sh
 #
 # Dependencies Required:
 #
-#       26.02 lightdm-1.32.0
+#               09.37 libgpg-error-1.47
+#
+#
+# Required by:
+#
+#               26.02 lightdm-1.32.0
 #
 
-export PKG="libgcrypt-1.10.1"
+export PKG="libgcrypt-1.10.2"
 export PKGLOG_DIR=$LFSLOG/09.36
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
@@ -67,17 +67,17 @@ echo "6. Make Install ..." >> $LFSLOG_PROCESS
 echo "6. Make Install ..." >> $PKGLOG_ERROR
 make install > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 
-install -dm755  /usr/share/doc/libgcrypt-1.10.1
+install -dm755  /usr/share/doc/libgcrypt-1.10.2
 install -m644   README doc/{README.apichanges,fips*,libgcrypt*} \
-                /usr/share/doc/libgcrypt-1.10.1
+                /usr/share/doc/libgcrypt-1.10.2
 
-install -dm755  /usr/share/doc/libgcrypt-1.10.1/html
+install -dm755  /usr/share/doc/libgcrypt-1.10.2/html
 install -m644   doc/gcrypt.html/*                               \
-                /usr/share/doc/libgcrypt-1.10.1/html
+                /usr/share/doc/libgcrypt-1.10.2/html
 install -m644   doc/gcrypt_nochunks.html                        \
-                /usr/share/doc/libgcrypt-1.10.1
+                /usr/share/doc/libgcrypt-1.10.2
 install -m644   doc/gcrypt.{txt,texi}                           \
-                /usr/share/doc/libgcrypt-1.10.1
+                /usr/share/doc/libgcrypt-1.10.2
 
 
 cd ..

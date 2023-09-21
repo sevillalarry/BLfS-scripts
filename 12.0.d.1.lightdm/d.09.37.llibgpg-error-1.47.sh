@@ -1,11 +1,11 @@
-# d.09.37.llibgpg-error-1.46.sh
+# d.09.37.llibgpg-error-1.47.sh
 #
 # Required by:
 #
 #       09.36 libgcrypt-1.10.1
 #
 
-export PKG="llibgpg-error-1.46"
+export PKG="llibgpg-error-1.47"
 export PKGLOG_DIR=$LFSLOG/09.37
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
@@ -46,7 +46,7 @@ echo "5. Make Install ..." >> $LFSLOG_PROCESS
 echo "5. Make Install ..." >> $PKGLOG_ERROR
 make install > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 
-install -m644 -D README /usr/share/doc/libgpg-error-1.46/README
+install -m644 -D README /usr/share/doc/libgpg-error-1.47/README
 
 
 cd ..

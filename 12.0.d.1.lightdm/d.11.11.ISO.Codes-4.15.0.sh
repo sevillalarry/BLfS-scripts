@@ -1,6 +1,11 @@
-#b.11.11.ISO Codes-4.12.0.sh
+# d.11.11.ISO.Codes-4.15.0.sh
+#
+# Required by:
+#
+#               25.42 libxklavier-5.4
+#
 
-export PKG="ISO Codes-4.12.0"
+export PKG="iso-codes-4.15.0"
 export PKGLOG_DIR=$LFSLOG/11.11
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
@@ -16,7 +21,9 @@ mkdir $PKGLOG_DIR
 echo "1. Extract tar..."
 echo "1. Extract tar..." >> $LFSLOG_PROCESS
 echo "1. Extract tar..." >> $PKGLOG_ERROR
-tar xvf $PKG.tar.xz > $PKGLOG_TAR 2>> $PKGLOG_ERROR
+#tar xvf $PKG.tar.xz > $PKGLOG_TAR 2>> $PKGLOG_ERROR
+tar xvf iso-codes_4.15.0.orig.tar.xz    \
+        > $PKGLOG_TAR 2>> $PKGLOG_ERROR
 cd $PKG
  
 
@@ -24,7 +31,7 @@ echo "2. Configure ..."
 echo "2. Configure ..." >> $LFSLOG_PROCESS
 echo "2. Configure ..." >> $PKGLOG_ERROR
 ./configure --prefix=/usr   \
-          > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
+        > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
 echo "3. Make Build ..."
 echo "3. Make Build ..." >> $LFSLOG_PROCESS
