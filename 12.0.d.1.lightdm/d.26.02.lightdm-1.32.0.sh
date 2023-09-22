@@ -52,14 +52,15 @@ sed -i s/systemd/elogind/ data/pam/*
 echo "2. Configure ..."
 echo "2. Configure ..." >> $LFSLOG_PROCESS
 echo "2. Configure ..." >> $PKGLOG_ERROR
-./configure --prefix=/usr                 \
-            --libexecdir=/usr/lib/lightdm \
-            --localstatedir=/var          \
-            --sbindir=/usr/bin            \
-            --sysconfdir=/etc             \
-            --disable-static              \
-            --disable-tests               \
-            --with-greeter-user=lightdm   \
+ITSTOOL=/bin/true                           \
+./configure --prefix=/usr                   \
+            --libexecdir=/usr/lib/lightdm   \
+            --localstatedir=/var            \
+            --sbindir=/usr/bin              \
+            --sysconfdir=/etc               \
+            --disable-static                \
+            --disable-tests                 \
+            --with-greeter-user=lightdm     \
             --with-greeter-session=lightdm-gtk-greeter  \
             --docdir=/usr/share/doc/lightdm-1.32.0      \
             > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
