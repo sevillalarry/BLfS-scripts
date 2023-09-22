@@ -83,6 +83,13 @@ install -dm755 -o lightdm -g lightdm /var/lib/lightdm-data
 install -dm755 -o lightdm -g lightdm /var/cache/lightdm
 install -dm770 -o lightdm -g lightdm /var/log/lightdm
 
+
+echo "***** GREETER *****" >> $PKGLOG_TAR
+echo "***** GREETER *****" >> $PKGLOG_CONFIG
+echo "***** GREETER *****" >> $PKGLOG_BUILD
+echo "***** GREETER *****" >> $PKGLOG_INSTALL
+echo "***** GREETER *****" >> $PKGLOG_ERROR
+
 tar -xvf ../lightdm-gtk-greeter-2.0.8.tar.gz    \
     >> $PKGLOG_TAR 2>> $PKGLOG_ERROR
 
