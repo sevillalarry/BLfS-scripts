@@ -23,7 +23,7 @@
 #
 
 export PKG="libva-2.19.0"
-export PKGLOG_DIR=$LFSLOG/44.45
+export PKGLOG_DIR=$LFSLOG/44.45.$PKGPASS
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log
