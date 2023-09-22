@@ -65,6 +65,11 @@ C.  Generate BLFS - LXDE
 
         bash c.37.00.sh
 
+        cat > ~/.xinitrc << "EOF"
+        # No need to run dbus-launch, since it is run by startlxde
+        startlxde
+        EOF
+
         reboot
 
         startx

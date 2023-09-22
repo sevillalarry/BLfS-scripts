@@ -1,0 +1,70 @@
+A. Preparation
+
+  A.01. ( Assumming XOrg is already running ) - Copy all script files
+
+        copy all script files from the ff to /sources
+
+        12.0.d.1.lightdm
+
+  A.03. Download packages
+
+        ###
+
+        wget --input-file=d.00.09.wget-list-sysv.txt --continue --directory-prefix=/sources
+
+        ###
+
+  A.04. Setting Up the Environment
+        ( Note: change the MAKEFLAGS based on the number of threads )
+
+        ###
+        #   same as XOrg Environment
+        ###
+
+        export LFSLOG=/var/log/blfs
+        export MAKEFLAGS="-j8"
+        export XORG_PREFIX="/usr"
+        export XORG_CONFIG="--prefix=$XORG_PREFIX --sysconfdir=/etc \
+                            --localstatedir=/var --disable-static"
+
+        cd /sources
+
+B.  Generate BLFS - Support Files
+
+  B.01. Setup / Checking Environment - Part 1
+
+        ###
+
+        echo $LFSLOG          /var/log/blfs
+        echo $MAKEFLAGS       -j8
+
+        echo $SHELL           /bin/bash
+        ls -l /bin/sh         bash
+        ls -l /usr/bin/awk    gawk
+
+        cd /sources
+
+        ###
+
+        ( display )
+        root [ /sources ]#
+
+  B.03. Support Applications
+
+        ###
+
+        bash d.03.90.all.support.apps.1.lightdm.sh
+
+C.  Generate BLFS - LXDE
+
+  C.01. [BLFS 37] LXDE Desktop
+
+        ###
+
+        bash d.26.00.sh
+
+        reboot
+
+        startx
+
+        ###

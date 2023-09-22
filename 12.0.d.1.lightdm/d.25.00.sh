@@ -2,7 +2,6 @@
 #
 # Graphical Environment Libraries
 #
-# NOTHING TO DO
 
 export LFSLOG_PROCESS=$LFSLOG/process.log
 
