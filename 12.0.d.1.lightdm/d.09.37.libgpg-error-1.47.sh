@@ -1,11 +1,11 @@
-# d.09.37.llibgpg-error-1.47.sh
+# d.09.37.libgpg-error-1.47.sh
 #
 # Required by:
 #
 #       09.36 libgcrypt-1.10.1
 #
 
-export PKG="llibgpg-error-1.47"
+export PKG="libgpg-error-1.47"
 export PKGLOG_DIR=$LFSLOG/09.37
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log

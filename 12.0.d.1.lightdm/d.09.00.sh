@@ -12,8 +12,8 @@ date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
 
 # compile ahead needed by libgcrypt
 #
-echo "09.37.llibgpg-error-1.47"
-echo "09.37.llibgpg-error-1.47" >> $LFSLOG_PROCESS
+echo "09.37.libgpg-error-1.47"
+echo "09.37.libgpg-error-1.47" >> $LFSLOG_PROCESS
 
 time { d.09.37.llibgpg-error-1.47.sh ; }
 
