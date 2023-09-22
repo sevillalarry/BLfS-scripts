@@ -112,7 +112,7 @@ cd lightdm-gtk-greeter-2.0.8
     echo "7. Make Install greeter ..."
     echo "7. Make Install greeter ..." >> $LFSLOG_PROCESS
     echo "7. Make Install greeter ..." >> $PKGLOG_ERROR
-    make install > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
+    make install >> $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 
 cd ..
 
