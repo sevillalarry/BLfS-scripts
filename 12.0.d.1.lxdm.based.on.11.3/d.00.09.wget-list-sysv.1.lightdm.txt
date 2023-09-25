@@ -1,0 +1,8 @@
+# 10.23 librsvg-2.56.3
+https://download.gnome.org/sources/librsvg/2.56/librsvg-2.56.3.tar.xz
+
+# 26.04 lxdm-0.5.3
+https://downloads.sourceforge.net/lxdm/lxdm-0.5.3.tar.xz
+
+# BLfS 11.3 Boot Scripts
+https://anduin.linuxfromscratch.org/BLFS/blfs-bootscripts/blfs-bootscripts-20230101.tar.xz
