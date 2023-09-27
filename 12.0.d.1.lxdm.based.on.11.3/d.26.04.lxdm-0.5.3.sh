@@ -1,9 +1,16 @@
 # d.26.04.lxdm-0.5.3.sh
 #
+# ( based on BLfS 11.3 Chapter 26 Section 3, [note: 4 was used for de-confliction])
+#
+#
 # Dependencies Required:
 #
 #               25.19 GTK+-2.24.33
-#               11.11 ISO Codes-4.15.0
+#               11.11 ISO Codes-4.15.0  upgrade from 4.12.0
+#
+# Dependencies Required Runtime:
+#
+#               10.23 librsvg-2.56.3    upgrade from 2.54.5
 #
 # Dependencies Recommended:
 #

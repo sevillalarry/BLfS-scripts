@@ -22,9 +22,7 @@ mkdir $PKGLOG_DIR
 echo "1. Extract tar..."
 echo "1. Extract tar..." >> $LFSLOG_PROCESS
 echo "1. Extract tar..." >> $PKGLOG_ERROR
-#tar xvf $PKG.tar.xz > $PKGLOG_TAR 2>> $PKGLOG_ERROR
-tar xvf iso-codes_4.15.0.orig.tar.xz    \
-        > $PKGLOG_TAR 2>> $PKGLOG_ERROR
+tar xvf $PKG.orig.tar.xz > $PKGLOG_TAR 2>> $PKGLOG_ERROR
 cd $PKG
  
 

@@ -1,5 +1,21 @@
 # d.10.23.librsvg-2.56.3.sh
 #
+# Dependencies Required:
+#
+#               25.03 Cairo-1.17.6
+#               25.12 gdk-pixbuf-2.42.10
+#               25.43 Pango-1.50.14
+#               13.27 Rustc-1.71.1
+#
+# Dependencies Recommended:
+#
+#               09.16 gobject-introspection-1.76.1
+#               13.36 Vala-0.56.11
+
+# Dependencies Optional:
+#
+#               24.20 Xorg Fonts
+#
 
 export PKG="librsvg-2.56.3"
 export PKGLOG_DIR=$LFSLOG/10.23
@@ -35,10 +51,16 @@ echo "3. Make Build ..." >> $LFSLOG_PROCESS
 echo "3. Make Build ..." >> $PKGLOG_ERROR
 make > $PKGLOG_BUILD 2>> $PKGLOG_ERROR
 
-echo "4. Make Install ..."
-echo "4. Make Install ..." >> $LFSLOG_PROCESS
-echo "4. Make Install ..." >> $PKGLOG_ERROR
-make install > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
+echo "4. Make Check ..."
+echo "4. Make Check ..." >> $LFSLOG_PROCESS
+echo "4. Make Check ..." >> $PKGLOG_ERROR
+make check > $PKGLOG_CHECK 2>> $PKGLOG_ERROR
+
+echo "5. Make Install ..."
+echo "5. Make Install ..." >> $LFSLOG_PROCESS
+echo "5. Make Install ..." >> $PKGLOG_ERROR
+make DOC_INSTALL_DIR='$(docdir)' install  \
+      > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 
 
 cd ..
