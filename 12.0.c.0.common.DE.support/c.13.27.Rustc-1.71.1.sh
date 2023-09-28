@@ -1,5 +1,16 @@
 # c.13.27.Rustc-1.71.1.sh
 #
+# Dependencies Required:
+#
+#               13.04 CMake-3.27.2
+#               17.02 cURL-8.2.1
+#
+# Dependencies Recommended:
+#
+#               09.58 libssh2-1.11.0
+#               13.13 LLVM-16.0.5
+#
+#
 # Required by:
 #
 #               10.23 librsvg-2.56.3

@@ -1,4 +1,4 @@
-# b.17.00.sh
+# b.17.00.Part2.sh
 #
 # Networking Libraries
 #
@@ -10,10 +10,10 @@ date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
 
 #####
 
-echo "17.18.libtirpc-1.3.3"
-echo "17.18.libtirpc-1.3.3" >> $LFSLOG_PROCESS
+echo "17.02.cURL-8.2.1"
+echo "17.02.cURL-8.2.1" >> $LFSLOG_PROCESS
 
-time { bash b.17.18.libtirpc-1.3.3.sh ; }
+time { bash b.17.02.cURL-8.2.1.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS

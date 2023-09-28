@@ -1,16 +1,12 @@
-#b.17.02.cURL-7.88.1.sh
+# c.09.58.llibssh2-1.11.0.sh
 #
 # Recommended by:
 #
-#   13.04 CMake-3.25.2
-#
-# Dependencies Recommended:
-#
-#   04.02 make-ca-1.12       ( already installed during LFS )
+#               13.27 Rustc-1.71.1
 #
 
-export PKG="cmake-3.25.2"
-export PKGLOG_DIR=$LFSLOG/13.04
+export PKG="llibssh2-1.11.0"
+export PKGLOG_DIR=$LFSLOG/09.58
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log
@@ -25,21 +21,20 @@ mkdir $PKGLOG_DIR
 echo "1. Extract tar..."
 echo "1. Extract tar..." >> $LFSLOG_PROCESS
 echo "1. Extract tar..." >> $PKGLOG_ERROR
-tar xvf $PKG.tar.xz > $PKGLOG_TAR 2>> $PKGLOG_ERROR
+tar xvf $PKG.tar.gz > $PKGLOG_TAR 2>> $PKGLOG_ERROR
 cd $PKG
 
 
-sed -i '/"lib64"/s/64//' Modules/GNUInstallDirs.cmake
+sed -E '/^DOCKER_TEST/,/^SSHD_TEST/s/test_(auth_keyboard_info.* |hostkey |simple)/$(NOTHING)/' \
+    -i tests/Makefile.inc
+autoreconf -fi
 
 echo "2. Configure ..."
 echo "2. Configure ..." >> $LFSLOG_PROCESS
 echo "2. Configure ..." >> $PKGLOG_ERROR
-./bootstrap --prefix=/usr        \
-            --system-libs        \
-            --mandir=/share/man  \
-            --no-system-jsoncpp  \
-            --no-system-librhash \
-            --docdir=/share/doc/cmake-3.25.2
+./configure --prefix=/usr           \
+            --disable-docker-tests  \
+            --disable-static        \
             > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
 echo "3. Make Build ..."
@@ -47,13 +42,10 @@ echo "3. Make Build ..." >> $LFSLOG_PROCESS
 echo "3. Make Build ..." >> $PKGLOG_ERROR
 make > $PKGLOG_BUILD 2>> $PKGLOG_ERROR
 
-echo "4. Make Test ..."
-echo "4. Make Test ..." >> $LFSLOG_PROCESS
-echo "4. Make Test ..." >> $PKGLOG_ERROR
-LC_ALL=en_US.UTF-8 \
-    bin/ctest $MAKEFLAGS    \
-    -O  $PKGLOG_CHECK        \
-    2>> $PKGLOG_ERROR
+echo "4. Make Check ..."
+echo "4. Make Check ..." >> $LFSLOG_PROCESS
+echo "4. Make Check ..." >> $PKGLOG_ERROR
+make check > $PKGLOG_CHECK 2>> $PKGLOG_ERROR
 
 echo "5. Make Install ..."
 echo "5. Make Install ..." >> $LFSLOG_PROCESS
