@@ -1,11 +1,11 @@
-# c.09.58.llibssh2-1.11.0.sh
+# c.09.58.libssh2-1.11.0.sh
 #
 # Recommended by:
 #
 #               13.27 Rustc-1.71.1
 #
 
-export PKG="llibssh2-1.11.0"
+export PKG="libssh2-1.11.0"
 export PKGLOG_DIR=$LFSLOG/09.58
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
