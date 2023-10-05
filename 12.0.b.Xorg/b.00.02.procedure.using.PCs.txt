@@ -10,7 +10,7 @@ A. Preparation
 
         chmod -v a+wt /usr/src/blfs
 
-        ln -sf /usr/src/blfs /sources
+        ln -sfv /usr/src/blfs /sources
 
         cd /sources
 
