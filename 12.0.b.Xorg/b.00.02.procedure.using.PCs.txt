@@ -57,12 +57,12 @@ B.  Generate BLFS - Support Files
 
         ###
 
-        echo $LFSLOG          /var/log/blfs
-        echo $MAKEFLAGS       -j8
+        echo $LFSLOG          # /var/log/blfs
+        echo $MAKEFLAGS       # -j8
 
-        echo $SHELL           /bin/bash
-        ls -l /bin/sh         bash
-        ls -l /usr/bin/awk    gawk
+        echo $SHELL           # /bin/bash
+        ls -l /bin/sh         # bash
+        ls -l /usr/bin/awk    # gawk
 
         cd /sources
 
