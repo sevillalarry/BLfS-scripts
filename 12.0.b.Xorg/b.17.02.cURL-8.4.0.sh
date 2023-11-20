@@ -67,10 +67,9 @@ rm -rf docs/examples/.deps
 find docs \( -name Makefile\* -o        \
              -name \*.1       -o        \
              -name \*.3       -o        \
-             -name CMakeLists.txt \)    \
-             -delete
+             -name CMakeLists.txt \) -delete
 
-cp -R docs -T /usr/share/doc/curl-8.2.1
+cp -R docs -T /usr/share/doc/curl-8.4.0
 
 echo "." >> $PKGLOG_OTHERS1
 echo "." >> $PKGLOG_OTHERS1

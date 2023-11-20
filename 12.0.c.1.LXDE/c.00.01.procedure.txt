@@ -37,12 +37,13 @@ B.  Generate BLFS - Support Files
 
         ###
 
-        echo $LFSLOG          /var/log/blfs
-        echo $MAKEFLAGS       -j8
-
-        echo $SHELL           /bin/bash
-        ls -l /bin/sh         bash
-        ls -l /usr/bin/awk    gawk
+        echo $LFSLOG          # /var/log/blfs
+        echo $MAKEFLAGS       # -j8
+        echo $XORG_PREFIX     # /usr
+        echo $XORG_CONFIG     # --prefix=/usr --sysconfdir=/etc --localstatedir=/var --disable-static
+        echo $SHELL           # /bin/bash
+        ls -l /bin/sh         # bash
+        ls -l /usr/bin/awk    # gawk
 
         cd /sources
 
@@ -55,7 +56,7 @@ B.  Generate BLFS - Support Files
 
         ###
 
-        bash c.03.90.all.support.apps.1.LXDE.sh
+        bash c.03.90.all.support.apps.c.1.LXDE.sh
 
 C.  Generate BLFS - LXDE
 

@@ -4,13 +4,13 @@ A. Preparation
 
         ###
 
-        rm /sources
+        rm -v /sources
 
         mkdir -v /mnt/src/blfs.{src,log}
 
         chmod -v a+wt /mnt/src/blfs.{src,log}
 
-        ln -sf /mnt/src/blfs.src /sources
+        ln -sfv /mnt/src/blfs.src /sources
 
         cd /sources
 
@@ -27,6 +27,10 @@ A. Preparation
         execute the download portions:
 
         https://www.linuxfromscratch.org/blfs/view/12.0/x/x7lib.html
+           upgrade libX11
+           upgrade libXpm
+        from https://www.linuxfromscratch.org/blfs/view/svn/x/x7lib.html
+
         https://www.linuxfromscratch.org/blfs/view/12.0/x/x7app.html
         https://www.linuxfromscratch.org/blfs/view/12.0/x/x7font.html
 
@@ -61,12 +65,12 @@ B.  Generate BLFS - Support Files
 
         ###
 
-        echo $LFSLOG          /var/log/blfs
-        echo $MAKEFLAGS       -j8
+        echo $LFSLOG          # /var/log/blfs
+        echo $MAKEFLAGS       # -j8
 
-        echo $SHELL           /bin/bash
-        ls -l /bin/sh         bash
-        ls -l /usr/bin/awk    gawk
+        echo $SHELL           # /bin/bash
+        ls -l /bin/sh         # bash
+        ls -l /usr/bin/awk    # gawk
 
         cd /sources
 

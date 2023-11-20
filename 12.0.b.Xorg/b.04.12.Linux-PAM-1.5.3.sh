@@ -41,7 +41,7 @@ cd $PKG
 
 sed -e /service_DATA/d \
     -i modules/pam_namespace/Makefile.am
-autoreconf
+autoreconf > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
 tar -xvf ../Linux-PAM-1.5.3-docs.tar.xz \
     --strip-components=1                \
@@ -56,7 +56,7 @@ echo "2. Configure ..." >> $PKGLOG_ERROR
             --libdir=/usr/lib                       \
             --enable-securedir=/usr/lib/security    \
             --docdir=/usr/share/doc/Linux-PAM-1.5.3 \
-            > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
+            >> $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
 echo "3. Make Build ..."
 echo "3. Make Build ..." >> $LFSLOG_PROCESS
