@@ -1,4 +1,5 @@
 # b.12.11.elogind-252.9.sh
+# errata
 #
 # Dependencies Recommended:
 #
