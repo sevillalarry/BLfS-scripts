@@ -1,4 +1,5 @@
-# b.24.23.Xorg-Server-21.1.8.sh
+# b.24.23.Xorg-Server-21.1.9.sh
+# errata
 #
 # Dependencies Required:
 #
@@ -32,7 +33,7 @@
 #               24.25 twm-1.0.12
 #
 
-export PKG="xorg-server-21.1.8"
+export PKG="xorg-server-21.1.9"
 export PKGLOG_DIR=$LFSLOG/24.23
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
@@ -91,7 +92,7 @@ install -d -m1777 /tmp/.{ICE,X11}-unix
 
 cat >> /etc/sysconfig/createfiles << "EOF"
 /tmp/.ICE-unix dir 1777 root root
-/tmp/.X11-unix dir 1777 root root
+# /tmp/.X11-unix dir 1777 root root - already created in Xwayland
 EOF
 
 

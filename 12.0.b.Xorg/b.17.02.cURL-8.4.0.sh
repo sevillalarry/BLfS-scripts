@@ -1,4 +1,5 @@
-# c.17.02.cURL-8.2.1.sh
+# c.17.02.cURL-8.4.0.sh
+# errata
 #
 # Dependencies Recommended:
 #
@@ -14,7 +15,7 @@
 #               13.04 CMake-3.27.2
 #
 
-export PKG="curl-8.2.1"
+export PKG="curl-8.4.0"
 export PKGLOG_DIR=$LFSLOG/17.02
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log

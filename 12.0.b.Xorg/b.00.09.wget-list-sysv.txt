@@ -62,8 +62,9 @@ https://github.com/llvm/llvm-project/releases/download/llvmorg-16.0.5/compiler-r
 # 13.24.13 Mako-1.2.4
 https://files.pythonhosted.org/packages/source/M/Mako/Mako-1.2.4.tar.gz
 
-# 17.02 cURL-8.2.1
-https://curl.se/download/curl-8.2.1.tar.xz
+# 17.02 cURL-8.4.0 errata
+#https://curl.se/download/curl-8.2.1.tar.xz
+https://curl.se/download/curl-8.4.0.tar.xz
 # 17.18 libtirpc-1.3.3
 https://downloads.sourceforge.net/libtirpc/libtirpc-1.3.3.tar.bz2
 
@@ -92,8 +93,10 @@ https://www.x.org/pub/individual/data/xcursor-themes-1.0.7.tar.xz
 # 24.20 Xorg Fonts
 # 24.21 ---> .23
 https://www.x.org/pub/individual/data/xkeyboard-config/xkeyboard-config-2.39.tar.xz
-https://www.x.org/pub/individual/xserver/xwayland-23.2.0.tar.xz
-https://www.x.org/pub/individual/xserver/xorg-server-21.1.8.tar.xz
+#https://www.x.org/pub/individual/xserver/xwayland-23.2.0.tar.xz    errata
+https://www.x.org/pub/individual/xserver/xwayland-23.2.2.tar.xz
+#https://www.x.org/pub/individual/xserver/xorg-server-21.1.8.tar.xz errata
+https://www.x.org/pub/individual/xserver/xorg-server-21.1.9.tar.xz
 #### 24.23 additional download - not needed with Wayland
 ###https://www.linuxfromscratch.org/patches/blfs/12.0/xorg-server-21.1.8-tearfree_backport-1.patch
 # 24.24.1.1, .3 & .4
@@ -108,6 +111,8 @@ https://www.x.org/pub/individual/app/xclock-1.1.1.tar.xz
 https://www.x.org/pub/individual/app/xinit-1.4.2.tar.xz
 # 24.31.4 DejaVu fonts
 https://nchc.dl.sourceforge.net/project/dejavu/dejavu/2.37/dejavu-fonts-ttf-2.37.tar.bz2
+# 24.31.9 Noto fonts
+https://github.com/notofonts/noto-fonts/archive/refs/tags/v20201206-phase3.tar.gz
 
 # 25.37 Libdrm-2.4.115
 https://dri.freedesktop.org/libdrm/libdrm-2.4.115.tar.xz

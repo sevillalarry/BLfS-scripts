@@ -1,4 +1,5 @@
-# b.24.22.Xwayland-23.2.0.sh
+# b.24.22.Xwayland-23.2.2.sh
+# errata
 #
 # Dependencies Required:
 #
@@ -18,7 +19,7 @@
 #               24.18 Xorg.Applications
 #
 
-export PKG="xwayland-23.2.0"
+export PKG="xwayland-23.2.2"
 export PKGLOG_DIR=$LFSLOG/24.22
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log

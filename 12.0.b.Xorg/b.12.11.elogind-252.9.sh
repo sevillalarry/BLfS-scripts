@@ -65,6 +65,7 @@ meson setup ..                                      \
             -Dman=auto                              \
             -Ddocdir=/usr/share/doc/elogind-252.9   \
             -Dcgroup-controller=elogind             \
+            -Ddev-kvm-mode=0660                     \
             -Ddbuspolicydir=/etc/dbus-1/system.d    \
     > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
