@@ -111,8 +111,8 @@ https://www.x.org/pub/individual/app/xclock-1.1.1.tar.xz
 https://www.x.org/pub/individual/app/xinit-1.4.2.tar.xz
 # 24.31.4 DejaVu fonts
 https://nchc.dl.sourceforge.net/project/dejavu/dejavu/2.37/dejavu-fonts-ttf-2.37.tar.bz2
-# 24.31.9 Noto fonts
-https://github.com/notofonts/noto-fonts/archive/refs/tags/v20201206-phase3.tar.gz
+# 24.31.9 Noto fonts failed on downloads
+# https://github.com/notofonts/noto-fonts/archive/refs/tags/v20201206-phase3.tar.gz
 
 # 25.37 Libdrm-2.4.115
 https://dri.freedesktop.org/libdrm/libdrm-2.4.115.tar.xz

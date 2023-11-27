@@ -207,19 +207,19 @@ echo "." >> $LFSLOG_PROCESS
 echo "."
 echo "."
 
-###
+### failed on download
 
-echo "24.31.09.Noto-fonts-ttf-v20201206-phase3"
-echo "24.31.09.Noto-fonts-ttf-v20201206-phase3" >> $LFSLOG_PROCESS
+# echo "24.31.09.Noto-fonts-ttf-v20201206-phase3"
+# echo "24.31.09.Noto-fonts-ttf-v20201206-phase3" >> $LFSLOG_PROCESS
 
-time { bash b.24.31.09.Noto-fonts-ttf-v20201206-phase3.sh ; }
+# time { bash b.24.31.09.Noto-fonts-ttf-v20201206-phase3.sh ; }
 
-date +"%Y/%b/%d %H:%M"
-date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+# date +"%Y/%b/%d %H:%M"
+# date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
 
-echo "." >> $LFSLOG_PROCESS
-echo "."
-echo "."
+# echo "." >> $LFSLOG_PROCESS
+# echo "."
+# echo "."
 
 #####
 
