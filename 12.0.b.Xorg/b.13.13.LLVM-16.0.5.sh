@@ -75,7 +75,7 @@ cmake -DCMAKE_INSTALL_PREFIX=/usr               \
       -DLLVM_BUILD_LLVM_DYLIB=ON                \
       -DLLVM_LINK_LLVM_DYLIB=ON                 \
       -DLLVM_ENABLE_RTTI=ON                     \
-      -DLLVM_TARGETS_TO_BUILD="host;AMDGPU;BPF" \
+      -DLLVM_TARGETS_TO_BUILD="host;BPF"        \
       -DLLVM_BINUTILS_INCDIR=/usr/include       \
       -DLLVM_INCLUDE_BENCHMARKS=OFF             \
       -DCLANG_DEFAULT_PIE_ON_LINUX=ON           \
@@ -83,6 +83,7 @@ cmake -DCMAKE_INSTALL_PREFIX=/usr               \
       -G Ninja                                  \
       ..                                        \
       > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
+#      -DLLVM_TARGETS_TO_BUILD="host;AMDGPU;BPF" \
 #      -DLLVM_TARGETS_TO_BUILD="host"      \
 
 echo "3. Ninja Build ..."
