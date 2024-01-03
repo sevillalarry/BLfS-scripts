@@ -1,6 +1,6 @@
 # d.26.04.lxdm-0.5.3.sh
 #
-# ( based on BLfS 11.3 Chapter 26 Section 3, [note: 4 was used for de-confliction])
+# ( based on BLfS 11.3 Chapter 26 Section 3, [note: .04 was used for de-confliction])
 #
 #
 # Dependencies Required:

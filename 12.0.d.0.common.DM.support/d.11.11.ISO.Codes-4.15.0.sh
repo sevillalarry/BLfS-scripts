@@ -3,7 +3,7 @@
 # Required by:
 #
 #               25.42 libxklavier-5.4
-#               26.04 lxdm-0.5.3        ( based on BLfS 11.3 Chapter 26 Section 3, [note: 4 was used for de-confliction])
+#               26.04 lxdm-0.5.3        ( based on BLfS 11.3 Chapter 26 Section 3, [note: .04 was used for de-confliction])
 #
 
 export PKG="iso-codes-4.15.0"

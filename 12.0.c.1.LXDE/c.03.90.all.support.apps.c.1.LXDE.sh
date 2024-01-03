@@ -1,4 +1,4 @@
-# b.03.90.all.support.apps.1.LXDE.sh
+# c.03.90.all.support.apps.1.LXDE.sh
 #
 # Support Applications
 #

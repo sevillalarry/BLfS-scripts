@@ -1,0 +1,86 @@
+A. Preparation
+
+  A.01. ( Assumming XOrg is already running ) - Copy all script files
+
+        copy all script files from the ff to /sources
+
+        1. 12.0.d.0.common.DM.support
+        2. 12.0.d.1.lxdm.based.on.11.3
+
+  A.03. Download packages
+
+        ###
+
+        wget --input-file=d.00.09.wget-list-sysv.0.cDM.txt --continue --directory-prefix=/sources
+        wget --input-file=d.00.09.wget-list-sysv.1.lxdm.txt --continue --directory-prefix=/sources
+
+        ###
+
+  A.04. Setting Up the Environment
+        ( Note: change the MAKEFLAGS based on the number of threads )
+
+        ###
+        #   same as XOrg Environment
+        ###
+
+        export LFSLOG=/var/log/blfs
+        export MAKEFLAGS="-j8"
+        export XORG_PREFIX="/usr"
+        export XORG_CONFIG="--prefix=$XORG_PREFIX --sysconfdir=/etc \
+                            --localstatedir=/var --disable-static"
+
+        cd /sources
+
+B.  Generate BLFS - Support Files
+
+  B.01. Setup / Checking Environment - Part 1
+
+        ###
+
+        echo $LFSLOG          # /var/log/blfs
+        echo $MAKEFLAGS       # -j8
+        echo $XORG_PREFIX     # /usr
+        echo $XORG_CONFIG     # --prefix=/usr --sysconfdir=/etc --localstatedir=/var --disable-static
+        echo $SHELL           # /bin/bash
+        ls -l /bin/sh         # bash
+        ls -l /usr/bin/awk    # gawk
+
+        cd /sources
+
+        ###
+
+        ( display )
+        root [ /sources ]#
+
+  B.03. Support Applications
+
+        ###
+
+        bash d.03.90.all.support.apps.d.1.lxdm.sh
+
+C.  Generate BLFS - LXDE
+
+  C.01. [BLFS 37] LXDE Desktop
+
+        ###
+
+        bash d.26.00.sh
+
+  C.02. 
+  
+        cd /sources/blfs-botscripts-20230101
+        
+        make install-lxdm
+
+        nano /etc/lxdm/lxdm.conf
+          (uncomment)
+            session=/usr/bin/startlxde
+
+        cp -v /etc/inittab{,-orig}
+        sed -i '/initdefault/ s/3/5/' /etc/inittab
+
+        reboot
+
+        startx
+
+        ###

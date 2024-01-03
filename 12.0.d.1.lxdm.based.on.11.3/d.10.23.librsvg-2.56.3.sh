@@ -1,4 +1,5 @@
 # d.10.23.librsvg-2.56.3.sh
+# errata
 #
 # Dependencies Required:
 #
@@ -43,7 +44,7 @@ echo "2. Configure ..." >> $PKGLOG_ERROR
 ./configure --prefix=/usr    \
             --enable-vala    \
             --disable-static \
-            --docdir=/usr/share/doc/librsvg-2.54.5 \
+            --docdir=/usr/share/doc/librsvg-2.56.3 \
           > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
 echo "3. Make Build ..."
