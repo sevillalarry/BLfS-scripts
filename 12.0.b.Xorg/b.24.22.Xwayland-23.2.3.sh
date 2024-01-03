@@ -1,4 +1,4 @@
-# b.24.22.Xwayland-23.2.2.sh
+# b.24.22.Xwayland-23.2.3.sh
 # errata
 #
 # Dependencies Required:
@@ -19,7 +19,7 @@
 #               24.18 Xorg.Applications
 #
 
-export PKG="xwayland-23.2.2"
+export PKG="xwayland-23.2.3"
 export PKGLOG_DIR=$LFSLOG/24.22
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
@@ -66,9 +66,11 @@ echo "4. Ninja Install ..." >> $LFSLOG_PROCESS
 echo "4. Ninja Install ..." >> $PKGLOG_ERROR
 ninja install > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 
-cat >> /etc/sysconfig/createfiles << "EOF"
-/tmp/.X11-unix dir 1777 root root
-EOF
+# Note: exisintg in .0, but omitted in .3
+#
+# cat >> /etc/sysconfig/createfiles << "EOF"
+# /tmp/.X11-unix dir 1777 root root
+# EOF
 
 
 cd ..
