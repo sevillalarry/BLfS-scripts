@@ -1,4 +1,5 @@
 # c.09.58.libssh2-1.11.0.sh
+# errata
 #
 # Recommended by:
 #
@@ -24,6 +25,8 @@ echo "1. Extract tar..." >> $PKGLOG_ERROR
 tar xvf $PKG.tar.gz > $PKGLOG_TAR 2>> $PKGLOG_ERROR
 cd $PKG
 
+
+patch -Np1 -i ../libssh2-1.11.0-security_fixes-1.patch
 
 sed -E '/^DOCKER_TEST/,/^SSHD_TEST/s/test_(auth_keyboard_info.* |hostkey |simple)/$(NOTHING)/' \
     -i tests/Makefile.inc

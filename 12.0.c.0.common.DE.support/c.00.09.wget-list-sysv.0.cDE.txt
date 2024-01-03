@@ -1,5 +1,6 @@
 # 09.58 libssh2-1.11.0
 https://www.libssh2.org/download/libssh2-1.11.0.tar.gz
+https://www.linuxfromscratch.org/patches/blfs/svn/libssh2-1.11.0-security_fixes-1.patch
 
 # 10.06 FriBidi-1.0.13
 https://github.com/fribidi/fribidi/releases/download/v1.0.13/fribidi-1.0.13.tar.xz
