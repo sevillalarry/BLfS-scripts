@@ -1,4 +1,4 @@
-# c.17.02.cURL-8.4.0.sh
+# c.17.02.cURL-8.5.0.sh
 # errata
 #
 # Dependencies Recommended:
@@ -15,7 +15,7 @@
 #               13.04 CMake-3.27.2
 #
 
-export PKG="curl-8.4.0"
+export PKG="curl-8.5.0"
 export PKGLOG_DIR=$LFSLOG/17.02
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
@@ -69,7 +69,7 @@ find docs \( -name Makefile\* -o        \
              -name \*.3       -o        \
              -name CMakeLists.txt \) -delete
 
-cp -R docs -T /usr/share/doc/curl-8.4.0
+cp -R docs -T /usr/share/doc/curl-8.5.0
 
 echo "." >> $PKGLOG_OTHERS1
 echo "." >> $PKGLOG_OTHERS1
