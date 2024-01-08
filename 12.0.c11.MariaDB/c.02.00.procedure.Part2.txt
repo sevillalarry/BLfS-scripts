@@ -54,11 +54,22 @@ B.  Generate BLFS - Support Files
         ( display )
         root [ /sources ]#
 
-  B.03. Support Applications
+  B.03. Support Applications - Linux-PAM
 
         ###
 
-        bash c.03.90.all.support.apps.sh
+        bash c.03.90.all.support.apps.Part1.sh
+
+        reboot
+
+  B.02. Support Applications - others
+
+        ###
+
+        cd /sources
+        
+        bash c.03.90.all.support.apps.Part2.sh
+
 
 C.  Generate BLFS
 

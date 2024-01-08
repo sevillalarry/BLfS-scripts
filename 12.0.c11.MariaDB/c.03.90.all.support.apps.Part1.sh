@@ -1,4 +1,4 @@
-# b.03.90.all.support.apps.sh
+# b.03.90.all.support.apps.Part1.sh
 #
 # Support Applications
 #
@@ -14,11 +14,3 @@ bash b.04.00.sh
 
 # "make install-dbus" from blfs-bootscripts
 # then reboot
-
-# libxml2
-bash b.09.00.sh
-
-# deferred
-#
-# # libevent
-# bash c.17.00.sh
