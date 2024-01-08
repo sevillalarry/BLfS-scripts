@@ -7,19 +7,19 @@ export LFSLOG_PROCESS=$LFSLOG/process.log
 
 #####
 
-echo "13.04.CMake-3.27.2"
-echo "13.04.CMake-3.27.2" >> $LFSLOG_PROCESS
+# echo "13.04.CMake-3.27.2"
+# echo "13.04.CMake-3.27.2" >> $LFSLOG_PROCESS
 
-time { bash b.13.04.CMake-3.27.2.sh ; }
+# time { bash b.13.04.CMake-3.27.2.sh ; }
 
-date +"%Y/%b/%d %H:%M"
-date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+# date +"%Y/%b/%d %H:%M"
+# date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
 
-echo "." >> $LFSLOG_PROCESS
-echo "."
-echo "."
+# echo "." >> $LFSLOG_PROCESS
+# echo "."
+# echo "."
 
-###
+# ###
 
 echo "13.13.LLVM-16.0.5"
 echo "13.13.LLVM-16.0.5" >> $LFSLOG_PROCESS

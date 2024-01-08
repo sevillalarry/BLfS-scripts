@@ -2,10 +2,11 @@
 #
 # Dependencies Recommended:
 #
-#               17.02 cURL-7.88.1
-#               09.28 libarchive-3.6.2
-#               09.65 libuv-1.44.2
-#               17.20 nghttp2-1.52.0
+#               17.02 cURL-8.5.0 (errata)
+#
+#               09.28 libarchive-3.6.2  ( not yet compiled/installed )
+#               09.65 libuv-1.44.2      ( not yet compiled/installed )
+#               17.20 nghttp2-1.52.0    ( not yet compiled/installed )
 #
 #
 # Required by:
