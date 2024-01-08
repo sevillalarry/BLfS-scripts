@@ -1,5 +1,6 @@
-# 13.04 CMake-3.27.2  - required by Graphite2
-https://cmake.org/files/v3.27/cmake-3.27.2.tar.gz
+# 13.04 CMake-3.28.1 - svn due to MariaDB errata
+#https://cmake.org/files/v3.27/cmake-3.27.2.tar.gz
+https://cmake.org/files/v3.28/cmake-3.28.1.tar.gz
 
 # 17.02 cURL-8.4.0 errata
 #https://curl.se/download/curl-8.2.1.tar.xz

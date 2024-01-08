@@ -1,0 +1,5 @@
+# 17.07 libevent-2.1.12
+https://github.com/libevent/libevent/releases/download/release-2.1.12-stable/libevent-2.1.12-stable.tar.gz
+
+# 22.04 MariaDB-10.11.6
+https://downloads.mariadb.org/interstitial/mariadb-10.11.6/source/mariadb-10.11.6.tar.gz

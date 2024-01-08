@@ -67,19 +67,19 @@ echo "." >> $LFSLOG_PROCESS
 echo "."
 echo "."
 
-# ### transferred to b10 common to Xorg and servers
+###
 
-# echo "09.68.libxml2-2.10.4"
-# echo "09.68.libxml2-2.10.4" >> $LFSLOG_PROCESS
+echo "09.68.libxml2-2.10.4"
+echo "09.68.libxml2-2.10.4" >> $LFSLOG_PROCESS
 
-# time { bash b.09.68.libxml2-2.10.4.sh ; }
+time { bash b.09.68.libxml2-2.10.4.sh ; }
 
-# date +"%Y/%b/%d %H:%M"
-# date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
 
-# echo "." >> $LFSLOG_PROCESS
-# echo "."
-# echo "."
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
 
 ###
 

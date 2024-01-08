@@ -1,4 +1,5 @@
-# b.13.04.CMake-3.27.2.sh
+# b.13.04.CMake-3.28.1.sh
+# updated to SVN due to MariaDB
 #
 # Dependencies Recommended:
 #
@@ -15,9 +16,10 @@
 #               44.47 libvdpau-va-gl-0.4.0
 #               10.18 libjpeg-turbo-3.0.0
 #               10.10 Graphite2-1.3.14
+#               22.04 MariaDB-10.11.6
 #
 
-export PKG="cmake-3.27.2"
+export PKG="cmake-3.28.1"
 export PKGLOG_DIR=$LFSLOG/13.04
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
