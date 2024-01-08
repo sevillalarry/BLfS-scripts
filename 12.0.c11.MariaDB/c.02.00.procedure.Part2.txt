@@ -1,0 +1,79 @@
+A. Preparation
+
+  A.01. ( in Part1 either VM or PC )
+
+  A.02. Copy all script files
+
+        copy all script files from the following to /sources
+
+            1. 12.0.b00.common.to.All
+            2. 12.0.b11.common.Xorg.MariaDB
+            3. 12.0.c11.MariaDB
+
+  A.03. Download packages
+
+        ###
+
+        wget --input-file=b.00.09.wget-list-sysv.common.to.All.txt            --continue --directory-prefix=/sources
+        wget --input-file=b.00.09.wget-list-sysv.common.Xorg.and.servers.txt  --continue --directory-prefix=/sources
+        wget --input-file=c.00.09.wget-list-sysv.MariaDB.txt                  --continue --directory-prefix=/sources
+
+        ###
+
+  A.04. Setting Up the Environment
+        ( Note: change the MAKEFLAGS based on the number of threads )
+
+        ###
+
+        ln -sfv /mnt/src/blfs.log /var/log/blfs
+        export LFSLOG=/var/log/blfs
+
+        export MAKEFLAGS="-j8"
+        export NPROC="8"
+
+        ###
+
+B.  Generate BLFS - Support Files
+
+  B.01. Checking Environment
+
+        ###
+
+        echo $LFSLOG          # /var/log/blfs
+        echo $MAKEFLAGS       # -j8
+        echo $NPROC           # 8
+
+        echo $SHELL           # /bin/bash
+        ls -l /bin/sh         # bash
+        ls -l /usr/bin/awk    # gawk
+
+        cd /sources
+
+        ###
+
+        ( display )
+        root [ /sources ]#
+
+  B.03. Support Applications
+
+        ###
+
+        bash c.03.90.all.support.apps.sh
+
+C.  Generate BLFS
+
+  C.01. MariaDB Compile/Install
+
+        ###
+
+        bash c.22.00.sh
+
+  C.02. MariaDB/MySQL bootscript
+
+        cd /mnt/src/lfs.src/blfs-bootscripts-20230824
+
+        make install-mysql
+
+        reboot
+
+        ###

@@ -13,9 +13,9 @@ https://download.gnome.org/sources/glib/2.76/glib-2.76.4.tar.xz
 https://www.linuxfromscratch.org/patches/blfs/12.0/glib-skip_warnings-1.patch
 # 09.16 gobject-introspection-1.76.1
 https://download.gnome.org/sources/gobject-introspection/1.76/gobject-introspection-1.76.1.tar.xz
-# 09.68 libxml2 - required to run test by 24.06 xcb-proto-1.16.1
-https://download.gnome.org/sources/libxml2/2.10/libxml2-2.10.4.tar.xz
-https://www.w3.org/XML/Test/xmlts20130923.tar.gz
+## 09.68 libxml2 - required to run test by 24.06 xcb-proto-1.16.1
+#https://download.gnome.org/sources/libxml2/2.10/libxml2-2.10.4.tar.xz
+#https://www.w3.org/XML/Test/xmlts20130923.tar.gz
 # 09.75 mtdev-1.1.6 - required by mtdev-1.1.6
 https://bitmath.org/code/mtdev/mtdev-1.1.6.tar.bz2
 # 09.88 & 89 Wayland *

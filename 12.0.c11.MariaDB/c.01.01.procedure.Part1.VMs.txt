@@ -1,0 +1,17 @@
+A. Preparation
+
+  A.01. ( Assumming LfS is already running )
+
+        ###
+
+        rm -v /sources
+
+        mkdir -v /mnt/src/blfs.{src,log}
+
+        chmod -v a+wt /mnt/src/blfs.{src,log}
+
+        ln -sfv /mnt/src/blfs.src /sources
+
+        cd /sources
+
+        ###

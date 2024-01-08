@@ -1,4 +1,5 @@
-# b.09.68.libxml2-2.10.4.sh
+# b.09.68.libxml2-2.12.3.sh
+# svn update due to MariaDB errata
 #
 # Required to run tests by:
 #
@@ -12,13 +13,14 @@
 # Recommended by:
 #
 #               37.07 LXPanel-0.10.1
+#               22.04 MariaDB-10.11.6
 #
 # Optional by:
 #
 #               10.05 Fontconfig-2.14.2
 #
 
-export PKG="libxml2-2.10.4"
+export PKG="libxml2-2.13.4"
 export PKGLOG_DIR=$LFSLOG/09.68
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
@@ -46,7 +48,7 @@ echo "2. Configure ..." >> $PKGLOG_ERROR
             --disable-static        \
             --with-history          \
             PYTHON=/usr/bin/python3 \
-            --docdir=/usr/share/doc/libxml2-2.10.4 \
+            --docdir=/usr/share/doc/libxml2-2.13.4 \
           > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
 echo "3. Make Build ..."
