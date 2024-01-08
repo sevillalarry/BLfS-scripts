@@ -10,17 +10,19 @@ date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
 
 #####
 
-echo "17.07.libevent-2.1.12"
-echo "17.07.libevent-2.1.12" >> $LFSLOG_PROCESS
+# deferred
 
-time { bash c.17.07.libevent-2.1.12.sh ; }
+# echo "17.07.libevent-2.1.12"
+# echo "17.07.libevent-2.1.12" >> $LFSLOG_PROCESS
 
-date +"%Y/%b/%d %H:%M"
-date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+# time { bash c.17.07.libevent-2.1.12.sh ; }
 
-echo "." >> $LFSLOG_PROCESS
-echo "."
-echo "."
+# date +"%Y/%b/%d %H:%M"
+# date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+# echo "." >> $LFSLOG_PROCESS
+# echo "."
+# echo "."
 
 #####
 

@@ -7,8 +7,9 @@ A. Preparation
         copy all script files from the following to /sources
 
             1. 12.0.b00.common.to.All
-            2. 12.0.b11.common.Xorg.MariaDB
-            3. 12.0.c11.MariaDB
+            2. 12.0.b10.common.Xorg.and.servers
+            3. 12.0.b11.common.Xorg.MariaDB
+            4. 12.0.c11.MariaDB
 
   A.03. Download packages
 
@@ -16,6 +17,7 @@ A. Preparation
 
         wget --input-file=b.00.09.wget-list-sysv.common.to.All.txt            --continue --directory-prefix=/sources
         wget --input-file=b.00.09.wget-list-sysv.common.Xorg.and.servers.txt  --continue --directory-prefix=/sources
+        wget --input-file=b.00.09.wget-list-sysv.common.Xorg.MariaDB.txt      --continue --directory-prefix=/sources
         wget --input-file=c.00.09.wget-list-sysv.MariaDB.txt                  --continue --directory-prefix=/sources
 
         ###
