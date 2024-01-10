@@ -36,7 +36,7 @@ tar xvf $PKG.tar.gz > $PKGLOG_TAR 2>> $PKGLOG_ERROR
 cd $PKG
 
 
-groupadd -g 40 mysql &&
+groupadd -g 40 mysql
 useradd -c "MySQL Server" -d /srv/mysql -g mysql -s /bin/false -u 40 mysql
 
 mkdir build
