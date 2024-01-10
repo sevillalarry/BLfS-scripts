@@ -1,0 +1,8 @@
+# 09.01 Apr-1.7.4
+https://archive.apache.org/dist/apr/apr-1.7.4.tar.bz2
+# 09.02 Apr-Util-1.6.3
+https://archive.apache.org/dist/apr/apr-util-1.6.3.tar.bz2
+
+# 20.01 Apache-2.4.58
+https://archive.apache.org/dist/httpd/httpd-2.4.58.tar.bz2
+https://www.linuxfromscratch.org/patches/blfs/svn/httpd-2.4.58-blfs_layout-1.patch

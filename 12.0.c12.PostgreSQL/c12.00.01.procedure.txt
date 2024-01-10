@@ -1,6 +1,40 @@
 A. Preparation
 
-  A.01. ( in Part1 either VM or PC )
+  A.01. ( Assumming LfS is already running )
+
+        ###
+
+        rm -v /sources
+
+        ###
+
+        Virtual Machines (VM):
+
+            mkdir -v /mnt/src/blfs.{src,log}
+
+            chmod -v a+wt /mnt/src/blfs.{src,log}
+
+            ln -sfv /mnt/src/blfs.src /sources
+
+            ln -sfv /mnt/src/blfs.log /var/log/blfs
+
+        Desktop (PC)
+
+            mkdir -pv /usr/src/blfs
+
+            chmod -v a+wt /usr/src/blfs
+
+            ln -sfv /usr/src/blfs /sources
+
+            mkdir -pv /var/log/blfs
+
+            chmod -v a+wt /var/log/blfs
+
+        ###
+
+        cd /sources
+
+        ###
 
   A.02. Copy all script files
 
@@ -52,21 +86,21 @@ B.  Generate BLFS - Support Files
         ( display )
         root [ /sources ]#
 
-  B.03. Support Applications - Linux-PAM
+  B.02. Support Applications - Linux-PAM
 
         ###
 
-        bash c11.03.90.all.support.apps.Part1.sh
+        bash c12.03.90.all.support.apps.Part1.sh
 
         reboot
 
-  B.02. Support Applications - others
+  B.03. Support Applications - others
 
         ###
 
         cd /sources
         
-        bash c11.03.90.all.support.apps.Part2.sh
+        bash c12.03.90.all.support.apps.Part2.sh
 
 
 C.  Generate BLFS
@@ -83,7 +117,8 @@ C.  Generate BLFS
 
         ###
 
-        cd /mnt/src/lfs.src/blfs-bootscripts-20230824
+        VM: cd /mnt/src/lfs.src/blfs-bootscripts-20231119
+        PC: cd /usr/src/lfs/blfs-bootscripts-20231119
 
         make install-postgresql
 

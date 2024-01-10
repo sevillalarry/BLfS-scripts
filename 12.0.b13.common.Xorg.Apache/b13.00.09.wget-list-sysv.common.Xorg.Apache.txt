@@ -1,0 +1,2 @@
+# 09.80 PCRE2-10.42
+https://github.com/PCRE2Project/pcre2/releases/download/pcre2-10.42/pcre2-10.42.tar.bz2
