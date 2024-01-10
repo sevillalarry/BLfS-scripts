@@ -79,11 +79,11 @@ echo "4. Make Test ..." >> $LFSLOG_PROCESS
 echo "4. Make Test ..." >> $PKGLOG_ERROR
 make test > $PKGLOG_CHECK 2>> $PKGLOG_ERROR
 
-echo "4. Extensive Test ..."
-echo "4. Extensive Test ..." >> $LFSLOG_PROCESS
-echo "4. Extensive Test ..." >> $PKGLOG_ERROR
+echo "5. Extensive Test ..."
+echo "5. Extensive Test ..." >> $LFSLOG_PROCESS
+echo "5. Extensive Test ..." >> $PKGLOG_ERROR
 echo "." >> $PKGLOG_CHECK
-echo "4. Extensive Test ..." >> $PKGLOG_CHECK
+echo "5. Extensive Test ..." >> $PKGLOG_CHECK
 pushd mysql-test
 ./mtr --parallel $NPROC --mem --force   \
     >> $PKGLOG_CHECK 2>> $PKGLOG_ERROR
