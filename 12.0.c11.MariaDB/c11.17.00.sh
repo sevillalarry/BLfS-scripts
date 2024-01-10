@@ -1,4 +1,4 @@
-# b.17.00.sh
+# c11.17.00.sh
 #
 # Networking Libraries
 #
@@ -7,6 +7,8 @@ export LFSLOG_PROCESS=$LFSLOG/process.log
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+# NOTHING to do
 
 #####
 

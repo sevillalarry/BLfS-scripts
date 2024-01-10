@@ -1,4 +1,4 @@
-# b.04.00.sh
+# b00.04.00.sh
 #
 # Security
 #
@@ -13,7 +13,7 @@ date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
 echo "04.12.Linux-PAM-1.5.3"
 echo "04.12.Linux-PAM-1.5.3" >> $LFSLOG_PROCESS
 
-time { bash b.04.12.Linux-PAM-1.5.3.sh ; }
+time { bash b00.04.12.Linux-PAM-1.5.3.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
@@ -27,7 +27,7 @@ echo "."
 echo "04.22.Shadow-4.13"
 echo "04.22.Shadow-4.13" >> $LFSLOG_PROCESS
 
-time { bash b.04.22.Shadow-4.13.sh ; }
+time { bash b00.04.22.Shadow-4.13.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS

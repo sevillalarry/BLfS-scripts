@@ -1,4 +1,4 @@
-# c.22.04.MariaDB-10.11.6.sh
+# c11.22.04.MariaDB-10.11.6.sh
 # errata
 #
 # Dependencies Required:

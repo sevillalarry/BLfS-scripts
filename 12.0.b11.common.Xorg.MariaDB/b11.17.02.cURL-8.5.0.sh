@@ -1,4 +1,4 @@
-# c.17.02.cURL-8.5.0.sh
+# b11.17.02.cURL-8.5.0.sh
 # errata
 #
 # Dependencies Recommended:

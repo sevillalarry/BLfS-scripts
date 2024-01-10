@@ -1,6 +1,6 @@
-# b.22.00.sh
+# b00.17.00.sh
 #
-# Databases
+# Networking Libraries
 #
 
 export LFSLOG_PROCESS=$LFSLOG/process.log
@@ -10,10 +10,10 @@ date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
 
 #####
 
-echo "22.04.MariaDB-10.11.6"
-echo "22.04.MariaDB-10.11.6" >> $LFSLOG_PROCESS
+echo "17.18.libtirpc-1.3.3"
+echo "17.18.libtirpc-1.3.3" >> $LFSLOG_PROCESS
 
-time { bash c.22.04.MariaDB-10.11.6.sh ; }
+time { bash b00.17.18.libtirpc-1.3.3.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS

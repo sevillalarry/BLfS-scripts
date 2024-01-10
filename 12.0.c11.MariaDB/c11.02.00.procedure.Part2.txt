@@ -15,10 +15,10 @@ A. Preparation
 
         ###
 
-        wget --input-file=b.00.09.wget-list-sysv.common.to.All.txt            --continue --directory-prefix=/sources
-        wget --input-file=b.00.09.wget-list-sysv.common.Xorg.and.servers.txt  --continue --directory-prefix=/sources
-        wget --input-file=b.00.09.wget-list-sysv.common.Xorg.MariaDB.txt      --continue --directory-prefix=/sources
-        wget --input-file=c.00.09.wget-list-sysv.MariaDB.txt                  --continue --directory-prefix=/sources
+        wget --input-file=b00.00.09.wget-list-sysv.common.to.All.txt                --continue --directory-prefix=/sources
+        wget --input-file=b10.00.09.wget-list-sysv.common.Xorg.and.servers.txt      --continue --directory-prefix=/sources
+        wget --input-file=b11.00.09.wget-list-sysv.common.Xorg.MariaDB.txt          --continue --directory-prefix=/sources
+        wget --input-file=c11.00.09.wget-list-sysv.MariaDB.txt                      --continue --directory-prefix=/sources
 
         ###
 
@@ -60,7 +60,7 @@ B.  Generate BLFS - Support Files
 
         ###
 
-        bash c.03.90.all.support.apps.Part1.sh
+        bash c11.03.90.all.support.apps.Part1.sh
 
         reboot
 
@@ -70,7 +70,7 @@ B.  Generate BLFS - Support Files
 
         cd /sources
         
-        bash c.03.90.all.support.apps.Part2.sh
+        bash c11.03.90.all.support.apps.Part2.sh
 
 
 C.  Generate BLFS
@@ -79,7 +79,7 @@ C.  Generate BLFS
 
         ###
 
-        bash c.22.00.sh
+        bash c11.22.00.sh
 
   C.02. MariaDB/MySQL bootscript
 
