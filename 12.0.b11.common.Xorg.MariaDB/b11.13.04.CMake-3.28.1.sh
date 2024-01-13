@@ -50,12 +50,12 @@ echo "2. Configure ..." >> $PKGLOG_ERROR
             --no-system-jsoncpp     \
             --no-system-cppdap      \
             --no-system-librhash    \
-            --no-system-curl        \
             --no-system-libarchive  \
             --no-system-libuv       \
             --no-system-nghttp2     \
-            --docdir=/share/doc/cmake-3.27.2    \
+            --docdir=/share/doc/cmake-3.28.1    \
             > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
+#            --no-system-curl        \
 
 echo "3. Make Build ..."
 echo "3. Make Build ..." >> $LFSLOG_PROCESS
