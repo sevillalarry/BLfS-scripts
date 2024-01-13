@@ -20,7 +20,7 @@
 #               10.05 Fontconfig-2.14.2
 #
 
-export PKG="libxml2-2.13.4"
+export PKG="libxml2-2.12.3"
 export PKGLOG_DIR=$LFSLOG/09.68
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
