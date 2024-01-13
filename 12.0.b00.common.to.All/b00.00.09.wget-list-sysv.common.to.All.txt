@@ -1,5 +1,5 @@
 # 02.04 BLFS Boot Scripts 20231119
-https://anduin.linuxfromscratch.org/BLFS/blfs-bootscripts/blfs-bootscripts-20231119.tar.xz
+# https://anduin.linuxfromscratch.org/BLFS/blfs-bootscripts/blfs-bootscripts-20231119.tar.xz
 
 # 04.12 Linux-PAM-1.5.3
 https://github.com/linux-pam/linux-pam/releases/download/v1.5.3/Linux-PAM-1.5.3.tar.xz
