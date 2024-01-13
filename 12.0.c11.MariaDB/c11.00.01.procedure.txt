@@ -129,8 +129,6 @@ B.  Generate BLFS - Support Files
 
         ###
 
-        cd /sources
-        
         bash c11.03.90.all.support.apps.Part2.sh
 
 
