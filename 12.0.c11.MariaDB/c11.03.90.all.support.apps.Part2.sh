@@ -6,6 +6,12 @@
 # libxml2
 bash b10.09.00.sh
 
+# cURL
+bash b11.17.00.sh
+
+# CMake
+bash b11.13.00.sh
+
 # deferred
 #
 # # libevent
