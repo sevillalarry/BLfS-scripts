@@ -5,6 +5,8 @@
 #
 #               13.04 CMake-3.28.1
 #
+#               libfmt ( downloaded by MariaDB )
+#
 # Dependencies Recommended:
 #
 #               17.07 libevent-2.1.12
@@ -13,11 +15,10 @@
 #
 #               09.68 libxml2-2.12-3
 #               04.12 Linux-PAM-1.5.3
+#                     Boost-1.84.0
+#                     pcre2-10.42
+#                     lz4 ( from GitHub, check if included in Linux Kernel )
 #
-# Boost
-# lz4
-# libfmt?
-# pcre2
 
 export PKG="mariadb-10.11.6"
 export PKGLOG_DIR=$LFSLOG/22.04
