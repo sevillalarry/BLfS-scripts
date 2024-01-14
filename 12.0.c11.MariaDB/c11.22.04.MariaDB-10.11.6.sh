@@ -14,6 +14,10 @@
 #               09.68 libxml2-2.12-3
 #               04.12 Linux-PAM-1.5.3
 #
+# Boost
+# lz4
+# libfmt?
+# pcre2
 
 export PKG="mariadb-10.11.6"
 export PKGLOG_DIR=$LFSLOG/22.04
