@@ -97,7 +97,6 @@ B.  Generate BLFS - Support Files
 
         reboot
 
-
   B.03. ReSetting Up the Environment
         ( Note: change the MAKEFLAGS based on the number of threads )
 

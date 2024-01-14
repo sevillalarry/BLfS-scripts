@@ -94,12 +94,35 @@ B.  Generate BLFS - Support Files
 
         reboot
 
+  B.03. ReSetting Up the Environment
+        ( Note: change the MAKEFLAGS based on the number of threads )
+
+        ###
+
+        export LFSLOG=/var/log/blfs
+
+        export MAKEFLAGS="-j8"
+
+        ###
+
+        echo $LFSLOG          # /var/log/blfs
+        echo $MAKEFLAGS       # -j8
+
+        echo $SHELL           # /bin/bash
+        ls -l /bin/sh         # bash
+        ls -l /usr/bin/awk    # gawk
+
+        cd /sources
+
+        ###
+
+        ( display )
+        root [ /sources ]#
+
   B.03. Support Applications - others
 
         ###
 
-        cd /sources
-        
         bash c12.03.90.all.support.apps.Part2.sh
 
 
