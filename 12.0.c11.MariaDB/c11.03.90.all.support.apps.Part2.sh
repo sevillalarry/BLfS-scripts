@@ -15,6 +15,9 @@ bash b11.13.00.sh
 # Which
 bash b11.12.00.sh
 
+# ICU
+bash c01.09.00.sh
+
 # PCRE2
 bash b15.09.00.sh
 

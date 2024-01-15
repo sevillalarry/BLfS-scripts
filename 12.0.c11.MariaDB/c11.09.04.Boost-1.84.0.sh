@@ -1,5 +1,5 @@
-# b.09.05.Boost-1.84.0.sh
-# svn due to errata
+# b.09.04.Boost-1.84.0.sh
+# svn due to errata in MariaDB
 #
 
 export PKG="Boost-1.84.0"

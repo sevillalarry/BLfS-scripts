@@ -1,4 +1,4 @@
-# c11.09.00.sh
+# c01.09.00.sh
 #
 # General Libraries
 #
@@ -10,10 +10,10 @@ date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
 
 #####
 
-echo "09.04.Boost-1.84.0"
-echo "09.04.Boost-1.84.0" >> $LFSLOG_PROCESS
+echo "09.19.ICU-74.1"
+echo "09.19.ICU-74.1" >> $LFSLOG_PROCESS
 
-time { bash c11.09.04.Boost-1.84.0.sh ; }
+time { bash c01.09.19.ICU-74.1.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS

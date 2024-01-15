@@ -44,7 +44,8 @@ A. Preparation
             2. 12.0.b10.common.Xorg.and.servers
             3. 12.0.b11.common.Xorg.MariaDB
             4. 12.0.b15.common.Xorg.MariaDB.Apache
-            5. 12.0.c11.MariaDB
+            5. 12.0.c01.common.MariaDB.PostgreSQL
+            6. 12.0.c11.MariaDB
 
   A.03. Download packages
 
@@ -54,6 +55,7 @@ A. Preparation
         wget --input-file=b10.00.09.wget-list-sysv.common.Xorg.and.servers.txt      --continue --directory-prefix=/sources
         wget --input-file=b11.00.09.wget-list-sysv.common.Xorg.MariaDB.txt          --continue --directory-prefix=/sources
         wget --input-file=b15.00.09.wget-list-sysv.common.Xorg.MariaDB.Apache.txt   --continue --directory-prefix=/sources
+        wget --input-file=c01.00.09.wget-list-sysv.common.MariaDB.PostgreSQL.txt    --continue --directory-prefix=/sources
         wget --input-file=c11.00.09.wget-list-sysv.MariaDB.txt                      --continue --directory-prefix=/sources
 
         ###
