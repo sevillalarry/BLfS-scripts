@@ -3,9 +3,10 @@
 #
 # Dependencies Optional:
 #
-#               09.68 libxml2-2.12-3
 #               04.12 Linux-PAM-1.5.3
-#                     ICU-74.1
+#               09.68 libxml2-2.12-3
+#               09.19 ICU-74.1
+#
 
 export PKG="postgresql-16.1"
 export PKGLOG_DIR=$LFSLOG/22.05
