@@ -13,11 +13,13 @@
 #
 # Dependencies Optional:
 #
-#               09.68 libxml2-2.12-3
 #               04.12 Linux-PAM-1.5.3
-#                     Boost-1.84.0
-#                     pcre2-10.42
-#                     lz4 ( from GitHub, check if included in Linux Kernel )
+#               09.68 libxml2-2.12-3
+#               09.80 PCRE2-10.42
+#               09.05 Boost-1.84.0
+#
+#                     ( deferred )
+#               12.41 LZ4-1.9.4 ( from GitHub )
 #
 
 export PKG="mariadb-10.11.6"

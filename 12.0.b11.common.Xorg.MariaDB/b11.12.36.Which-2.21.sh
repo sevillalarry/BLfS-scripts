@@ -1,8 +1,9 @@
-# b.12.36.Which-2.21.sh
+# b11.12.36.Which-2.21.sh
 #
 # Recommended by:
 #
 #               10.04 FreeType-2.13.1
+#               09.05 Boost-1.84.0
 #
 
 export PKG="which-2.21"

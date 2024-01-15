@@ -1,3 +1,6 @@
+# 12.36 Which-2.21 - recommended by 10.04 FreeType, 09.05 Boost
+https://ftp.gnu.org/gnu/which/which-2.21.tar.gz
+
 # 13.04 CMake-3.28.1 - svn due to MariaDB errata
 #https://cmake.org/files/v3.27/cmake-3.27.2.tar.gz
 https://cmake.org/files/v3.28/cmake-3.28.1.tar.gz
