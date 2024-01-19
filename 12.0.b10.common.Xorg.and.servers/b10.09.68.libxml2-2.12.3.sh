@@ -18,6 +18,7 @@
 # Optional by:
 #
 #               10.05 Fontconfig-2.14.2
+#               09.19 ICU-74.1
 #
 
 export PKG="libxml2-2.12.3"

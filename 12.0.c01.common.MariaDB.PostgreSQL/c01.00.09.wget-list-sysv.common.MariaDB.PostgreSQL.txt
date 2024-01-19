@@ -1,2 +1,0 @@
-# 09.19 ICU-74.1
-https://github.com/unicode-org/icu/releases/download/release-74-1/icu4c-74_1-src.tgz

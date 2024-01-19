@@ -7,6 +7,7 @@
 #
 # Optionally by:
 #
+#               09.68 libxml2-2.12.3
 #               09.04 Boost-1.84.0
 #
 # Optional ( but needed during compile by ):

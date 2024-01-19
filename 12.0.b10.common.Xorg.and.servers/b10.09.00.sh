@@ -10,6 +10,20 @@ date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
 
 #####
 
+echo "09.19.ICU-74.1"
+echo "09.19.ICU-74.1" >> $LFSLOG_PROCESS
+
+time { bash c01.09.19.ICU-74.1.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
+###
+
 echo "09.68.libxml2-2.12.3"
 echo "09.68.libxml2-2.12.3" >> $LFSLOG_PROCESS
 
