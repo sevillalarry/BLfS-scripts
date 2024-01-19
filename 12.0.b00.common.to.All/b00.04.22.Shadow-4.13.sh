@@ -212,7 +212,7 @@ echo "read: https://www.linuxfromscratch.org/blfs/view/12.0/postlfs/shadow.html"
 
 
 cd ..
-#rm -rf $PKG
+rm -rf $PKG
 unset LFSLOG_PROCESS
 #unset PKGLOG_CHECK
 unset PKGLOG_INSTALL PKGLOG_BUILD PKGLOG_CONFIG
