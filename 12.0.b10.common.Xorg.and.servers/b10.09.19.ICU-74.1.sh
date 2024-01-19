@@ -15,7 +15,7 @@
 #               22.05 PostgreSQL-16.1
 #
 
-export PKG="icu4c-74_1"
+export PKG="icu4c-74_1-src"
 export PKGLOG_DIR=$LFSLOG/09.19
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
@@ -31,7 +31,7 @@ mkdir $PKGLOG_DIR
 echo "1. Extract tar..."
 echo "1. Extract tar..." >> $LFSLOG_PROCESS
 echo "1. Extract tar..." >> $PKGLOG_ERROR
-tar xvf $PKG-src.tgz > $PKGLOG_TAR 2>> $PKGLOG_ERROR
+tar xvf $PKG.tgz > $PKGLOG_TAR 2>> $PKGLOG_ERROR
 #cd $PKG
 # directory NOT conventional
 cd icu

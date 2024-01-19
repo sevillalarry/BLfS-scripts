@@ -24,10 +24,10 @@ echo "."
 
 ###
 
-echo "09.68.libxml2-2.12.3"
-echo "09.68.libxml2-2.12.3" >> $LFSLOG_PROCESS
+echo "09.68.libxml2-2.12.4"
+echo "09.68.libxml2-2.12.4" >> $LFSLOG_PROCESS
 
-time { bash b10.09.68.libxml2-2.12.3.sh ; }
+time { bash b10.09.68.libxml2-2.12.4.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS

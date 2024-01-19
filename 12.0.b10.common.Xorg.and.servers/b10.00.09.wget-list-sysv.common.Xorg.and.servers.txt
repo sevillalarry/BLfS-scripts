@@ -3,5 +3,6 @@ https://github.com/unicode-org/icu/releases/download/release-74-1/icu4c-74_1-src
 
 # 09.68 libxml2 
 #https://download.gnome.org/sources/libxml2/2.10/libxml2-2.10.4.tar.xz
-https://download.gnome.org/sources/libxml2/2.12/libxml2-2.12.3.tar.xz
+#https://download.gnome.org/sources/libxml2/2.12/libxml2-2.12.3.tar.xz
+https://download.gnome.org/sources/libxml2/2.12/libxml2-2.12.4.tar.xz
 https://www.w3.org/XML/Test/xmlts20130923.tar.gz

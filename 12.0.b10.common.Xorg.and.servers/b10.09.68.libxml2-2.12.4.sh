@@ -1,4 +1,4 @@
-# b10.09.68.libxml2-2.12.3.sh
+# b10.09.68.libxml2-2.12.4.sh
 # svn update due to MariaDB errata
 #
 # Required to run tests by:
@@ -21,7 +21,7 @@
 #               09.19 ICU-74.1
 #
 
-export PKG="libxml2-2.12.3"
+export PKG="libxml2-2.12.4"
 export PKGLOG_DIR=$LFSLOG/09.68
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
@@ -49,7 +49,7 @@ echo "2. Configure ..." >> $PKGLOG_ERROR
             --disable-static        \
             --with-history          \
             PYTHON=/usr/bin/python3 \
-            --docdir=/usr/share/doc/libxml2-2.13.4 \
+            --docdir=/usr/share/doc/libxml2-2.12.4 \
           > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
 echo "3. Make Build ..."

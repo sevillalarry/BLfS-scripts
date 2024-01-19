@@ -5,7 +5,7 @@
 #               22.04 MariaDB-10.11.6
 #
 
-export PKG="libevent-2.1.12"
+export PKG="libevent-2.1.12-stable"
 export PKGLOG_DIR=$LFSLOG/17.07
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
@@ -50,8 +50,8 @@ echo "5. Make Install ..." >> $PKGLOG_ERROR
 make install > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 
 install -m755 -d /usr/share/doc/libevent-2.1.12/api
-cp      -R       doxygen/html/* \
-                 /usr/share/doc/libevent-2.1.12/api
+# cp      -R       doxygen/html/* \
+#                  /usr/share/doc/libevent-2.1.12/api
 
 
 cd ..
