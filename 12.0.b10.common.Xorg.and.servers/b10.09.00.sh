@@ -13,7 +13,7 @@ date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
 echo "09.19.ICU-74.1"
 echo "09.19.ICU-74.1" >> $LFSLOG_PROCESS
 
-time { bash c01.09.19.ICU-74.1.sh ; }
+time { bash b10.09.19.ICU-74.1.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
