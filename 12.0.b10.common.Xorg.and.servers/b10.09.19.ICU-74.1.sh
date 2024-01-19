@@ -33,7 +33,7 @@ echo "1. Extract tar..." >> $LFSLOG_PROCESS
 echo "1. Extract tar..." >> $PKGLOG_ERROR
 tar xvf $PKG-src.tgz > $PKGLOG_TAR 2>> $PKGLOG_ERROR
 #cd $PKG
-cd "icu"
+cd icu
 
 
 cd source
