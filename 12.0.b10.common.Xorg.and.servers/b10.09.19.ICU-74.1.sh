@@ -33,6 +33,7 @@ echo "1. Extract tar..." >> $LFSLOG_PROCESS
 echo "1. Extract tar..." >> $PKGLOG_ERROR
 tar xvf $PKG-src.tgz > $PKGLOG_TAR 2>> $PKGLOG_ERROR
 #cd $PKG
+# directory NOT conventional
 cd icu
 
 
@@ -41,8 +42,8 @@ cd source
 echo "2. Configure ..."
 echo "2. Configure ..." >> $LFSLOG_PROCESS
 echo "2. Configure ..." >> $PKGLOG_ERROR
-../configure --prefix=/usr     \
-          > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
+./configure --prefix=/usr   \
+        > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
 echo "3. Make Build ..."
 echo "3. Make Build ..." >> $LFSLOG_PROCESS
@@ -63,7 +64,9 @@ cd ..
 
 
 cd ..
-rm -rf $PKG
+#rm -rf $PKG
+# directory NOT conventional
+rm -rf icu
 unset LFSLOG_PROCESS
 unset PKGLOG_INSTALL PKGLOG_BUILD PKGLOG_CONFIG
 unset PKGLOG_CHECK
