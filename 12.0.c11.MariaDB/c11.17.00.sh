@@ -8,23 +8,19 @@ export LFSLOG_PROCESS=$LFSLOG/process.log
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
 
-# NOTHING to do
-
 #####
 
-# deferred
+echo "17.07.libevent-2.1.12"
+echo "17.07.libevent-2.1.12" >> $LFSLOG_PROCESS
 
-# echo "17.07.libevent-2.1.12"
-# echo "17.07.libevent-2.1.12" >> $LFSLOG_PROCESS
+time { bash c11.17.07.libevent-2.1.12.sh ; }
 
-# time { bash c.17.07.libevent-2.1.12.sh ; }
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
 
-# date +"%Y/%b/%d %H:%M"
-# date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
-
-# echo "." >> $LFSLOG_PROCESS
-# echo "."
-# echo "."
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
 
 #####
 
