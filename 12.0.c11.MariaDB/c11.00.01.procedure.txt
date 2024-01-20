@@ -55,7 +55,7 @@ A. Preparation
         wget --input-file=b10.00.09.wget-list-sysv.common.Xorg.and.servers.txt      --continue --directory-prefix=/sources
         wget --input-file=b11.00.09.wget-list-sysv.common.Xorg.MariaDB.txt          --continue --directory-prefix=/sources
         wget --input-file=b15.00.09.wget-list-sysv.common.Xorg.MariaDB.Apache.txt   --continue --directory-prefix=/sources
-        wget --input-file=c01.00.09.wget-list-sysv.common.MariaDB.PostgreSQL.txt    --continue --directory-prefix=/sources
+        # wget --input-file=c01.00.09.wget-list-sysv.common.MariaDB.PostgreSQL.txt    --continue --directory-prefix=/sources
         wget --input-file=c11.00.09.wget-list-sysv.MariaDB.txt                      --continue --directory-prefix=/sources
 
         ###
