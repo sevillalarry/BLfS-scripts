@@ -48,6 +48,7 @@ echo "2. Configure ..." >> $PKGLOG_ERROR
             --sysconfdir=/etc       \
             --disable-static        \
             --with-history          \
+            --with-icu              \
             PYTHON=/usr/bin/python3 \
             --docdir=/usr/share/doc/libxml2-2.12.4 \
           > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
