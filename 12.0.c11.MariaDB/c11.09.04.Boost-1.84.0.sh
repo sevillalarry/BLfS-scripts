@@ -2,8 +2,8 @@
 # svn due to errata in MariaDB
 #
 
-export PKG="Boost-1.84.0"
-export PKGLOG_DIR=$LFSLOG/09.05
+export PKG="boost-1.84.0"
+export PKGLOG_DIR=$LFSLOG/09.04
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log
