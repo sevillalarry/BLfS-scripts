@@ -143,7 +143,15 @@ C.  Generate BLFS
 
         bash c11.22.00.sh
 
-  C.02. MariaDB/MySQL bootscript
+  C.02. MariaDB set root password
+
+        mysqld_safe --user=mysql 2>&1 >/dev/null &
+
+        mysqladmin -u root MariaDB
+
+        mysqladmin -p shutdown
+
+  C.03. MariaDB/MySQL bootscript
 
         VM: cd /mnt/src/lfs.src/blfs-bootscripts-20231119
         PC: cd /usr/src/lfs/blfs-bootscripts-20231119

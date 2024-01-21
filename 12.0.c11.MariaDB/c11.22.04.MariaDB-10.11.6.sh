@@ -19,7 +19,9 @@
 #               09.05 Boost-1.84.0
 #
 #                     ( deferred )
-#               12.41 LZ4-1.9.4 ( from GitHub )
+#               09.75 LZO-2.10
+#               09.93 LZ4-1.9.4 ( from GitHub )
+#               09.94 Snappy-1.1.10 ( from GitHub )
 #
 
 export PKG="mariadb-10.11.6"
@@ -187,11 +189,15 @@ mysql_install_db --basedir=/usr --datadir=/srv/mysql --user=mysql
 chown -R mysql:mysql /srv/mysql
 
 install -m755 -o mysql -g mysql -d /run/mysqld
-mysqld_safe --user=mysql 2>&1 >/dev/null
+#mysqld_safe --user=mysql 2>&1 >/dev/null &
 
-mysqladmin -u root MariaDB
+#mysqladmin -u root MariaDB
 
-mysqladmin -p shutdown
+#mysqladmin -p shutdown
+
+echo "8. Execute the last 3 lines 'mysqld_safe...'"
+echo "8. Execute the last 3 lines 'mysqld_safe...'" >> $LFSLOG_PROCESS
+echo "8. Execute the last 3 lines 'mysqld_safe...'" >> $PKGLOG_ERROR
 
 
 cd ..
