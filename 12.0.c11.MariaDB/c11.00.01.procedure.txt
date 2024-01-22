@@ -61,7 +61,7 @@ A. Preparation
         ###
 
   A.04. Setting Up the Environment
-        ( Note: change the MAKEFLAGS based on the number of threads )
+        ( Note: change the MAKEFLAGS & NPROC based on the number of threads )
 
         ###
 
@@ -102,7 +102,7 @@ B.  Generate BLFS - Support Files
         reboot
 
   B.03. ReSetting Up the Environment
-        ( Note: change the MAKEFLAGS based on the number of threads )
+        ( Note: change the MAKEFLAGS & NPROC based on the number of threads )
 
         ###
 
