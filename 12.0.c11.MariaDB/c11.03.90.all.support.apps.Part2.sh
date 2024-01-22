@@ -24,7 +24,5 @@ bash b15.09.00.sh
 # Boost
 bash c11.09.00.sh
 
-# deferred
-#
 # libevent
 bash c11.17.00.sh
