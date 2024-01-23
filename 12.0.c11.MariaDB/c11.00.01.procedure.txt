@@ -148,6 +148,7 @@ C.  Generate BLFS
         mysqld_safe --user=mysql 2>&1 >/dev/null &
 
         mysqladmin -u root password
+            (Assumming "MariaDB" as password)
 
         mysqladmin -p shutdown
 
@@ -161,3 +162,17 @@ C.  Generate BLFS
         reboot
 
         ###
+
+  C.04. Configuration for Remote Access
+
+        # https://mariadb.com/kb/en/configuring-mariadb-for-remote-client-access/
+
+        /etc/mysql/my.cnf
+
+            #skip-networking
+
+        mariadb -u root -pMariaDB
+
+            CREATE USER 'root'@'ip-address' identified by 'MariaDB';
+            GRANT ALL PRIVILEGES ON *.* TO 'root'@'ip-address';
+            exit;
