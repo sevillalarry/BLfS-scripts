@@ -133,6 +133,15 @@ C.  Generate BLFS
 
         bash c12.22.00.sh
 
+msgs:
+
+initdb: warning: enabling "trust" authentication for local connections
+initdb: hint: You can change this by editing pg_hba.conf or using the option -A, or --auth-local and --auth-host, the next time you run initdb.
+
+Success. You can now start the database server using:
+
+    /usr/bin/pg_ctl -D /srv/pgsql/data -l logfile start
+
         ###
 
   C.02. PostgreSQL bootscript
