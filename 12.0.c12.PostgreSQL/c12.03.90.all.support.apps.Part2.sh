@@ -5,8 +5,3 @@
 
 # libxml2
 bash b10.09.00.sh
-
-# deferred
-#
-# # libevent
-# bash c.17.00.sh

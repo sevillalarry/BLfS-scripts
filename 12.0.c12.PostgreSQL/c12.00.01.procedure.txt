@@ -59,7 +59,6 @@ A. Preparation
 
         ###
 
-        ln -sfv /mnt/src/blfs.log /var/log/blfs
         export LFSLOG=/var/log/blfs
 
         export MAKEFLAGS="-j8"
