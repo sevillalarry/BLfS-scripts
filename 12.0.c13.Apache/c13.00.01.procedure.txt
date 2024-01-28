@@ -38,7 +38,7 @@ A. Preparation
 
   A.02. Install a Database
 
-        either MariaDB & PostgreSQL
+        either MariaDB & PostgreSQL, option of Apr-Util
 
   A.03. Copy all script files
 
@@ -50,7 +50,6 @@ A. Preparation
 
         ###
 
-        wget --input-file=b13.00.09.wget-list-sysv.common.Xorg.Apache.txt     --continue --directory-prefix=/sources
         wget --input-file=c13.00.09.wget-list-sysv.Apache.txt                 --continue --directory-prefix=/sources
 
         ###
