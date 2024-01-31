@@ -24,7 +24,7 @@ cd $PKG
 echo "2. Configure ..."
 echo "2. Configure ..." >> $LFSLOG_PROCESS
 echo "2. Configure ..." >> $PKGLOG_ERROR
-../configure --prefix=/usr       \
+./configure --prefix=/usr       \
             --with-apr=/usr     \
             --with-gdbm=/usr    \
             --with-openssl=/usr \
