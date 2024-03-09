@@ -3,6 +3,9 @@
 # Author: Sevilla, Larry
 #  eMail: sevilla.larry.oss@gmail.com
 #
+# Note: moved to "https://github.com/sevilla-larry/BLfS-scripts"
+# (due to some issues with VS Community and VS Code on Windows with muliple GitHub accts)
+# (using: sevilla.larry.prg@gmail.com)
 #
 # Current BLfS version: 12.0
 # Started: 2023/Sept/08
